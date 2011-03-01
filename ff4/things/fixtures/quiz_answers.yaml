@@ -1,0 +1,243 @@
+- fields: { answer: "Watching movie trailers and TV show previews.", quiz_question: 1, slug: "1" }
+  model: things.QuizAnswer
+  pk: 1
+- fields: { answer: "Checking out avalanche warnings for your backcountry ski trip.", quiz_question: 1, slug: "2" }
+  model: things.QuizAnswer
+  pk: 2
+- fields: { answer: "Catching up with your friends' status updates and tweets.", quiz_question: 1, slug: "3" }
+  model: things.QuizAnswer
+  pk: 3
+- fields: { answer: "Emailing yourself work files so you can get more done by Monday.", quiz_question: 1, slug: "4" }
+  model: things.QuizAnswer
+  pk: 4
+- fields: { answer: "I value tidiness and wield a mean steam iron.", quiz_question: 2, slug: "5" }
+  model: things.QuizAnswer
+  pk: 5
+- fields: { answer: "I dress to impress, party or not.", quiz_question: 2, slug: "6" }
+  model: things.QuizAnswer
+  pk: 6
+- fields: { answer: "It was on sale!", quiz_question: 2, slug: "7" }
+  model: things.QuizAnswer
+  pk: 7
+- fields: { answer: "These socks match, right?", quiz_question: 2, slug: "8" }
+  model: things.QuizAnswer
+  pk: 8
+- fields: { answer: "Pigmy giraffes of the Kalahari.", quiz_question: 3, slug: "9" }
+  model: things.QuizAnswer
+  pk: 9
+- fields: { answer: "Hollywood's hottest couples reveal favorite colors.", quiz_question: 3, slug: "10" }
+  model: things.QuizAnswer
+  pk: 10
+- fields: { answer: "2010's best 10,000rpm hard drives", quiz_question: 3, slug: "11" }
+  model: things.QuizAnswer
+  pk: 11
+- fields: { answer: "None of the above - I prefer to stare blankly ahead. Straight ahead.", quiz_question: 3, slug: "12" }
+  model: things.QuizAnswer
+  pk: 12
+- fields: { answer: "Take to Twitter and get the word out, avatar change and all.", quiz_question: 4, slug: "13" }
+  model: things.QuizAnswer
+  pk: 13
+- fields: { answer: "Take action! Get off the Internet and into the voting booth.", quiz_question: 4, slug: "14" }
+  model: things.QuizAnswer
+  pk: 14
+- fields: { answer: "Email your friends a form petition to sign.", quiz_question: 4, slug: "15" }
+  model: things.QuizAnswer
+  pk: 15
+- fields: { answer: "Sit right back down. Activism is exhausting.", quiz_question: 4, slug: "16" }
+  model: things.QuizAnswer
+  pk: 16
+- fields: { answer: "Shrugging your shoulders, feigning ignorance.", quiz_question: 5, slug: "17" }
+  model: things.QuizAnswer
+  pk: 17
+- fields: { answer: "Looking up the shortest route on your smartphone, and getting her a cab.", quiz_question: 5, slug: "18" }
+  model: things.QuizAnswer
+  pk: 18
+- fields: { answer: "Directing her to the nearest bus stop.", quiz_question: 5, slug: "19" }
+  model: things.QuizAnswer
+  pk: 19
+- fields: { answer: "Getting your car, picking up her luggage and speeding to the airport.", quiz_question: 5, slug: "20" }
+  model: things.QuizAnswer
+  pk: 20
+- fields: { answer: "Organizing a pick-up kickball game.", quiz_question: 6, slug: "21" }
+  model: things.QuizAnswer
+  pk: 21
+- fields: { answer: "Sofa, slippers and sitcom reruns.", quiz_question: 6, slug: "22" }
+  model: things.QuizAnswer
+  pk: 22
+- fields: { answer: "Finishing doctoral thesis, re-shingling roof, grooming both dogs, helping neighbor pave driveway, whittling some sticks,  learning C++, balancing gramophone turntable. ", quiz_question: 6, slug: "23" }
+  model: things.QuizAnswer
+  pk: 23
+- fields: { answer: "Planting perennial shade trees at the senior center.", quiz_question: 6, slug: "24" }
+  model: things.QuizAnswer
+  pk: 24
+- fields: { answer: "Whip up some Coquilles Saint Jacques avec Pernod, with Gratin Dauphinois on the side.", quiz_question: 7, slug: "25" }
+  model: things.QuizAnswer
+  pk: 25
+- fields: { answer: "Rehydrate a bowl of fancy ramen. (not the cheap cup!). ", quiz_question: 7, slug: "26" }
+  model: things.QuizAnswer
+  pk: 26
+- fields: { answer: "Email their parents so you can cook their favorite childhood food.", quiz_question: 7, slug: "27" }
+  model: things.QuizAnswer
+  pk: 27
+- fields: { answer: "Peruse the local farmer's market for organic veggies.", quiz_question: 7, slug: "28" }
+  model: things.QuizAnswer
+  pk: 28
+- fields: { answer: "We're going camping; you should totally come with, we have an extra sleeping bag. Yay!", quiz_question: 8, slug: "29" }
+  model: things.QuizAnswer
+  pk: 29
+- fields: { answer: "Let's grab a cup of coffee, right now.", quiz_question: 8, slug: "30" }
+  model: things.QuizAnswer
+  pk: 30
+- fields: { answer: "Right, I'll have my assistant schedule something. How's your Autumn looking?", quiz_question: 8, slug: "31" }
+  model: things.QuizAnswer
+  pk: 31
+- fields: { answer: "Hey, we’re together right now! Isn't that great?", quiz_question: 8, slug: "32" }
+  model: things.QuizAnswer
+  pk: 32
+- fields: { answer: "A dynamic, successful go-getter everybody loves!", quiz_question: 9, slug: "33" }
+  model: things.QuizAnswer
+  pk: 33
+- fields: { answer: "A regular person, just like everyone else.", quiz_question: 9, slug: "34" }
+  model: things.QuizAnswer
+  pk: 34
+- fields: { answer: "Uncertain-let me ask a few people and I'll get back to you.", quiz_question: 9, slug: "35" }
+  model: things.QuizAnswer
+  pk: 35
+- fields: { answer: "Me.", quiz_question: 9, slug: "36" }
+  model: things.QuizAnswer
+  pk: 36
+- fields: { answer: "Search Craigslist to see if there's a reward offered.", quiz_question: 10, slug: "37" }
+  model: things.QuizAnswer
+  pk: 37
+- fields: { answer: "Turn it over to the police.", quiz_question: 10, slug: "38" }
+  model: things.QuizAnswer
+  pk: 38
+- fields: { answer: "Live large and party! It's your money now.", quiz_question: 10, slug: "39" }
+  model: things.QuizAnswer
+  pk: 39
+- fields: { answer: "Donate it to your favorite charity.", quiz_question: 10, slug: "40" }
+  model: things.QuizAnswer
+  pk: 40
+- fields: { answer: "Beach resort - I just want to relax and de-stress.", quiz_question: 11, slug: "41" }
+  model: things.QuizAnswer
+  pk: 41
+- fields: { answer: "A group tour - I don't want to worry about the details.", quiz_question: 11, slug: "42" }
+  model: things.QuizAnswer
+  pk: 42
+- fields: { answer: "Wherever the dart lands on the map.", quiz_question: 11, slug: "43" }
+  model: things.QuizAnswer
+  pk: 43
+- fields: { answer: "Every country where there’s a hostel – I'm backpacking all year.", quiz_question: 11, slug: "44" }
+  model: things.QuizAnswer
+  pk: 44
+- fields: { answer: "Speed up so you won’t get stuck behind them.", quiz_question: 12, slug: "45" }
+  model: things.QuizAnswer
+  pk: 45
+- fields: { answer: "Move over to the next lane; let someone else face this dilemma.", quiz_question: 12, slug: "46" }
+  model: things.QuizAnswer
+  pk: 46
+- fields: { answer: "Slow down and wave them in. You can spare the 10 seconds.", quiz_question: 12, slug: "47" }
+  model: things.QuizAnswer
+  pk: 47
+- fields: { answer: "Slowly pass them, wondering how they fit all those turnips in there.", quiz_question: 12, slug: "48" }
+  model: things.QuizAnswer
+  pk: 48
+- fields: { answer: "Frantically look for batteries so you can at least listen to the radio.", quiz_question: 13, slug: "49" }
+  model: things.QuizAnswer
+  pk: 49
+- fields: { answer: "Invite the neighbors over, light a fire, roast some marshmallows and sing camping songs all night.", quiz_question: 13, slug: "50" }
+  model: things.QuizAnswer
+  pk: 50
+- fields: { answer: "Find a friend and play games that don't require electricity. Like chess.", quiz_question: 13, slug: "51" }
+  model: things.QuizAnswer
+  pk: 51
+- fields: { answer: "Drive to the next town – oh sweet Wi-Fi, I've found you!", quiz_question: 13, slug: "52" }
+  model: things.QuizAnswer
+  pk: 52
+- fields: { answer: "Do the Handyman Special - fix the hard drive using doorbell wire, a lighter for soldering, some electrical tape, and tweezers from the hotel makeup kit.", quiz_question: 14, slug: "53" }
+  model: things.QuizAnswer
+  pk: 53
+- fields: { answer: "Call the home office and whine to the IT guys.", quiz_question: 14, slug: "54" }
+  model: things.QuizAnswer
+  pk: 54
+- fields: { answer: "Find an Internet cafe, use their computer to recreate the presentation.", quiz_question: 14, slug: "55" }
+  model: things.QuizAnswer
+  pk: 55
+- fields: { answer: "Old school baby, markers and poster board. And red socks.", quiz_question: 14, slug: "56" }
+  model: things.QuizAnswer
+  pk: 56
+- fields: { answer: "Sneak off to the restroom and tweet every 30 minutes. Colleagues think you have bladder issues.", quiz_question: 15, slug: "57" }
+  model: things.QuizAnswer
+  pk: 57
+- fields: { answer: "Waiting until your lunch break, then updating your status.", quiz_question: 15, slug: "58" }
+  model: things.QuizAnswer
+  pk: 58
+- fields: { answer: "Checking it at home in the evening - it can wait.", quiz_question: 15, slug: "59" }
+  model: things.QuizAnswer
+  pk: 59
+- fields: { answer: "Whip out a pen and paper - it's time to go back to letter writing. ", quiz_question: 15, slug: "60" }
+  model: things.QuizAnswer
+  pk: 60
+- fields: { answer: "Simultaneously moving and shaking, as I make momentous financial decisions.", quiz_question: 16, slug: "61" }
+  model: things.QuizAnswer
+  pk: 61
+- fields: { answer: "Delving into the vast array of knowledge, news, facts and figures, and even fictions that comprise the Internet's news structure.", quiz_question: 16, slug: "62" }
+  model: things.QuizAnswer
+  pk: 62
+- fields: { answer: "Making dates, planning parties, keeping in touch with buddies and finding far-flung friends from the past.", quiz_question: 16, slug: "63" }
+  model: things.QuizAnswer
+  pk: 63
+- fields: { answer: "Doing it all for the children - there's a whole world of resources out there that enrich my kids' lives.  ", quiz_question: 16, slug: "64" }
+  model: things.QuizAnswer
+  pk: 64
+- fields: { answer: "Making art, both analog and digital, and sharing it with the world.", quiz_question: 16, slug: "65" }
+  model: things.QuizAnswer
+  pk: 65
+- fields: { answer: "I'll log in to look up old high school friends or play some games, but I'd rather pick up the phone for a chat.", quiz_question: 17, slug: "66" }
+  model: things.QuizAnswer
+  pk: 66
+- fields: { answer: "With as many friends as I've got, keeping in touch is easier online than in real life.", quiz_question: 17, slug: "67" }
+  model: things.QuizAnswer
+  pk: 67
+- fields: { answer: "I'm mayor of my own life - it would grind to a halt without the constant updates, tweets and check-ins.", quiz_question: 17, slug: "68" }
+  model: things.QuizAnswer
+  pk: 68
+- fields: { answer: "Social what now? I've never even signed on to MyBook or FacePlace or whatever.", quiz_question: 17, slug: "69" }
+  model: things.QuizAnswer
+  pk: 69
+- fields: { answer: "Out in the park! I might check my bank account on my phone, but the Internet is the last thing on my mind.", quiz_question: 18, slug: "70" }
+  model: things.QuizAnswer
+  pk: 70
+- fields: { answer: "At a ballgame! Talking sports with my friends, both at the game and online.", quiz_question: 18, slug: "71" }
+  model: things.QuizAnswer
+  pk: 71
+- fields: { answer: "At home, posting the weather on Facebook while checking movie times for later, reading reviews, watching trailers... when does the sun go down again? Let me check on the Internet!", quiz_question: 18, slug: "72" }
+  model: things.QuizAnswer
+  pk: 72
+- fields: { answer: "You mean birds are tweeting, right? I follow @birds. And no, I can't go out right now - I'm reading a hilarious flamewar thread on Slashdot.", quiz_question: 18, slug: "73" }
+  model: things.QuizAnswer
+  pk: 73
+- fields: { answer: "Casual Encounter. We meet up here and there for a good time or a laugh, but no sleepovers - I'm an independent person.", quiz_question: 19, slug: "74" }
+  model: things.QuizAnswer
+  pk: 74
+- fields: { answer: "Going steady. I can take a day or two on my own, but usually we're together, shopping or goofing around.", quiz_question: 19, slug: "75" }
+  model: things.QuizAnswer
+  pk: 75
+- fields: { answer: "Long-term Relationship. The Internet is my soul-mate, the only one who really gets me, who doesn't laugh at my cats-on-their-backs photo obsession.", quiz_question: 19, slug: "76" }
+  model: things.QuizAnswer
+  pk: 76
+- fields: { answer: "It's an addiction - I'm taking classes to ease my co-dependency. Online classes.", quiz_question: 19, slug: "77" }
+  model: things.QuizAnswer
+  pk: 77
+- fields: { answer: "Tethered to my desk, at work and at home.", quiz_question: 20, slug: "78" }
+  model: things.QuizAnswer
+  pk: 78
+- fields: { answer: "I enjoy a balanced Internet diet - some desktop, some mobile.", quiz_question: 20, slug: "79" }
+  model: things.QuizAnswer
+  pk: 79
+- fields: { answer: "I'm an active sort, so mostly mobile, with a sprinkling of desktop when I need a rest.", quiz_question: 20, slug: "80" }
+  model: things.QuizAnswer
+  pk: 80
+- fields: { answer: "Every device I have connects to the Internet all the time. Including my toaster.", quiz_question: 20, slug: "81" }
+  model: things.QuizAnswer
+  pk: 81

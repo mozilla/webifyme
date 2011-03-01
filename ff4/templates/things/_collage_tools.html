@@ -1,0 +1,53 @@
+<script type="text/javascript" src="/static/js/zeroclipboard/ZeroClipboard.js"></script>
+
+<div class="your-collage-tools">
+	<br class="clr" />
+	{% if bitly_url %}
+	<div class="url">
+		<span>Here’s your URL:</span>
+		<a class="short-url" href="{{ bitly_url }}">{{ bitly_url }}</a>
+		<div id="copy-wrapper"><div class="copy">Copy</div></div>
+	</div>
+	{% endif %}
+	<a id="snapshot-downloader" class="snapshot disabled" href="#"><span>{{ _('Download a Snapshot') }}</span></a>
+	<br class="clr" />
+</div>
+
+<div class="share your-share">
+	<a class="facebook" href="http://www.facebook.com/share.php?u=http://www.example.com">
+		<span>{{ _('Post to Facebook') }}</span>
+	</a>
+	<a class="twitter" href="http://twitter.com/home?status={{ _('my web') }}:%20{{ bitly_url }}">
+		<span>{{ _('Share on Twitter') }}</span>
+	</a>
+	
+	{% include "shared/_download_day_reminder.html" %}
+	<br class="clr" />
+</div>
+
+<script type="text/javascript">
+  var clip = null;
+  ZeroClipboard.setMoviePath( '/static/js/zeroclipboard/ZeroClipboard10.swf' );
+  function init_zclip() {
+    clip = new ZeroClipboard.Client();
+  	clip.setHandCursor( true );
+    clip.setCSSEffects( true );
+
+    clip.addEventListener( 'mouseOver', function(client) {
+      $('#copy-wrapper .copy').css('color','#007dd9');
+    });
+    clip.addEventListener( 'mouseOut', function(client) { 
+      //alert("mouse out"); 
+      $('#copy-wrapper .copy').css('color','#333333');
+    });
+    clip.addEventListener( 'mouseDown', function(client) {
+      clip.setText( 'http://bit.ly/gyWp3m' );
+    });
+
+    clip.glue($('#doc .your-collage-tools .copy'));
+  }
+
+  $(window).load(function () {
+    init_zclip();
+  });
+</script>
