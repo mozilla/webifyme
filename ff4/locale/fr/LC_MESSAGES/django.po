@@ -1,0 +1,2739 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-11 15:27-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: locale/dbgettext/things/image/Image_1/name.py:2
+msgid "Crumpled Fortunes"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_10/name.py:2
+msgid "Bracelets"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_11/name.py:2
+msgid "Business Card"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_12/name.py:2
+msgid "Red Lego Brick"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_13/name.py:2
+msgid "Small Bottle of Perfume"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_14/name.py:2
+msgid "Small open brass locket on chain"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_15/name.py:2
+msgid "Small ladies watch"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_16/name.py:2
+msgid "Three random shirt buttons"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_17/name.py:2
+msgid "Glasses - Moscots"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_18/name.py:2
+msgid "Old Rolex"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_19/name.py:2
+msgid "Black Lipstick Tube & Polish"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_2/name.py:2
+msgid "Fortune Omamori"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_20/name.py:2
+msgid "Generic Pop Magazine"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_21/name.py:2
+msgid "Aluminum Knitting Needles"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_22/name.py:2
+msgid "Black Ray-Ban Wayfarers"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_23/name.py:2
+msgid "Small Tortoise comb"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_24/name.py:2
+msgid "Generic Earbuds"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_25/name.py:2
+msgid "Panda Toy"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_26/name.py:2
+msgid "Elephant Finger Puppet"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_27/name.py:2
+msgid "Red 2011 Date Book"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_28/name.py:2
+msgid "Generic Car Magazine"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_29/name.py:2
+msgid "Wired"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_3/name.py:2
+msgid "Notebook Origami Fortune Teller"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_30/name.py:2
+msgid "Generic Tech Magazine"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_31/name.py:2
+msgid "Small Moleskine"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_32/name.py:2
+msgid "Small brown bag with red XXX stamp"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_33/name.py:2
+msgid "80s Comics"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_34/name.py:2
+msgid "Crayons"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_35/name.py:2
+msgid "Neon Terry Sweatband"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_36/name.py:2
+msgid "Silver Flask"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_37/name.py:2
+msgid "Cocktail Swords"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_38/name.py:2
+msgid "Candy*"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_39/name.py:2
+msgid "Red Swiss Army Knife"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_4/name.py:2
+msgid "Small Gyroscope"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_40/name.py:2
+msgid "Leatherman-style Multitool"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_41/name.py:2
+msgid "Android Phone"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_42/name.py:2
+msgid "Gum"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_43/name.py:2
+msgid "Spork"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_44/name.py:2
+msgid "Cheerios"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_45/name.py:2
+msgid "Certs"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_46/name.py:2
+msgid "Groucho Marx Disguise"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_47/name.py:2
+msgid "Combination Lock"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_48/name.py:2
+msgid "Mace in Holder"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_49/name.py:2
+msgid "Open Matchbook with phone number"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_5/name.py:2
+msgid "Brass compass"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_50/name.py:2
+msgid "Newspaper"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_51/name.py:2
+msgid "The Magician Tarot card"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_52/name.py:2
+msgid "Buddah"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_53/name.py:2
+msgid "Sock Monkey"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_54/name.py:2
+msgid "Bus Pass"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_55/name.py:2
+msgid "Spiral Shell"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_56/name.py:2
+msgid "Polaroid 600 Single picture"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_57/name.py:2
+msgid "Old Flip Style Cell"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_58/name.py:2
+msgid "Postcards"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_59/name.py:2
+msgid "Few vintage stamps - shot 1"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_6/name.py:2
+msgid "Small anodized flashlight"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_60/name.py:2
+msgid "Car Keys"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_61/name.py:2
+msgid "Canon s90 or other small camera"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_62/name.py:2
+msgid "Photostrip / Negative Strip"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_63/name.py:2
+msgid "New Years Noisemaker"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_64/name.py:2
+msgid "Children’s Teether"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_65/name.py:2
+msgid "single finger band-aid"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_66/name.py:2
+msgid "To-do list"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_67/name.py:2
+msgid "SD card"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_68/name.py:2
+msgid "Thumb Drive"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_69/name.py:2
+msgid "M.U.S.C.L.E."
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_69/name.py:4
+msgid "action figure"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_7/name.py:2
+msgid "Purple Anodized Carabiner"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_70/name.py:2
+msgid "Small Pet Toy"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_71/name.py:2
+msgid "Black Bishop Chess Piece"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_72/name.py:2
+msgid "Mahjong Tiles"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_73/name.py:2
+msgid "Scrabble Tiles"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_74/name.py:2
+msgid "Tiny Rubiks Cube"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_75/name.py:2
+msgid "White domino"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_76/name.py:2
+msgid "Pair of Clear Color Dice"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_77/name.py:2
+msgid "Ticket Stubs"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_78/name.py:2
+msgid "Bic lighter"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_79/name.py:2
+msgid "Cherry Chapstick"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_8/name.py:2
+msgid "Friendship Pin"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_80/name.py:2
+msgid "Small Packet of Tissues"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_81/name.py:2
+msgid "Pocketknife"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_82/name.py:2
+msgid "Eyedrops"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_83/name.py:2
+msgid "Small Sketchbook"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_84/name.py:2
+msgid "3rd Gen Nano"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_85/name.py:2
+msgid "Old Coin"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_86/name.py:2
+msgid "21+ Bracelet?"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_87/name.py:2
+msgid "Silly Putty"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_88/name.py:2
+msgid "Small Paintbox"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_89/name.py:2
+msgid "Wine Corks"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_9/name.py:2
+msgid "Woven friendship bracelet"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_90/name.py:2
+msgid "Small Trilobite / Fossil"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_91/name.py:2
+msgid "Old Tape Case"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_92/name.py:2
+msgid "Powerbar"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_93/name.py:2
+msgid "Princess Leia"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_94/name.py:2
+msgid "Inception Top"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_95/name.py:2
+msgid "Office Clip"
+msgstr ""
+
+#: locale/dbgettext/things/image/Image_96/name.py:2
+msgid "Crystals"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_1/answer.py:2
+msgid "Watching movie trailers and TV show previews."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_10/answer.py:2
+msgid "Hollywood’s hottest couples reveal favorite colors."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_11/answer.py:2
+msgid "2010‘s best 10,000rpm hard drives"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_12/answer.py:2
+msgid "None of the above - I prefer to stare blankly ahead."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_12/answer.py:4
+msgid "Straight ahead."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_13/answer.py:2
+msgid "Take to Twitter and get the word out, avatar change and all."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_14/answer.py:2
+msgid "Take action!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_14/answer.py:4
+msgid "Get off the Internet and into the voting booth."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_15/answer.py:2
+msgid "Email your friends a form petition to sign."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_16/answer.py:2
+msgid "Sit right back down."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_16/answer.py:4
+msgid "Activism is exhausting."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_17/answer.py:2
+msgid "Shrugging your shoulders, feigning ignorance."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_18/answer.py:2
+msgid ""
+"Looking up the shortest route on your smartphone, and getting her a cab."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_19/answer.py:2
+msgid "Directing her to the nearest bus stop."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_2/answer.py:2
+msgid "Checking out avalanche warnings for your backcountry ski trip."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_20/answer.py:2
+msgid "Getting your car, picking up her luggage and speeding to the airport."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_21/answer.py:2
+msgid "Organizing a pick-up kickball game."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_22/answer.py:2
+msgid "Sofa, slippers and sitcom reruns."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_23/answer.py:2
+msgid ""
+"Finishing doctoral thesis, re-shingling roof, grooming both dogs, helping "
+"neighbor pave driveway, whittling some sticks,  learning C++, balancing "
+"gramophone turntable."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_24/answer.py:2
+msgid "Planting perennial shade trees at the senior center."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_25/answer.py:2
+msgid ""
+"Whip up some Coquilles Saint Jacques avec Pernod, with Gratin Dauphinois on "
+"the side."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_26/answer.py:2
+msgid "Rehydrate a bowl of fancy ramen."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_26/answer.py:4
+msgid "(not the cheap cup!)."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_27/answer.py:2
+msgid "Email their parents so you can cook their favorite childhood food."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_28/answer.py:2
+msgid "Peruse the local farmer’s market for organic veggies."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_29/answer.py:2
+msgid ""
+"We’re going camping; you should totally come with, we have an extra sleeping "
+"bag."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_29/answer.py:4
+msgid "Yay!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_3/answer.py:2
+msgid "Catching up with your friends’ status updates and tweets."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_30/answer.py:2
+msgid "Let’s grab a cup of coffee, right now."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_31/answer.py:2
+msgid "Right, I’ll have my assistant schedule something."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_31/answer.py:4
+msgid "How’s your Autumn looking?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_32/answer.py:2
+msgid "Hey, we’re together right now!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_32/answer.py:4
+msgid "Isn’t that great?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_33/answer.py:2
+msgid "A dynamic, successful go-getter everybody loves!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_34/answer.py:2
+msgid "A regular person, just like everyone else."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_35/answer.py:2
+msgid "Uncertain-let me ask a few people and I’ll get back to you."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_36/answer.py:2
+msgid "Me."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_37/answer.py:2
+msgid "Search Craigslist to see if there’s a reward offered."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_38/answer.py:2
+msgid "Turn it over to the police."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_39/answer.py:2
+msgid "Live large and party!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_39/answer.py:4
+msgid "It’s your money now."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_4/answer.py:2
+msgid "Emailing yourself work files so you can get more done by Monday."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_40/answer.py:2
+msgid "Donate it to your favorite charity."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_41/answer.py:2
+msgid "Beach resort - I just want to relax and de-stress."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_42/answer.py:2
+msgid "A group tour - I don’t want to worry about the details."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_43/answer.py:2
+msgid "Wherever the dart lands on the map."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_44/answer.py:2
+msgid "Every country where there’s a hostel – I’m backpacking all year."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_45/answer.py:2
+msgid "Speed up so you won’t get stuck behind them."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_46/answer.py:2
+msgid "Move over to the next lane; let someone else face this dilemma."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_47/answer.py:2
+msgid "Slow down and wave them in."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_47/answer.py:4
+msgid "You can spare the 10 seconds."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_48/answer.py:2
+msgid "Slowly pass them, wondering how they fit all those turnips in there."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_49/answer.py:2
+msgid "Frantically look for batteries so you can at least listen to the radio."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_5/answer.py:2
+msgid "I value tidiness and wield a mean steam iron."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_50/answer.py:2
+msgid ""
+"Invite the neighbors over, light a fire, roast some marshmallows and sing "
+"camping songs all night."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_51/answer.py:2
+msgid "Find a friend and play games that don’t require electricity."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_51/answer.py:4
+msgid "Like chess."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_52/answer.py:2
+msgid "Drive to the next town – oh sweet Wi-Fi, I’ve found you!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_53/answer.py:2
+msgid ""
+"Do the Handyman Special - fix the hard drive using doorbell wire, a lighter "
+"for soldering, some electrical tape, and tweezers from the hotel makeup kit."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_54/answer.py:2
+msgid "Call the home office and whine to the IT guys."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_55/answer.py:2
+msgid "Find an Internet cafe, use their computer to recreate the presentation."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_56/answer.py:2
+msgid "Old school baby, markers and poster board."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_56/answer.py:4
+msgid "And red socks."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_57/answer.py:2
+msgid "Sneak off to the restroom and tweet every 30 minutes."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_57/answer.py:4
+msgid "Colleagues think you have bladder issues."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_58/answer.py:2
+msgid "Waiting until your lunch break, then updating your status.[med]"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_59/answer.py:2
+msgid "Checking it at home in the evening - it can wait."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_6/answer.py:2
+msgid "I dress to impress, party or not."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_60/answer.py:2
+msgid "Whip out a pen and paper - it’s time to go back to letter writing."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_61/answer.py:2
+msgid ""
+"Simultaneously moving and shaking, as I make momentous financial decisions."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_62/answer.py:2
+msgid ""
+"Delving into the vast array of knowledge, news, facts and figures, and even "
+"fictions that comprise the Internet’s news structure."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_63/answer.py:2
+msgid ""
+"Making dates, planning parties, keeping in touch with buddies and finding "
+"far-flung friends from the past."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_64/answer.py:2
+msgid ""
+"Doing it all for the children- there's a whole world of resources out there "
+"that enrich my kids’ lives."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_65/answer.py:2
+msgid "Making art, both analog and digital, and sharing it with the world."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_66/answer.py:2
+msgid ""
+"I’ll log in to look up old high school friends or play some games, but I’d "
+"rather pick up the phone for a chat."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_67/answer.py:2
+msgid ""
+"With as many friends as I’ve got, keeping in touch is easier online than in "
+"real life."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_68/answer.py:2
+msgid ""
+"I’m mayor of my own life - it would grind to a halt without the constant "
+"updates, tweets and check-ins."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_69/answer.py:2
+msgid "Social what now?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_69/answer.py:4
+msgid "I’ve never even signed on to MyBook or FacePlace or whatever."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_7/answer.py:2
+msgid "It was on sale!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_70/answer.py:2
+msgid "Out in the park!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_70/answer.py:4
+msgid ""
+"I might check my bank account on my phone, but the Internet is the last "
+"thing on my mind."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_71/answer.py:2
+msgid "At a ballgame!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_71/answer.py:4
+msgid "Talking sports with my friends, both at the game and online."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_72/answer.py:2
+msgid ""
+"At home, posting the weather on Facebook while checking movie times for "
+"later, reading reviews, watching trailers..."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_72/answer.py:4
+msgid "when does the sun go down again?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_72/answer.py:6
+msgid "Let me check on the Internet!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_73/answer.py:2
+msgid "You mean birds are tweeting, right?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_73/answer.py:4
+msgid "I follow @birds."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_73/answer.py:6
+msgid ""
+"And no, I can’t go out right now - I’m reading a hilarious flamewar thread "
+"on Slashdot."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_74/answer.py:2
+msgid "Casual Encounter."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_74/answer.py:4
+msgid ""
+"We meet up here and there for a good time or a laugh, but no sleepovers - "
+"I’m an independent person."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_75/answer.py:2
+msgid "Going steady."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_75/answer.py:4
+msgid ""
+"I can take a day or two on my own, but usually we’re together, shopping or "
+"goofing around."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_76/answer.py:2
+msgid "Long-term Relationship."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_76/answer.py:4
+msgid ""
+"The Internet is my soul-mate, the only one who really gets me, who doesn’t "
+"laugh at my cats-on-their-backs photo obsession."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_77/answer.py:2
+msgid "It’s an addiction - I’m taking classes to ease my co-dependency."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_77/answer.py:4
+msgid "Online classes."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_78/answer.py:2
+msgid "Tethered to my desk, at work and at home."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_79/answer.py:2
+msgid "I enjoy a balanced Internet diet - some desktop, some mobile."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_8/answer.py:2
+msgid "These socks match, right?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_80/answer.py:2
+msgid ""
+"I’m an active sort, so mostly mobile,with a sprinkling of desktop when I "
+"need a rest."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_81/answer.py:2
+msgid "Every device I have connects to the Internet all the time."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_81/answer.py:4
+msgid "Including my toaster."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswer/QuizAnswer_9/answer.py:2
+msgid "Pigmy giraffes of the Kalahari."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_1/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_57/tooltip.py:2
+msgid ""
+"One symbol stands above all others as the authority - wise, unquestionable, "
+"and universally fair."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_1/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_57/tooltip.py:4
+msgid "Want the truth?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_1/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_57/tooltip.py:6
+msgid "Look to The Cookie – The Cookie tells all."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_10/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_142/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_96/tooltip.py:2
+msgid ""
+"You have a bright outlook, flexible attitude, and a kooky sense of "
+"aesthetics."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_10/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_142/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_96/tooltip.py:4
+msgid ""
+"You’re probably the type of person that appreciates the use of the word "
+"“kooky”."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_100/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_119/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_58/tooltip.py:2
+msgid ""
+"The mark of Money – what people really  mean when they say “resources”  It "
+"represents ability, utility and power."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_100/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_119/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_58/tooltip.py:4
+msgid "You’ve got it, and you know how to use it."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_101/tooltip.py:2
+msgid "The Lighter – a pocket-sized torch of freedom."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_101/tooltip.py:4
+msgid ""
+"It presages your preparedness for whatever crosses your path, be it a camper "
+"with a bunch of moist twigs, or some guy with a cigar."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_102/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_46/tooltip.py:2
+msgid "Is there anything more versatile, efficient and useful than a spork?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_102/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_46/tooltip.py:4
+msgid "The very word is a model of multitasking efficiency."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_102/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_46/tooltip.py:6
+msgid "It shows you like to handle lots of things at once, and take big bites."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_102/tooltip.py:8
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_46/tooltip.py:8
+msgid "Chew well!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_103/tooltip.py:2
+msgid "Your beauty comes from within, and from a preparedness."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_103/tooltip.py:4
+msgid ""
+"The Lip Balm is your totem, symbolic of the cherry-flavored care and "
+"protection you surround yourself with."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_104/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_78/tooltip.py:2
+msgid "The adhesive bandage - mark of The Healer."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_104/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_78/tooltip.py:4
+msgid ""
+"You seek the perfection of the human form, or at least one less headache."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_105/tooltip.py:2
+msgid "An ounce of prevention carried in your pocket can be quite handy."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_105/tooltip.py:4
+msgid ""
+"You’re prepared for those pesky little ailments that can crop up "
+"unexpectedly, and have the resources to deal with them."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_105/tooltip.py:6
+msgid "Gesundheit!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_106/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_116/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_52/tooltip.py:2
+msgid "Who are you?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_106/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_116/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_52/tooltip.py:4
+msgid "A mystery, an enigma, a chameleon that no one really knows."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_106/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_116/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_52/tooltip.py:6
+msgid ""
+"You know what you need to keep private, and what to show the outside world."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_106/tooltip.py:8
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_116/tooltip.py:8
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_52/tooltip.py:8
+msgid "Your identity is yours alone - wear them proudly, anonymous."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_107/tooltip.py:2
+msgid "The Pocketknife – small, versatile, and just a little bit dangerous."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_107/tooltip.py:4
+msgid ""
+"It is your symbol because you are resourceful, and sharp, and you know how "
+"to fold yourself."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_108/tooltip.py:2
+msgid "This vessel of curative liquid is your symbol, o power user!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_108/tooltip.py:4
+msgid ""
+"You are clear of vision, attack a problem at its source, and at the ready."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_108/tooltip.py:6
+msgid "You probably spend a lot of time staring at a screen, too."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_109/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_114/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_54/tooltip.py:2
+msgid ""
+"You can hope to ward off evil with a rabbit’s foot, or you can be more "
+"proactive."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_109/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_114/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_54/tooltip.py:4
+msgid ""
+"You’re the pragmatist – you own your destiny, control your security and know "
+"the value of self-defense."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_11/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_120/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_51/tooltip.py:2
+msgid ""
+"The mark of the professional – you’ve planted your flag in the new business "
+"world, and it is subtly off-white, tastefully thick, and above all, "
+"watermarked."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_110/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_135/tooltip.py:2
+msgid ""
+"Entire worlds can be captured within a little sketchbook, worlds both real "
+"and imagined."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_110/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_135/tooltip.py:4
+msgid "You use many different tools to communicate your vision, Traveler."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_111/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_16/tooltip.py:2
+msgid "A sign of pluck and resourcefulness, a keen eye."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_111/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_16/tooltip.py:4
+msgid "The Button, both a tool and a decoration."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_111/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_16/tooltip.py:6
+msgid "You’re equally multi-faceted."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_112/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_37/tooltip.py:2
+msgid "Ah, the Flask – the party is wherever you are, Social Butterfly."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_112/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_37/tooltip.py:4
+msgid "You bring it, and you bring it in style."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_112/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_37/tooltip.py:6
+msgid "But you also know when to stop."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_112/tooltip.py:8
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_37/tooltip.py:8
+msgid "Keep it classy, my sleek silver friend!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_113/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_24/tooltip.py:2
+msgid ""
+"You’ve got the music in you, and that’s where it’s staying – your exemplary "
+"self-control has earned you the Earbuds."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_113/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_24/tooltip.py:4
+msgid ""
+"You know that the world doesn’t need more noise, so you keep it in your head."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_115/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_53/tooltip.py:2
+msgid "Who has the right combination?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_115/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_53/tooltip.py:4
+msgid ""
+"You do, for you are the Lock Master – in control and buttoned down, you "
+"value security but know when to open up and let loose."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_117/tooltip.py:2
+msgid "You’re nothing if not a completist, and you like to take it with you."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_117/tooltip.py:4
+msgid "Compact, concise and in control, you are master of your musical domain."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_117/tooltip.py:6
+msgid "Mp3, WMA, FLAC - Rock accordingly."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_118/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_150/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_165/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_175/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_40/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_7/tooltip.py:2
+msgid ""
+"You have drawn the Mark of the Connection; Active, strong and reliable – "
+"that’s you."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_118/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_150/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_165/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_175/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_40/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_7/tooltip.py:4
+msgid "People count on you to keep grounded at all times, even up in the air."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_12/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_129/tooltip.py:2
+msgid ""
+"Building Blocks – deceptively simple, yet capable of monumental achievements."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_12/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_129/tooltip.py:4
+msgid ""
+"To you, a simple block is the first step towards works of beauty and grace."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_12/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_129/tooltip.py:6
+msgid "Also, you like toys."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_121/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_149/tooltip.py:2
+msgid ""
+"You define your own treasures, and know their value lies deep in your heart."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_121/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_149/tooltip.py:4
+msgid "Either that or you look it up online."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_122/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_56/tooltip.py:2
+msgid "Ah, the quest for knowledge, the search for truth!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_122/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_56/tooltip.py:4
+msgid ""
+"To you life is a never-ending lesson, and you learn more and more each day."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_122/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_56/tooltip.py:6
+msgid "Or maybe you just do the crossword."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_123/tooltip.py:2
+msgid "You are The Reader."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_123/tooltip.py:4
+msgid ""
+"Your forte is seeking knowledge and delving into ideas, be they academic, "
+"scientific, or teenage vampire love stories."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_124/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_34/tooltip.py:2
+msgid ""
+"Endowed with imaginative powers lesser folks can’t even comprehend, you "
+"tower above your peers."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_124/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_34/tooltip.py:4
+msgid ""
+"Chances are you have X-ray vision, super strength and an impressive "
+"collection of leggings."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_125/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_28/tooltip.py:2
+msgid ""
+"You know what’s next; you have it all written down in your date book -the "
+"symbol of The Organizer."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_125/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_28/tooltip.py:4
+msgid ""
+"You’re the one we turn to when we are in doubt, for you hold the answers."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_126/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_74/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_85/tooltip.py:2
+msgid "PARTY!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_126/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_74/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_85/tooltip.py:4
+msgid "You got The Noisemaker!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_126/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_74/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_85/tooltip.py:6
+msgid ""
+"You make life a constant party that rocks the house and wakes up the "
+"neighbors - then invites them over."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_126/tooltip.py:8
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_74/tooltip.py:8
+msgid "Everybody’s having fun when you’re around."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_127/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_136/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_170/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_67/tooltip.py:2
+msgid "The cell phone, once called a mobile, for good reason."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_127/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_136/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_170/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_67/tooltip.py:4
+msgid ""
+"It represents you, Traveler –  free and untethered, yet in touch wherever "
+"you may roam."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_128/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_161/tooltip.py:2
+msgid "The cast-off talisman of a party shaman!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_128/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_161/tooltip.py:4
+msgid ""
+"You posses the strength and tenacity to turn the beat around, and you've "
+"seen more sunrises from the wrong side of awake than any mere mortal."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_13/tooltip.py:2
+msgid ""
+"Appearances are not limited to the visible sphere - you are well aware of "
+"that, for you are The Aesthete."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_13/tooltip.py:4
+msgid ""
+"Beauty in every sense is your lofty goal, and no detail of that is too small "
+"to escape your scrutiny."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_130/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_25/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_86/tooltip.py:2
+msgid "Are these the ones that eat eucalyptus, or bamboo?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_130/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_25/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_86/tooltip.py:4
+msgid "Well, they’re cute either way."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_131/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_75/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_84/tooltip.py:2
+msgid ""
+"You believe the children are our future, and you want to raise them right."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_131/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_75/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_84/tooltip.py:4
+msgid "So you give them something to chew on , and something to think about."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_132/tooltip.py:2
+msgid ""
+"The digital realm is your raw material, and you shape it into the wondrous "
+"things your mind’s eye sees."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_132/tooltip.py:4
+msgid ""
+"(That’s just about the most pretentious description of putty we could come "
+"up with.)"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_133/tooltip.py:2
+msgid "The tool of the Artist; the world as your canvas."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_133/tooltip.py:4
+msgid ""
+"You see things not as they are, but as they could be, if you had a brush and "
+"a small cup of water."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_134/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_35/tooltip.py:2
+msgid "The symbol of unpretentious creativity and art."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_134/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_35/tooltip.py:4
+msgid ""
+"You are almost certainly imbued with a child-like curiosity and an "
+"unfettered imagination, enjoy self expression and bright colors."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_134/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_35/tooltip.py:6
+msgid "You are child-like, or may actually be a child."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_137/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_93/tooltip.py:2
+msgid "Fun and games – they’re just shy of everything to you."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_137/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_93/tooltip.py:4
+msgid ""
+"For that mirthful spirit, you are presented the mark of The Domino – "
+"symbolizing optimism, playfulness, and slamming things on tables."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_138/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_90/tooltip.py:2
+msgid "You make your own luck, for you know   fortune favors the fun loving!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_138/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_90/tooltip.py:4
+msgid "To you a day without a quick game is a day wasted."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_138/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_90/tooltip.py:6
+msgid ""
+"Life’s too short to sulk, when you bear the colorful mark of The Player."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_138/tooltip.py:8
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_90/tooltip.py:8
+msgid "(You’re also possibly Chinese or a Grandmother)"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_139/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_91/tooltip.py:2
+msgid "You like your fun and games on a cerebral level."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_139/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_91/tooltip.py:4
+msgid ""
+"Stretching your mind and beating your friends is as enjoyable to you as "
+"zoning out in front of the TV is to the hoi polloi."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_14/tooltip.py:2
+msgid "The Locket – a secret treasured keepsake – is your symbol."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_14/tooltip.py:4
+msgid ""
+"Worn over the heart, it shows you value your relationships, and keep them "
+"close."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_140/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_163/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_49/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_9/tooltip.py:2
+msgid ""
+"Your buddies will be overjoyed to learn that you’ve drawn the Friendship "
+"Bracelet."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_140/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_163/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_49/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_9/tooltip.py:4
+msgid ""
+"It stands for sociability and your talent for making each friend, online and "
+"off, feel special."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_140/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_163/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_49/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_9/tooltip.py:6
+msgid "So very special."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_141/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_162/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_50/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_8/tooltip.py:2
+msgid "The Friendship Pin - an unbreakable bond between you and your BFF."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_141/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_162/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_50/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_8/tooltip.py:4
+msgid ""
+"It shows you are loyal, willing to wear your love on your sleeve (or "
+"sneaker)."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_143/tooltip.py:2
+msgid ""
+"While some resort to keg stands, you know that a party can be an exquisite "
+"social event, a time to enjoy and strengthen friendships."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_143/tooltip.py:4
+msgid ""
+"What we’re trying to say here is that you’re a class act, even when you let "
+"loose."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_144/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_4/tooltip.py:2
+msgid ""
+"Mystery, science, adventure - these aspects of your character are embodied "
+"in your symbol - The Gyroscope."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_144/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_4/tooltip.py:4
+msgid ""
+"You have the unique ability to remain calm and steady as the world spins "
+"around you."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_144/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_4/tooltip.py:6
+msgid "Maybe you even know how to pirouette."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_145/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_15/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_18/tooltip.py:2
+msgid ""
+"It’s just a matter of time - to you that’s not a dismissive phrase, because "
+"you know how important it is to stick to a schedule."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_145/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_15/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_18/tooltip.py:4
+msgid ""
+"Precise and reliable, you appreciate the reassuring tick of a well-run "
+"machine."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_146/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_156/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_173/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_176/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_177/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_43/tooltip.py:2
+msgid "For you, the Internet cannot be contained to a desk or a cafe."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_146/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_156/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_173/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_176/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_177/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_43/tooltip.py:4
+msgid "You carry it with you, not a place you go, but a tool you use."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_146/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_156/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_173/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_176/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_177/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_43/tooltip.py:6
+msgid "This is your Swiss Army Knife™."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_147/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_168/tooltip.py:2
+msgid "Behold The Fossil, lucky charm from ages long past!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_147/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_168/tooltip.py:4
+msgid ""
+"It symbolizes the truth of the past, and the search for knowledge in history "
+"(unless you clear your history)."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_148/tooltip.py:2
+msgid ""
+"If music be the food of love, a good mixtape represents a buffet of "
+"delectable morsels."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_148/tooltip.py:4
+msgid ""
+"Your love of different styles, and your ability to remix them to your "
+"personal soundtrack, earns you this totem"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_151/tooltip.py:2
+msgid "Energy, nutrition, health – those are the things you value."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_151/tooltip.py:4
+msgid ""
+"It’s good that you also like chocolate, otherwise you’d be too boring to be "
+"anointed with the EnergyBar – a sophisticated melange of sporting intentions "
+"wrapped in a candy-like execution."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_152/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_36/tooltip.py:2
+msgid "Let’s go!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_152/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_36/tooltip.py:4
+msgid ""
+"You’re not one to sit around; you like the active, positive and healthful, "
+"in body mind and spirit."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_152/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_36/tooltip.py:6
+msgid "And you have the sweaty wrists to prove it."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_153/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_95/tooltip.py:2
+msgid "Rock show, film or sports match, you are there, live and in person."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_153/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_95/tooltip.py:4
+msgid ""
+"The thrill of being part of an event, not just observing it, is what you’re "
+"after."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_153/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_95/tooltip.py:6
+msgid ""
+"You get tickets the second they go on sale and you have the stubs to prove "
+"it."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_154/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_6/tooltip.py:2
+msgid ""
+"You shine brightly, illuminating the Internet ahead with a glow of knowledge "
+"and spirit of exploration."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_154/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_6/tooltip.py:4
+msgid "That’s why you have drawn the Flashlight – symbol of the intrepid."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_155/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_166/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_30/tooltip.py:2
+msgid "Reports of the Internet’s demise have been greatly exaggerated."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_157/tooltip.py:2
+msgid "A symbol of risk and reward!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_157/tooltip.py:4
+msgid ""
+"You're no stranger to chance, to taking a walk on the 20-sided dark side."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_157/tooltip.py:6
+msgid "In the game of life, you're +10 Geekiness."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_158/tooltip.py:2
+msgid ""
+"A significant cultural heroic icon looms large in your inner nerd psyche."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_158/tooltip.py:4
+msgid "Embrace it."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_158/tooltip.py:6
+msgid "(We really don’t want to get into the whole trademark thing, OK?)"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_159/tooltip.py:2
+msgid "Is this a dream?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_159/tooltip.py:4
+msgid "Is this real life?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_160/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_55/tooltip.py:2
+msgid ""
+"You’re a social vector - verily, you are goal-oriented, outgoing and bold."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_160/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_55/tooltip.py:4
+msgid "At last, you’ve collected that number, and you’re gonna use it."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_164/tooltip.py:2
+msgid "A connector!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_164/tooltip.py:4
+msgid "Binding together your tasks, your to-dos, your dreams and your desires."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_164/tooltip.py:6
+msgid "Connectors are useful things - hang on to it."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_167/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_80/tooltip.py:2
+msgid "Behold, The Memory - life is your field of study."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_167/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_80/tooltip.py:4
+msgid "You hunger for new thinking, knowledge and information."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_167/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_80/tooltip.py:6
+msgid "You know how get it, and how to hold on to it."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_169/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_73/tooltip.py:2
+msgid ""
+"The photo strip, a talisman of remembrance and the nostalgia that goes along "
+"with it."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_169/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_73/tooltip.py:4
+msgid "You see value in conjuring the past and posting it to you Wall."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_17/tooltip.py:2
+msgid ""
+"Vanity has not prevented you from making sure your vision of the world is "
+"crystal clear, and for that we bestow the symbol of The Glasses upon you."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_17/tooltip.py:4
+msgid ""
+"It shows that while your foresight might not always be perfect, your "
+"hindsight is 20/20."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_171/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_60/tooltip.py:2
+msgid "Infinite kindness and fortune, they smile upon you."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_171/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_60/tooltip.py:4
+msgid "You’re searches lead you to answers, and you’re feeling lucky."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_172/tooltip.py:2
+msgid "When was the last time you aligned your chakras?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_172/tooltip.py:4
+msgid "You’re supposed to do it every 3,000 miles."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_174/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_2/tooltip.py:2
+msgid "Fortune is yours, with this Omamori."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_174/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_2/tooltip.py:4
+msgid ""
+"You know that the best luck is the luck you carry with you, and having a "
+"guide sure can help."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_19/tooltip.py:2
+msgid ""
+"“Beauty is not in the face; beauty is a light in the heart” said the poet "
+"Kahlil Gibran."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_19/tooltip.py:4
+msgid "But he never had to deal with high definition video."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_19/tooltip.py:6
+msgid ""
+"You are The Realist - master of your own appearance, poet of the eyeliner "
+"pen."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_20/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_27/tooltip.py:2
+msgid "Why, look at you."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_20/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_27/tooltip.py:4
+msgid "Clearly, you bear the mark of The Fierce."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_20/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_27/tooltip.py:6
+msgid ""
+"You know what’s hot, but rock your own style, and can dance on that line "
+"between dandy and dowdy that’s invisible to lesser beings."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_21/tooltip.py:2
+msgid ""
+"Ancient symbol of self-reliance, the Knitting Needle stands for your "
+"expressive individuality in the face of commercialism."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_21/tooltip.py:4
+msgid ""
+"With your own hands you create that which you desire, and make it purely "
+"your own."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_22/tooltip.py:2
+msgid "Your future is bright."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_23/tooltip.py:2
+msgid "You’ve earned The Comb!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_23/tooltip.py:4
+msgid ""
+"A mark of neatness that exemplifies your dedication to presenting a pleasing "
+"visage to the world."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_23/tooltip.py:6
+msgid "You’ve got style, and substance too."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_26/tooltip.py:2
+msgid "The pachyderm - symbol of endless memory."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_26/tooltip.py:4
+msgid ""
+"Of course, this is a finger puppet, so it’s really a symbol of a symbol."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_26/tooltip.py:6
+msgid "But that’s semantics."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_26/tooltip.py:8
+msgid "Sorta cute, huh?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_29/tooltip.py:2
+msgid ""
+"You are the Gear Head – mark of those who know their limited-slip "
+"differential from their throttle body."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_29/tooltip.py:4
+msgid ""
+"You get all revved up at the sound of a big V8, and the smell of burning "
+"rubber brings a wistful tear to your eye."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_3/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_61/tooltip.py:2
+msgid ""
+"The Fortune Teller, The Cootie Catcher - an ancient, noble device of truth-"
+"seekers."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_3/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_61/tooltip.py:4
+msgid ""
+"Let fortunes be told forthrightly, with simple honesty guided by blind "
+"chance."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_31/tooltip.py:2
+msgid "You know what /."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_31/tooltip.py:4
+msgid "means, and can tell a 404 from a 509."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_31/tooltip.py:6
+msgid ""
+"You’re the one friends turn to when they need to know what’s the new hot "
+"device."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_31/tooltip.py:8
+msgid "Geek?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_31/tooltip.py:10
+msgid ""
+"Yes, some call you that, but you are worthy of a far more majestic moniker, "
+"for you are The Technologist!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_32/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_97/tooltip.py:2
+msgid ""
+"You’re in good company - beloved by visionaries before you, the little "
+"notebook says you know how to express yourself and keep it buttoned up at "
+"the same time."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_32/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_97/tooltip.py:4
+msgid "You know the best experiences deserve a record."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_33/tooltip.py:2
+msgid "Naughty, naughty!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_33/tooltip.py:4
+msgid "Your pursuit of [CENSORED] is [CENSORED], and."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_33/tooltip.py:6
+msgid ""
+"you’re unafraid to cross new boundaries in search of [CENSORED] and "
+"[CENSORED]."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_38/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_63/tooltip.py:2
+msgid "Party time?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_38/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_63/tooltip.py:4
+msgid "Excellent!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_38/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_63/tooltip.py:6
+msgid ""
+"You are the breeze that blows through a summer evening with friends new and "
+"old."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_38/tooltip.py:8
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_63/tooltip.py:8
+msgid ""
+"The Cocktail Swordsman – or woman – knows how to parry with these weapons of "
+"social mirth."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_39/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_44/tooltip.py:2
+msgid "Candy – manna of the gods, because gods don't get cavities."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_39/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_44/tooltip.py:4
+msgid "That's your symbol, for you are the Sweet One."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_39/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_44/tooltip.py:6
+msgid ""
+"You cannot resist quick, indulgent temptation, for you know the joy it "
+"brings."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_41/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_98/tooltip.py:2
+msgid ""
+"An apt (if cliché) symbol for your ability to simultaneously check your "
+"email, post on someone’s Wall, watch a movie trailer and Tweet about it."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_41/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_98/tooltip.py:4
+msgid "You’re like a human one of these!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_42/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_99/tooltip.py:2
+msgid ""
+"You’re the Multi-tasker, attacking multiple projects and sites "
+"simultaneously."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_42/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_99/tooltip.py:4
+msgid "you come prepared and always have the right tool for the job."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_45/tooltip.py:2
+msgid ""
+"Gum represents a commitment to freshness, to renewal, and to indecision – "
+"you want to have a snack yet you don’t want to eat, so you chew."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_45/tooltip.py:4
+msgid "Chewing helps you think."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_47/tooltip.py:2
+msgid "You bear the mark of Cereal."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_47/tooltip.py:4
+msgid "Sustenance in its simplest, most basic form."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_47/tooltip.py:6
+msgid "Compact, practical, tidy and filling – read into it all you like."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_48/tooltip.py:2
+msgid "Sweet cool and fresh."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_48/tooltip.py:4
+msgid ""
+"That describes both you and your favorite indulgences - just a little trifle "
+"to brighten your day, as you invigorate the world around you."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_5/tooltip.py:2
+msgid "You have drawn The Compass, for you know which way is up."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_5/tooltip.py:4
+msgid ""
+"Looking for adventure and whatever comes your way, you’re as prepared as a "
+"scout and as bold as a Barbarian."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_59/tooltip.py:2
+msgid "Aha, The Magician!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_59/tooltip.py:4
+msgid ""
+"You posses unusual powers, and can conjure up the truth from any situation."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_59/tooltip.py:6
+msgid "Also, you can turn the world on with your smile."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_62/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_76/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_88/tooltip.py:2
+msgid "Everything’s better with a monkey in it."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_62/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_76/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_88/tooltip.py:4
+msgid "Monkeys are fun, smart, and optimistic."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_62/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_76/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_88/tooltip.py:6
+msgid ""
+"You got this crafty monkey because it reflects your own delightful optimism "
+"and playfulness."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_62/tooltip.py:8
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_76/tooltip.py:8
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_88/tooltip.py:8
+msgid "Or maybe you like bananas?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_64/tooltip.py:2
+msgid ""
+"The symbol of travel, of paths taken and untaken, of sleeping upright in a "
+"middle seat."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_64/tooltip.py:4
+msgid "You are The Traveler."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_65/tooltip.py:2
+msgid "You like to set a course for adventure, your mind on a new experience."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_65/tooltip.py:4
+msgid "Your treasured memories are your reward."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_65/tooltip.py:6
+msgid "Therefore you richly deserve The Nautilus!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_66/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_77/tooltip.py:2
+msgid "The instant memory, quickly frozen and indelibly saved."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_66/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_77/tooltip.py:4
+msgid ""
+"Yours is the nostalgic type, pouring over cherished images and captured "
+"moments."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_66/tooltip.py:6
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_77/tooltip.py:6
+msgid "You might also like a naughty photo here and there."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_68/tooltip.py:2
+msgid ""
+"Whether it’s a cherished memento of a magical time or corny souvenir of a "
+"tacky holiday, you understand the value of your memories."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_69/tooltip.py:2
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_70/tooltip.py:2
+msgid ""
+"The stamp - ubiquitous symbol of communication, of correspondence, which "
+"you’ve earned."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_69/tooltip.py:4
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_70/tooltip.py:4
+msgid ""
+"If you have these, you most likely checked your email halfway through "
+"reading this."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_71/tooltip.py:2
+msgid "You hold The Keys – and indeed, they are your symbol."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_71/tooltip.py:4
+msgid ""
+"Master of your domain, you come and go as you please, wherever you please."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_71/tooltip.py:6
+msgid "You have every password memorized, know every PIN by heart."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_72/tooltip.py:2
+msgid "You came, you saw, you captured!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_72/tooltip.py:4
+msgid ""
+"Always at the ready to preserve a moment, share it with the world, and tag "
+"embarrassing party photos of your friends."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_79/tooltip.py:2
+msgid "What’s next?"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_79/tooltip.py:4
+msgid ""
+"you’re never at a loss to answer that, because you’ve planned what’s next."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_79/tooltip.py:6
+msgid ""
+"Your organizational skills serve you well, and people count on you to get it "
+"done - right and on time."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_81/tooltip.py:2
+msgid ""
+"Technology lives to serve, and you like your information portable, "
+"pocketable and sharable."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_81/tooltip.py:4
+msgid "That’s how data becomes action, and gadgets become essential."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_82/tooltip.py:2
+msgid ""
+"You know what's next; you have it all written down in your date book - the "
+"symbol of The Organizer."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_82/tooltip.py:4
+msgid ""
+"You're the one we turn to when we are in doubt, for you hold the answers."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_83/tooltip.py:2
+msgid "\"Seriousness is the only refuge of the shallow.\" -Oscar Wilde"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_85/tooltip.py:8
+msgid "Everybody's having fun when you're around."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_87/tooltip.py:2
+msgid "You are the Pet Whisperer!"
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_87/tooltip.py:4
+msgid "Play time to you is magnificent obsession, not mere diversion."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_87/tooltip.py:6
+msgid ""
+"You see the value of a faithful companion who will lick your face and lay on "
+"your keyboard."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_89/tooltip.py:2
+msgid ""
+"You are bright, optimistic, and careful when making a move – the very "
+"embodiment of Strategy."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_89/tooltip.py:4
+msgid ""
+"The world before you is as a game board, and you glide gracefully within it, "
+"taking and bringing joy."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_92/tooltip.py:2
+msgid ""
+"Sometimes the greatest in puzzles in life are solved in a few simple twists."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_92/tooltip.py:4
+msgid "We think you should turn your main finger topwise."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_94/tooltip.py:2
+msgid "Ah, fickle chance."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_94/tooltip.py:4
+msgid "Who knows what a roll of the dice will bring."
+msgstr ""
+
+#: locale/dbgettext/things/quizanswerbyimage/QuizAnswerByImage_94/tooltip.py:6
+msgid ""
+"You live for the unknown - you look fortune straight in the eye and play the "
+"numbers she gives you."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_1/question.py:2
+msgid ""
+"Doing it all for the children- there's a whole world of resources out there "
+"that enrich kids’ lives."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_10/question.py:2
+msgid "You find a wallet stuffed with lots of cash, but no ID."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_10/question.py:4
+msgid "After thinking about it you decide to:"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_11/question.py:2
+msgid "You’re taking a vacation alone."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_11/question.py:4
+msgid "Your destination:"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_12/question.py:2
+msgid ""
+"A car towing a giant trailer signals that they need to merge in ahead of you."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_12/question.py:4
+msgid "Do you:"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_13/question.py:2
+msgid "Blackout!"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_13/question.py:4
+msgid "You were watching TV, but now you have to find something else to do."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_13/question.py:6
+msgid "You light up some candles, then:"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_14/question.py:2
+msgid "It’s midnight."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_14/question.py:4
+msgid "Your hard drive just died."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_14/question.py:6
+msgid "You have an important presentation at 8 am."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_14/question.py:8
+msgid "What now, hot shot?"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_15/question.py:2
+msgid "Your company has a new policy - no social networking at work."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_15/question.py:4
+msgid "You handle the situation by:"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_16/question.py:2
+msgid ""
+"The Internet is what you make of it - from serious business to rapping "
+"grannies."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_16/question.py:4
+msgid "You make it yours by:"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_17/question.py:2
+msgid "Online,  you can be the life of the party or a virtual wallflower."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_17/question.py:4
+msgid "How social is your network?"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_18/question.py:2
+msgid ""
+"It’s a perfect Spring day - birds are chirping, sun is shining, and you are:"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_19/question.py:2
+msgid "Pop Quiz: You and the Internet are dating."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_19/question.py:4
+msgid "How would you describe the relationship?"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_2/question.py:2
+msgid "Party time, and you get to dress up."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_2/question.py:4
+msgid "Your fashion mantra is..."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_20/question.py:2
+msgid "We all like to connect to this great big thing we call the Internet."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_20/question.py:4
+msgid "Where do you do it, and how?"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_3/question.py:2
+msgid ""
+"Your considerate dentist has a massive selection of reading material, and "
+"you’ve got 30 minutes before your appointment."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_3/question.py:4
+msgid "Do you read about:"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_4/question.py:2
+msgid "There's a big political upheaval going on in your country."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_4/question.py:4
+msgid "You leap into action and:"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_5/question.py:2
+msgid ""
+"You run into a lost tourist, who asks you how to get to the airport - she "
+"only has an hour to make her flight."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_5/question.py:4
+msgid "You respond by:"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_6/question.py:2
+msgid "Guess what?"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_6/question.py:4
+msgid "Your office is flooded, so you get the day off work."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_6/question.py:6
+msgid "A perfect day for:"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_7/question.py:2
+msgid "It’s your third date and your paramour is coming over for dinner."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_7/question.py:4
+msgid "You’ll:"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_8/question.py:2
+msgid ""
+"Think fast: you run into an old co-worker who says “Hey, let’s get together "
+"soon”."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_8/question.py:4
+msgid "You reply:"
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_9/question.py:2
+msgid "You’re taking an online personality quiz."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_9/question.py:4
+msgid ""
+"It asks you to take an honest look at yourself and fill in what you see."
+msgstr ""
+
+#: locale/dbgettext/things/quizquestion/QuizQuestion_9/question.py:6
+msgid "You write “I am:"
+msgstr ""
+
+#: templates/layouts/base.html:30 templates/things/collage.html:57
+msgid "Firefox 4 presents"
+msgstr ""
+
+#: templates/layouts/base.html:31
+msgid "Webify Me!"
+msgstr ""
+
+#: templates/layouts/base.html:33 templates/things/collage.html:64
+msgid "Take The Quiz"
+msgstr ""
+
+#: templates/layouts/base.html:34 templates/things/collage.html:65
+msgid "See The Gallery"
+msgstr ""
+
+#: templates/layouts/base.html:35 templates/things/collage.html:66
+msgid "Learn About Firefox 4"
+msgstr ""
+
+#: templates/layouts/base.html:47
+msgid "Firefox4 Features"
+msgstr ""
+
+#: templates/layouts/base.html:48
+msgid "Mozilla"
+msgstr ""
+
+#: templates/layouts/base.html:49
+msgid "Newsletter Sign-up"
+msgstr ""
+
+#: templates/layouts/base.html:53
+msgid "Legal"
+msgstr ""
+
+#: templates/layouts/base.html:54
+msgid "Privacy Policy"
+msgstr ""
+
+#: templates/shared/_download_day_reminder.html:2
+msgid "Download Firefox 4"
+msgstr ""
+
+#: templates/shared/_download_day_reminder.html:4
+msgid "Get A Download Day Reminder"
+msgstr ""
+
+#: templates/shared/_download_day_signup.html:7
+msgid "Download Day"
+msgstr ""
+
+#: templates/shared/_download_day_signup.html:8
+msgid "March 1st, 2011"
+msgstr ""
+
+#: templates/shared/_download_day_signup.html:12
+msgid "Enter your email to get a Firefox 4 download reminder on Download Day!*"
+msgstr ""
+
+#: templates/shared/_download_day_signup.html:12
+msgid "*(You can also sign up at the end of the quiz.)"
+msgstr ""
+
+#: templates/shared/_download_day_signup.html:18
+msgid "Email Required!"
+msgstr ""
+
+#: templates/shared/_download_day_signup.html:22
+msgid "ENTER"
+msgstr ""
+
+#: templates/shared/_share.html:7
+#: templates/things/_collage_public_tools.html:8
+msgid "What does your internet look like? Create your own Webify Me collage"
+msgstr ""
+
+#: templates/things/_collage_public_tools.html:8
+msgid "Tweet"
+msgstr ""
+
+#: templates/things/_collage_tools.html:12
+msgid "Download a Snapshot"
+msgstr ""
+
+#: templates/things/_collage_tools.html:18
+msgid "Post to Facebook"
+msgstr ""
+
+#: templates/things/_collage_tools.html:20
+msgid "What does your internet look like? Create your own Webify Me collage "
+msgstr ""
+
+#: templates/things/_collage_tools.html:21
+msgid "Share on Twitter"
+msgstr ""
+
+#: templates/things/_gallery_navigation.html:14
+msgid "More!"
+msgstr ""
+
+#: templates/things/collage.html:8 templates/things/collage.html.py:15
+msgid "Webify Me: Your Internet Visualized"
+msgstr ""
+
+#: templates/things/collage.html:9 templates/things/collage.html.py:16
+#, python-format
+msgid ""
+"Everyone's Internet is a little bit different. I just created my own Webify "
+"Me collage at %(bitlyurl)s. Make your own and find out how your Internet "
+"looks!"
+msgstr ""
+
+#: templates/things/collage.html:52
+msgid "collage"
+msgstr ""
+
+#: templates/things/collage.html:61
+msgid "Web"
+msgstr ""
+
+#: templates/things/features.html:12
+msgid "Learn about Firefox 4!"
+msgstr ""
+
+#: templates/things/features.html:13
+msgid ""
+"Firefox 4 brings with it a host of new awesome features for you to get the "
+"most of your internet."
+msgstr ""
+
+#: templates/things/features.html:14
+msgid "See them all!"
+msgstr ""
+
+#: templates/things/features.html:25
+msgid "Super Speed"
+msgstr ""
+
+#: templates/things/features.html:26
+msgid ""
+"Eat my dust! Firefox 4 bumps your browsing into hyperdrive: leaving all the "
+"lesser browsers behind."
+msgstr ""
+
+#: templates/things/features.html:27 templates/things/features.html.py:40
+#: templates/things/features.html:53 templates/things/features.html.py:66
+#: templates/things/features.html:79 templates/things/features.html.py:92
+#: templates/things/features.html:105 templates/things/features.html.py:118
+#: templates/things/features.html:131 templates/things/features.html.py:144
+msgid "Learn more"
+msgstr ""
+
+#: templates/things/features.html:38
+msgid "Private Browsing"
+msgstr ""
+
+#: templates/things/features.html:39
+msgid "Be an Internet Ninja! Leave no trace of your travels, online or off."
+msgstr ""
+
+#: templates/things/features.html:51
+msgid "Password Manager"
+msgstr ""
+
+#: templates/things/features.html:52
+msgid ""
+"Password Manager is the Master of the Keys, only it has the password to the "
+"deepest dungeons of your online existence.  Let’s keep it that way."
+msgstr ""
+
+#: templates/things/features.html:64
+msgid "Awesome Bar"
+msgstr ""
+
+#: templates/things/features.html:65
+msgid ""
+"Infallible memory! Always find that one cool site, for Firefox 4 is "
+"augmented with the bar of awesomeness. It remembers exactly what you did, "
+"even when you don't."
+msgstr ""
+
+#: templates/things/features.html:77
+msgid "Anti-Phishing"
+msgstr ""
+
+#: templates/things/features.html:78
+msgid ""
+"Ready to rumble! Firefox 4 armed to the teeth with the latest anti-phishing "
+"and anti-malware weapons. Bring it on."
+msgstr ""
+
+#: templates/things/features.html:90
+msgid "Session Restore"
+msgstr ""
+
+#: templates/things/features.html:91
+msgid ""
+"All is not lost! You can get back to where you once belonged, just by "
+"invoking the magical powers of Session Restore."
+msgstr ""
+
+#: templates/things/features.html:103
+msgid "One-Click Bookmarking"
+msgstr ""
+
+#: templates/things/features.html:104
+msgid ""
+"As easy as clapping on a light, it's what you’ve been waiting for - the one-"
+"click bookmark. Don't you have enough to do without having to suffer the "
+"indignity of multiple clicks?"
+msgstr ""
+
+#: templates/things/features.html:116
+msgid "Easy Customization"
+msgstr ""
+
+#: templates/things/features.html:117
+msgid ""
+"Wield the tools to make it yours, for you are unique - and your browser can "
+"reflect that."
+msgstr ""
+
+#: templates/things/features.html:129
+msgid "Tabs"
+msgstr ""
+
+#: templates/things/features.html:130
+msgid ""
+"Go ahead and open up all the tabs you want - there's never a last call for "
+"browsing."
+msgstr ""
+
+#: templates/things/features.html:142
+msgid "Personas"
+msgstr ""
+
+#: templates/things/features.html:143
+msgid ""
+"Who are you, really? that's something you can decide, and decide again, and "
+"again. Create a persona for each world you live in. Just don't get "
+"confused,  or they'll make a movie about you."
+msgstr ""
+
+#: templates/things/home.html:9
+msgid "The Internet: A Whole Bunch of Stuff"
+msgstr ""
+
+#: templates/things/home.html:11
+msgid ""
+"Everyone's Internet is a little bit different: Social networking. Travel "
+"blogs. Political commentary. Finely choreographed group dance videos. Cat "
+"pictures (so many cat pictures). We're all pulling from the same grab-bag of "
+"Internet Things, but it's our individual choices that create our unique "
+"collage of online stuff. And all you have to do to visualize said stuff is "
+"answer a few simple questions and voila! Your own custom collage of how you "
+"experience the web. Isn't the Internet awesome?"
+msgstr ""
+
+#: templates/things/home.html:13
+msgid "Get Started!"
+msgstr ""
+
+#: templates/things/home.html:16
+msgid "Check out other people's internets:"
+msgstr ""
+
+#: templates/things/home.html:25
+msgid "See More"
+msgstr ""
+
+#: templates/things/question.html:31
+msgid "A little more about you..."
+msgstr ""
+
+#: templates/things/question.html:33
+msgid "Name"
+msgstr ""
+
+#: templates/things/question.html:38
+msgid "E-Mail"
+msgstr ""
+
+#: templates/things/question.html:45
+msgid ""
+"Sign-up for our monthly newsletter featuring special Mozilla news, Firefox "
+"tips & tricks and more!"
+msgstr ""
+
+#: templates/things/question.html:51
+msgid "Include my collage in the gallery"
+msgstr ""
+
+#: templates/things/question.html:58
+msgid "Go Back"
+msgstr ""
+
+#: templates/things/question.html:59
+msgid "Skip"
+msgstr ""
+
+#: things/views.py:228
+msgid "Error saving your email address"
+msgstr ""
+
+#: things/views.py:239
+msgid "Error saving the collage."
+msgstr ""
+
+#: things/views.py:307
+msgid "Error saving the collage"
+msgstr ""
+
+#: utils/translation/trans_real.py:529
+msgid "DATE_FORMAT"
+msgstr ""
+
+#: utils/translation/trans_real.py:530
+msgid "DATETIME_FORMAT"
+msgstr ""
+
+#: utils/translation/trans_real.py:531
+msgid "TIME_FORMAT"
+msgstr ""
+
+#: utils/translation/trans_real.py:552
+msgid "YEAR_MONTH_FORMAT"
+msgstr ""
+
+#: utils/translation/trans_real.py:553
+msgid "MONTH_DAY_FORMAT"
+msgstr ""

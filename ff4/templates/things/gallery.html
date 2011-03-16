@@ -1,0 +1,22 @@
+{% extends "layouts/base.html" %}
+{% block page_class %}gallery-page{% endblock %}
+{% block scripts %}
+	<script type="text/javascript" src="{{ STATIC_URL }}js/gallery.js"></script>
+{% endblock %}
+{% block content %}
+	
+	<br class="clr" />
+	
+	<div id="gallery_wrapper">
+	<div id="gallery_container">
+		{% include "things/_gallery_page.html" %}
+	</div>
+	</div>
+	
+	<br class="clr" />
+	
+	<div class="pagination">
+		{% include "things/_gallery_navigation.html" %}
+	</div>
+	
+{% endblock %}

@@ -1,0 +1,57 @@
+<script type="text/javascript" src="/static/js/zeroclipboard/ZeroClipboard.js"></script>
+
+<div class="your-collage-tools">
+	<br class="clr" />
+	{% if bitly_url %}
+	<div class="url">
+		<span>Here’s your URL:</span>
+		<a class="short-url" href="{{ bitly_url }}" target="_blank">{{ bitly_url }}</a>
+		<div id="copy-wrapper"><div id="copy-btn" class="copy">Copy</div></div>
+	</div>
+	{% endif %}
+	<a id="snapshot-downloader" class="snapshot disabled" href="#" target="_blank"><span>{{ _('Download a Snapshot') }}</span></a>
+	<br class="clr" />
+</div>
+
+<div class="share your-share">
+	<a target="_blank" class="facebook" href="http://www.facebook.com/share.php?u={{ current_url }}">
+		<span>{{ _('Post to Facebook') }}</span>
+	</a>
+	<a target="_blank" class="twitter" href="http://twitter.com/home?status={{ _('What does your internet look like? Create your own Webify Me collage ') }}:%20@{{ bitly_url }}">
+		<span>{{ _('Share on Twitter') }}</span>
+	</a>
+	
+	{% include "shared/_download_day_reminder.html" %}
+	<br class="clr" />
+</div>
+
+<script type="text/javascript">
+  
+  function init_zclip() {
+    var clip = null;
+    ZeroClipboard.setMoviePath( '/static/js/zeroclipboard/ZeroClipboard10.swf' );
+
+    clip = new ZeroClipboard.Client();
+  	clip.setHandCursor( true );
+    clip.setCSSEffects( true );
+
+    clip.addEventListener( 'mouseOver', function(client) {
+      $('#copy-btn').css("background-image","url(/static/img/blue_arrow_right.png)");
+      $('#copy-btn').css('background-position','100% 7px');
+      clip.setText( 'http://bit.ly/gyWp3m' );
+    });
+    clip.addEventListener( 'mouseOut', function(client) {
+      $('#copy-btn').css("background-image","url(/static/img/grey_arrow_right.png)");
+      $('#copy-btn').css('background-position','100% 5px');
+    });
+    clip.addEventListener( 'mouseDown', function(client) {
+      clip.setText( 'http://bit.ly/gyWp3m' );
+    });
+
+    clip.glue('copy-btn');
+  }
+
+  $(window).load(function () {
+    init_zclip();
+  });
+</script>

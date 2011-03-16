@@ -1,0 +1,15 @@
+{% if chapter > 1 %}
+<a class="prev gallery_nav" href="/gallery/chap/{{ chapter - 1 }}/">{% trans %}Back!{% endtrans %}</a>
+{% endif %}
+
+<span class="pages"> 
+	{% for i in range(1, page_object.num_pages + 1) %}
+    <div>
+      <a {% if loop.first %}class="active" {% endif %}href="/gallery/chap/{{ chapter }}/{{ i }}/"><span>{{ i }}</span></a>
+    </div>
+	{% endfor %}
+</span>
+
+{% if more %}
+<a class="next gallery_nav" href="/gallery/chap/{{ chapter + 1 }}/">{{ _('More!') }}</a>
+{% endif %}

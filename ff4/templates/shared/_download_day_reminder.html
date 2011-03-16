@@ -1,0 +1,5 @@
+{% if FIREFOX_DOWNLOAD_URL %}
+	<a class="download" href="{{ FIREFOX_DOWNLOAD_URL }}">{{ _('Download Firefox 4') }}</a>
+{% else %}
+	<a class="download download-reminder" href="#">{{ _('Get A Download Day Reminder') }}</a>
+{% endif %}

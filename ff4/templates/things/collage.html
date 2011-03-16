@@ -1,0 +1,80 @@
+{% extends "layouts/base.html" %}
+
+
+
+
+{% if bitly_url %}
+{% block metatags %}
+<meta name="title" content="{{ _('Webify Me: Your Internet Visualized') }}" /> 
+<meta name="description" content="'Everyone's Internet is a little bit different. I just created my own Webify Me collage at {{ bitly_url }}. Make your own and find out how your Internet looks!" />
+<meta name="image" content="http://{{ site_url }}/static/collages/thumbs_gallery/{{ collage.slug }}.jpg" />
+<link rel="image_src" href="http://{{ site_url }}/static/collages/thumbs_gallery/{{ collage.slug }}.jpg" />
+<meta property="og:image" content="http://{{ site_url }}/static/collages/thumbs_gallery/{{ collage.slug }}.jpg" />
+{% endblock %}
+
+<script type="text/javascript">
+        var og_meta_title = "{{ _('Webify Me: Your Internet Visualized') }}";
+        var og_meta_desc = "{{ _('Everyone\'s Internet is a little bit different. I just created my own Webify Me collage at %(bitlyurl)s. Make your own and find out how your Internet looks!') % {'bitlyurl': 'merp'} }}";
+        var og_meta_img = "{{ collage.snapshot_url() }}";
+</script>
+{% endif %}
+
+
+
+{% block scripts %}
+	<script type="text/javascript">
+	
+	things.isCollageOwner = {% if is_owner %}true{% else %}false{% endif %};
+	things.collageData = {{ collage.images_coords or '{}' }};
+	things.snapshotUrl = '{{ collage.snapshot_url() or '' }}';
+	things.backgroundData = {{ backgrounds or '[]' }};
+
+	</script>
+
+	<script type="text/javascript" src="{{ STATIC_URL }}js/collage.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var collage = things.Collage($('#collage-canvas'), things.collageData);
+			things.snapshotChecker = null;
+			collage.draw();
+			if(things.collageData['background']) {
+				things.setBackground(things.collageData['background']);
+			}
+		
+			if( things.isCollageOwner ) {
+				things.BackgroundSelector(things.backgroundData);
+				things.snapshotChecker = things.SnapshotChecker();
+			}
+		});
+	</script>
+{% endblock %}
+
+{% block page_class %}{{ _('collage') }}{% endblock %}
+
+{% block header %}
+	<div id="header">
+    <a id="brand" href="http://mozilla.com">Mozilla</a>
+		<div id="intro-line">{{ _('Firefox 4 presents') }}</div>
+
+					<br class="clr" />
+		<h1 class="name-title">
+        {{ collage.username|escape }}&rsquo;s <span>{{ _('Web') }}</span>
+    </h1>
+    <ul class="nav">
+				<li id="quiz"><a href="/quiz/"><span>{{ _('Take The Quiz') }}</span></a></li>
+				<li id="gallery"><a href="/gallery/"><span>{{ _('See The Gallery') }}</span></a></li>
+   			<li id="learn"><a href="/features/"><span>{{ _('Learn About Firefox 4') }}</span></a></li>
+		</ul>
+	</div>
+{% endblock %}
+
+{% block content %}
+	<div id="collage-canvas"></div>
+
+	{% if is_owner %}
+		{% include "things/_collage_tools.html" %}
+	{% else %}
+		{% include "things/_collage_public_tools.html" %}
+	{% endif %}
+{% endblock %}
