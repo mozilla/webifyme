@@ -31,51 +31,48 @@ Prepare you development environment:
 
     pip install -r requirements/dev.txt -r requirements/compiled.txt
 
+### Setup
+
+Get a username and API key from http://bit.ly/ by signing up and and requesting an API key (http://bit.ly/a/your_api_key)
+
+Now add the settings to settings_local.py (BITLY_USERNAME / BITLY_APIKEY)
+
+Create a database and be sure to note the name then make a copy of settings_local.py.default called settings_local.py and update your database settings
+
+Sync your db:
+
+	python ff4/manage.py syncdb
+
+Run the migrations
+
+    python ff4/manage.py migrate
+
+Then load the fixtures
+
+    python ff4/manage.py loaddata ff4/things/fixtures/*.yaml
+
+Then run the image-sizing script - this checks the static/object dirs and updates the images tables with the correct image dimensions
+
+    python ff4/manage.py set_image_sizes
+
+Start your dev server:
+    python ff4/manage.py migrate runserver
 
 
 
+-- tmp --
 
-### Dependencies
-install [beanstalkd][beanstalkd]
-
-Then, run
-
-      easy_install pip
-
-followed by
-
-      ./bootsrap.sh
-
-and spin up beanstalkd
+and spin up beanstalkd (and settings in settings_local_)
 
       ./beanstalkd -d -l 10.0.1.5 -p 11300
 
 [beanstalkd]: http://kr.github.com/beanstalkd/
-
-
 
 ### Django
 Put your database and beanstalkd settings and [bitly][bitly] api creds in `settings_local.py`
 
 [bitly]: http://bit.ly/a/account
 
-South is used for migrations, so to sync the db, run
-
-      manage.py syncdb
-
-and to run the migs
-
-      manage.py migrate
-
-then load the fixtures
-
-      manage.py loaddata things/fixtures/*.yaml
-
-then run the image-sizing script - this checks the static/object dirs and updates the images tables with the correct image dimensions
-
-      manage.py set_image_sizes
-
-### Background Tasks
 Static collage images are rendered by a (beanstalkd) background job, located at ff4/things/tasks/render.collage.py
 
 This task should be monitored by a tool such as [God][God]. An example God config is included in the project root.
@@ -86,7 +83,6 @@ Load and start up God by
 
 [God]: https://github.com/mojombo/god
 
+-- tmp
 
 
-Internationalization
----
