@@ -1,0 +1,3 @@
+[submodule "ff4/vendor"]
+	path = ff4/vendor
+	url = git@github.com:mozilla/webifyme-lib.git

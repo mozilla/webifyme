@@ -7,11 +7,33 @@ Firefox Internet Things is a [Django][Django]-based web application...
 
 Getting Started
 ---
-### Python
+
+### Python 
+
 You need Python 2.6. Also, you probably want to run this application in a
 [virtualenv][virtualenv] environment
-
 [virtualenv]: http://pypi.python.org/pypi/virtualenv
+
+To install virtualenv (if you don't have it already):
+
+    easy_install virtualenv
+
+And pip (package manager):
+
+    easy_install pip
+
+Start and activate the virtualenv:
+
+    virtualenv --distribute --no-site-packages ./ffenv
+    source ./ffenv/bin/activate
+
+Prepare you development environment:
+
+    pip install -r requirements/dev.txt -r requirements/compiled.txt
+
+
+
+
 
 ### Dependencies
 install [beanstalkd][beanstalkd]
@@ -29,6 +51,8 @@ and spin up beanstalkd
       ./beanstalkd -d -l 10.0.1.5 -p 11300
 
 [beanstalkd]: http://kr.github.com/beanstalkd/
+
+
 
 ### Django
 Put your database and beanstalkd settings and [bitly][bitly] api creds in `settings_local.py`
