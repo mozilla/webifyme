@@ -96,8 +96,6 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.locale.LocaleMiddleware',
-    'ff4.middleware.SQLLogMiddleware',
-    'ff4.middleware.DetectReferrer'
 )
 
 ROOT_URLCONF = 'ff4.urls'
