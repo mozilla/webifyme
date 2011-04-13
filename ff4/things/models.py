@@ -61,7 +61,7 @@ class Collage(models.Model):
     featured = models.BooleanField()
     in_gallery = models.BooleanField()
     filename = models.CharField(max_length=75)
-    bitly_url = models.CharField(max_length=75, blank=True)
+    bitly_url = models.CharField(max_length=75, null=True, blank=True)
     
     def save(self):
         if self.slug == "":
