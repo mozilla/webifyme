@@ -51,10 +51,6 @@ Then load the fixtures
 
     python ff4/manage.py loaddata ff4/things/fixtures/*.yaml
 
-Then run the image-sizing script - this checks the static/object dirs and updates the images tables with the correct image dimensions
-
-    python ff4/manage.py set_image_sizes
-
 Start your dev server:
     python ff4/manage.py runserver
 
