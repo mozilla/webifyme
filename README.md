@@ -56,7 +56,7 @@ Then run the image-sizing script - this checks the static/object dirs and update
     python ff4/manage.py set_image_sizes
 
 Start your dev server:
-    python ff4/manage.py migrate runserver
+    python ff4/manage.py runserver
 
 
 
