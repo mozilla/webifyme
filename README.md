@@ -22,6 +22,20 @@ And pip (package manager):
 
     easy_install pip
 
+You will also need RabbitMQ which is the backend for the message queue system:
+
+    sudo [port|apt-get|yum] install rabbitmq-server
+
+Start RabbitMQ:
+
+    sudo rabbitmq-server
+
+Set up a user and vhost:
+
+    sudo rabbitmqctl add_user [USER] [PASS]
+    sudo rabbitmqctl add_vhost [VHOST]
+    sudo rabbitmqctl set_permissions -p [VHOST] [USER] "" ".*" ".*"
+
 Start and activate the virtualenv:
 
     virtualenv --distribute --no-site-packages ./ffenv
@@ -50,6 +64,10 @@ Run the migrations
 Then load the fixtures
 
     python ff4/manage.py loaddata ff4/things/fixtures/*.yaml
+
+Fire up a celery worker:
+
+    python ff4/manage.py celeryd --verbosity=2 --loglevel=DEBUG
 
 Start your dev server:
     python ff4/manage.py runserver

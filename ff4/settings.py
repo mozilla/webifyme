@@ -1,6 +1,5 @@
 import settings_local
 import os
-import beanstalkc
 
 # Django settings for ff4 project.
 
@@ -131,6 +130,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.messages',
+    'djcelery',
     # Uncomment the next line to enable the admin:
     #'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
@@ -143,6 +143,7 @@ INSTALLED_APPS = (
 FIXTURE_DIRS = (
     PROJECT_PATH+'/fixtures/',
 )
+
 SOUTH_TESTS_MIGRATE = False
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -152,12 +153,15 @@ EMAIL_HOST_USER = settings_local.EMAIL_HOST_USER
 EMAIL_HOST_PASSWORD = settings_local.EMAIL_HOST_PASSWORD
 EMAIL_USE_TLS = settings_local.EMAIL_USE_TLS
 
-BEANSTALK = beanstalkc.Connection(settings_local.BEANSTALK_HOST, settings_local.BEANSTALK_PORT)
-
 FIREFOX_DOWNLOAD_URL = "http://www.mozilla.com/en-US/firefox/" #False # set this on download day to change 'Get Download Day' reminder links to 'Download Firefox 4' links
 
 SNAPSHOT_BASE_URL = '/static/collages/'
 
-
 BITLY_USERNAME = settings_local.BITLY_USERNAME
 BITLY_APIKEY = settings_local.BITLY_APIKEY
+
+BROKER_HOST = settings_local.BROKER_HOST
+BROKER_PORT = settings_local.BROKER_PORT
+BROKER_USER = settings_local.BROKER_USER
+BROKER_PASSWORD = settings_local.BROKER_PASSWORD
+BROKER_VHOST = settings_local.BROKER_VHOST

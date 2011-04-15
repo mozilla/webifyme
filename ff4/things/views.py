@@ -153,7 +153,8 @@ def collage(request, slug='0'):
             collage.filename = '' # clear out any old snapshot filename
             collage.images_coords = json.dumps(currentCoords)
             collage.save()                  # and save the record back to the db
-            settings.BEANSTALK.put(str(slug)) # queue up the job for render_collage to pick up
+
+            ReadyImages.delay(str(slug)) # queue up the job for render_collage to pick up
         return HttpResponse(slug)
         
     context = {'collage': collage,'is_owner':False}
