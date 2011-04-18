@@ -1,7 +1,7 @@
 import random
 import json
 import string
-import beanstalkc
+
 from django.core import serializers
 from django.core.paginator import Paginator
 from django.http import Http404, HttpResponse, HttpResponseRedirect
