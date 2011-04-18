@@ -1,0 +1,60 @@
+- fields: { question: "It's Friday, 4 pm, and you’re planning your weekend on the Internet. Do you spend your afternoon:" }
+  model: things.QuizQuestion
+  pk: 1
+- fields: { question: "Party time, and you get to dress up. Your fashion mantra is..." }
+  model: things.QuizQuestion
+  pk: 2
+- fields: { question: "Your considerate dentist has a massive selection of reading material, and you’ve got 30 minutes before your appointment. Do you read about: " }
+  model: things.QuizQuestion
+  pk: 3
+- fields: { question: "There's a big political upheaval going on in your country. You leap into action and:" }
+  model: things.QuizQuestion
+  pk: 4
+- fields: { question: "You run into a lost tourist, who asks you how to get to the airport - she only has an hour to make her flight. You respond by:" }
+  model: things.QuizQuestion
+  pk: 5
+- fields: { question: "Guess what? Your office is flooded, so you get the day off work. A perfect day for: " }
+  model: things.QuizQuestion
+  pk: 6
+- fields: { question: "It’s your third date and your paramour is coming over for dinner. You’ll:" }
+  model: things.QuizQuestion
+  pk: 7
+- fields: { question: "Think fast: you run into an old co-worker who says “Hey, let’s get together soon”.  You reply: " }
+  model: things.QuizQuestion
+  pk: 8
+- fields: { question: "You’re taking an online personality quiz. It asks you to take an honest look at yourself and fill in what you see. You write “I am: " }
+  model: things.QuizQuestion
+  pk: 9
+- fields: { question: "You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:" }
+  model: things.QuizQuestion
+  pk: 10
+- fields: { question: "You’re taking a vacation alone. Your destination:" }
+  model: things.QuizQuestion
+  pk: 11
+- fields: { question: "A car towing a giant trailer signals that they need to merge in ahead of you. Do you:" }
+  model: things.QuizQuestion
+  pk: 12
+- fields: { question: "Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:" }
+  model: things.QuizQuestion
+  pk: 13
+- fields: { question: "It’s midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?" }
+  model: things.QuizQuestion
+  pk: 14
+- fields: { question: "Your company has a new policy - no social networking at work. You handle the situation by:" }
+  model: things.QuizQuestion
+  pk: 15
+- fields: { question: "The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:" }
+  model: things.QuizQuestion
+  pk: 16
+- fields: { question: "Online, you can be the life of the party or a virtual wallflower. How social is your network?" }
+  model: things.QuizQuestion
+  pk: 17
+- fields: { question: "It’s a perfect Spring day - birds are chirping, sun is shining, and you are:" }
+  model: things.QuizQuestion
+  pk: 18
+- fields: { question: "You and the Internet are dating. How would you describe the relationship?" }
+  model: things.QuizQuestion
+  pk: 19
+- fields: { question: "We all like to connect to this great big thing we call the Internet. Where do you do it, and how?" }
+  model: things.QuizQuestion
+  pk: 20
