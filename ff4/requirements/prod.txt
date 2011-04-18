@@ -12,6 +12,3 @@ django-celery
 
 # YAML
 PyYAML==3.09
-
-#tmp
-beanstalkc
