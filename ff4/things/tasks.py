@@ -26,9 +26,9 @@ STATIC_PATH = settings.MEDIA_ROOT
 
 class ReadyImages(Task):
 	
-	def run(slug):
-		col = Collage.objects.get(slug=slug)
-	    images_coords = json.loads(col.images_coords)
+        def run(slug):
+            col = Collage.objects.get(slug=slug)
+            images_coords = json.loads(col.images_coords)
 
 	    # load the background image and paste it in
 	    bg_img = 'none.png'
