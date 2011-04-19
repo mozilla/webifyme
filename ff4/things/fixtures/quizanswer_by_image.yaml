@@ -193,7 +193,7 @@
 - fields: { image: 55, answer: 23, tooltip: "An apt (if cliché) symbol for your ability to simultaneously check your email, post on someone's Wall, watch a movie trailer and Tweet about it. You're like a human one of these!" }
   model: things.QuizAnswerByImage
   pk: 65
-- fields: { image: 56, answer: 23, tooltip: "You're the Multi-tasker, attacking multiple projects and sites simultaneously. you come prepared and always have the right tool for the job." }
+- fields: { image: 56, answer: 23, tooltip: "You're the Multi-tasker, attacking multiple projects and sites simultaneously. You come prepared and always have the right tool for the job." }
   model: things.QuizAnswerByImage
   pk: 66
 - fields: { image: 36, answer: 23, tooltip: "For you, the Internet cannot be contained to a desk or a cafe. You carry it with you, not a place you go, but a tool you use. This is your Swiss Army Knife™." }
@@ -229,7 +229,7 @@
 - fields: { image: 62, answer: 26, tooltip: "You bear the Mark of Cereal. Sustenance in its simplest, most basic form. Compact, practical, tidy and filling – read into it all you like." }
   model: things.QuizAnswerByImage
   pk: 77
-- fields: { image: 63, answer: 26, tooltip: "Sweet cool and fresh. That describes both you and your favorite indulgences - just a little trifle to brighten your day, as you invigorate the world around you." }
+- fields: { image: 63, answer: 26, tooltip: "Sweet, cool and fresh. That describes both you and your favorite indulgences - just a little trifle to brighten your day, as you invigorate the world around you." }
   model: things.QuizAnswerByImage
   pk: 78
 - fields: { image: 64, answer: 27, tooltip: "Behold, The Memory - life is your field of study. You hunger for new thinking, knowledge and information. You know how get it, and how to hold on to it." }
@@ -472,7 +472,7 @@
 - fields: { image: 61, answer: 54, tooltip: "Is there anything more versatile, efficient and useful than a spork? The very word is a model of multitasking efficiency. It shows you like to handle lots of things at once, and take big bites. Chew well!" }
   model: things.QuizAnswerByImage
   pk: 158
-- fields: { image: 100, answer: 54, tooltip: "Your beauty comes from within, and from a preparedness. The Lip Balm is your totem, symbolic of the cherry-flavored care and protection you surround yourself with." }
+- fields: { image: 100, answer: 54, tooltip: "Your beauty comes from within, and from a preparedness. The Lip Balm is your totem, symbolic of the cherry flavored care and protection you surround yourself with." }
   model: things.QuizAnswerByImage
   pk: 159
 - fields: { image: 49, answer: 54, tooltip: "The adhesive bandage - mark of The Healer. You seek the perfection of the human form, or at least one less headache." }
@@ -559,7 +559,7 @@
 - fields: { image: 38, answer: 62, tooltip: "You are The Reader. Your forte is seeking knowledge and delving into ideas, be they academic, scientific, or teenage vampire love stories." }
   model: things.QuizAnswerByImage
   pk: 187
-- fields: { image: 34, answer: 62, tooltip: "Endowed with unprecedented imaginative powers, you transport yourself to an alternate universe where you have X-ray vision, super strength, and some snazzy tights." }
+- fields: { image: 34, answer: 62, tooltip: "Endowed with imaginative powers lesser folks can’t even comprehend. You tower above your peers. Chances are you have X-ray vision, super strength and an impressive collection of leggings" }
   model: things.QuizAnswerByImage
   pk: 188
 - fields: { image: 77, answer: 62, tooltip: "As easy as clapping on a light, it's what you've been waiting for- the one-click bookmark. Don't you have enough to do without having to suffer the indignity of multiple clicks? " }
