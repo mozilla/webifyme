@@ -6,7 +6,7 @@
 {% if bitly_url %}
 {% block metatags %}
 <meta name="title" content="{{ _('Webify Me: Your Internet Visualized') }}" /> 
-<meta name="description" content="'Everyone's Internet is a little bit different. I just created my own Webify Me collage at {{ bitly_url }}. Make your own and find out how your Internet looks!" />
+<meta name="description" content="{{ _('Everyone\'s Internet is a little bit different. I just created my own Webify Me collage at %(bitly_url)s. Make your own and find out how your Internet looks!') % {'bitly_url': 'merp'} }}" />
 <meta name="image" content="http://{{ site_url }}/static/collages/thumbs_gallery/{{ collage.slug }}.jpg" />
 <link rel="image_src" href="http://{{ site_url }}/static/collages/thumbs_gallery/{{ collage.slug }}.jpg" />
 <meta property="og:image" content="http://{{ site_url }}/static/collages/thumbs_gallery/{{ collage.slug }}.jpg" />

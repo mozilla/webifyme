@@ -4,7 +4,7 @@
 	<br class="clr" />
 	{% if bitly_url %}
 	<div class="url">
-		<span>Here’s your URL:</span>
+        <span>{{ _('Here\'s your URL:') }}</span>
 		<a class="short-url" href="{{ bitly_url }}" target="_blank">{{ bitly_url }}</a>
 		<div id="copy-wrapper"><div id="copy-btn" class="copy">Copy</div></div>
 	</div>
