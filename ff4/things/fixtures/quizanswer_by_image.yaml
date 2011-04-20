@@ -472,7 +472,7 @@
 - fields: { image: 61, answer: 54, tooltip: "Is there anything more versatile, efficient and useful than a spork? The very word is a model of multitasking efficiency. It shows you like to handle lots of things at once, and take big bites. Chew well!" }
   model: things.QuizAnswerByImage
   pk: 158
-- fields: { image: 100, answer: 54, tooltip: "Your beauty comes from within, and from a preparedness. The Lip Balm is your totem, symbolic of the cherry flavored care and protection you surround yourself with." }
+- fields: { image: 100, answer: 54, tooltip: "The Lip Balm is your totem. Like a Boy Scout your motto is \'Be Prepared\'. You know what\'s important,  from looking good to protecting yourself." }
   model: things.QuizAnswerByImage
   pk: 159
 - fields: { image: 49, answer: 54, tooltip: "The adhesive bandage - mark of The Healer. You seek the perfection of the human form, or at least one less headache." }
