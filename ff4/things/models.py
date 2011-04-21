@@ -4,29 +4,28 @@ from django.template.defaultfilters import slugify
 import hashlib
 from datetime import datetime
 from django.conf import settings
+from things.questions_answers import *
 
 class QuizQuestion(models.Model):
     slug = models.SlugField(blank=True) # default max length (50)
-    question = models.CharField(max_length=200)
-    
+
     def save(self):
-        self.slug = slugify( hashlib.md5(self.question + datetime.now().strftime("%Y%m%d%H%m%s") ).hexdigest()[:12] )
+        self.slug = slugify( hashlib.md5( QUESTIONS[self.pk] + datetime.now().strftime("%Y%m%d%H%m%s") ).hexdigest()[:12] )
         super( QuizQuestion, self ).save()
 
     def __unicode__(self):
-        return self.question
+        return unicode(QUESTIONS[self.pk])
 
 class QuizAnswer(models.Model):
     slug = models.SlugField(unique=True)
-    answer = models.CharField(max_length=200, null=True, blank=True)
     quiz_question = models.ForeignKey(QuizQuestion)
 
     def save(self):
-        self.slug = slugify( self.answer )
+        self.slug = slugify( ANSWERS[self.pk] )
         super( QuizAnswer, self ).save()
 
     def __unicode__(self):
-        return self.answer
+        return unicode(ANSWERS[self.pk])
 
 class Image(models.Model):
     slug = models.SlugField(unique=True)
@@ -35,23 +34,22 @@ class Image(models.Model):
     width = models.IntegerField(default=50)
     height = models.IntegerField(default=50)
     locale = models.CharField(max_length=2, null=True, blank=True)
-    
+
     def get_area(self):
         return int(self.width * self.height)
 
     def save(self):
         self.slug = slugify( self.file_name )
         super( Image, self ).save()
-    
+
     def __unicode__(self):
         return self.file_name
-    
+
 
 class QuizAnswerByImage(models.Model):
     image = models.ForeignKey(Image)
     answer = models.ForeignKey(QuizAnswer)
-    tooltip = models.CharField(max_length=255, null=True, blank=True)
-    
+
 class Collage(models.Model):
     slug = models.SlugField(unique=True)
     packed = models.BooleanField(default=False)
@@ -62,7 +60,7 @@ class Collage(models.Model):
     in_gallery = models.BooleanField()
     filename = models.CharField(max_length=75)
     bitly_url = models.CharField(max_length=75, null=True, blank=True)
-    
+
     def save(self):
         if self.slug == "":
             self.slug = slugify( hashlib.md5(self.username + datetime.now().strftime("%Y%m%d%H%m%s") ).hexdigest()[:12]  )
@@ -71,9 +69,9 @@ class Collage(models.Model):
 
     def __unicode__(self):
         return self.filename
-        
+
     def snapshot_url(self):
         if self.filename:
             return settings.SNAPSHOT_BASE_URL+self.filename
         return None
-    
+

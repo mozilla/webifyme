@@ -18,6 +18,7 @@ from ff4.utils.questions import get_question_JSON, serialize_image_list
 from ff4.things.models import QuizQuestion, QuizAnswer, Collage, QuizAnswerByImage, Image
 from ff4.things.backgrounds import BACKGROUNDS
 from ff4.things.forms import QuizForm, DownloadForm
+from things.questions_answers import *
 
 
 COLLAGE_SLUG_SESSION_KEY = 'owns_collage'
@@ -202,14 +203,14 @@ def collage_snapshot(request, slug):
 def quiz_json():
     questions = []
     for question in QuizQuestion.objects.select_related('quizanswer_set').all():
-        lang_specific_question = _(force_unicode(question.question))
+        lang_specific_question = _(force_unicode(QUESTIONS[question.pk]))
         data = {
             'id':question.id,
             'question':lang_specific_question,
             'answers':[]
         }
         for answer in question.quizanswer_set.all():
-            lang_specific_answer = _(force_unicode(answer.answer))
+            lang_specific_answer = _(force_unicode(ANSWERS[answer.pk]))
             data['answers'].append({'answer':lang_specific_answer,'id':answer.id})
         questions.append(data)
     return json.dumps(questions)
@@ -269,7 +270,7 @@ def quiz(request):
         image_map = {} # store images in a map, keyed on their id, to avoid duplicates
         for answer_id, images in answer_groups.items():
             image = images[random.randint(0,len(images)-1)] # pick a random image from the group
-            image_map[image.image.id] = {'id': image.image.id, 'img': image.image.file_name, 'width': image.image.width, 'height': image.image.height, 'name': image.image.name, 'description': _(force_unicode(image.tooltip))}
+            image_map[image.image.id] = {'id': image.image.id, 'img': image.image.file_name, 'width': image.image.width, 'height': image.image.height, 'name': image.image.name, 'description': _(force_unicode(ANSWERS_BY_IMAGE[image.pk]))}
         
         # get country specific object
         country_code = translation.get_language()[:2]

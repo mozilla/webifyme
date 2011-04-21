@@ -1,747 +1,747 @@
-- fields: { image: 1, answer: 1, tooltip: "One symbol stands above all others as the authority - wise, unquestionable, and universally fair. Want the truth? Look to The Cookie - The Cookie tells all." }
+- fields: { image: 1, answer: 1 }
   model: things.QuizAnswerByImage
   pk: 1
-- fields: { image: 2, answer: 1, tooltip: "Fortune is yours, with this Omamori. You know that the best luck is the luck you carry with you, and having a guide sure can help." }
+- fields: { image: 2, answer: 1 }
   model: things.QuizAnswerByImage
   pk: 2
-- fields: { image: 3, answer: 1, tooltip: "The Fortune Teller, The Cootie Catcher - an ancient, noble device of truth-seekers. Let fortunes be told forthrightly, with simple honesty guided by blind chance." }
+- fields: { image: 3, answer: 1 }
   model: things.QuizAnswerByImage
   pk: 3
-- fields: { image: 4, answer: 1, tooltip: "Eat my dust! I'm bumping up my browsing into hyperdrive and leaving lesser browsers behind." }
+- fields: { image: 4, answer: 1 }
   model: things.QuizAnswerByImage
   pk: 4
-- fields: { image: 5, answer: 2, tooltip: "Mystery, science, adventure - these aspects of your character are embodied in your symbol - The Gyroscope. You have the unique ability to remain calm and steady as the world spins around you. Maybe you even know how to pirouette." }
+- fields: { image: 5, answer: 2 }
   model: things.QuizAnswerByImage
   pk: 5
-- fields: { image: 6, answer: 2, tooltip: "You have drawn The Compass, for you know which way is up. Looking for adventure and whatever comes your way, you're as prepared as a scout and as bold as a pioneer." }
+- fields: { image: 6, answer: 2 }
   model: things.QuizAnswerByImage
   pk: 6
-- fields: { image: 7, answer: 2, tooltip: "You shine brightly, illuminating the Internet ahead with a glow of knowledge and spirit of exploration. That's why you have drawn the Flashlight – symbol of the intrepid." }
+- fields: { image: 7, answer: 2 }
   model: things.QuizAnswerByImage
   pk: 7
-- fields: { image: 8, answer: 2, tooltip: "You have drawn the Mark of the Connection; Active, strong and reliable – that's you. People count on you to keep grounded at all times, even up in the air." }
+- fields: { image: 8, answer: 2 }
   model: things.QuizAnswerByImage
   pk: 8
-- fields: { image: 9, answer: 3, tooltip: "The Friendship Pin - an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker)." }
+- fields: { image: 9, answer: 3 }
   model: things.QuizAnswerByImage
   pk: 9
-- fields: { image: 10, answer: 3, tooltip: "Your buddies will be overjoyed to learn that you've drawn the Friendship Bracelet. It stands for sociability and your talent for making each friend, online and off, feel special. So very special." }
+- fields: { image: 10, answer: 3 }
   model: things.QuizAnswerByImage
   pk: 10
-- fields: { image: 11, answer: 3, tooltip: "You have a bright outlook, flexible attitude, and a kooky sense of aesthetics. You're probably the type of person that appreciates the use of the word \"kooky\"." }
+- fields: { image: 11, answer: 3 }
   model: things.QuizAnswerByImage
   pk: 11
-- fields: { image: 12, answer: 3, tooltip: "Who are you, really? that's something you can decide, and decide again, and again. Create a persona for each world you live in. Just don't get confused, or they'll make a movie about you." }
+- fields: { image: 12, answer: 3 }
   model: things.QuizAnswerByImage
   pk: 12
-- fields: { image: 13, answer: 4, tooltip: "The mark of the professional – you've defined yourself in the business world, and earned a fancy title for your efforts." }
+- fields: { image: 13, answer: 4 }
   model: things.QuizAnswerByImage
   pk: 13
-- fields: { image: 14, answer: 4, tooltip: "From wee tot or a genuine grown-up, building blocks captivate our imagination. To you a simple block is the first step towards works of beauty and grace. Also, you like toys." }
+- fields: { image: 14, answer: 4 }
   model: things.QuizAnswerByImage
   pk: 14
-- fields: { image: 15, answer: 5, tooltip: "Appearances are not limited to the visible sphere - you are well aware of that, for you are The Aesthete. Beauty in every sense is your lofty goal, and no detail of that is too small to escape your scrutiny." }
+- fields: { image: 15, answer: 5 }
   model: things.QuizAnswerByImage
   pk: 15
-- fields: { image: 16, answer: 5, tooltip: "The Locket – a secret treasured keepsake – is your symbol. Worn over the heart, it shows you value your relationships, and keep them close." }
+- fields: { image: 16, answer: 5 }
   model: things.QuizAnswerByImage
   pk: 16
-- fields: { image: 17, answer: 5, tooltip: "It's just a matter of time - to you that's not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine." }
+- fields: { image: 17, answer: 5 }
   model: things.QuizAnswerByImage
   pk: 17
-- fields: { image: 18, answer: 5, tooltip: "A sign of pluck and resourcefulness, a keen eye. The Button, both a tool and a decoration. You're equally multi-faceted." }
+- fields: { image: 18, answer: 5 }
   model: things.QuizAnswerByImage
   pk: 18
-- fields: { image: 19, answer: 6, tooltip: "Vanity has not prevented you from making sure your vision of the world is crystal clear, and for that we bestow the symbol of The Glasses upon you. It shows that while your foresight might not always be perfect, your hindsight is 20/20." }
+- fields: { image: 19, answer: 6 }
   model: things.QuizAnswerByImage
   pk: 19
-- fields: { image: 20, answer: 6, tooltip: "It's just a matter of time - to you that's not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine." }
+- fields: { image: 20, answer: 6 }
   model: things.QuizAnswerByImage
   pk: 20
-- fields: { image: 21, answer: 6, tooltip: "\"Beauty is not in the face; beauty is a light in the heart\" said the poet Kahlil Gibran. But he never had to deal with high definition video. You are The Illusionist - master of your own appearance, poet of the eyeliner pen." }
+- fields: { image: 21, answer: 6 }
   model: things.QuizAnswerByImage
   pk: 21
-- fields: { image: 22, answer: 7, tooltip: "Why, look at you. Clearly, you bear the mark of The Fierce. You know what's hot, but rock your own style, and can dance on that fine line that separates dandy from dowdy." }
+- fields: { image: 22, answer: 7 }
   model: things.QuizAnswerByImage
   pk: 22
-- fields: { image: 23, answer: 7, tooltip: "Ancient symbol of self-reliance, the Knitting Needle stands for your expressive individuality in the face of commercialism. With your own hands you create that which you desire, and make it purely your own." }
+- fields: { image: 23, answer: 7 }
   model: things.QuizAnswerByImage
   pk: 23
-- fields: { image: 24, answer: 8, tooltip: "Your future is bright." }
+- fields: { image: 24, answer: 8 }
   model: things.QuizAnswerByImage
   pk: 24
-- fields: { image: 25, answer: 8, tooltip: "You've earned The Comb! A mark of neatness that exemplifies your dedication to presenting a pleasing visage to the world. You've got style, and substance too." }
+- fields: { image: 25, answer: 8 }
   model: things.QuizAnswerByImage
   pk: 25
-- fields: { image: 26, answer: 8, tooltip: "You've earned The Headphones. You know that the best concerts are the all-star lineups you stage for yourself, in your own head." }
+- fields: { image: 26, answer: 8 }
   model: things.QuizAnswerByImage
   pk: 26
-- fields: { image: 27, answer: 9, tooltip: "Are these the ones that eat eucalyptus, or bamboo? Well, they're cute either way." }
+- fields: { image: 27, answer: 9 }
   model: things.QuizAnswerByImage
   pk: 27
-- fields: { image: 28, answer: 9, tooltip: "The pachyderm - symbol of endless memory. Of course, this is a finger puppet, so it's really a symbol of a symbol. But that's semantics. Sorta cute, huh? " }
+- fields: { image: 28, answer: 9 }
   model: things.QuizAnswerByImage
   pk: 28
-- fields: { image: 22, answer: 10, tooltip: "Why, look at you. Clearly, you bear the mark of The Fierce. You know what's hot, but rock your own style, and can dance on that fine line that separates dandy from dowdy." }
+- fields: { image: 22, answer: 10 }
   model: things.QuizAnswerByImage
   pk: 29
-- fields: { image: 29, answer: 10, tooltip: "You know what's next; you have it all written down in your date book -the symbol of The Organizer. You're the one we turn to when we are in doubt, for you hold the answers." }
+- fields: { image: 29, answer: 10 }
   model: things.QuizAnswerByImage
   pk: 30
-- fields: { image: 30, answer: 11, tooltip: "You are the Gear Head – mark of those who know their limited-slip differential from their throttle body. You get all revved up at the sound of a big V8, and the smell of burning rubber brings a wistful tear to your eye." }
+- fields: { image: 30, answer: 11 }
   model: things.QuizAnswerByImage
   pk: 31
-- fields: { image: 31, answer: 11, tooltip: "You know what /. means, and can tell a 404 from a 509. You're the one friends turn to when they need to know what's the new hot device. Geek? Yes, some call you that, but you are worthy of a far more majestic moniker, for you are The Technologist!" }
+- fields: { image: 31, answer: 11 }
   model: things.QuizAnswerByImage
   pk: 32
-- fields: { image: 32, answer: 11, tooltip: "You're in good company - beloved by visionaries before you, the little notebook says you know how to express yourself and keep it buttoned up at the same time. You know the best experiences deserve a record." }
+- fields: { image: 32, answer: 11 }
   model: things.QuizAnswerByImage
   pk: 33
-- fields: { image: 33, answer: 12, tooltip: "Naughty, naughty! Your pursuit of [CENSORED] is [CENSORED], and. you're unafraid to cross new boundaries in search of [CENSORED] and [CENSORED]." }
+- fields: { image: 33, answer: 12 }
   model: things.QuizAnswerByImage
   pk: 34
-- fields: { image: 34, answer: 12, tooltip: "Endowed with unprecedented imaginative powers, you transport yourself to an alternate universe where you have X-ray vision, super strength, and some snazzy tights." }
+- fields: { image: 34, answer: 12 }
   model: things.QuizAnswerByImage
   pk: 35
-- fields: { image: 35, answer: 12, tooltip: "The symbol of unpretentious creativity and art. You are almost certainly imbued with a child-like curiosity and an unfettered imagination, enjoy self expression and bright colors. You are child-like, or may actually be a child." }
+- fields: { image: 35, answer: 12 }
   model: things.QuizAnswerByImage
   pk: 36
-- fields: { image: 36, answer: 13, tooltip: "For you, the Internet cannot be contained to a desk or a cafe. You carry it with you, not a place you go, but a tool you use. This is your Swiss Army Knife™." }
+- fields: { image: 36, answer: 13 }
   model: things.QuizAnswerByImage
   pk: 37
-- fields: { image: 37, answer: 13, tooltip: "Everything's better with a monkey in it. Monkeys are fun, smart, and optimistic. You got this crafty monkey because it reflects your own delightful optimism and playfulness. Or maybe you like bananas?" }
+- fields: { image: 37, answer: 13 }
   model: things.QuizAnswerByImage
   pk: 38
-- fields: { image: 38, answer: 14, tooltip: "Take part, or take your seat. Political activism rewards those who participate and do something. You use the Internet as both to listen and to shout - and the world is better for it." }
+- fields: { image: 38, answer: 14 }
   model: things.QuizAnswerByImage
   pk: 39
-- fields: { image: 39, answer: 14, tooltip: "You've earned the harmonica, a silver badge of self-expression. You take life's lemons and turn them into melodious, slightly buzzy lemonade." }
+- fields: { image: 39, answer: 14 }
   model: things.QuizAnswerByImage
   pk: 40
-- fields: { image: 40, answer: 14, tooltip: "The Lighter – a pocket-sized torch of freedom. It presages your preparedness for whatever crosses your path, be it a camper with a bunch of moist twigs, or some guy with a cigar." }
+- fields: { image: 40, answer: 14 }
   model: things.QuizAnswerByImage
   pk: 41
-- fields: { image: 38, answer: 15, tooltip: "The written word is a powerful tool, whether it's typed in a blog or scrawled on a wall. You understand this power and you wield it with authority." }
+- fields: { image: 38, answer: 15 }
   model: things.QuizAnswerByImage
   pk: 42
-- fields: { image: 41, answer: 15, tooltip: "The stamp - ubiquitous symbol of communication, of correspondence, which you've earned. If you have these, you most likely checked your email halfway through reading this." }
+- fields: { image: 41, answer: 15 }
   model: things.QuizAnswerByImage
   pk: 43
-- fields: { image: 42, answer: 15, tooltip: "The stamp - ubiquitous symbol of communication, of correspondence, which you've earned. If you have these, you most likely checked your email halfway through reading this." }
+- fields: { image: 42, answer: 15 }
   model: things.QuizAnswerByImage
   pk: 44
-- fields: { image: 43, answer: 16, tooltip: "PARTY! You got The Noisemaker! You make life a constant party that rocks the house and wakes up the neighbors - then invites them over. Everybody's having fun when you're around." }
+- fields: { image: 43, answer: 16 }
   model: things.QuizAnswerByImage
   pk: 45
-- fields: { image: 44, answer: 16, tooltip: "Dust in the wind, man. Dust in the wind." }
+- fields: { image: 44, answer: 16 }
   model: things.QuizAnswerByImage
   pk: 46
-- fields: { image: 45, answer: 16, tooltip: "\"Seriousness is the only refuge of the shallow.\" - Oscar Wilde                                                                                                                                         " }
+- fields: { image: 45, answer: 16 }
   model: things.QuizAnswerByImage
   pk: 47
-- fields: { image: 46, answer: 17, tooltip: "There are times when you need to express your inner music, even if you don't know how to play an instrument. Sometimes all you need to do is hum along." }
+- fields: { image: 46, answer: 17 }
   model: things.QuizAnswerByImage
   pk: 48
-- fields: { image: 47, answer: 17, tooltip: "Sometimes you just gotta be slick and superficial. We can't go around being deep and cerebral all the time, after all." }
+- fields: { image: 47, answer: 17 }
   model: things.QuizAnswerByImage
   pk: 49
-- fields: { image: 27, answer: 17, tooltip: "Are these the ones that eat eucalyptus, or bamboo? Well, they're cute either way." }
+- fields: { image: 27, answer: 17 }
   model: things.QuizAnswerByImage
   pk: 50
-- fields: { image: 36, answer: 18, tooltip: "For you, the Internet cannot be contained to a desk or a cafe. You carry it with you, not a place you go, but a tool you use. This is your Swiss Army Knife™." }
+- fields: { image: 36, answer: 18 }
   model: things.QuizAnswerByImage
   pk: 51
-- fields: { image: 6, answer: 18, tooltip: "You have drawn The Compass, for you know which way is up. Looking for adventure and whatever comes your way, you're as prepared as a scout and as bold as a pioneer." }
+- fields: { image: 6, answer: 18 }
   model: things.QuizAnswerByImage
   pk: 52
-- fields: { image: 31, answer: 18, tooltip: "You know what /. means, and can tell a 404 from a 509. You're the one friends turn to when they need to know what's the new hot device. Geek? Yes, some call you that, but you are worthy of a far more majestic moniker, for you are The Technologist!" }
+- fields: { image: 31, answer: 18 }
   model: things.QuizAnswerByImage
   pk: 53
-- fields: { image: 4, answer: 18, tooltip: "Eat my dust! I'm bumping up my browsing into hyperdrive and leaving lesser browsers behind." }
+- fields: { image: 4, answer: 18 }
   model: things.QuizAnswerByImage
   pk: 54
-- fields: { image: 48, answer: 19, tooltip: "The symbol of travel, of paths taken and untaken, of sleeping upright in a middle seat. You are The Traveler." }
+- fields: { image: 48, answer: 19 }
   model: things.QuizAnswerByImage
   pk: 55
-- fields: { image: 49, answer: 19, tooltip: "The adhesive bandage - mark of The Healer. You seek the perfection of the human form, or at least one less headache." }
+- fields: { image: 49, answer: 19 }
   model: things.QuizAnswerByImage
   pk: 56
-- fields: { image: 50, answer: 20, tooltip: "You hold The Keys – and indeed, they are your symbol. Master of your domain, you come and go as you please, wherever you please. You have every password memorized, know every PIN by heart." }
+- fields: { image: 50, answer: 20 }
   model: things.QuizAnswerByImage
   pk: 57
-- fields: { image: 51, answer: 20, tooltip: "The mark of perseverance and tireless effort. You just keep going and going; nothing tires you out and you seem to never run out of juice." }
+- fields: { image: 51, answer: 20 }
   model: things.QuizAnswerByImage
   pk: 58
-- fields: { image: 8, answer: 20, tooltip: "You have drawn the Mark of the Connection; Active, strong and reliable – that's you. People count on you to keep grounded at all times, even up in the air." }
+- fields: { image: 8, answer: 20 }
   model: things.QuizAnswerByImage
   pk: 59
-- fields: { image: 52, answer: 21, tooltip: "Let's go! You're not one to sit around; you like the active, positive and healthful, in body mind and spirit. And you have the sweaty wrists to prove it." }
+- fields: { image: 52, answer: 21 }
   model: things.QuizAnswerByImage
   pk: 60
-- fields: { image: 53, answer: 21, tooltip: "Ah, the Flask – the party is wherever you are, Social Butterfly. You bring it, and you bring it in style. But you also know when to stop. Keep it classy, my sleek silver friend!" }
+- fields: { image: 53, answer: 21 }
   model: things.QuizAnswerByImage
   pk: 61
-- fields: { image: 54, answer: 21, tooltip: "Party time? Excellent! You are the breeze that blows through a summer evening with friends new and old. The Cocktail Swordsman – or woman – knows how to parry with these weapons of social mirth." }
+- fields: { image: 54, answer: 21 }
   model: things.QuizAnswerByImage
   pk: 62
-- fields: { image: 38, answer: 22, tooltip: "Candy – manna of the gods, because gods don't get cavities. That's your symbol, for you are the Sweet One. You cannot resist quick, indulgent temptation, for you know the joy it brings." }
+- fields: { image: 38, answer: 22 }
   model: things.QuizAnswerByImage
   pk: 63
-- fields: { image: 8, answer: 23, tooltip: "You have drawn the Mark of the Connection; Active, strong and reliable – that's you. People count on you to keep grounded at all times, even up in the air." }
+- fields: { image: 8, answer: 23 }
   model: things.QuizAnswerByImage
   pk: 64
-- fields: { image: 55, answer: 23, tooltip: "An apt (if cliché) symbol for your ability to simultaneously check your email, post on someone's Wall, watch a movie trailer and Tweet about it. You're like a human one of these!" }
+- fields: { image: 55, answer: 23 }
   model: things.QuizAnswerByImage
   pk: 65
-- fields: { image: 56, answer: 23, tooltip: "You're the Multi-tasker, attacking multiple projects and sites simultaneously. You come prepared and always have the right tool for the job." }
+- fields: { image: 56, answer: 23 }
   model: things.QuizAnswerByImage
   pk: 66
-- fields: { image: 36, answer: 23, tooltip: "For you, the Internet cannot be contained to a desk or a cafe. You carry it with you, not a place you go, but a tool you use. This is your Swiss Army Knife™." }
+- fields: { image: 36, answer: 23 }
   model: things.QuizAnswerByImage
   pk: 67
-- fields: { image: 57, answer: 23, tooltip: "Go ahead and open up all the tabs you want- there's never a last call for browsing." }
+- fields: { image: 57, answer: 23 }
   model: things.QuizAnswerByImage
   pk: 68
-- fields: { image: 58, answer: 24, tooltip: "Technology lives to serve, and you like your information portable, pocketable and sharable. That's how data becomes action, and gadgets become essential." }
+- fields: { image: 58, answer: 24 }
   model: things.QuizAnswerByImage
   pk: 69
-- fields: { image: 52, answer: 24, tooltip: "Let's go! You're not one to sit around; you like the active, positive and healthful, in body mind and spirit. And you have the sweaty wrists to prove it." }
+- fields: { image: 52, answer: 24 }
   model: things.QuizAnswerByImage
   pk: 70
-- fields: { image: 53, answer: 25, tooltip: "Ah, the Flask – the party is wherever you are, Social Butterfly. You bring it, and you bring it in style. But you also know when to stop. Keep it classy, my sleek silver friend!" }
+- fields: { image: 53, answer: 25 }
   model: things.QuizAnswerByImage
   pk: 71
-- fields: { image: 59, answer: 25, tooltip: "This is a symbol of a symbol, which makes it extra relevant to you. You look at this folded paper and see a crane - you know the power of imagination." }
+- fields: { image: 59, answer: 25 }
   model: things.QuizAnswerByImage
   pk: 72
-- fields: { image: 15, answer: 25, tooltip: "Appearances are not limited to the visible sphere - you are well aware of that, for you are The Aesthete. Beauty in every sense is your lofty goal, and no detail of that is too small to escape your scrutiny." }
+- fields: { image: 15, answer: 25 }
   model: things.QuizAnswerByImage
   pk: 73
-- fields: { image: 38, answer: 26, tooltip: "Candy – manna of the gods, because gods don't get cavities. That's your symbol, for you are the Sweet One. You cannot resist quick, indulgent temptation, for you know the joy it brings." }
+- fields: { image: 38, answer: 26 }
   model: things.QuizAnswerByImage
   pk: 74
-- fields: { image: 60, answer: 26, tooltip: "Gum is not just a snack, it's a tiny rectangular activity. It demands participation and rewards you with freshness, if only for a fleeting moment." }
+- fields: { image: 60, answer: 26 }
   model: things.QuizAnswerByImage
   pk: 75
-- fields: { image: 61, answer: 26, tooltip: "Is there anything more versatile, efficient and useful than a spork? The very word is a model of multitasking efficiency. It shows you like to handle lots of things at once, and take big bites. Chew well!" }
+- fields: { image: 61, answer: 26 }
   model: things.QuizAnswerByImage
   pk: 76
-- fields: { image: 62, answer: 26, tooltip: "You bear the Mark of Cereal. Sustenance in its simplest, most basic form. Compact, practical, tidy and filling – read into it all you like." }
+- fields: { image: 62, answer: 26 }
   model: things.QuizAnswerByImage
   pk: 77
-- fields: { image: 63, answer: 26, tooltip: "Sweet, cool and fresh. That describes both you and your favorite indulgences - just a little trifle to brighten your day, as you invigorate the world around you." }
+- fields: { image: 63, answer: 26 }
   model: things.QuizAnswerByImage
   pk: 78
-- fields: { image: 64, answer: 27, tooltip: "Behold, The Memory - life is your field of study. You hunger for new thinking, knowledge and information. You know how get it, and how to hold on to it." }
+- fields: { image: 64, answer: 27 }
   model: things.QuizAnswerByImage
   pk: 79
-- fields: { image: 65, answer: 27, tooltip: "The instant memory, quickly frozen and indelibly saved. Yours is the nostalgic type, pouring over cherished images and captured moments." }
+- fields: { image: 65, answer: 27 }
   model: things.QuizAnswerByImage
   pk: 80
-- fields: { image: 58, answer: 27, tooltip: "Technology lives to serve, and you like your information portable, pocketable and sharable. That's how data becomes action, and gadgets become essential." }
+- fields: { image: 58, answer: 27 }
   model: things.QuizAnswerByImage
   pk: 81
-- fields: { image: 66, answer: 28, tooltip: "Your body is a temple, and you're its master. You wield all the tools you need to keep it going, and aren't afraid of a little research." }
+- fields: { image: 66, answer: 28 }
   model: things.QuizAnswerByImage
   pk: 82
-- fields: { image: 52, answer: 28, tooltip: "Let's go! You're not one to sit around; you like the active, positive and healthful, in body mind and spirit. And you have the sweaty wrists to prove it." }
+- fields: { image: 52, answer: 28 }
   model: things.QuizAnswerByImage
   pk: 83
-- fields: { image: 10, answer: 29, tooltip: "Your buddies will be overjoyed to learn that you've drawn the Friendship Bracelet. It stands for sociability and your talent for making each friend, online and off, feel special. So very special." }
+- fields: { image: 10, answer: 29 }
   model: things.QuizAnswerByImage
   pk: 84
-- fields: { image: 9, answer: 30, tooltip: "The Friendship Pin - an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker)." }
+- fields: { image: 9, answer: 30 }
   model: things.QuizAnswerByImage
   pk: 85
-- fields: { image: 13, answer: 30, tooltip: "The mark of the professional – you've defined yourself in the business world, and earned a fancy title for your efforts." }
+- fields: { image: 13, answer: 30 }
   model: things.QuizAnswerByImage
   pk: 86
-- fields: { image: 67, answer: 31, tooltip: "Who are you? A mystery, an enigma, a chameleon that no one really knows. You know what you need to keep private, and what to show the outside world. Your identity is yours alone - wear them proudly, anonymous." }
+- fields: { image: 67, answer: 31 }
   model: things.QuizAnswerByImage
   pk: 87
-- fields: { image: 68, answer: 31, tooltip: "Who has the right combination? You do, for you are the Lock Master – in control and buttoned down, you value security but know when to open up and let loose." }
+- fields: { image: 68, answer: 31 }
   model: things.QuizAnswerByImage
   pk: 88
-- fields: { image: 69, answer: 31, tooltip: "You can hope to ward off evil with a rabbit's foot, or you can be more proactive. You're the pragmatist – you own your destiny, control your security and know the value of self-defense." }
+- fields: { image: 69, answer: 31 }
   model: things.QuizAnswerByImage
   pk: 89
-- fields: { image: 38, answer: 31, tooltip: "Text coming..." }
+- fields: { image: 38, answer: 31 }
   model: things.QuizAnswerByImage
   pk: 90
-- fields: { image: 70, answer: 32, tooltip: "You're a social vector - verily, you are goal-oriented, outgoing and bold. At last, you've collected that number, and you're gonna use it." }
+- fields: { image: 70, answer: 32 }
   model: things.QuizAnswerByImage
   pk: 91
-- fields: { image: 12, answer: 32, tooltip: "Who are you, really? that's something you can decide, and decide again, and again. Create a persona for each world you live in. Just don't get confused, or they'll make a movie about you." }
+- fields: { image: 12, answer: 32 }
   model: things.QuizAnswerByImage
   pk: 92
-- fields: { image: 10, answer: 33, tooltip: "Your buddies will be overjoyed to learn that you've drawn the Friendship Bracelet. It stands for sociability and your talent for making each friend, online and off, feel special. So very special." }
+- fields: { image: 10, answer: 33 }
   model: things.QuizAnswerByImage
   pk: 93
-- fields: { image: 9, answer: 33, tooltip: "The Friendship Pin - an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker)." }
+- fields: { image: 9, answer: 33 }
   model: things.QuizAnswerByImage
   pk: 94
-- fields: { image: 71, answer: 34, tooltip: "Your symbol is Ketchup – everybody loves it, gotta have some, it makes everything better. Just like you!" }
+- fields: { image: 71, answer: 34 }
   model: things.QuizAnswerByImage
   pk: 95
-- fields: { image: 72, answer: 34, tooltip: "You define your own treasures, and know their value lies deep in your heart. Either that or you look it up online." }
+- fields: { image: 72, answer: 34 }
   model: things.QuizAnswerByImage
   pk: 96
-- fields: { image: 21, answer: 35, tooltip: "\"Beauty is not in the face; beauty is a light in the heart\" said the poet Kahlil Gibran. But he never had to deal with high definition video. You are The Illusionist - master of your own appearance, poet of the eyeliner pen." }
+- fields: { image: 21, answer: 35 }
   model: things.QuizAnswerByImage
   pk: 97
-- fields: { image: 67, answer: 35, tooltip: "Who are you? A mystery, an enigma, a chameleon that no one really knows. You know what you need to keep private, and what to show the outside world. Your identity is yours alone - wear them proudly, anonymous." }
+- fields: { image: 67, answer: 35 }
   model: things.QuizAnswerByImage
   pk: 98
-- fields: { image: 73, answer: 36, tooltip: "This vessel of curative liquid is your symbol, o power user! You are clear of vision, attack a problem at its source, and at the ready. You probably spend a lot of time staring at a screen, too." }
+- fields: { image: 73, answer: 36 }
   model: things.QuizAnswerByImage
   pk: 99
-- fields: { image: 74, answer: 36, tooltip: "Craft your own world and it's exactly as you wish it to be. That is your secret - the secret of The Tailor. You make real that which most can only imagine, and edit the world to suit your taste." }
+- fields: { image: 74, answer: 36 }
   model: things.QuizAnswerByImage
   pk: 100
-- fields: { image: 75, answer: 36, tooltip: "Wield the tools to make it yours, for you are unique - and your browser can reflect that." }
+- fields: { image: 75, answer: 36 }
   model: things.QuizAnswerByImage
   pk: 101
-- fields: { image: 76, answer: 37, tooltip: "Ah, the quest for knowledge, the search for truth! To you life is a never-ending lesson, and you learn more and more each day. Or maybe you just do the crossword." }
+- fields: { image: 76, answer: 37 }
   model: things.QuizAnswerByImage
   pk: 102
-- fields: { image: 1, answer: 37, tooltip: "One symbol stands above all others as the authority - wise, unquestionable, and universally fair. Want the truth? Look to The Cookie – The Cookie tells all." }
+- fields: { image: 1, answer: 37 }
   model: things.QuizAnswerByImage
   pk: 103
-- fields: { image: 38, answer: 37, tooltip: "The mark of Money represents ability, utility and power. It's what people really mean when they say \"resources\" " }
+- fields: { image: 38, answer: 37 }
   model: things.QuizAnswerByImage
   pk: 104
-- fields: { image: 77, answer: 37, tooltip: "As easy as clapping on a light, it's what you've been waiting for- the one-click bookmark. Don't you have enough to do without having to suffer the indignity of multiple clicks? " }
+- fields: { image: 77, answer: 37 }
   model: things.QuizAnswerByImage
   pk: 105
-- fields: { image: 78, answer: 38, tooltip: "Aha, The Magician! You posses unusual powers, and can conjure up the truth from any situation. Also, you can turn the world on with your smile." }
+- fields: { image: 78, answer: 38 }
   model: things.QuizAnswerByImage
   pk: 106
-- fields: { image: 79, answer: 38, tooltip: "Infinite kindness and fortune, they smile upon you. You're searches lead you to answers, and you're feeling lucky." }
+- fields: { image: 79, answer: 38 }
   model: things.QuizAnswerByImage
   pk: 107
-- fields: { image: 3, answer: 39, tooltip: "The Fortune Teller, The Cootie Catcher - an ancient, noble device of truth-seekers. Let fortunes be told forthrightly, with simple honesty guided by blind chance." }
+- fields: { image: 3, answer: 39 }
   model: things.QuizAnswerByImage
   pk: 108
-- fields: { image: 37, answer: 39, tooltip: "Everything's better with a monkey in it. Monkeys are fun, smart, and optimistic. You got this crafty monkey because it reflects your own delightful optimism and playfulness. Or maybe you like bananas?" }
+- fields: { image: 37, answer: 39 }
   model: things.QuizAnswerByImage
   pk: 109
-- fields: { image: 54, answer: 39, tooltip: "Party time? Excellent! You are the breeze that blows through a summer evening with friends new and old. The Cocktail Swordsman – or woman – knows how to parry with these weapons of social mirth." }
+- fields: { image: 54, answer: 39 }
   model: things.QuizAnswerByImage
   pk: 110
-- fields: { image: 45, answer: 40, tooltip: "A significant cultural heroic icon looms large in your inner nerd psyche. Embrace it. (We really don't want to get into the whole trademark thing, OK?)" }
+- fields: { image: 45, answer: 40 }
   model: things.QuizAnswerByImage
   pk: 111
-- fields: { image: 80, answer: 40, tooltip: "You reach into your past and explore the history that made you what you are. The letters, photos and mementos of the past are a mirror - they reflect the hopes and dreams that became today." }
+- fields: { image: 80, answer: 40 }
   model: things.QuizAnswerByImage
   pk: 112
-- fields: { image: 48, answer: 41, tooltip: "The symbol of travel, of paths taken and untaken, of sleeping upright in a middle seat. You are The Traveler." }
+- fields: { image: 48, answer: 41 }
   model: things.QuizAnswerByImage
   pk: 113
-- fields: { image: 81, answer: 41, tooltip: "You like to set a course for adventure, your mind on a new experience. Your treasured memories are your reward. Therefore you richly deserve The Nautilus!" }
+- fields: { image: 81, answer: 41 }
   model: things.QuizAnswerByImage
   pk: 114
-- fields: { image: 65, answer: 41, tooltip: "The instant memory, quickly frozen and indelibly saved. Yours is the nostalgic type, pouring over cherished images and captured moments." }
+- fields: { image: 65, answer: 41 }
   model: things.QuizAnswerByImage
   pk: 115
-- fields: { image: 82, answer: 42, tooltip: "The cell phone - also called a mobile, for good reason. It represents you, Traveler – free and untethered, yet in touch wherever you may roam." }
+- fields: { image: 82, answer: 42 }
   model: things.QuizAnswerByImage
   pk: 116
-- fields: { image: 83, answer: 42, tooltip: "Whether it's a cherished memento of a magical time or corny souvenir of a tacky holiday, you understand the value of your memories." }
+- fields: { image: 83, answer: 42 }
   model: things.QuizAnswerByImage
   pk: 117
-- fields: { image: 41, answer: 42, tooltip: "The stamp - ubiquitous symbol of communication, of correspondence, which you've earned. If you have these, you most likely checked your email halfway through reading this." }
+- fields: { image: 41, answer: 42 }
   model: things.QuizAnswerByImage
   pk: 118
-- fields: { image: 38, answer: 42, tooltip: "The stamp - ubiquitous symbol of communication, of correspondence, which you've earned. If you have these, you most likely checked your email halfway through reading this." }
+- fields: { image: 38, answer: 42 }
   model: things.QuizAnswerByImage
   pk: 119
-- fields: { image: 50, answer: 43, tooltip: "You hold The Keys – and indeed, they are your symbol. Master of your domain, you come and go as you please, wherever you please. You have every password memorized, know every PIN by heart." }
+- fields: { image: 50, answer: 43 }
   model: things.QuizAnswerByImage
   pk: 120
-- fields: { image: 84, answer: 43, tooltip: "You came, you saw, you captured! Always at the ready to preserve a moment, share it with the world, and tag photos of your friends." }
+- fields: { image: 84, answer: 43 }
   model: things.QuizAnswerByImage
   pk: 121
-- fields: { image: 85, answer: 43, tooltip: "The photo strip, a talisman of remembrance and the nostalgia that goes along with it. You see value in conjuring the past and posting it to your Wall." }
+- fields: { image: 85, answer: 43 }
   model: things.QuizAnswerByImage
   pk: 122
-- fields: { image: 82, answer: 44, tooltip: "The cell phone - also called a mobile, for good reason. It represents you, Traveler – free and untethered, yet in touch wherever you may roam." }
+- fields: { image: 82, answer: 44 }
   model: things.QuizAnswerByImage
   pk: 123
-- fields: { image: 86, answer: 44, tooltip: "Entire worlds can be captured within a little sketchbook, worlds both real and imagined. You use many different tools to communicate your vision, Traveler." }
+- fields: { image: 86, answer: 44 }
   model: things.QuizAnswerByImage
   pk: 124
-- fields: { image: 87, answer: 44, tooltip: "The world in all it's glorious flavors, aromas and textures, is your buffet. You delve into cuisines from neat and far, a traveler of the palette, a tourist with a deep-seated hunger. Feast, and all nations feast with you." }
+- fields: { image: 87, answer: 44 }
   model: things.QuizAnswerByImage
   pk: 125
-- fields: { image: 7, answer: 44, tooltip: "You shine brightly, illuminating the Internet ahead with a glow of knowledge and spirit of exploration. That's why you have drawn the Flashlight – symbol of the intrepid." }
+- fields: { image: 7, answer: 44 }
   model: things.QuizAnswerByImage
   pk: 126
-- fields: { image: 43, answer: 45, tooltip: "PARTY! You got The Noisemaker! You make life a constant party that rocks the house and wakes up the neighbors - then invites them over. Everybody's having fun when you're around." }
+- fields: { image: 43, answer: 45 }
   model: things.QuizAnswerByImage
   pk: 127
-- fields: { image: 88, answer: 45, tooltip: "You believe the children are our future, and you want to raise them right. So you give them something to chew on , and something to think about." }
+- fields: { image: 88, answer: 45 }
   model: things.QuizAnswerByImage
   pk: 128
-- fields: { image: 37, answer: 45, tooltip: "Everything's better with a monkey in it. Monkeys are fun, smart, and optimistic. You got this crafty monkey because it reflects your own delightful optimism and playfulness. Or maybe you like bananas?" }
+- fields: { image: 37, answer: 45 }
   model: things.QuizAnswerByImage
   pk: 129
-- fields: { image: 65, answer: 46, tooltip: "The instant memory, quickly frozen and indelibly saved. Yours is the nostalgic type, pouring over cherished images and captured moments." }
+- fields: { image: 65, answer: 46 }
   model: things.QuizAnswerByImage
   pk: 130
-- fields: { image: 49, answer: 46, tooltip: "The adhesive bandage - mark of The Healer. You seek the perfection of the human form, or at least one less headache." }
+- fields: { image: 49, answer: 46 }
   model: things.QuizAnswerByImage
   pk: 131
-- fields: { image: 89, answer: 46, tooltip: "What's next? you're never at a loss to answer that, because you've planned what's next. Your organizational skills serve you well, and people count on you to get it done - right and on time." }
+- fields: { image: 89, answer: 46 }
   model: things.QuizAnswerByImage
   pk: 132
-- fields: { image: 64, answer: 47, tooltip: "Behold, The Memory - life is your field of study. You hunger for new thinking, knowledge and information. You know how get it, and how to hold on to it." }
+- fields: { image: 64, answer: 47 }
   model: things.QuizAnswerByImage
   pk: 133
-- fields: { image: 58, answer: 47, tooltip: "Technology lives to serve, and you like your information portable, pocketable and sharable. That's how data becomes action, and gadgets become essential." }
+- fields: { image: 58, answer: 47 }
   model: things.QuizAnswerByImage
   pk: 134
-- fields: { image: 29, answer: 47, tooltip: "You know what's next; you have it all written down in your date book -the symbol of The Organizer. You're the one we turn to when we are in doubt, for you hold the answers." }
+- fields: { image: 29, answer: 47 }
   model: things.QuizAnswerByImage
   pk: 135
-- fields: { image: 90, answer: 48, tooltip: "Behold The Fossil, lucky charm from ages long past! It symbolizes the truth of the past, and the search for knowledge in history (unless you clear your history)." }
+- fields: { image: 90, answer: 48 }
   model: things.QuizAnswerByImage
   pk: 136
-- fields: { image: 44, answer: 48, tooltip: "Dust in the wind, man. Dust in the wind." }
+- fields: { image: 44, answer: 48 }
   model: things.QuizAnswerByImage
   pk: 137
-- fields: { image: 45, answer: 49, tooltip: "\"Seriousness is the only refuge of the shallow.\" - Oscar Wilde                                                                                                                                         " }
+- fields: { image: 45, answer: 49 }
   model: things.QuizAnswerByImage
   pk: 138
-- fields: { image: 88, answer: 49, tooltip: "You believe the children are our future, and you want to raise them right. So you give them something to chew on , and something to think about." }
+- fields: { image: 88, answer: 49 }
   model: things.QuizAnswerByImage
   pk: 139
-- fields: { image: 43, answer: 49, tooltip: "PARTY! You got The Noisemaker! You make life a constant party that rocks the house and wakes up the neighbors - then invites them over. Everybody's having fun when you're around." }
+- fields: { image: 43, answer: 49 }
   model: things.QuizAnswerByImage
   pk: 140
-- fields: { image: 27, answer: 49, tooltip: "Are these the ones that eat eucalyptus, or bamboo? Well, they're cute either way." }
+- fields: { image: 27, answer: 49 }
   model: things.QuizAnswerByImage
   pk: 141
-- fields: { image: 91, answer: 49, tooltip: "You are the Pet Whisperer! Play time to you is magnificent obsession, not mere diversion. You see the value of a faithful companion who will lick your face and lay on your keyboard." }
+- fields: { image: 91, answer: 49 }
   model: things.QuizAnswerByImage
   pk: 142
-- fields: { image: 37, answer: 49, tooltip: "Everything's better with a monkey in it. Monkeys are fun, smart, and optimistic. You got this crafty monkey because it reflects your own delightful optimism and playfulness. Or maybe you like bananas?" }
+- fields: { image: 37, answer: 49 }
   model: things.QuizAnswerByImage
   pk: 143
-- fields: { image: 92, answer: 50, tooltip: "You are bright, optimistic, and careful when making a move – the very embodiment of Strategy. The world before you is as a game board, and you glide gracefully within it, taking and bringing joy." }
+- fields: { image: 92, answer: 50 }
   model: things.QuizAnswerByImage
   pk: 144
-- fields: { image: 93, answer: 50, tooltip: "You make your own luck, for you know  fortune favors the fun loving! To you a day without a quick game is a day wasted. Life's too short to sulk, when you bear the colorful mark of The Player. (You're also possibly Chinese or a Grandmother)" }
+- fields: { image: 93, answer: 50 }
   model: things.QuizAnswerByImage
   pk: 145
-- fields: { image: 94, answer: 50, tooltip: "Sometimes the greatest in puzzles in life are solved in a few simple twists. We think you should turn your main finger topwise." }
+- fields: { image: 94, answer: 50 }
   model: things.QuizAnswerByImage
   pk: 146
-- fields: { image: 95, answer: 51, tooltip: "Fun and games – they're just shy of everything to you. For that mirthful spirit, you are presented the mark of The Domino – symbolizing optimism, playfulness, and slamming things on tables." }
+- fields: { image: 95, answer: 51 }
   model: things.QuizAnswerByImage
   pk: 147
-- fields: { image: 96, answer: 51, tooltip: "You like your fun and games on a cerebral level. Stretching your mind and beating your friends is as enjoyable to you as zoning out in front of the TV is to the hoi polloi." }
+- fields: { image: 96, answer: 51 }
   model: things.QuizAnswerByImage
   pk: 148
-- fields: { image: 97, answer: 52, tooltip: "Ah, fickle chance. Who knows what a roll of the dice will bring. You live for the unknown - you look fortune straight in the eye and play the numbers she gives you." }
+- fields: { image: 97, answer: 52 }
   model: things.QuizAnswerByImage
   pk: 149
-- fields: { image: 98, answer: 52, tooltip: "Rock show, film or sports match, you are there, live and in person. The thrill of being part of an event, not just observing it, is what you're after. You get tickets the second they go on sale and you have the stubs to prove it." }
+- fields: { image: 98, answer: 52 }
   model: things.QuizAnswerByImage
   pk: 150
-- fields: { image: 11, answer: 52, tooltip: "You have a bright outlook, flexible attitude, and a kooky sense of aesthetics. You're probably the type of person that appreciates the use of the word \"kooky\"." }
+- fields: { image: 11, answer: 52 }
   model: things.QuizAnswerByImage
   pk: 151
-- fields: { image: 99, answer: 52, tooltip: "Text coming..." }
+- fields: { image: 99, answer: 52 }
   model: things.QuizAnswerByImage
   pk: 152
-- fields: { image: 32, answer: 53, tooltip: "You're in good company - beloved by visionaries before you, the little notebook says you know how to express yourself and keep it buttoned up at the same time. You know the best experiences deserve a record." }
+- fields: { image: 32, answer: 53 }
   model: things.QuizAnswerByImage
   pk: 153
-- fields: { image: 55, answer: 53, tooltip: "An apt (if cliché) symbol for your ability to simultaneously check your email, post on someone's Wall, watch a movie trailer and Tweet about it. You're like a human one of these!" }
+- fields: { image: 55, answer: 53 }
   model: things.QuizAnswerByImage
   pk: 154
-- fields: { image: 56, answer: 53, tooltip: "You're the Multi-tasker, attacking multiple projects and sites simultaneously. you come prepared and always have the right tool for the job." }
+- fields: { image: 56, answer: 53 }
   model: things.QuizAnswerByImage
   pk: 155
-- fields: { image: 38, answer: 54, tooltip: "The mark of Money represents ability, utility and power. It's what people really mean when they say \"resources\" " }
+- fields: { image: 38, answer: 54 }
   model: things.QuizAnswerByImage
   pk: 156
-- fields: { image: 40, answer: 54, tooltip: "The Lighter – a pocket-sized torch of freedom. It presages your preparedness for whatever crosses your path, be it a camper with a bunch of moist twigs, or some guy with a cigar." }
+- fields: { image: 40, answer: 54 }
   model: things.QuizAnswerByImage
   pk: 157
-- fields: { image: 61, answer: 54, tooltip: "Is there anything more versatile, efficient and useful than a spork? The very word is a model of multitasking efficiency. It shows you like to handle lots of things at once, and take big bites. Chew well!" }
+- fields: { image: 61, answer: 54 }
   model: things.QuizAnswerByImage
   pk: 158
-- fields: { image: 100, answer: 54, tooltip: "The Lip Balm is your totem. Like a Boy Scout your motto is \'Be Prepared\'. You know what\'s important,  from looking good to protecting yourself." }
+- fields: { image: 100, answer: 54 }
   model: things.QuizAnswerByImage
   pk: 159
-- fields: { image: 49, answer: 54, tooltip: "The adhesive bandage - mark of The Healer. You seek the perfection of the human form, or at least one less headache." }
+- fields: { image: 49, answer: 54 }
   model: things.QuizAnswerByImage
   pk: 160
-- fields: { image: 101, answer: 54, tooltip: "An ounce of prevention carried in your pocket can be quite handy. You're prepared for those pesky little ailments that can crop up unexpectedly, and have the resources to deal with them. Gesundheit!" }
+- fields: { image: 101, answer: 54 }
   model: things.QuizAnswerByImage
   pk: 161
-- fields: { image: 67, answer: 55, tooltip: "Who are you? A mystery, an enigma, a chameleon that no one really knows. You know what you need to keep private, and what to show the outside world. Your identity is yours alone - wear them proudly, anonymous." }
+- fields: { image: 67, answer: 55 }
   model: things.QuizAnswerByImage
   pk: 162
-- fields: { image: 102, answer: 55, tooltip: "The Pocket Knife – small, versatile, and just a little bit dangerous. It is your symbol because you are resourceful, and sharp, and you know how to fold yourself." }
+- fields: { image: 102, answer: 55 }
   model: things.QuizAnswerByImage
   pk: 163
-- fields: { image: 73, answer: 55, tooltip: "This vessel of curative liquid is your symbol, o power user! You are clear of vision, attack a problem at its source, and at the ready. You probably spend a lot of time staring at a screen, too." }
+- fields: { image: 73, answer: 55 }
   model: things.QuizAnswerByImage
   pk: 164
-- fields: { image: 69, answer: 55, tooltip: "You can hope to ward off evil with a rabbit's foot, or you can be more proactive. You're the pragmatist – you own your destiny, control your security and know the value of self-defense." }
+- fields: { image: 69, answer: 55 }
   model: things.QuizAnswerByImage
   pk: 165
-- fields: { image: 86, answer: 55, tooltip: "Entire worlds can be captured within a little sketchbook, worlds both real and imagined. You use many different tools to communicate your vision, Traveler." }
+- fields: { image: 86, answer: 55 }
   model: things.QuizAnswerByImage
   pk: 166
-- fields: { image: 18, answer: 55, tooltip: "A sign of pluck and resourcefulness, a keen eye. The Button, both a tool and a decoration. You're equally multi-faceted." }
+- fields: { image: 18, answer: 55 }
   model: things.QuizAnswerByImage
   pk: 167
-- fields: { image: 35, answer: 56, tooltip: "The symbol of unpretentious creativity and art. You are almost certainly imbued with a child-like curiosity and an unfettered imagination, enjoy self expression and bright colors. You are child-like, or may actually be a child." }
+- fields: { image: 35, answer: 56 }
   model: things.QuizAnswerByImage
   pk: 168
-- fields: { image: 103, answer: 56, tooltip: "The tool of the Artist; the world as your canvas. You see things not as they are, but as they could be, if you had a brush and a small cup of water." }
+- fields: { image: 103, answer: 56 }
   model: things.QuizAnswerByImage
   pk: 169
-- fields: { image: 53, answer: 57, tooltip: "Ah, the Flask – the party is wherever you are, Social Butterfly. You bring it, and you bring it in style. But you also know when to stop. Keep it classy, my sleek silver friend!" }
+- fields: { image: 53, answer: 57 }
   model: things.QuizAnswerByImage
   pk: 170
-- fields: { image: 26, answer: 57, tooltip: "You've earned The Headphones. You know that the best concerts are the all-star lineups you stage for yourself, in your own head." }
+- fields: { image: 26, answer: 57 }
   model: things.QuizAnswerByImage
   pk: 171
-- fields: { image: 69, answer: 57, tooltip: "You can hope to ward off evil with a rabbit's foot, or you can be more proactive. You're the pragmatist – you own your destiny, control your security and know the value of self-defense." }
+- fields: { image: 69, answer: 57 }
   model: things.QuizAnswerByImage
   pk: 172
-- fields: { image: 104, answer: 57, tooltip: "Internet Ninja! You leave no trace of your travels, online or off." }
+- fields: { image: 104, answer: 57 }
   model: things.QuizAnswerByImage
   pk: 173
-- fields: { image: 68, answer: 58, tooltip: "Who has the right combination? You do, for you are the Lock Master – in control and buttoned down, you value security but know when to open up and let loose." }
+- fields: { image: 68, answer: 58 }
   model: things.QuizAnswerByImage
   pk: 174
-- fields: { image: 67, answer: 58, tooltip: "Who are you? A mystery, an enigma, a chameleon that no one really knows. You know what you need to keep private, and what to show the outside world. Your identity is yours alone - wear them proudly, anonymous." }
+- fields: { image: 67, answer: 58 }
   model: things.QuizAnswerByImage
   pk: 175
-- fields: { image: 105, answer: 58, tooltip: "Text coming..." }
+- fields: { image: 105, answer: 58 }
   model: things.QuizAnswerByImage
   pk: 176
-- fields: { image: 106, answer: 59, tooltip: "You're nothing if not a completist, and you like to take it with you. Compact, concise and in control, you are master of your musical domain. Mp3, WMA, FLAC - Rock accordingly." }
+- fields: { image: 106, answer: 59 }
   model: things.QuizAnswerByImage
   pk: 177
-- fields: { image: 8, answer: 59, tooltip: "You have drawn the Mark of the Connection; Active, strong and reliable – that's you. People count on you to keep grounded at all times, even up in the air." }
+- fields: { image: 8, answer: 59 }
   model: things.QuizAnswerByImage
   pk: 178
-- fields: { image: 107, answer: 60, tooltip: "You have drawn the Mark of the Connection; Active, strong and reliable – that's you. People count on you to keep grounded at all times, even up in the air." }
+- fields: { image: 107, answer: 60 }
   model: things.QuizAnswerByImage
   pk: 179
-- fields: { image: 38, answer: 60, tooltip: "The written word is a powerful tool, whether it's typed in a blog or scrawled on a wall. You understand this power and you wield it with authority." }
+- fields: { image: 38, answer: 60 }
   model: things.QuizAnswerByImage
   pk: 180
-- fields: { image: 80, answer: 60, tooltip: "You reach into your past and explore the history that made you what you are. The letters, photos and mementos of the past are a mirror - they reflect the hopes and dreams that became today." }
+- fields: { image: 80, answer: 60 }
   model: things.QuizAnswerByImage
   pk: 181
-- fields: { image: 38, answer: 61, tooltip: "The mark of Money represents ability, utility and power. It's what people really mean when they say \"resources\" " }
+- fields: { image: 38, answer: 61 }
   model: things.QuizAnswerByImage
   pk: 182
-- fields: { image: 13, answer: 61, tooltip: "The mark of the professional – you've defined yourself in the business world, and earned a fancy title for your efforts." }
+- fields: { image: 13, answer: 61 }
   model: things.QuizAnswerByImage
   pk: 183
-- fields: { image: 72, answer: 61, tooltip: "You define your own treasures, and know their value lies deep in your heart. Either that or you look it up online." }
+- fields: { image: 72, answer: 61 }
   model: things.QuizAnswerByImage
   pk: 184
-- fields: { image: 108, answer: 61, tooltip: "Oh Master of the Keys, only you have the password to the deepest dungeons of my online existence. Let's keep it that way." }
+- fields: { image: 108, answer: 61 }
   model: things.QuizAnswerByImage
   pk: 185
-- fields: { image: 76, answer: 62, tooltip: "Ah, the quest for knowledge, the search for truth! To you life is a never-ending lesson, and you learn more and more each day. Or maybe you just do the crossword." }
+- fields: { image: 76, answer: 62 }
   model: things.QuizAnswerByImage
   pk: 186
-- fields: { image: 38, answer: 62, tooltip: "You are The Reader. Your forte is seeking knowledge and delving into ideas, be they academic, scientific, or teenage vampire love stories." }
+- fields: { image: 38, answer: 62 }
   model: things.QuizAnswerByImage
   pk: 187
-- fields: { image: 34, answer: 62, tooltip: "Endowed with imaginative powers lesser folks can’t even comprehend. You tower above your peers. Chances are you have X-ray vision, super strength and an impressive collection of leggings" }
+- fields: { image: 34, answer: 62 }
   model: things.QuizAnswerByImage
   pk: 188
-- fields: { image: 77, answer: 62, tooltip: "As easy as clapping on a light, it's what you've been waiting for- the one-click bookmark. Don't you have enough to do without having to suffer the indignity of multiple clicks? " }
+- fields: { image: 77, answer: 62 }
   model: things.QuizAnswerByImage
   pk: 189
-- fields: { image: 99, answer: 62, tooltip: "Text coming..." }
+- fields: { image: 99, answer: 62 }
   model: things.QuizAnswerByImage
   pk: 190
-- fields: { image: 29, answer: 63, tooltip: "You know what's next; you have it all written down in your date book -the symbol of The Organizer. You're the one we turn to when we are in doubt, for you hold the answers." }
+- fields: { image: 29, answer: 63 }
   model: things.QuizAnswerByImage
   pk: 191
-- fields: { image: 43, answer: 63, tooltip: "PARTY! You got The Noisemaker! You make life a constant party that rocks the house and wakes up the neighbors - then invites them over. Everybody's having fun when you're around." }
+- fields: { image: 43, answer: 63 }
   model: things.QuizAnswerByImage
   pk: 192
-- fields: { image: 82, answer: 63, tooltip: "The cell phone - also called a mobile, for good reason. It represents you, Traveler – free and untethered, yet in touch wherever you may roam." }
+- fields: { image: 82, answer: 63 }
   model: things.QuizAnswerByImage
   pk: 193
-- fields: { image: 109, answer: 63, tooltip: "The cast-off talisman of a party shaman! You posses the strength and tenacity to turn the beat around, and you've seen more sunrises from the wrong side of awake than any mere mortal." }
+- fields: { image: 109, answer: 63 }
   model: things.QuizAnswerByImage
   pk: 194
-- fields: { image: 110, answer: 63, tooltip: "All is not lost! You can get back to where you once belonged, just by invoking the magical powers of Session Restore." }
+- fields: { image: 110, answer: 63 }
   model: things.QuizAnswerByImage
   pk: 195
-- fields: { image: 14, answer: 64, tooltip: "From wee tot or a genuine grown-up, building blocks captivate our imagination. To you a simple block is the first step towards works of beauty and grace. Also, you like toys." }
+- fields: { image: 14, answer: 64 }
   model: things.QuizAnswerByImage
   pk: 196
-- fields: { image: 27, answer: 64, tooltip: "Are these the ones that eat eucalyptus, or bamboo? Well, they're cute either way." }
+- fields: { image: 27, answer: 64 }
   model: things.QuizAnswerByImage
   pk: 197
-- fields: { image: 88, answer: 64, tooltip: "You believe the children are our future, and you want to raise them right. So you give them something to chew on , and something to think about." }
+- fields: { image: 88, answer: 64 }
   model: things.QuizAnswerByImage
   pk: 198
-- fields: { image: 111, answer: 64, tooltip: "The digital realm is your raw material, and you shape it into the wondrous things your mind's eye sees. (That's just about the most pretentious description of putty we could come up with.)" }
+- fields: { image: 111, answer: 64 }
   model: things.QuizAnswerByImage
   pk: 199
-- fields: { image: 57, answer: 64, tooltip: "Go ahead and open up all the tabs you want- there's never a last call for browsing." }
+- fields: { image: 57, answer: 64 }
   model: things.QuizAnswerByImage
   pk: 200
-- fields: { image: 103, answer: 65, tooltip: "The tool of the Artist; the world as your canvas. You see things not as they are, but as they could be, if you had a brush and a small cup of water." }
+- fields: { image: 103, answer: 65 }
   model: things.QuizAnswerByImage
   pk: 201
-- fields: { image: 35, answer: 65, tooltip: "The symbol of unpretentious creativity and art. You are almost certainly imbued with a child-like curiosity and an unfettered imagination, enjoy self expression and bright colors. You are child-like, or may actually be a child." }
+- fields: { image: 35, answer: 65 }
   model: things.QuizAnswerByImage
   pk: 202
-- fields: { image: 86, answer: 65, tooltip: "Entire worlds can be captured within a little sketchbook, worlds both real and imagined. You use many different tools to communicate your vision, Traveler." }
+- fields: { image: 86, answer: 65 }
   model: things.QuizAnswerByImage
   pk: 203
-- fields: { image: 12, answer: 65, tooltip: "Who are you, really? that's something you can decide, and decide again, and again. Create a persona for each world you live in. Just don't get confused, or they'll make a movie about you." }
+- fields: { image: 12, answer: 65 }
   model: things.QuizAnswerByImage
   pk: 204
-- fields: { image: 82, answer: 66, tooltip: "The cell phone - also called a mobile, for good reason. It represents you, Traveler – free and untethered, yet in touch wherever you may roam." }
+- fields: { image: 82, answer: 66 }
   model: things.QuizAnswerByImage
   pk: 205
-- fields: { image: 95, answer: 66, tooltip: "Fun and games – they're just shy of everything to you. For that mirthful spirit, you are presented the mark of The Domino – symbolizing optimism, playfulness, and slamming things on tables." }
+- fields: { image: 95, answer: 66 }
   model: things.QuizAnswerByImage
   pk: 206
-- fields: { image: 93, answer: 66, tooltip: "You make your own luck, for you know  fortune favors the fun loving! To you a day without a quick game is a day wasted. Life's too short to sulk, when you bear the colorful mark of The Player. (You're also possibly Chinese or a Grandmother)" }
+- fields: { image: 93, answer: 66 }
   model: things.QuizAnswerByImage
   pk: 207
-- fields: { image: 96, answer: 66, tooltip: "You like your fun and games on a cerebral level. Stretching your mind and beating your friends is as enjoyable to you as zoning out in front of the TV is to the hoi polloi." }
+- fields: { image: 96, answer: 66 }
   model: things.QuizAnswerByImage
   pk: 208
-- fields: { image: 10, answer: 67, tooltip: "Your buddies will be overjoyed to learn that you've drawn the Friendship Bracelet. It stands for sociability and your talent for making each friend, online and off, feel special. So very special." }
+- fields: { image: 10, answer: 67 }
   model: things.QuizAnswerByImage
   pk: 209
-- fields: { image: 9, answer: 67, tooltip: "The Friendship Pin - an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker)." }
+- fields: { image: 9, answer: 67 }
   model: things.QuizAnswerByImage
   pk: 210
-- fields: { image: 11, answer: 67, tooltip: "You have a bright outlook, flexible attitude, and a kooky sense of aesthetics. You're probably the type of person that appreciates the use of the word \"kooky\"." }
+- fields: { image: 11, answer: 67 }
   model: things.QuizAnswerByImage
   pk: 211
-- fields: { image: 112, answer: 67, tooltip: "While some think a party means red plastic cups, you know that it can be an exquisite social event, a time to enjoy and strengthen friendships. What we're trying to say here is that you're a class act, even when you let loose." }
+- fields: { image: 112, answer: 67 }
   model: things.QuizAnswerByImage
   pk: 212
-- fields: { image: 108, answer: 67, tooltip: "Oh Master of the Keys, only you have the password to the deepest dungeons of my online existence. Let's keep it that way." }
+- fields: { image: 108, answer: 67 }
   model: things.QuizAnswerByImage
   pk: 213
-- fields: { image: 5, answer: 68, tooltip: "Mystery, science, adventure - these aspects of your character are embodied in your symbol - The Gyroscope. You have the unique ability to remain calm and steady as the world spins around you. Maybe you even know how to pirouette." }
+- fields: { image: 5, answer: 68 }
   model: things.QuizAnswerByImage
   pk: 214
-- fields: { image: 20, answer: 68, tooltip: "It's just a matter of time - to you that's not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine." }
+- fields: { image: 20, answer: 68 }
   model: things.QuizAnswerByImage
   pk: 215
-- fields: { image: 17, answer: 68, tooltip: "It's just a matter of time - to you that's not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine." }
+- fields: { image: 17, answer: 68 }
   model: things.QuizAnswerByImage
   pk: 216
-- fields: { image: 36, answer: 68, tooltip: "For you, the Internet cannot be contained to a desk or a cafe. You carry it with you, not a place you go, but a tool you use. This is your Swiss Army Knife™." }
+- fields: { image: 36, answer: 68 }
   model: things.QuizAnswerByImage
   pk: 217
-- fields: { image: 4, answer: 68, tooltip: "Eat my dust! I'm bumping up my browsing into hyperdrive and leaving lesser browsers behind." }
+- fields: { image: 4, answer: 68 }
   model: things.QuizAnswerByImage
   pk: 218
-- fields: { image: 90, answer: 69, tooltip: "Behold The Fossil, lucky charm from ages long past! It symbolizes the truth of the past, and the search for knowledge in history (unless you clear your history)." }
+- fields: { image: 90, answer: 69 }
   model: things.QuizAnswerByImage
   pk: 219
-- fields: { image: 113, answer: 69, tooltip: "If music be the food of love, a good mixtape represents a buffet of delectable morsels. Your love of different styles, and your ability to remix them to your personal soundtrack, earns you this totem" }
+- fields: { image: 113, answer: 69 }
   model: things.QuizAnswerByImage
   pk: 220
-- fields: { image: 72, answer: 69, tooltip: "You define your own treasures, and know their value lies deep in your heart. Either that or you look it up online." }
+- fields: { image: 72, answer: 69 }
   model: things.QuizAnswerByImage
   pk: 221
-- fields: { image: 8, answer: 70, tooltip: "You have drawn the Mark of the Connection; Active, strong and reliable – that's you. People count on you to keep grounded at all times, even up in the air." }
+- fields: { image: 8, answer: 70 }
   model: things.QuizAnswerByImage
   pk: 222
-- fields: { image: 114, answer: 70, tooltip: "Energy, nutrition, health – those are the things you value. It's good that you also like chocolate, otherwise you'd be too boring to be anointed with the EnergyBar – a sophisticated melange of sporting intentions wrapped in a candy-like execution." }
+- fields: { image: 114, answer: 70 }
   model: things.QuizAnswerByImage
   pk: 223
-- fields: { image: 52, answer: 71, tooltip: "Let's go! You're not one to sit around; you like the active, positive and healthful, in body mind and spirit. And you have the sweaty wrists to prove it." }
+- fields: { image: 52, answer: 71 }
   model: things.QuizAnswerByImage
   pk: 224
-- fields: { image: 98, answer: 71, tooltip: "Rock show, film or sports match, you are there, live and in person. The thrill of being part of an event, not just observing it, is what you're after. You get tickets the second they go on sale and you have the stubs to prove it." }
+- fields: { image: 98, answer: 71 }
   model: things.QuizAnswerByImage
   pk: 225
-- fields: { image: 7, answer: 72, tooltip: "You shine brightly, illuminating the Internet ahead with a glow of knowledge and spirit of exploration. That's why you have drawn the Flashlight – symbol of the intrepid." }
+- fields: { image: 7, answer: 72 }
   model: things.QuizAnswerByImage
   pk: 226
-- fields: { image: 36, answer: 72, tooltip: "For you, the Internet cannot be contained to a desk or a cafe. You carry it with you, not a place you go, but a tool you use. This is your Swiss Army Knife™." }
+- fields: { image: 36, answer: 72 }
   model: things.QuizAnswerByImage
   pk: 227
-- fields: { image: 4, answer: 72, tooltip: "Eat my dust! I'm bumping up my browsing into hyperdrive and leaving lesser browsers behind." }
+- fields: { image: 4, answer: 72 }
   model: things.QuizAnswerByImage
   pk: 228
-- fields: { image: 103, answer: 73, tooltip: "A symbol of risk and reward! You're no stranger to chance, to taking a walk on the 20-sided dark side. In the game of life, you're +10 Geekiness." }
+- fields: { image: 103, answer: 73 }
   model: things.QuizAnswerByImage
   pk: 229
-- fields: { image: 115, answer: 73, tooltip: "A significant cultural heroic icon looms large in your inner nerd psyche. Embrace it. (We really don't want to get into the whole trademark thing, OK?)" }
+- fields: { image: 115, answer: 73 }
   model: things.QuizAnswerByImage
   pk: 230
-- fields: { image: 116, answer: 73, tooltip: "Is this a dream? Is this real life?" }
+- fields: { image: 116, answer: 73 }
   model: things.QuizAnswerByImage
   pk: 231
-- fields: { image: 70, answer: 74, tooltip: "You're a social vector - verily, you are goal-oriented, outgoing and bold. At last, you've collected that number, and you're gonna use it." }
+- fields: { image: 70, answer: 74 }
   model: things.QuizAnswerByImage
   pk: 232
-- fields: { image: 109, answer: 74, tooltip: "The cast-off talisman of a party shaman! You posses the strength and tenacity to turn the beat around, and you've seen more sunrises from the wrong side of awake than any mere mortal." }
+- fields: { image: 109, answer: 74 }
   model: things.QuizAnswerByImage
   pk: 233
-- fields: { image: 9, answer: 74, tooltip: "The Friendship Pin - an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker)." }
+- fields: { image: 9, answer: 74 }
   model: things.QuizAnswerByImage
   pk: 234
-- fields: { image: 10, answer: 75, tooltip: "Your buddies will be overjoyed to learn that you've drawn the Friendship Bracelet. It stands for sociability and your talent for making each friend, online and off, feel special. So very special." }
+- fields: { image: 10, answer: 75 }
   model: things.QuizAnswerByImage
   pk: 235
-- fields: { image: 117, answer: 76, tooltip: "A connector! Binding together your tasks, your to-dos, your dreams and your desires. Connectors are useful things - hang on to it." }
+- fields: { image: 117, answer: 76 }
   model: things.QuizAnswerByImage
   pk: 236
-- fields: { image: 8, answer: 76, tooltip: "You have drawn the Mark of the Connection; Active, strong and reliable – that's you. People count on you to keep grounded at all times, even up in the air." }
+- fields: { image: 8, answer: 76 }
   model: things.QuizAnswerByImage
   pk: 237
-- fields: { image: 64, answer: 77, tooltip: "Behold, The Memory - life is your field of study. You hunger for new thinking, knowledge and information. You know how get it, and how to hold on to it." }
+- fields: { image: 64, answer: 77 }
   model: things.QuizAnswerByImage
   pk: 238
-- fields: { image: 90, answer: 78, tooltip: "Behold The Fossil, lucky charm from ages long past! It symbolizes the truth of the past, and the search for knowledge in history (unless you clear your history)." }
+- fields: { image: 90, answer: 78 }
   model: things.QuizAnswerByImage
   pk: 239
-- fields: { image: 85, answer: 78, tooltip: "The photo strip, a talisman of remembrance and the nostalgia that goes along with it. You see value in conjuring the past and posting it to your Wall." }
+- fields: { image: 85, answer: 78 }
   model: things.QuizAnswerByImage
   pk: 240
-- fields: { image: 82, answer: 78, tooltip: "The cell phone - also called a mobile, for good reason. It represents you, Traveler – free and untethered, yet in touch wherever you may roam." }
+- fields: { image: 82, answer: 78 }
   model: things.QuizAnswerByImage
   pk: 241
-- fields: { image: 79, answer: 79, tooltip: "Infinite kindness and fortune, they smile upon you. You're searches lead you to answers, and you're feeling lucky." }
+- fields: { image: 79, answer: 79 }
   model: things.QuizAnswerByImage
   pk: 242
-- fields: { image: 118, answer: 79, tooltip: "When was the last time you aligned your chakras? You're supposed to do it every 3,000 miles." }
+- fields: { image: 118, answer: 79 }
   model: things.QuizAnswerByImage
   pk: 243
-- fields: { image: 36, answer: 79, tooltip: "For you, the Internet cannot be contained to a desk or a cafe. You carry it with you, not a place you go, but a tool you use. This is your Swiss Army Knife™." }
+- fields: { image: 36, answer: 79 }
   model: things.QuizAnswerByImage
   pk: 244
-- fields: { image: 2, answer: 79, tooltip: "Fortune is yours, with this Omamori. You know that the best luck is the luck you carry with you, and having a guide sure can help." }
+- fields: { image: 2, answer: 79 }
   model: things.QuizAnswerByImage
   pk: 245
-- fields: { image: 8, answer: 80, tooltip: "You have drawn the Mark of the Connection; Active, strong and reliable – that's you. People count on you to keep grounded at all times, even up in the air." }
+- fields: { image: 8, answer: 80 }
   model: things.QuizAnswerByImage
   pk: 246
-- fields: { image: 36, answer: 80, tooltip: "For you, the Internet cannot be contained to a desk or a cafe. You carry it with you, not a place you go, but a tool you use. This is your Swiss Army Knife™." }
+- fields: { image: 36, answer: 80 }
   model: things.QuizAnswerByImage
   pk: 247
-- fields: { image: 36, answer: 81, tooltip: "For you, the Internet cannot be contained to a desk or a cafe. You carry it with you, not a place you go, but a tool you use. This is your Swiss Army Knife™." }
+- fields: { image: 36, answer: 81 }
   model: things.QuizAnswerByImage
   pk: 248
-- fields: { image: 4, answer: 81, tooltip: "Eat my dust! I'm bumping up my browsing into hyperdrive and leaving lesser browsers behind." }
+- fields: { image: 4, answer: 81 }
   model: things.QuizAnswerByImage
   pk: 249
