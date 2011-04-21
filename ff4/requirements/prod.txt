@@ -10,5 +10,8 @@ django-celery
 # Migrations
 -e git://github.com/simplegeo/django-south.git#egg=south
 
+# Tower
+-e git://github.com/clouserw/tower.git#egg=tower
+
 # YAML
 PyYAML==3.09
