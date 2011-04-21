@@ -6,7 +6,7 @@
 	<div class="url">
         <span>{{ _('Here\'s your URL:') }}</span>
 		<a class="short-url" href="{{ bitly_url }}" target="_blank">{{ bitly_url }}</a>
-		<div id="copy-wrapper"><div id="copy-btn" class="copy">Copy</div></div>
+        <div id="copy-wrapper"><div id="copy-btn" class="copy">{{ _('Copy') }}</div></div>
 	</div>
 	{% endif %}
 	<a id="snapshot-downloader" class="snapshot disabled" href="#" target="_blank"><span>{{ _('Download a Snapshot') }}</span></a>

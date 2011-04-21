@@ -11,14 +11,12 @@ class QuizForm(forms.Form):
     
     def clean_username(self):
         if not self.USERNAME_RE.match(self.cleaned_data['username']):
-            raise forms.ValidationError("Invalid characters in username")
+            raise forms.ValidationError( _('Invalid characters in username') )
         return self.cleaned_data['username']
     
     def clean_download_reminder(self):
         if self.cleaned_data['download_reminder'] and not self.cleaned_data['email']:
-            raise forms.ValidationError("Download reminder requires email.")
+            raise forms.ValidationError( _('Download reminder requires email.') )
 
 class DownloadForm(forms.Form):
     email = forms.EmailField(required=False)
-    
-    
