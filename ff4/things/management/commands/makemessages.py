@@ -128,9 +128,9 @@ def make_messages(locale=None, domain='django', verbosity='1', all=False,
         settings.configure(USE_I18N = True)
 
     """
-    from django.utils.translation import templatize
+    from ff4.utils import templatize
     """
-    from ff4.utils.translation import templatize
+    from ff4.utils import templatize
 
     invoked_for_django = False
     if os.path.isdir(os.path.join('conf', 'locale')):
