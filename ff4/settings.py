@@ -1,32 +1,11 @@
-import settings_local
 import os
 
 # Django settings for ff4 project.
 
-DEBUG = settings_local.DEBUG
-DEV = settings_local.DEV
-TEMPLATE_DEBUG = DEBUG
-
 PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
-PROJECT_DOMAIN = ''
 PROJECT_DIR = os.path.realpath(os.path.dirname(__file__))
 
-ADMINS = (
-    # ('Your Name', 'your_email@domain.com'),
-)
-
-MANAGERS = ADMINS
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',       # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': settings_local.DB_NAME,             # Or path to database file if using sqlite3.
-        'USER': settings_local.DB_USER,             # Not used with sqlite3.
-        'PASSWORD': settings_local.DB_PASSWORD,     # Not used with sqlite3.
-        'HOST': settings_local.DB_HOST,             # Set to empty string for localhost. Not used with sqlite3.
-        'PORT': settings_local.DB_PORT,             # Set to empty string for default. Not used with sqlite3.
-    }
-}
+DATABASES = { }
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -146,22 +125,6 @@ FIXTURE_DIRS = (
 
 SOUTH_TESTS_MIGRATE = False
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST =  settings_local.EMAIL_HOST
-EMAIL_PORT = settings_local.EMAIL_PORT
-EMAIL_HOST_USER = settings_local.EMAIL_HOST_USER
-EMAIL_HOST_PASSWORD = settings_local.EMAIL_HOST_PASSWORD
-EMAIL_USE_TLS = settings_local.EMAIL_USE_TLS
-
 FIREFOX_DOWNLOAD_URL = "http://www.mozilla.com/en-US/firefox/" #False # set this on download day to change 'Get Download Day' reminder links to 'Download Firefox 4' links
 
 SNAPSHOT_BASE_URL = '/static/collages/'
-
-BITLY_USERNAME = settings_local.BITLY_USERNAME
-BITLY_APIKEY = settings_local.BITLY_APIKEY
-
-BROKER_HOST = settings_local.BROKER_HOST
-BROKER_PORT = settings_local.BROKER_PORT
-BROKER_USER = settings_local.BROKER_USER
-BROKER_PASSWORD = settings_local.BROKER_PASSWORD
-BROKER_VHOST = settings_local.BROKER_VHOST
