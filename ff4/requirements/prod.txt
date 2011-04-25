@@ -1,12 +1,10 @@
 # Django
 -e git://github.com/django/django.git@a85fe4dddc4b133de289#egg=django
 -e git://github.com/LUKKIEN/django-easymode.git#egg=django-easymode
--e hg+https://bitbucket.org/drmeers/django-dbgettext#egg=django-dbgettext
-
 
 # Celery: Message queue
-celery
-django-celery
+-e git://github.com/ask/celery.git#egg=celery
+-e git://github.com/ask/django-celery.git#egg=django-celery
 
 # Migrations
 -e git://github.com/simplegeo/django-south.git#egg=south
