@@ -11,6 +11,3 @@
 
 # Tower
 -e git://github.com/clouserw/tower.git#egg=tower
-
-# YAML
-PyYAML==3.09

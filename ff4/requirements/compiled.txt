@@ -6,3 +6,9 @@ Jinja2==2.5.5
 
 # Database
 MySQL-python==1.2.3
+
+# Dependencies
+lxml==2.3
+
+# YAML
+PyYAML==3.09
