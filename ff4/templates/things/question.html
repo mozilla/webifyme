@@ -26,29 +26,27 @@
 						<ul class="answers"></ul>
 						<br class="clr" />
 					</div>
-					
 					<div id="form-body" class="form" style="display:none;">
-						<h2>{{ _('A little more about you...') }}</h2>
+						<h2>{{ _('Personalize your collage...') }}</h2>
 						<div class="input text">
-							<label for="name-field">{{ _('Name') }}:</label>
+							<label for="name-field">{{ _('Title') }}:</label>
 							<input type="text" name="name" id="name-field" />
 							<br class="clr" />
 						</div>
+						<div class="input cbox">
+							<input type="checkbox" name="gallery_include" id="gallery-include-field" />
+							<label for="gallery-include-field">{{ _('Include my collage in the gallery') }}</label>
+							<br class="clr" />
+						</div>
+						<h2>{{ _('Keep in touch') }}</h2>
 						<div class="input text">
 							<label for="email-field">{{ _('E-Mail') }}:</label>
 							<input type="text" name="email" id="email-field" />
 							<br class="clr" />
 						</div>
-
-							<div class="input">
-								<input type="checkbox" name="download_reminder" id="download-reminder-field" />
-								<label for="download-reminder-field">{{ _('Sign-up for our monthly newsletter featuring special Mozilla news, Firefox tips & tricks and more!') }}</label>
-								<br class="clr" />
-							</div>
-
-						<div class="input cbox">
-							<input type="checkbox" name="gallery_include" id="gallery-include-field" />
-							<label for="gallery-include-field">{{ _('Include my collage in the gallery') }}</label>
+						<div class="input">
+							<input type="checkbox" name="download_reminder" id="download-reminder-field" />
+							<label for="download-reminder-field">{{ _('Sign-up for our monthly newsletter featuring special Mozilla news, Firefox tips & tricks and more!') }}</label>
 							<br class="clr" />
 						</div>
 					</div>
