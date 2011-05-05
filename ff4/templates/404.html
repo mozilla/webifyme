@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{{ _('Firefox 4 Internet Things') }}</title>
+		<link rel="stylesheet" href="{{ STATIC_URL }}css/base.css" type="text/css" charset="utf-8">
+		
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/ie.css" type="text/css" charset="utf-8">
+    <![endif]-->
+
+	</head>
+	
+	<body class="{% block page_class %}{% endblock %}">
+		<div id="eyebrow"></div>
+        <noscript>
+          <b>{{ _('Webify Me') }}</b> {{ _('uses modern HTML5 features that work best with JavaScript turned on. (<a href="http://support.mozilla.com/kb/JavaScript">How do I do that?</a>)') }}
+        </noscript>
+		<div id="doc">
+			{% block header %}
+				<div id="header">
+					<a id="brand" href="http://mozilla.com">Mozilla</a>
+					<div id="intro-line">{{ _('Firefox 4 presents') }}</div>
+					<h1><a href="/">{{ _('Webify Me!') }}</a></h1>
+					<ul class="nav">
+						<li id="quiz"><a href="/quiz/"><span>{{ _('Take The Quiz') }}</span></a></li>
+						<li id="gallery"><a href="/gallery/"><span>{{ _('See The Gallery') }}</span></a></li>
+						<li id="learn"><a href="/features/"><span>{{ _('Learn About Firefox 4') }}</span></a></li>
+					</ul>
+					<br class="clr" />
+				</div>
+			{% endblock %}
+			
+			<p>404</p>
+			
+			{% block footer %}
+				<div id="footer">
+					<div class="links">
+						<ul class="main-links">
+							<li><a href="http://www.mozilla.com/en-US/firefox/features/">{{ _('Firefox4 Features') }}</a></li>
+							<li><a href="http://www.mozilla.org/">{{ _('Mozilla') }}</a></li>
+							<li class="last"><a href="http://www.mozilla.com/newsletter/">{{ _('Newsletter Sign-up') }}</a></li>
+						</ul>
+						<br class="clr" />
+						<ul class="legal">
+							<li><a target="_blank" href="http://www.mozilla.com/en-US/about/legal.html">{{ _('Legal') }}</a></li>
+							<li><a target="_blank" href="http://www.mozilla.com/en-US/privacy-policy.html">{{ _('Privacy Policy') }}</a></li>
+						</ul>
+					</div>
+				{% include "shared/_download_day_signup.html" %}
+				</div>
+			{% endblock %}
+
+		</div>
+	</body>
+</html>
