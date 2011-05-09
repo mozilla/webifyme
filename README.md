@@ -71,32 +71,3 @@ Fire up a celery worker:
 
 Start your dev server:
     python ff4/manage.py runserver
-
-
-
--- tmp --
-
-and spin up beanstalkd (and settings in settings_local_)
-
-      ./beanstalkd -d -l 10.0.1.5 -p 11300
-
-[beanstalkd]: http://kr.github.com/beanstalkd/
-
-### Django
-Put your database and beanstalkd settings and [bitly][bitly] api creds in `settings_local.py`
-
-[bitly]: http://bit.ly/a/account
-
-Static collage images are rendered by a (beanstalkd) background job, located at ff4/things/tasks/render.collage.py
-
-This task should be monitored by a tool such as [God][God]. An example God config is included in the project root.
-
-Load and start up God by
-
-     sudo god -c /path/to/god.conf
-
-[God]: https://github.com/mojombo/god
-
--- tmp
-
-
