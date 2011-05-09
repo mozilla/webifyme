@@ -1,30 +1,30 @@
-- fields: { file_name: "1755_Site_0149.png", name: "DIGG Button", slug: "1755_Site_0149.png" }
+- fields: { file_name: "1755_site_0149.png", name: "DIGG Button", slug: "1755_site_0149.png" }
   model: things.Image
   pk:
-- fields: { file_name: "1755_Site_0150.png", name: "Reddit Button", slug: "1755_Site_0150.png" }
+- fields: { file_name: "1755_site_0150.png", name: "Reddit Button", slug: "1755_site_0150.png" }
   model: things.Image
   pk:
-- fields: { file_name: "1755_Site_0151.png", name: "Stumbleupon Button", slug: "1755_Site_0151.png" }
+- fields: { file_name: "1755_site_0151.png", name: "Stumbleupon Button", slug: "1755_site_0151.png" }
   model: things.Image
   pk:
-- fields: { file_name: "1755_Site_0152.png", name: "Facebook Button", slug: "1755_Site_0152.png" }
+- fields: { file_name: "1755_site_0152.png", name: "Facebook Button", slug: "1755_site_0152.png" }
   model: things.Image
   pk:
-- fields: { file_name: "1755_Site_0153.png", name: "Twitter Button", slug: "1755_Site_0153.png" }
+- fields: { file_name: "1755_site_0153.png", name: "Twitter Button", slug: "1755_site_0153.png" }
   model: things.Image
   pk:
-- fields: { file_name: "1755_Site_0154.png", name: "Buzzfeed Button", slug: "1755_Site_0154.png" }
+- fields: { file_name: "1755_site_0154.png", name: "Buzzfeed Button", slug: "1755_site_0154.png" }
   model: things.Image
   pk:
-- fields: { file_name: "1755_Site_0155.png", name: "Slashdot Button", slug: "1755_Site_0155.png" }
+- fields: { file_name: "1755_site_0155.png", name: "Slashdot Button", slug: "1755_site_0155.png" }
   model: things.Image
   pk:
-- fields: { file_name: "1755_Site_0156.png", name: "QQ Button", slug: "1755_Site_0156.png" }
+- fields: { file_name: "1755_site_0156.png", name: "QQ Button", slug: "1755_site_0156.png" }
   model: things.Image
   pk:
-- fields: { file_name: "1755_Site_0157.png", name: "Orkut Button", slug: "1755_Site_0157.png" }
+- fields: { file_name: "1755_site_0157.png", name: "Orkut Button", slug: "1755_site_0157.png" }
   model: things.Image
   pk:
-- fields: { file_name: "1755_Site_0178.png", name: "Frrvrr Button", slug: "1755_Site_0178.png" }
+- fields: { file_name: "1755_site_0178.png", name: "Frrvrr Button", slug: "1755_site_0178.png" }
   model: things.Image
   pk:
