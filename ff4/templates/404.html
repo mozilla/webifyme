@@ -8,14 +8,12 @@
     <!--[if IE 7]>
         <link rel="stylesheet" href="{{ STATIC_URL }}css/ie.css" type="text/css" charset="utf-8">
     <![endif]-->
-
+		<script type="text/javascript" src="http://use.typekit.com/sxi3cin.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	</head>
 	
 	<body class="{% block page_class %}{% endblock %}">
 		<div id="eyebrow"></div>
-        <noscript>
-          <b>{{ _('Webify Me') }}</b> {{ _('uses modern HTML5 features that work best with JavaScript turned on. (<a href="http://support.mozilla.com/kb/JavaScript">How do I do that?</a>)') }}
-        </noscript>
 		<div id="doc">
 			{% block header %}
 				<div id="header">
@@ -31,7 +29,20 @@
 				</div>
 			{% endblock %}
 			
-			<p>404</p>
+			<div class="paper">
+					<div class="top-cap"></div>
+					<div class="main">
+						<div class="inner">
+							<div id="error-content">
+								<h3>{{ _('404 Error') }}</h3>
+								<p>{{ _('Sorry! We couldn&#x27;t find the page you requested. Please start at the <a href="/quiz/">beginning of the quiz</a> and try again.') }}</p>
+							</div>
+						</div>
+					</div>
+					<div class="bottom-cap"></div>
+				</div>
+				
+
 			
 			{% block footer %}
 				<div id="footer">
