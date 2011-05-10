@@ -1501,6 +1501,7 @@ line-height: 2.0em;
   padding-left: 102px;
 }
 
-.js-templates {
+.js-templates,
+.translated-strings {
   display: none;
 }

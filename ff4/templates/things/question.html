@@ -1,6 +1,27 @@
 {% extends "layouts/base.html" %}
 
 {% block scripts %}
+<div class="translated-strings">
+	<ol id="msg-alphabet">
+		<li>{{ _('A') }}</li>
+		<li>{{ _('B') }}</li>
+		<li>{{ _('C') }}</li>
+		<li>{{ _('D') }}</li>
+		<li>{{ _('E') }}</li>
+		<li>{{ _('F') }}</li>
+		<li>{{ _('G') }}</li>
+		<li>{{ _('H') }}</li>
+		<li>{{ _('I') }}</li>
+		<li>{{ _('J') }}</li>
+		<li>{{ _('K') }}</li>
+		<li>{{ _('L') }}</li>
+	</ol>
+	<span id="msg-name-required-error">{{ _('Name required, may only use alphanumeric characters.') }}</span>
+	<span id="msg-email-required-error">{{ _('Valid email required.') }}</span>
+	<span id="msg-question">{{ _('Question') }}</span>
+	<span id="msg-skip">{{ _('Skip') }}</span>
+</div>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.getText.js"></script>
 	<script type="text/javascript" src="{{ STATIC_URL }}js/quiz.js"></script>
 	<script type="text/javascript">
 		var things = things || {};
