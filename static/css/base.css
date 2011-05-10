@@ -1500,3 +1500,7 @@ line-height: 2.0em;
 .features .paper-strip .inner {
   padding-left: 102px;
 }
+
+.js-templates {
+  display: none;
+}

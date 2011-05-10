@@ -469,9 +469,9 @@ things.BackgroundSelector = function(bgData) {
   }
   
   function init() {
-    buttonEl = $('#js-background-change-buttom').children().clone().appendTo('#header');
-    selectEl = $('#js-background-selector' ).children().clone().insertAfter(buttonEl).hide();
-		
+    buttonEl = $( '#js-background-change-button' ).children().clone().appendTo( '#header' );
+    selectEl = $( '#js-background-selector' ).children().clone().insertAfter(buttonEl).hide();
+		console.log(buttonEl, selectEl);
 		var listEl = selectEl.find('.slide-wrapper ul');
 		for(var i = 0; i < backgroundData.length; i++) {
 		  $('<li><img width="102" height="116" src="'+THUMBNAIL_PATH+backgroundData[i]['thumbnail']+'" /></li>').appendTo(listEl)
