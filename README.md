@@ -34,7 +34,7 @@ Set up a user and vhost:
 
     sudo rabbitmqctl add_user [USER] [PASS]
     sudo rabbitmqctl add_vhost [VHOST]
-    sudo rabbitmqctl set_permissions -p [VHOST] [USER] "" ".*" ".*"
+    sudo rabbitmqctl set_permissions -p [VHOST] [USER] ".*" ".*" ".*"
 
 Start and activate the virtualenv:
 
