@@ -1,6 +1,7 @@
 *.py[co]
 *.pot
 *.mo
+*.DS_Store
 ffenv
 
 ff4/settings_local.py

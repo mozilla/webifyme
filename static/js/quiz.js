@@ -2,7 +2,6 @@ var things = things || {};
 
 things.Quiz = function() {
   var that = {};
-  var ALPHABET = ['A','B','C','D','E','F','G','H','I','J','K','L'];
   var ANIMATE_TIME = 500;
   
   var questions = {};
@@ -98,7 +97,7 @@ things.Quiz = function() {
   }
   
   function createAnswer(answer, i) {
-    return $('<a href="#">'+ALPHABET[i]+') '+answer['answer']+'</a>').click(function(){
+    return $( '<a href="#">' + $._( 'msg-alphabet', i ) + ') ' + answer['answer'] + '</a>' ).click( function() {
       return onAnswerClick(answer, this);
     });
   }
@@ -106,12 +105,12 @@ things.Quiz = function() {
   function moveProgressBar() {
     var progressWidth = Math.floor(qIdx/questionCount * 100);
     $('#question-container .progress').animate({'width':progressWidth+'%'}, ANIMATE_TIME);
-    $('#question-container .progress .label span').text((questionCount - qIdx)+' More to go');
+    $('#question-container .progress .label span').text( $._( 'msg-more-to-go', questionCount - qIdx ) );
   }
   
   function populateQuestion() {
     activeEl = questionEl;
-    questionEl.find('.question-num').text('Question '+(qIdx+1)+':');
+    questionEl.find('.question-num').text( $._( 'msg-question' ) + ' ' + ( qIdx + 1 ) + ':' );
     questionEl.find('.question').text(questions[qIdx]['question']);
     questionEl.find('.answers').html('');
     for(var i = 0, ii = questions[qIdx]['answers'].length; i < ii; i++) {
@@ -125,7 +124,7 @@ things.Quiz = function() {
       questionEl.height(lastQuestionHeight);
       questionEl.animate({'height':newHeight}, ANIMATE_TIME, null, function(){ questionEl.height('auto'); });
     }*/
-    skipBtn.text('Skip');
+    skipBtn.text( $._( 'msg-skip' ) );
     questionEl.fadeIn(ANIMATE_TIME);
     moveProgressBar();
     if(qIdx == 10) {
@@ -249,14 +248,14 @@ things.QuizForm = function(el) {
   function validate() {
     var name_re = /^[A-Za-z0-9_\'\-!\. ]{1,50}$/
     if( ! name_re.test(data['username'])) {
-      addError('name','Name required, may only use alphanumeric characters.');
+      addError('name', $._( 'msg-name-required-error' ) );
     }
     
     if(data['download_reminder']) {
       //email is required if download reminder is requested
       var email_re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i
       if( ! email_re.test(data['email'])) {
-        addError('email','Valid email required.')
+        addError('email', $._( 'msg-email-required-error' ) )
       }
     }
     

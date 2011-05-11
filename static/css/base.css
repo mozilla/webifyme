@@ -1500,3 +1500,16 @@ line-height: 2.0em;
 .features .paper-strip .inner {
   padding-left: 102px;
 }
+
+.js-templates,
+.translated-strings {
+  display: none;
+}
+#error-content h3 {
+  font-family: "league-gothic-1","league-gothic-2",sans-serif;
+  font-size: 38px;
+  line-height: 40px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

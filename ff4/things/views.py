@@ -9,6 +9,7 @@ from django.utils.encoding import force_unicode
 from django.utils import translation
 from django.utils.translation import ugettext_lazy as _lazy
 from django.utils.translation import ugettext as _
+from django.utils.translation import ngettext
 from django.conf import settings
 from django.contrib.sites.models import Site
 from ff4.utils.render import render_response
@@ -204,8 +205,12 @@ def quiz_json():
     questions = []
     for question in QuizQuestion.objects.select_related('quizanswer_set').all():
         lang_specific_question = _(force_unicode(QUESTIONS[question.pk]))
+        quest_left = 1, #TODO Bug#651579, populate quest_left, remove 
+        # More to go from static/js/quiz.js and use this value
         data = {
             'id':question.id,
+            # L10n: {0} is the number of questions remaining in the quiz
+            'progress': ngettext('{0} more to go', '{0} more to go', quest_left),
             'question':lang_specific_question,
             'answers':[]
         }

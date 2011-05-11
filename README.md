@@ -43,7 +43,8 @@ Start and activate the virtualenv:
 
 Prepare you development environment:
 
-    pip install -r requirements/dev.txt -r requirements/compiled.txt
+    pip install -r requirements/compiled.txt
+    pip install -r requirements/dev.txt
 
 ### Setup
 
@@ -51,7 +52,7 @@ Get a username and API key from http://bit.ly/ by signing up and and requesting 
 
 Now add the settings to settings_local.py (BITLY_USERNAME / BITLY_APIKEY)
 
-Create a database and be sure to note the name then make a copy of settings_local.py.default called settings_local.py and update your database settings
+Create a database and be sure to note the name then make a copy of settings_local.py.default called settings_local.py and update your database settings and your rabbitmq connection settings
 
 Sync your db:
 
