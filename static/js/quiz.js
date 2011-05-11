@@ -105,7 +105,7 @@ things.Quiz = function() {
   function moveProgressBar() {
     var progressWidth = Math.floor(qIdx/questionCount * 100);
     $('#question-container .progress').animate({'width':progressWidth+'%'}, ANIMATE_TIME);
-    $('#question-container .progress .label span').text((questionCount - qIdx)+' More to go');
+    $('#question-container .progress .label span').text((questionCount - qIdx) + ' ' + $._( 'msg-more-to-go' ) );
   }
   
   function populateQuestion() {
