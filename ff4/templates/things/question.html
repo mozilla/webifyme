@@ -20,7 +20,11 @@
 	<span id="msg-email-required-error">{{ _('Valid email required.') }}</span>
 	<span id="msg-question">{{ _('Question') }}</span>
 	<span id="msg-skip">{{ _('Skip') }}</span>
-	<span id="msg-more-to-go">{{ _('More to go') }}</span>
+	<ol id="msg-more-to-go">
+		{% for i in [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20] %}
+		<li id="msg-more-to-get-{{i}}">{{ ngettext('{0} more to go', '{0} more to go', i).format(i) }}</li>
+		{% endfor %}
+	</ol>
 </div>
 	<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.getText.js"></script>
 	<script type="text/javascript" src="{{ STATIC_URL }}js/quiz.js"></script>
