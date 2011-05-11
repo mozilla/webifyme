@@ -209,6 +209,7 @@ def quiz_json():
         # More to go from static/js/quiz.js and use this value
         data = {
             'id':question.id,
+            # L10n: {0} is the number of questions remaining in the quiz
             'progress': ngettext('{0} more to go', '{0} more to go', quest_left),
             'question':lang_specific_question,
             'answers':[]
