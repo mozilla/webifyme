@@ -20,7 +20,7 @@
 	<span id="msg-email-required-error">{{ _('Valid email required.') }}</span>
 	<span id="msg-question">{{ _('Question') }}</span>
 	<span id="msg-skip">{{ _('Skip') }}</span>
-	<ol id="msg-more-to-go">
+	<ol id="msg-more-to-go">{# L10n: 0 is the number of questions remaining #}
 		{% for i in [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20] %}
 		<li id="msg-more-to-get-{{i}}">{{ ngettext('{0} more to go', '{0} more to go', i).format(i) }}</li>
 		{% endfor %}
@@ -74,8 +74,8 @@
 							<br class="clr" />
 						</div>
 						<div class="input">
-							<input type="checkbox" name="download_reminder" id="download-reminder-field" />
-							<label for="download-reminder-field">{{ _('I agree to the <a href="http://www.mozilla.com/en-US/privacy-policy">Mozilla Privacy Policy</a>') }}</label>
+							<input type="checkbox" name="download_reminder" id="download-reminder-field" />{# L10n: {0} is the url to the privacy policy #}
+							<label for="download-reminder-field">{{ _('I agree to the <a href="{0}">Mozilla Privacy Policy</a>').format('http://www.mozilla.com/privacy-policy') }}</label>
 							<br class="clr" />
 						</div>
 					</div>
