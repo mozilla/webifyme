@@ -2,9 +2,11 @@
 *.pot
 *.mo
 *.DS_Store
+*.log
 ffenv
 
 ff4/settings_local.py
 ff4/static/assets/js/markApp.js
 ff4/src
 ff4/build
+static/collages/*
