@@ -6,6 +6,7 @@ PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 PROJECT_DIR = os.path.realpath(os.path.dirname(__file__))
 
 DATABASES = { }
+DATABASE_ROUTERS = ('multidb.MasterSlaveRouter',)
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
