@@ -9,13 +9,23 @@ DEV = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ua_dev',
+        'NAME': 'ua_dev_two',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
+    },
+    'slave': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ua_dev_two',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': '',
         'PORT': '',
     }
 }
+
+SLAVE_DATABASES = ['slave']
 
 ADMINS = (
     # ('Your Name', 'your_email@domain.com'),
