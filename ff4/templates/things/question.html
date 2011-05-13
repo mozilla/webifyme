@@ -74,7 +74,10 @@
 							<br class="clr" />
 						</div>
 						<div class="input">
-<!-- {{ _('Please read the Mozilla Privacy Policy and agree by checking the box.') }} -->
+<!-- 
+    {{ _('Please read the Mozilla Privacy Policy and agree by checking the box.') }} 
+    {{ _('Your quiz answers are anonymous and we do not store them.') }}
+-->
 							<input type="checkbox" name="download_reminder" id="download-reminder-field" />{# L10n: {0} is the url to the privacy policy #}
 							<label for="download-reminder-field">{{ _('I agree to the <a href="{0}">Mozilla Privacy Policy</a>').format('http://www.mozilla.com/privacy-policy') }}</label>
 							<br class="clr" />
