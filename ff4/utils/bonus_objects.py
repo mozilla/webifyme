@@ -84,17 +84,17 @@ def get_browser_object(user_agent_string):
         },
         'firefox': {
             'name': 'Toy Robot',
-            'tooltip': _(u'Hello intrepid Firefox 3 user! You’ve been with us for a long time, and we’re excited to share Firefox 4 with you. Until then, accept this trusty robot as a symbol of our appreciation.'),
+            'tooltip': _(u'Hello intrepid Firefox 3 user! You’ve been with us for a long time, and we’re excited to share the new Firefox with you. Until then, accept this trusty robot as a symbol of our appreciation.'),
             'file_name': '1755_site_0169.png'
         },
         'safari': {
             'name': 'Toy Compass',
-            'tooltip': _(u'Hi Safari user! We’re glad you came by to check out what’s new in Firefox 4 - give the snappier browser a shot, you’ll like life in the fast lane. Until then, please accept this compass, you Internet Magellan.'),
+            'tooltip': _(u'Hi Safari user! We’re glad you came by to check out what’s new in Firefox - give the snappier browser a shot, you’ll like life in the fast lane. Until then, please accept this compass, you Internet Magellan.'),
             'file_name': '1755_site_0170.png'
         },
         'chrome': {
             'name': 'Chrome Rock',
-            'tooltip': _(u'Howdy Chrome user! Glad you came by to check out our shiny new browser. Give Firefox 4 a shot; you’ll like life in the faster lane. Until then, here’s a nice chrome stone just for you.'),
+            'tooltip': _(u'Howdy Chrome user! Glad you came by to check out our shiny new browser. Give Firefox a shot; you’ll like life in the faster lane. Until then, here’s a nice chrome stone just for you.'),
             'file_name': '1755_site_0171.png'
         },
         'ie': {
