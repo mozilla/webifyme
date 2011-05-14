@@ -125,7 +125,7 @@ FIXTURE_DIRS = (
 
 SOUTH_TESTS_MIGRATE = False
 
-FIREFOX_DOWNLOAD_URL = "http://www.mozilla.com/en-US/firefox/" #False # set this on download day to change 'Get Download Day' reminder links to 'Download Firefox 4' links
+FIREFOX_DOWNLOAD_URL = "http://www.mozilla.com/en-US/firefox/" #False # set this on download day to change 'Get Download Day' reminder links to 'Download Firefox' links
 
 SNAPSHOT_BASE_URL = '/static/collages/thumbs_gallery/'
 
