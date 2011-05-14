@@ -13,10 +13,9 @@ from PIL import Image, ImageOps
 from ff4.things.models import Collage
 from ff4.things.backgrounds import BACKGROUNDS
 
-LOG_FILENAME = 'render_collage.log'
 logging.basicConfig(level=logging.ERROR,
                     format='%(asctime)s :: %(levelname)s %(message)s',
-                    filename=LOG_FILENAME,
+                    filename=settings.LOG_FILENAME,
                     filemode='w')
 
 CANVAS_WIDTH = 875
