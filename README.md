@@ -43,8 +43,8 @@ Start and activate the virtualenv:
 
 Prepare you development environment:
 
-    pip install -r requirements/compiled.txt
-    pip install -r requirements/dev.txt
+    pip install -r ff4/requirements/compiled.txt
+    pip install -r ff4/requirements/dev.txt
 
 ### Setup
 
