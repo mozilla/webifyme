@@ -10,17 +10,11 @@
     <!--[if IE 7]>
         <link rel="stylesheet" href="{{ STATIC_URL }}css/ie.css" type="text/css">
     <![endif]-->
-
-		<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.js"></script>
-		<script type="text/javascript" src="{{ STATIC_URL }}js/quiz.js"></script>
-		<script type="text/javascript" src="{{ STATIC_URL }}js/global.js"></script>
 		<script type="text/javascript" src="http://use.typekit.com/sxi3cin.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		
-		
 	</head>
 	
-	<body class="{% block page_class %}{% endblock %} none-bg">
+	<body class="{% block page_class %}{% endblock %} none-bg" id="{% block page_id %}{% endblock %}">
 		<div id="eyebrow"></div>
         <noscript>
           <b>{{ _('Webify Me') }}</b> {{ _('uses modern HTML5 features that work best with JavaScript turned on. (<a href="http://support.mozilla.com/kb/JavaScript">How do I do that?</a>)') }}
@@ -61,6 +55,7 @@
 			{% endblock %}
 
 		</div>
+		<script type="text/javascript" src="{{ STATIC_URL }}js/webifyme_common.min.js"></script>
 		{% block scripts %}{%  endblock %}
 	</body>
 </html>

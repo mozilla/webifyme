@@ -72,3 +72,10 @@ Fire up a celery worker:
 
 Start your dev server:
     python ff4/manage.py runserver
+
+
+
+## Javascript (Minification)
+
+[Jim][Jim] is used for managing the JavaScript in Mozilla Mark Up. More information is available [here][Jim].
+[Jim]: https://github.com/quirkey/jim

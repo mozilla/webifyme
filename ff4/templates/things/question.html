@@ -1,5 +1,5 @@
 {% extends "layouts/base.html" %}
-
+{% block page_id %}quiz{% endblock %}
 {% block scripts %}
 <div class="translated-strings">
 	<ol id="msg-alphabet">
@@ -26,17 +26,11 @@
 		{% endfor %}
 	</ol>
 </div>
-	<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.getText.js"></script>
-	<script type="text/javascript" src="{{ STATIC_URL }}js/quiz.js"></script>
 	<script type="text/javascript">
 		var things = things || {};
-		
+		// the questions and images should just be loaded as HTML. this implimentation is confusing.
 		things.quizQuestions = {{ quiz_json or '[]' }};
 		things.images = {{ images_json or '[]' }};
-		
-		$(document).ready(function(){
-			things.Quiz();
-		});
 	</script>
 {% endblock %}
 
@@ -48,6 +42,7 @@
 				<div class="question-body-parent">
 					<div id="question-body">
 						<h2 class="question-num"></h2>
+						<p class="question-note">{{ _('Your quiz answers are anonymous and we do not store them.') }}</p>
 						<p class="question"></p>
 						<ul class="answers"></ul>
 						<br class="clr" />
@@ -76,7 +71,7 @@
 						<div class="input">
 <!-- 
     {{ _('Please read the Mozilla Privacy Policy and agree by checking the box.') }} 
-    {{ _('Your quiz answers are anonymous and we do not store them.') }}
+    
 -->
 							<input type="checkbox" name="download_reminder" id="download-reminder-field" />{# L10n: {0} is the url to the privacy policy #}
 							<label for="download-reminder-field">{{ _('I agree to the <a href="{0}">Mozilla Privacy Policy</a>').format('http://www.mozilla.com/privacy-policy') }}</label>
@@ -99,8 +94,8 @@
 							</div>
 						</div>
 					</div>
-                    <a class="skipRest" href="#"><span>{{ _('Skip to End') }}</span></a>
-                    <a href="#" class="get-your-results-btn">{{ _('Get Your Results') }}</a>
+					<a class="skipRest" href="#"><span>{{ _('Skip to End') }}</span></a>
+					<a href="#" class="get-your-results-btn">{{ _('Get Your Results') }}</a>
 				</div>
 			</div>
 		</div>

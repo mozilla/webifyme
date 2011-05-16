@@ -68,7 +68,7 @@
 					// fallback to returning the passed key if we can't find the translation
 					return key;
 				}
-			},
+			}
 		}
 	};
 	

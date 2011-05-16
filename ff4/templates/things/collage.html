@@ -37,34 +37,16 @@
 		</div>
 	</div>
 	<script type="text/javascript">
-	
+	// TODO -- this could be much better
 	things.isCollageOwner = {% if is_owner %}true{% else %}false{% endif %};
 	things.collageData = {{ collage.images_coords or '{}' }};
 	things.snapshotUrl = '{{ collage.snapshot_url() or '' }}';
 	things.backgroundData = {{ backgrounds or '[]' }};
-
-	</script>
-
-	<script type="text/javascript" src="{{ STATIC_URL }}js/collage.js"></script>
-	
-	<script type="text/javascript">
-		$(document).ready(function() {
-			var collage = things.Collage($('#collage-canvas'), things.collageData);
-			things.snapshotChecker = null;
-			collage.draw();
-			if(things.collageData['background']) {
-				things.setBackground(things.collageData['background']);
-			}
-		
-			if( things.isCollageOwner ) {
-				things.BackgroundSelector(things.backgroundData);
-				things.snapshotChecker = things.SnapshotChecker();
-			}
-		});
 	</script>
 {% endblock %}
 
-{% block page_class %}{{ _('collage') }}{% endblock %}
+{% block page_id %}collage{% endblock %}
+{% block page_class %}collage{% endblock %}
 
 {% block header %}
 	<div id="header">
