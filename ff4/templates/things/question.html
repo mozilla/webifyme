@@ -70,11 +70,11 @@
 						</div>
 						<div class="input">
 <!-- 
-    {{ _('Please read the Mozilla Privacy Policy and agree by checking the box.') }} 
+    {{ _('Please read the <a href="{0}">Mozilla Privacy Policy</a> and agree by checking the box.').format('http://www.mozilla.com/privacy-policy') }} 
     
 -->
 							<input type="checkbox" name="download_reminder" id="download-reminder-field" />{# L10n: {0} is the url to the privacy policy #}
-							<label for="download-reminder-field">{{ _('I agree to the <a href="{0}">Mozilla Privacy Policy</a>').format('http://www.mozilla.com/privacy-policy') }}</label>
+							<label for="download-reminder-field">{{ _('I agree to Mozilla\'s use of my email address as described in the <a href="{0}">Privacy Policy</a>').format('http://www.mozilla.com/privacy-policy') }}</label>
 							<br class="clr" />
 						</div>
 					</div>
