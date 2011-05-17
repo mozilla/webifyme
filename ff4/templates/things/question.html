@@ -1,5 +1,5 @@
 {% extends "layouts/base.html" %}
-
+{% block page_id %}quiz{% endblock %}
 {% block scripts %}
 <div class="translated-strings">
 	<ol id="msg-alphabet">
@@ -26,17 +26,11 @@
 		{% endfor %}
 	</ol>
 </div>
-	<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.getText.js"></script>
-	<script type="text/javascript" src="{{ STATIC_URL }}js/quiz.js"></script>
 	<script type="text/javascript">
 		var things = things || {};
-		
+		// the questions and images should just be loaded as HTML. this implimentation is confusing.
 		things.quizQuestions = {{ quiz_json or '[]' }};
 		things.images = {{ images_json or '[]' }};
-		
-		$(document).ready(function(){
-			things.Quiz();
-		});
 	</script>
 {% endblock %}
 
@@ -49,8 +43,8 @@
 					<div id="question-body">
 						<h2 class="question-num"></h2>
 						<p class="question"></p>
-						<ul class="answers"></ul>
-						<br class="clr" />
+						<ul class="answers clearfix"></ul>
+						<p class="question-note">{{ _('Your quiz answers are anonymous and we do not store them.') }}</p>
 					</div>
 					<div id="form-body" class="form" style="display:none;">
 						<h2>{{ _('Personalize your collage...') }}</h2>
@@ -75,11 +69,11 @@
 						</div>
 						<div class="input">
 <!-- 
-    {{ _('Please read the Mozilla Privacy Policy and agree by checking the box.') }} 
-    {{ _('Your quiz answers are anonymous and we do not store them.') }}
+    {{ _('Please read the <a href="{0}">Mozilla Privacy Policy</a> and agree by checking the box.').format('http://www.mozilla.com/privacy-policy') }} 
+    
 -->
 							<input type="checkbox" name="download_reminder" id="download-reminder-field" />{# L10n: {0} is the url to the privacy policy #}
-							<label for="download-reminder-field">{{ _('I agree to the <a href="{0}">Mozilla Privacy Policy</a>').format('http://www.mozilla.com/privacy-policy') }}</label>
+							<label for="download-reminder-field">{{ _('I agree to Mozilla\'s use of my email address as described in the <a href="{0}">Privacy Policy</a>').format('http://www.mozilla.com/privacy-policy') }}</label>
 							<br class="clr" />
 						</div>
 					</div>
@@ -99,8 +93,8 @@
 							</div>
 						</div>
 					</div>
-                    <a class="skipRest" href="#"><span>{{ _('Skip to End') }}</span></a>
-                    <a href="#" class="get-your-results-btn">{{ _('Get Your Results') }}</a>
+					<a class="skipRest" href="#"><span>{{ _('Skip to End') }}</span></a>
+					<a href="#" class="get-your-results-btn">{{ _('Get Your Results') }}</a>
 				</div>
 			</div>
 		</div>

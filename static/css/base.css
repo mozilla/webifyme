@@ -59,6 +59,20 @@ h3 {
   width: 875px;
   margin: 0 auto;
 }
+/* handle centering a little differently on the quiz page to support the extra background images */
+#quiz #doc {
+	min-width: 875px;
+	overflow: hidden;
+	width: auto;
+}
+#quiz #doc #header, 
+#quiz #doc .paper, 
+#quiz #doc .share, 
+#quiz #doc #footer {
+	width: 875px;
+	margin-left: auto;
+	margin-right: auto;
+} 
 
 #header {
   position: relative;
@@ -709,8 +723,29 @@ ul.gallery li h4 {
 }
 
 /*Quiz page*/
-.object_progress { overflow: hidden; display: none;}
 
+.paper-small {
+	position: relative;
+}
+#progress_images_container {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.object_progress { 
+	overflow: hidden; 
+	display: none;
+	position: absolute;
+}
+.question-note {
+	font-style: italic;
+	font-family: "skolar-1","skolar-2", georgia, times, serif;
+	background-color: #F9F9F9;
+	padding: 4px 6px;
+	font-size: 14px;
+	margin: 14px 0;
+	color: #D16219;
+}
 .paper-small {
   width: 676px;
   margin: 0 auto;
@@ -746,7 +781,9 @@ ul.gallery li h4 {
 #question-body {
   overflow: hidden;
 }
-
+#question-container {
+	position: relative;
+}
 .paper-small h2 {
   height: 43px;
   line-height: 43px;
@@ -1516,4 +1553,20 @@ line-height: 2.0em;
   margin-bottom: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+/* The Magnificent Clearfix: Updated to prevent margin-collapsing on child elements. j.mp/bestclearfix */
+.clearfix:before, 
+.clearfix:after { 
+	content: "\0020"; 
+	display: block; 
+	height: 0; 
+	overflow: hidden; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+/* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.clearfix { 
+	zoom: 1; 
 }

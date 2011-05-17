@@ -37,39 +37,21 @@
 		</div>
 	</div>
 	<script type="text/javascript">
-	
+	// TODO -- this could be much better
 	things.isCollageOwner = {% if is_owner %}true{% else %}false{% endif %};
 	things.collageData = {{ collage.images_coords or '{}' }};
 	things.snapshotUrl = '{{ collage.snapshot_url() or '' }}';
 	things.backgroundData = {{ backgrounds or '[]' }};
-
-	</script>
-
-	<script type="text/javascript" src="{{ STATIC_URL }}js/collage.js"></script>
-	
-	<script type="text/javascript">
-		$(document).ready(function() {
-			var collage = things.Collage($('#collage-canvas'), things.collageData);
-			things.snapshotChecker = null;
-			collage.draw();
-			if(things.collageData['background']) {
-				things.setBackground(things.collageData['background']);
-			}
-		
-			if( things.isCollageOwner ) {
-				things.BackgroundSelector(things.backgroundData);
-				things.snapshotChecker = things.SnapshotChecker();
-			}
-		});
 	</script>
 {% endblock %}
 
-{% block page_class %}{{ _('collage') }}{% endblock %}
+{% block page_id %}collage{% endblock %}
+{% block page_class %}collage{% endblock %}
 
 {% block header %}
 	<div id="header">
     <a id="brand" href="http://mozilla.com">Mozilla</a>
-		<div id="intro-line">{{ _('Firefox 4 presents') }}</div>
+		<div id="intro-line">{{ _('Firefox presents') }}</div>
 
 					<br class="clr" />
 		<h1 class="name-title">
@@ -78,7 +60,7 @@
     <ul class="nav">
 				<li id="quiz"><a href="/quiz/"><span>{{ _('Take The Quiz') }}</span></a></li>
 				<li id="gallery"><a href="/gallery/"><span>{{ _('See The Gallery') }}</span></a></li>
-   			<li id="learn"><a href="/features/"><span>{{ _('Learn About Firefox 4') }}</span></a></li>
+   			<li id="learn"><a href="/features/"><span>{{ _('Learn About Firefox') }}</span></a></li>
 		</ul>
 	</div>
 {% endblock %}
