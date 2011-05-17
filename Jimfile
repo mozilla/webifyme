@@ -8,6 +8,7 @@
 			"jquery.getText",
 			"jquery.delayedBind",
 			"jquery.autoResize",
+			"ZeroClipboard",
 			"quiz",
 			"collage",
 			"gallery",

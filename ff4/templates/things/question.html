@@ -18,6 +18,7 @@
 	</ol>
 	<span id="msg-name-required-error">{{ _('Name required, may only use alphanumeric characters.') }}</span>
 	<span id="msg-email-required-error">{{ _('Valid email required.') }}</span>
+	<span id="msg-privacy-policy-required-error">{{ _( 'I agree to Mozilla\'s use of my email address as described in the <a href="{0}">Privacy Policy</a>' ).format('http://www.mozilla.com/privacy-policy') }}</span>
 	<span id="msg-question">{{ _('Question') }}</span>
 	<span id="msg-skip">{{ _('Skip') }}</span>
 	<ol id="msg-more-to-go">{# L10n: 0 is the number of questions remaining #}
@@ -47,35 +48,36 @@
 						<p class="question-note">{{ _('Your quiz answers are anonymous and we do not store them.') }}</p>
 					</div>
 					<div id="form-body" class="form" style="display:none;">
-						<h2>{{ _('Personalize your collage...') }}</h2>
-						<div class="input text">
-							<label for="name-field">{{ _('Title') }}:</label>
-							<input type="text" name="name" id="name-field" />
-							<br class="clr" />
-						</div>
-						<div class="input cbox">
-							<input type="checkbox" name="gallery_include" id="gallery-include-field" />
-							<label for="gallery-include-field">{{ _('Include my collage in the gallery') }}</label>
-							<br class="clr" />
-						</div>
-						<h2>{{ _('Keep in touch') }}</h2>
-						<div class="text">
-							<span>{{ _('Sign-up for our monthly newsletter featuring special Mozilla news, Firefox tips & tricks and more!') }}</span>
-						</div>
-						<div class="input text">
-							<label for="email-field">{{ _('E-Mail') }}:</label>
-							<input type="text" name="email" id="email-field" />
-							<br class="clr" />
-						</div>
-						<div class="input">
-<!-- 
-    {{ _('Please read the <a href="{0}">Mozilla Privacy Policy</a> and agree by checking the box.').format('http://www.mozilla.com/privacy-policy') }} 
-    
--->
-							<input type="checkbox" name="download_reminder" id="download-reminder-field" />{# L10n: {0} is the url to the privacy policy #}
-							<label for="download-reminder-field">{{ _('I agree to Mozilla\'s use of my email address as described in the <a href="{0}">Privacy Policy</a>').format('http://www.mozilla.com/privacy-policy') }}</label>
-							<br class="clr" />
-						</div>
+						<form method="POST" action="/quiz/">
+							<h2>{{ _('Personalize your collage...') }}</h2>
+							<div class="input text">
+								<label for="name-field">{{ _('Title') }}:</label>
+								<input type="text" name="name" id="name-field" />
+								<br class="clr" />
+							</div>
+							<div class="input cbox">
+								<input type="checkbox" name="gallery_include" id="gallery-include-field" />
+								<label for="gallery-include-field">{{ _('Include my collage in the gallery') }}</label>
+								<br class="clr" />
+							</div>
+							<h2>{{ _('Keep in touch') }}</h2>
+							<div class="text">
+								<span>{{ _('Sign-up for our monthly newsletter featuring special Mozilla news, Firefox tips & tricks and more!') }}</span>
+							</div>
+							<div class="input text">
+								<label for="email-field">{{ _('E-Mail') }}:</label>
+								<input type="text" name="email" id="email-field" />
+								<br class="clr" />
+							</div>
+							<div class="input">
+								<input type="checkbox" name="download_reminder" id="download-reminder-field" />{# L10n: {0} is the url to the privacy policy #}
+								<label for="download-reminder-field">{{ _('I agree to Mozilla\'s use of my email address as described in the <a href="{0}">Privacy Policy</a>').format('http://www.mozilla.com/privacy-policy') }}</label>
+								<br class="clr" />
+							</div>
+							<div class="input">
+								<input type="submit" name="submit" value="{{ _('Get Your Results') }}" class="get-your-results-btn" >
+							</div>
+						</form>
 					</div>
 					
 				</div>
@@ -94,7 +96,7 @@
 						</div>
 					</div>
 					<a class="skipRest" href="#"><span>{{ _('Skip to End') }}</span></a>
-					<a href="#" class="get-your-results-btn">{{ _('Get Your Results') }}</a>
+					
 				</div>
 			</div>
 		</div>

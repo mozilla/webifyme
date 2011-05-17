@@ -150,6 +150,25 @@ things.Quiz = function() {
     $('#question-container .get-your-results-btn').css('display','block');
   }
   
+	function prepForm() {
+		var formData = quizForm.read();
+    if(formData) {
+      for(k in formData) { answers[k] = formData[k]; }
+    } else {
+      //didn't validate
+      showForm();
+      return false;
+    }
+		// add all the answers to the form
+		var $form = $( '#form-body form' );
+    for( var qid in answers ) {
+      if(answers.hasOwnProperty(qid)) {
+        $form.append('<input type="hidden" name="'+qid+'" value="'+answers[qid]+'">');
+      }
+    }
+    return true;
+	}
+	
   function submitAnswers() {
     var formData = quizForm.read();
     if(formData) {
@@ -159,14 +178,15 @@ things.Quiz = function() {
       showForm();
       return;
     }
-    
-    var form = $('<form method="POST" action="/quiz/"></form>');
+    console.log(answers);
+		// add all the answers to the form
+		var $form = $( '#form-body form' );
     for( var qid in answers ) {
       if(answers.hasOwnProperty(qid)) {
-        form.append('<input type="hidden" name="'+qid+'" value="'+answers[qid]+'">');
+        $form.append('<input type="hidden" name="'+qid+'" value="'+answers[qid]+'">');
       }
     }
-    form.appendTo($('body')).submit();
+    $form.submit();
   }
 
 	function placeImages() {
@@ -244,11 +264,13 @@ things.Quiz = function() {
     
     backBtn.click(onBackClick);
     skipBtn.click(onSkipClick);
-    finishBtn.click(onSkipClick);
     skipRestBtn.click(onSkipRestClick);
     questionEl.hide();
     populateQuestion();
     placeImages();
+		$( '#form-body form' ).submit( function( e ) {
+			return prepForm();
+		} );
   }
   init();
   
@@ -281,7 +303,7 @@ things.QuizForm = function(el) {
       addError('name', $._( 'msg-name-required-error' ) );
     }
     
-    if(data['download_reminder']) {
+    if( data['download_reminder'] || data['email'] ) {
       //email is required if download reminder is requested
       var email_re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i
       if( ! email_re.test(data['email'])) {
@@ -289,6 +311,9 @@ things.QuizForm = function(el) {
       }
     }
     
+		if( data['email'] && !data['download_reminder'] ) {
+			addError( 'download-reminder', $._( 'msg-privacy-policy-required-error' ) )
+		}
     return (errors.length > 0) ? false : true;
   }
   

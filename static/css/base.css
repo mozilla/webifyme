@@ -928,6 +928,8 @@ font-family: "klavika-web-1","klavika-web-2";
     margin: 18px auto;
     overflow: hidden;
     text-indent: -9999px;
+		border: none;
+		cursor: pointer;
 }
 .get-your-results-btn:hover {
     background-position: 0px -55px;
@@ -983,7 +985,9 @@ font-family: "klavika-web-1","klavika-web-2";
   font-size: 12px;
   text-transform: uppercase;
 }
-
+.form .input .error span a {
+  color: #666666;
+}
 /*Collage*/
 .collage #header {
   padding-bottom: 0px;

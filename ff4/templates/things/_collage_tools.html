@@ -1,5 +1,3 @@
-<script type="text/javascript" src="/static/js/zeroclipboard/ZeroClipboard.js"></script>
-
 <div class="your-collage-tools">
 	<br class="clr" />
 	{% if bitly_url %}
@@ -24,34 +22,3 @@
 	{% include "shared/_download_day_reminder.html" %}
 	<br class="clr" />
 </div>
-
-<script type="text/javascript">
-  
-  function init_zclip() {
-    var clip = null;
-    ZeroClipboard.setMoviePath( '/static/js/zeroclipboard/ZeroClipboard10.swf' );
-
-    clip = new ZeroClipboard.Client();
-  	clip.setHandCursor( true );
-    clip.setCSSEffects( true );
-
-    clip.addEventListener( 'mouseOver', function(client) {
-      $('#copy-btn').css("background-image","url(/static/img/blue_arrow_right.png)");
-      $('#copy-btn').css('background-position','100% 7px');
-      clip.setText( 'http://bit.ly/gyWp3m' );
-    });
-    clip.addEventListener( 'mouseOut', function(client) {
-      $('#copy-btn').css("background-image","url(/static/img/grey_arrow_right.png)");
-      $('#copy-btn').css('background-position','100% 5px');
-    });
-    clip.addEventListener( 'mouseDown', function(client) {
-      clip.setText( 'http://bit.ly/gyWp3m' );
-    });
-
-    clip.glue('copy-btn');
-  }
-
-  $(window).load(function () {
-    init_zclip();
-  });
-</script>
