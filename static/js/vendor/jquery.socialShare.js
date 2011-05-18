@@ -43,6 +43,10 @@
 				var $this = $( container );
 				var context = $.extend( {}, $.socialShare.cfg, options );
 				
+				if( !( 'share_url' in options ) && $this.is( 'a' ) ) {
+					// use the href attribute for the share_url if it's not passed
+					if( $this.attr( 'href' ) ) context.share_url = $this.attr( 'href' );
+				}
 				context.$link = $this;
 				
 				context.$link.bind( 'click', function( e ) {

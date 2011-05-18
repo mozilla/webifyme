@@ -40,6 +40,12 @@
 					clip.setText( 'http://bit.ly/gyWp3m' );
 				} );
 				clip.glue( 'copy-btn' );
+				
+				// social buttons 
+				$( '.your-share .twitter' )
+					.socialShare( {
+						'share_params': $( '.your-share .twitter' ).data()
+					} );
 				break;
 			// The gallery page
 			case 'gallery':
