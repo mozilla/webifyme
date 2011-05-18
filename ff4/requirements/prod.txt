@@ -5,6 +5,9 @@
 -e git://github.com/ask/celery.git@af18771ea26faf7a2005#egg=celery
 -e git://github.com/ask/django-celery.git@747b493574b25c364fad#egg=django-celery
 
+# Master/Slave databases
+-e git://github.com/jbalogh/django-multidb-router.git#egg=django-multidb-router
+
 # Migrations
 -e git://github.com/simplegeo/django-south.git@1d78362d773135dc6688#egg=south
 

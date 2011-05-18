@@ -2,25 +2,19 @@
 <!DOCTYPE html> 
 <html> 
 	<head> 
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8">
         <title>{% block fulltitle %}{% block title %}{% endblock %} {{ _('Webify Me') }} {% endblock %}</title>
 		{% block metatags %}{% endblock%}
-		<link rel="stylesheet" href="{{ STATIC_URL }}css/base.css" type="text/css" charset="utf-8">
+		<link rel="stylesheet" href="{{ STATIC_URL }}css/base.css" type="text/css">
 		<link rel="shortcut icon" href="{{ STATIC_URL }}/img/favicon.ico" />
     <!--[if IE 7]>
-        <link rel="stylesheet" href="{{ STATIC_URL }}css/ie.css" type="text/css" charset="utf-8">
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/ie.css" type="text/css">
     <![endif]-->
-
-		<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.js"></script>
-		<script type="text/javascript" src="{{ STATIC_URL }}js/quiz.js"></script>
-		<script type="text/javascript" src="{{ STATIC_URL }}js/global.js"></script>
 		<script type="text/javascript" src="http://use.typekit.com/sxi3cin.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		
-		
 	</head>
 	
-	<body class="{% block page_class %}{% endblock %}">
+	<body class="{% block page_class %}{% endblock %} none-bg" id="{% block page_id %}webifyme{% endblock %}">
 		<div id="eyebrow"></div>
         <noscript>
           <b>{{ _('Webify Me') }}</b> {{ _('uses modern HTML5 features that work best with JavaScript turned on. (<a href="http://support.mozilla.com/kb/JavaScript">How do I do that?</a>)') }}
@@ -29,12 +23,12 @@
 			{% block header %}
 				<div id="header">
 					<a id="brand" href="http://mozilla.com">Mozilla</a>
-					<div id="intro-line">{{ _('Firefox 4 presents') }}</div>
+					<div id="intro-line">{{ _('Firefox presents') }}</div>
 					<h1><a href="/">{{ _('Webify Me!') }}</a></h1>
 					<ul class="nav">
 						<li id="quiz"><a href="/quiz/"><span>{{ _('Take The Quiz') }}</span></a></li>
 						<li id="gallery"><a href="/gallery/"><span>{{ _('See The Gallery') }}</span></a></li>
-						<li id="learn"><a href="/features/"><span>{{ _('Learn About Firefox 4') }}</span></a></li>
+						<li id="learn"><a href="/features/"><span>{{ _('Learn About Firefox') }}</span></a></li>
 					</ul>
 					<br class="clr" />
 				</div>
@@ -61,6 +55,7 @@
 			{% endblock %}
 
 		</div>
+		<script type="text/javascript" src="{{ STATIC_URL }}js/webifyme_common.min.js"></script>
 		{% block scripts %}{%  endblock %}
 	</body>
 </html>

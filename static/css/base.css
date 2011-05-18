@@ -59,6 +59,20 @@ h3 {
   width: 875px;
   margin: 0 auto;
 }
+/* handle centering a little differently on the quiz page to support the extra background images */
+#quiz #doc {
+	min-width: 875px;
+	overflow: hidden;
+	width: auto;
+}
+#quiz #doc #header, 
+#quiz #doc .paper, 
+#quiz #doc .share, 
+#quiz #doc #footer {
+	width: 875px;
+	margin-left: auto;
+	margin-right: auto;
+} 
 
 #header {
   position: relative;
@@ -117,7 +131,7 @@ h3 {
 #header .nav a {
   display: block;
   height: 33px;
-  color: #fff;
+  color: #4e4d4b;
   font-size: 22px;
   font-family: "league-gothic-1","league-gothic-2",sans-serif;
   font-weight: normal;
@@ -130,10 +144,14 @@ h3 {
 }
 
 /* give light backgrounds dark header text & logo */
-body.none-bg .collage #header .nav a, 
+body.none-bg .collage #header .nav a,
+body.none-bg #footer .links li a,
 body.ash-bg .collage #header .nav a,
+body.ash-bg #footer .links li a,
 body.bamboo-bg .collage #header .nav a,
-body.birch-bg .collage #header .nav a {
+body.bamboo-bg #footer .links li a,
+body.birch-bg .collage #header .nav a,
+body.birch-bg #footer .links li a {
     color: #4d4d4d;
 }
 
@@ -705,8 +723,29 @@ ul.gallery li h4 {
 }
 
 /*Quiz page*/
-.object_progress { overflow: hidden; display: none;}
 
+.paper-small {
+	position: relative;
+}
+#progress_images_container {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.object_progress { 
+	overflow: hidden; 
+	display: none;
+	position: absolute;
+}
+.question-note {
+	font-style: italic;
+	font-family: "skolar-1","skolar-2", georgia, times, serif;
+	background-color: #F9F9F9;
+	padding: 4px 6px;
+	font-size: 14px;
+	margin: 14px 0;
+	color: #D16219;
+}
 .paper-small {
   width: 676px;
   margin: 0 auto;
@@ -742,7 +781,9 @@ ul.gallery li h4 {
 #question-body {
   overflow: hidden;
 }
-
+#question-container {
+	position: relative;
+}
 .paper-small h2 {
   height: 43px;
   line-height: 43px;
@@ -887,6 +928,8 @@ font-family: "klavika-web-1","klavika-web-2";
     margin: 18px auto;
     overflow: hidden;
     text-indent: -9999px;
+		border: none;
+		cursor: pointer;
 }
 .get-your-results-btn:hover {
     background-position: 0px -55px;
@@ -942,7 +985,9 @@ font-family: "klavika-web-1","klavika-web-2";
   font-size: 12px;
   text-transform: uppercase;
 }
-
+.form .input .error span a {
+  color: #666666;
+}
 /*Collage*/
 .collage #header {
   padding-bottom: 0px;
@@ -1512,4 +1557,20 @@ line-height: 2.0em;
   margin-bottom: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+/* The Magnificent Clearfix: Updated to prevent margin-collapsing on child elements. j.mp/bestclearfix */
+.clearfix:before, 
+.clearfix:after { 
+	content: "\0020"; 
+	display: block; 
+	height: 0; 
+	overflow: hidden; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+/* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.clearfix { 
+	zoom: 1; 
 }

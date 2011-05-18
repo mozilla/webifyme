@@ -116,7 +116,14 @@ things.Quiz = function() {
     for(var i = 0, ii = questions[qIdx]['answers'].length; i < ii; i++) {
       $('<li></li>').append(createAnswer(questions[qIdx]['answers'][i], i)).appendTo(questionEl.find('.answers'));
     }
-    
+		
+		if( qIdx == 0 ) {
+			// if this is the first question, show the note
+			$( '.question-note' ).show();
+		} else {
+			// if it's not the first question, hide the note
+			$( '.question-note' ).hide();
+		}
     /*var newHeight = questionEl.height();
     newHeight = (newHeight > minQuestionHeight) ? newHeight : minQuestionHeight;
     
@@ -143,6 +150,25 @@ things.Quiz = function() {
     $('#question-container .get-your-results-btn').css('display','block');
   }
   
+	function prepForm() {
+		var formData = quizForm.read();
+    if(formData) {
+      for(k in formData) { answers[k] = formData[k]; }
+    } else {
+      //didn't validate
+      showForm();
+      return false;
+    }
+		// add all the answers to the form
+		var $form = $( '#form-body form' );
+    for( var qid in answers ) {
+      if(answers.hasOwnProperty(qid)) {
+        $form.append('<input type="hidden" name="'+qid+'" value="'+answers[qid]+'">');
+      }
+    }
+    return true;
+	}
+	
   function submitAnswers() {
     var formData = quizForm.read();
     if(formData) {
@@ -152,54 +178,78 @@ things.Quiz = function() {
       showForm();
       return;
     }
-    
-    var form = $('<form method="POST" action="/quiz/"></form>');
+    console.log(answers);
+		// add all the answers to the form
+		var $form = $( '#form-body form' );
     for( var qid in answers ) {
       if(answers.hasOwnProperty(qid)) {
-        form.append('<input type="hidden" name="'+qid+'" value="'+answers[qid]+'">');
+        $form.append('<input type="hidden" name="'+qid+'" value="'+answers[qid]+'">');
       }
     }
-    form.appendTo($('body')).submit();
+    $form.submit();
   }
+
+	function placeImages() {
+		var positions = [-200, -100, 300, 250, 150];
+		// add a container 
+		var $imgContainer = $( '<div />' )
+			.attr( 'id', 'progress_images_container' )
+			.addClass( 'autoResize' )
+			.bind( 'resize.autoResize', function( e, availableSpace ) {
+				// if the screen width drops below 600, hide all the images and set the the bodies overflow-x to scroll
+			} )
+			.appendTo( '#question-container' );
+		for( var i = 0; i < things.images.length; i++ ) {
+			var $container = $( '<div />' )
+				.addClass( 'object_progress' )
+				.append( $( '<img />' )
+					.attr( 'src', imagePath + things.images[i].file_name ) );
+			// add it to the dom
+			$container.appendTo( $imgContainer );
+			// hide it
+			$container.hide();
+			$container.css( 'top', positions[i] );
+			$container.data( 'left', i % 2 )
+			progressImages.push( $container );
+		}
+	}
   
-  function placeImages() {
-      var positions = [200, 200, 500, 500, 300];
-      
-      for(var i = 0; i < things.images.length; i++) {
-          var divContainer = document.createElement("div");
-          var img = document.createElement("img");
-          img.src = imagePath + things.images[i].file_name;
-          divContainer.className = "object_progress";
-          divContainer.style.position = "absolute";
-          
-          if(i % 2) {
-              divContainer.style.left = "-" + (things.images[i].width / 2) + "px";
-          } else {
-              divContainer.style.right = 0;
-              divContainer.style.width = (things.images[i].width / 2) + "px";
-          }
-          
-          divContainer.style.top = positions[i] + "px";
-          $("#question-container").append(divContainer);
-          divContainer.appendChild(img);
-          progressImages.push(divContainer);
-      }
-  }
-  
-  function revealImage(idx) {
-      switch(idx) {
-          case 2:
-            $(progressImages[0]).fadeIn(ANIMATE_TIME);
-            break;
-          case 5:
-            $(progressImages[1]).fadeIn(ANIMATE_TIME);
-            $(progressImages[2]).fadeIn(ANIMATE_TIME);
-            break;
-          case 8:
-            $(progressImages[3]).fadeIn(ANIMATE_TIME);
-            $(progressImages[4]).fadeIn(ANIMATE_TIME);
-            break;
-      }
+	function revealImage(idx) {
+		var containers = [];
+		switch( idx ) {
+			case 2: 
+				containers.push( progressImages[0] );
+				break;
+			case 5:
+				containers.push( progressImages[1] );
+				containers.push( progressImages[2] );
+				break;
+			case 8:
+				containers.push( progressImages[3] );
+				containers.push( progressImages[4] );
+				break;
+			default: 
+				return;
+		}
+		$.each( containers, function() {
+			var $container = $( this );
+			// measure and then hide
+			$container.show();
+			var imgWidth = $container.find( 'img' ).width();
+			var imgHeight = $container.find( 'img' ).height();
+			$container.width( imgWidth ).height( imgHeight ).hide();
+			// randomize buffer space
+			var bufferSpace = Math.round( Math.random() * 200 ) + 50;
+			// alternate sides
+			if( !$container.data( 'left' ) ) {
+				$container
+					.css( 'left', - ( imgWidth + bufferSpace ) );
+			} else {
+				$container
+					.css( 'left', 676 + bufferSpace );
+			}
+			$container.fadeIn( ANIMATE_TIME );
+		} );
   }
   
   function init() {
@@ -214,11 +264,13 @@ things.Quiz = function() {
     
     backBtn.click(onBackClick);
     skipBtn.click(onSkipClick);
-    finishBtn.click(onSkipClick);
     skipRestBtn.click(onSkipRestClick);
     questionEl.hide();
     populateQuestion();
     placeImages();
+		$( '#form-body form' ).submit( function( e ) {
+			return prepForm();
+		} );
   }
   init();
   
@@ -251,7 +303,7 @@ things.QuizForm = function(el) {
       addError('name', $._( 'msg-name-required-error' ) );
     }
     
-    if(data['download_reminder']) {
+    if( data['download_reminder'] || data['email'] ) {
       //email is required if download reminder is requested
       var email_re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i
       if( ! email_re.test(data['email'])) {
@@ -259,6 +311,9 @@ things.QuizForm = function(el) {
       }
     }
     
+		if( data['email'] && !data['download_reminder'] ) {
+			addError( 'download-reminder', $._( 'msg-privacy-policy-required-error' ) )
+		}
     return (errors.length > 0) ? false : true;
   }
   

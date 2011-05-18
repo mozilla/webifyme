@@ -1,4 +1,4 @@
-from celery.task import Task, PeriodicTask
+from celery.task import task
 
 import sys, os
 sys.path.append(os.path.join(os.path.realpath(os.path.dirname(__file__)),'..','..','..'))
@@ -13,10 +13,9 @@ from PIL import Image, ImageOps
 from ff4.things.models import Collage
 from ff4.things.backgrounds import BACKGROUNDS
 
-LOG_FILENAME = 'render_collage.log'
 logging.basicConfig(level=logging.ERROR,
                     format='%(asctime)s :: %(levelname)s %(message)s',
-                    filename=LOG_FILENAME,
+                    filename=settings.LOG_FILENAME,
                     filemode='w')
 
 CANVAS_WIDTH = 875
@@ -24,48 +23,59 @@ CANVAS_HEIGHT = 600
 BOX_SIZE = 25
 STATIC_PATH = settings.MEDIA_ROOT
 
-class ReadyImages(Task):
-	
-        def run(slug):
-            col = Collage.objects.get(slug=slug)
-            images_coords = json.loads(col.images_coords)
+def process_collage(slug):
 
-	    # load the background image and paste it in
-	    bg_img = 'none.png'
-	    for bg in BACKGROUNDS:
-	        if bg['class_name'] == images_coords['background']:
-	            bg_img = bg['scaled']
-	            break
-	    try:
-	        canvas = Image.open(STATIC_PATH + 'backgrounds/scaled/' + bg_img)
-	    except IOError:
-	        canvas = Image.open(STATIC_PATH + 'backgrounds/scaled/none.png') # use the default background if the regular background can't be opened
+    col = Collage.objects.get(slug=slug)
+    images_coords = json.loads(col.images_coords)
 
-	    box = (0, 0, CANVAS_WIDTH, CANVAS_HEIGHT)
-	    canvas = canvas.crop(box)
+    # load the background image and paste it in
+    bg_img = 'none.png'
+    for bg in BACKGROUNDS:
+        if bg['class_name'] == images_coords['background']:
+            bg_img = bg['scaled']
+            break
+    try:
+        canvas = Image.open(STATIC_PATH + 'backgrounds/scaled/' + bg_img)
+    except IOError:
+        canvas = Image.open(STATIC_PATH + 'backgrounds/scaled/none.png') # use the default background if the regular background can't be opened
 
-	    images = images_coords['objects']
+    box = (0, 0, CANVAS_WIDTH, CANVAS_HEIGHT)
+    canvas = canvas.crop(box)
 
-	    for i in images:
-	        if 'x' in i:
-	            try:
-	                fpo_obj = Image.open(STATIC_PATH + 'objects/' + images_coords['scale'] + '/' + i['img'])
-	            except IOError:
-	                logging.error("Problem opening " + 'objects/' + images_coords['scale'] + '/' + i['img'] + ". Skipping.")
-	                continue
-	            box = ( BOX_SIZE*i['x'], BOX_SIZE*i['y'], BOX_SIZE*i['x'] + fpo_obj.size[0], BOX_SIZE*i['y'] + fpo_obj.size[1])
-	            canvas.paste(fpo_obj, box, fpo_obj)
+    images = images_coords['objects']
 
-	    col.filename = slug + '.jpg'
-	    try:
-	        canvasGalleryThumb = canvas.resize((190, 143), Image.ANTIALIAS)
-	        canvasGalleryThumb.save(STATIC_PATH + 'collages/thumbs_gallery/' + col.filename)
-	        canvasFeaturedThumb = canvas.resize((190, 143), Image.ANTIALIAS)
-	        canvasFeaturedThumb.save(STATIC_PATH + 'collages/thumbs_featured/' + col.filename)
-	        canvas.save(STATIC_PATH + 'collages/' + col.filename)
-	    except:
-	        logging.error("Problem saving the final image: slug=" + slug)
+    for i in images:
+        if 'x' in i:
+            try:
+                fpo_obj = Image.open(STATIC_PATH + 'objects/' + images_coords['scale'] + '/' + i['img'])
+            except IOError:
+                logging.error("Problem opening " + 'objects/' + images_coords['scale'] + '/' + i['img'] + ". Skipping.")
+                continue
+            box = ( BOX_SIZE*i['x'], BOX_SIZE*i['y'], BOX_SIZE*i['x'] + fpo_obj.size[0], BOX_SIZE*i['y'] + fpo_obj.size[1])
+            canvas.paste(fpo_obj, box, fpo_obj)
 
-	    col.save()
-	    
-	
+    col.filename = slug + '.jpg'
+    try:
+        directory = STATIC_PATH + 'collages/thumbs_gallery/' + slug[:2]
+        if not os.path.exists(directory):
+            os.mkdir(directory)
+
+        canvasGalleryThumb = canvas.resize((190, 143), Image.ANTIALIAS)
+        canvasGalleryThumb.save(directory + '/' + col.filename)
+        canvasFeaturedThumb = canvas.resize((190, 143), Image.ANTIALIAS)
+        canvasFeaturedThumb.save(directory + '/' + col.filename)
+        canvas.save(directory + '/' + col.filename)
+    except:
+        logging.error("Problem saving the final image: slug=" + slug, sys.exc_info()[0])
+        raise
+
+    col.save()
+
+
+@task
+def run(slug):
+    process_collage(slug)
+
+def run_debug(slug):
+    process_collage(slug)
+

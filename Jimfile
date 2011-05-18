@@ -1,0 +1,19 @@
+{
+  "bundle_dir": "static/js/",
+  "vendor_dir": "static/js/vendor",
+  "bundles": {
+		"webifyme_common": [
+			["jquery", "1.4.4.min"],
+			"jquery.socialShare",
+			"jquery.getText",
+			"jquery.delayedBind",
+			"jquery.autoResize",
+			"ZeroClipboard",
+			"quiz",
+			"collage",
+			"gallery",
+			"app"
+		]
+  }
+}
+

@@ -6,6 +6,7 @@ PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 PROJECT_DIR = os.path.realpath(os.path.dirname(__file__))
 
 DATABASES = { }
+DATABASE_ROUTERS = ('multidb.MasterSlaveRouter',)
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -124,6 +125,8 @@ FIXTURE_DIRS = (
 
 SOUTH_TESTS_MIGRATE = False
 
-FIREFOX_DOWNLOAD_URL = "http://www.mozilla.com/en-US/firefox/" #False # set this on download day to change 'Get Download Day' reminder links to 'Download Firefox 4' links
+FIREFOX_DOWNLOAD_URL = "http://www.mozilla.com/en-US/firefox/" #False # set this on download day to change 'Get Download Day' reminder links to 'Download Firefox' links
 
-SNAPSHOT_BASE_URL = '/static/collages/'
+SNAPSHOT_BASE_URL = '/static/collages/thumbs_gallery/'
+
+LOG_FILENAME = "%s/render_collage.log" % PROJECT_PATH

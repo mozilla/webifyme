@@ -72,6 +72,6 @@ class Collage(models.Model):
 
     def snapshot_url(self):
         if self.filename:
-            return settings.SNAPSHOT_BASE_URL+self.filename
+          return settings.SNAPSHOT_BASE_URL + self.filename[:2] + '/' + self.filename
         return None
 
