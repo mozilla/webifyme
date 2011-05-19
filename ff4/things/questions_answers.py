@@ -237,7 +237,7 @@ ANSWERS_BY_IMAGE = {1: _(u'One symbol stands above all others as the authority -
                     129: _(u'Everything\'s better with a monkey in it. Monkeys are fun, smart, and optimistic. You got this crafty monkey because it reflects your own delightful optimism and playfulness. Or maybe you like bananas?'),
                     130: _(u'The instant memory, quickly frozen and indelibly saved. Yours is the nostalgic type, pouring over cherished images and captured moments.'),
                     131: _(u'The adhesive bandage - mark of The Healer. You seek the perfection of the human form, or at least one less headache.'),
-                    132: _(u'What\'s next? you\'re never at a loss to answer that, because you\'ve planned what\'s next. Your organizational skills serve you well, and people count on you to get it done - right and on time.'),
+                    132: _(u'What\'s next? You\'re never at a loss to answer that, because you\'ve planned what\'s next. Your organizational skills serve you well, and people count on you to get it done - right and on time.'),
                     133: _(u'Behold, The Memory - life is your field of study. You hunger for new thinking, knowledge and information. You know how get it, and how to hold on to it.'),
                     134: _(u'Technology lives to serve, and you like your information portable, pocketable and sharable. That\'s how data becomes action, and gadgets become essential.'),
                     135: _(u'You know what\'s next; you have it all written down in your date book -the symbol of The Organizer. You\'re the one we turn to when we are in doubt, for you hold the answers.'),
