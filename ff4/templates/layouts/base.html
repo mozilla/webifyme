@@ -4,7 +4,18 @@
 	<head> 
 		<meta charset="utf-8">
         <title>{% block fulltitle %}{% block title %}{% endblock %} {{ _('Webify Me') }} {% endblock %}</title>
-		{% block metatags %}{% endblock%}
+		{% block metatags %}
+		<meta name="title" content="{{ _('Webify Me: Your Internet Visualized') }}" /> 
+		<meta name="description" content="{{ _('Everyone\'s Internet is a little bit different. What does your internet look like? Create your own Webify Me collage') }}" />
+		{% endblock%}
+		{% block ogtags %}
+		<meta property="og:title" content="{{ _('Webify Me: Your Internet Visualized') }}" />
+		<meta property="og:desc" content="{{ _('Everyone\'s Internet is a little bit different. What does your internet look like? Create your own Webify Me collage') }}" />
+		<meta property="og:image" content="" />
+		<meta property="og:url" content="{{ site_url }}" />
+		<meta property="og:site_name" content="{{ _('Webify Me') }}" />
+		<meta property="og:type" content="website" />
+		{% endblock %}
 		<link rel="stylesheet" href="{{ STATIC_URL }}css/base.css" type="text/css">
 		<link rel="shortcut icon" href="{{ STATIC_URL }}/img/favicon.ico" />
     <!--[if IE 7]>
@@ -56,6 +67,8 @@
 
 		</div>
 		<script type="text/javascript" src="{{ STATIC_URL }}js/webifyme_common.min.js"></script>
+		<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+		
 		{% block scripts %}{%  endblock %}
 	</body>
 </html>
