@@ -40,6 +40,16 @@
 					clip.setText( 'http://bit.ly/gyWp3m' );
 				} );
 				clip.glue( 'copy-btn' );
+				
+				// social buttons 
+				$( '.your-share .twitter' )
+					.socialShare( {
+						'share_params': $( '.your-share .twitter' ).data()
+					} );
+				$( '.your-share .facebook' )
+					.socialShare( {
+						'share_params':{ 't': $( '.your-share .facebook' ).data().t, 'u': $( '.your-share .facebook' ).data().u } 
+					} );
 				break;
 			// The gallery page
 			case 'gallery':
@@ -47,6 +57,12 @@
 		}
 		
 		// GLOBLAL Initialization Code 
+		$( '.facebook iframe' ).each( function() {
+			var $this = $( this );
+			$this
+				.attr( 'src', $this.attr( 'src' ).replace( /SHARE_URL/, encodeURIComponent( window.location ) ) );
+		} );
+			
 		// download click stuff -- copied from global.js
 		$( 'a.download-reminder' ).click( function() {
 			if( ! $( '#download_popup' ).hasClass( 'clicked' ) ) {

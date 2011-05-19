@@ -1,22 +1,24 @@
 {% extends "layouts/base.html" %}
 
-
-
-
 {% if bitly_url %}
-{% block metatags %}
-<meta name="title" content="{{ _('Webify Me: Your Internet Visualized') }}" /> 
-<meta name="description" content="{{ _('Everyone\'s Internet is a little bit different. I just created my own Webify Me collage at %(bitly_url)s. Make your own and find out how your Internet looks!') % {'bitly_url': 'merp'} }}" />
-<meta name="image" content="http://{{ site_url }}/static/collages/thumbs_gallery/{{ collage.slug[:2] }}/{{ collage.slug }}.jpg" />
-<link rel="image_src" href="http://{{ site_url }}/static/collages/thumbs_gallery/{{ collage.slug[:2] }}/{{ collage.slug }}.jpg" />
+{% block ogtags %}
+<meta property="og:title" content="{{ _('Webify Me: Your Internet Visualized') }}" />
+<meta property="og:url" content="{{ bitlyurl }}" />
+<meta property="og:site_name" content="{{ _('Webify Me') }}" />
+<meta property="og:type" content="article" />
 <meta property="og:image" content="http://{{ site_url }}/static/collages/thumbs_gallery/{{ collage.slug[:2] }}/{{ collage.slug }}.jpg" />
+{% if is_owner %}
+	<meta property="og:desc" content="{{ _('Everyone\'s Internet is a little bit different. I just created my own Webify Me collage at %(bitlyurl)s. Make your own and find out how your Internet looks!') % {'bitlyurl': 'merp'} }}" />
+{% else %}
+	<meta property="og:desc" content="{{ _('Everyone\'s Internet is a little bit different. What does your internet look like? Create your own Webify Me collage') }}" />
+{% endif %}
 {% endblock %}
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
         var og_meta_title = "{{ _('Webify Me: Your Internet Visualized') }}";
         var og_meta_desc = "{{ _('Everyone\'s Internet is a little bit different. I just created my own Webify Me collage at %(bitlyurl)s. Make your own and find out how your Internet looks!') % {'bitlyurl': 'merp'} }}";
         var og_meta_img = "{{ collage.snapshot_url() }}";
-</script>
+</script> -->
 {% endif %}
 
 
