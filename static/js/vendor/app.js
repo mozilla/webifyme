@@ -8,7 +8,6 @@
 			// The quiz page
 			case 'quiz':
 				things.Quiz();
-				// $( 'body' ).autoResize();
 				break;
 			// The collage view page
 			case 'collage':

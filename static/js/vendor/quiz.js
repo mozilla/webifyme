@@ -271,6 +271,10 @@ things.Quiz = function() {
 		$( '#form-body form' ).submit( function( e ) {
 			return prepForm();
 		} );
+		$( '.get-your-results-btn' ).click( function( e ) {
+			e.preventDefault();
+			$( '#form-body form' ).submit();
+		} )
   }
   init();
   
