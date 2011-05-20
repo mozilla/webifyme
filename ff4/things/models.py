@@ -10,22 +10,22 @@ class QuizQuestion(models.Model):
     slug = models.SlugField(blank=True) # default max length (50)
 
     def save(self):
-        self.slug = slugify( hashlib.md5( QUESTIONS[self.pk] + datetime.now().strftime("%Y%m%d%H%m%s") ).hexdigest()[:12] )
+        self.slug = slugify( hashlib.md5( QUESTIONS( )[self.pk] + datetime.now().strftime("%Y%m%d%H%m%s") ).hexdigest()[:12] )
         super( QuizQuestion, self ).save()
 
     def __unicode__(self):
-        return unicode(QUESTIONS[self.pk])
+        return unicode(QUESTIONS( )[self.pk])
 
 class QuizAnswer(models.Model):
     slug = models.SlugField(unique=True)
     quiz_question = models.ForeignKey(QuizQuestion)
 
     def save(self):
-        self.slug = slugify( ANSWERS[self.pk] )
+        self.slug = slugify( ANSWERS( )[self.pk] )
         super( QuizAnswer, self ).save()
 
     def __unicode__(self):
-        return unicode(ANSWERS[self.pk])
+        return unicode(ANSWERS( )[self.pk])
 
 class Image(models.Model):
     slug = models.SlugField(unique=True)
