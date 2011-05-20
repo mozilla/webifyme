@@ -209,7 +209,7 @@ def collage_snapshot(request, slug):
 def quiz_json():
     questions = []
     for question in QuizQuestion.objects.select_related('quizanswer_set').all():
-        lang_specific_question = _(force_unicode(QUESTIONS[question.pk]))
+        lang_specific_question = _(force_unicode(QUESTIONS( )[question.pk]))
         quest_left = 1, #TODO Bug#651579, populate quest_left, remove
         # More to go from static/js/quiz.js and use this value
         data = {
@@ -220,7 +220,7 @@ def quiz_json():
             'answers':[]
         }
         for answer in question.quizanswer_set.all():
-            lang_specific_answer = _(force_unicode(ANSWERS[answer.pk]))
+            lang_specific_answer = _(force_unicode(ANSWERS( )[answer.pk]))
             data['answers'].append({'answer':lang_specific_answer,'id':answer.id})
         questions.append(data)
     return json.dumps(questions)
