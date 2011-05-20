@@ -1332,16 +1332,24 @@ font-family: "skolar-1","skolar-2";
 .collage .public-share .make-your-own {
   float: left;
   display: block;
-  width: 98px;
-  height: 98px;
+  width: 50px;
+  height: 65px;
   margin-left: 40px;
-  text-indent: -9999px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "league-gothic-1", "league-gothic-2", sans-serif;
+	text-decoration: none;
+	padding: 17px 22px;
+	font-size: 20px;
+	color: #1b84d2;
   overflow: hidden;
-  background-image: url('../img/en/make_your_own.png');
+  background-image: url('../img/make_your_own_bg.png');
+	background-position: 50% 0;
 }
 
 .collage .public-share .make-your-own:hover {
-  background-position: bottom left;
+  background-position: 50% 100%;
+	color: #ffffff;
 }
 
 /** Collage bg**/
