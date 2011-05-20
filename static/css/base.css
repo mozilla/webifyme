@@ -85,8 +85,56 @@ h3 {
   height: 57px;
   margin-left: 93px;
   text-indent: -9999px;
-  background-image: url('../img/en/mozff4_presents.png');
+  background-image: url('../img/mozff.png');
   background-repeat: no-repeat;
+	position: relative;
+}
+
+#header #intro-line span {
+  color: #666666;
+  display: block;
+  font-family: "Lucida Grande",helvetica,arial,sans-serif;
+  font-style: italic;
+  left: 76px;
+  letter-spacing: -0.5px;
+  margin-left: 93px;
+  position: absolute;
+  text-indent: 0;
+	top: 28px;
+}
+.cedar-bg #header #intro-line,
+.cement-bg #header #intro-line,
+.deck-bg #header #intro-line,
+.grass-bg #header #intro-line,
+.maple-bg #header #intro-line,
+.oak-bg #header #intro-line,
+.steel-bg #header #intro-line,
+.walnut-bg #header #intro-line,
+.teak-bg #header #intro-line,
+.zinc-bg #header #intro-line {
+	background-image: url('../img/mozff_white.png');
+}
+.cedar-bg .nav a,
+.cement-bg .nav a,
+.deck-bg .nav a,
+.grass-bg .nav a,
+.maple-bg .nav a,
+.oak-bg .nav a,
+.steel-bg .nav a,
+.walnut-bg .nav a,
+.teak-bg .nav a,
+.zinc-bg .nav a,
+.cedar-bg #header #intro-line span,
+.cement-bg #header #intro-line span,
+.deck-bg #header #intro-line span,
+.grass-bg #header #intro-line span,
+.maple-bg #header #intro-line span,
+.oak-bg #header #intro-line span,
+.steel-bg #header #intro-line span,
+.walnut-bg #header #intro-line span,
+.teak-bg #header #intro-line span,
+.zinc-bg #header #intro-line span {
+	color: #ffffff;
 }
 
 #header h1 {
@@ -159,7 +207,7 @@ body.none-bg .collage #header #intro-line,
 body.ash-bg .collage #header #intro-line,
 body.bamboo-bg .collage #header #intro-line,
 body.birch-bg .collage #header #intro-line {
-    background-image: url("../img/en/mozff4_presents.png");
+    background-image: url("../img/en/mozff4.png");
 }
 
 
@@ -1026,11 +1074,6 @@ font-family: "klavika-web-1","klavika-web-2";
   text-align: center;
   color: #fff;
   margin-top: 5px;
-}
-
-.collage #header #intro-line {
-  background-image: url('../img/en/mozff4_presents_white.png');
-
 }
 
 .collage .background-selector,

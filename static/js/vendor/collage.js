@@ -547,11 +547,4 @@ things.setBackground = function(bgClass) {
   
   things.currentBgClass = bgClass;
   $('body').addClass(bgClass);
-  if(bgClass == 'none-bg' || bgClass == 'ash-bg' || bgClass == 'bamboo-bg' || bgClass == 'birch-bg') {
-      $('#intro-line').css('background-image', 'url(/static/img/en/mozff4_presents.png)');
-      $('.nav a').css('color', '#4d4d4d');
-  } else {
-      $('#intro-line').css('background-image', 'url(/static/img/en/mozff4_presents_white.png)');
-      $('.nav a').css('color', '#fff');
-  }
 }
