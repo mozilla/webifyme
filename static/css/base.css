@@ -455,18 +455,30 @@ body.birch-bg .collage #header #intro-line {
 }
 
 .paper .get-started-btn {
-  display: block;
-  margin: 18px auto 18px auto;
-  width: 228px;
-  height: 55px;
-  background: url('../img/en/get_started_sprite.png') no-repeat 0px 0px;
-  overflow: hidden;
-  text-indent: -9999px;
+	background: url("../img/get_started_bg.png") no-repeat scroll 0 0 transparent;
+	color: #FFFFFF;
+	display: block;
+	font-family: "league-gothic-1", "league-gothic-2", sans-serif;
+	font-size: 33px;
+	height: 55px;
+	line-height: 48px;
+	margin: 18px auto;
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 228px;
 }
 .paper .get-started-btn:hover {
-  background: url('../img/en/get_started_sprite.png') no-repeat 0px -65px;
+  color: #ffec18;
 }
-
+.paper .get-started-btn span {
+	padding: 0 14px;
+	background: url("../img/arrow_sprite.png") no-repeat scroll 100% 8px transparent;
+}
+.paper .get-started-btn:hover span {
+	background: url("../img/arrow_sprite.png") no-repeat scroll 100% -65px transparent;
+}
 .mini-gallery {
   background-image: url('../img/sep.png');
   background-repeat: no-repeat;
@@ -918,23 +930,31 @@ font-family: "klavika-web-1","klavika-web-2";
   font-size: 13px;
 	height: 19px;
 }
-
 .get-your-results-btn {
-    background: url('../img/en/get_your_results_sprite.png') no-repeat 0px 0px;
-    display: none;
-    width: 285px;
-    height: 58px;
-    display: none;
-    margin: 18px auto;
-    overflow: hidden;
-    text-indent: -9999px;
-		border: none;
-		cursor: pointer;
+	background: url("../img/get_results_bg.png") no-repeat scroll 0 0 transparent;
+	color: #FFFFFF;
+	display: block;
+	font-family: "league-gothic-1", "league-gothic-2", sans-serif;
+	font-size: 33px;
+	height: 55px;
+	line-height: 48px;
+	margin: 18px auto;
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 228px;
 }
 .get-your-results-btn:hover {
-    background-position: 0px -55px;
+  color: #ffec18;
 }
-
+.get-your-results-btn span {
+	padding: 0 14px;
+	background: url("../img/arrow_sprite.png") no-repeat scroll 100% 8px transparent;
+}
+.get-your-results-btn:hover span {
+	background: url("../img/arrow_sprite.png") no-repeat scroll 100% -65px transparent;
+}
 /*Form*/
 .form .input {
   margin-bottom: 20px;
