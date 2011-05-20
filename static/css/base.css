@@ -269,7 +269,26 @@ body.birch-bg .collage #header #intro-line {
   background-image: url('../img/twitter_bg.png');
   background-repeat: no-repeat;
 }
-
+.download-firefox {
+	display: block;
+	width: 158px;
+	height: 76px;
+	float: right;
+	margin-right: 45px;
+	background-image: url('../img/download_firefox_sprite.png');
+	background-repeat: no-repeat;
+  background-position: 0 0;
+	padding: 14px 0 10px 88px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "league-gothic-1","league-gothic-2",sans-serif;
+	text-decoration: none;
+	font-size: 19px;
+	text-transform: uppercase;
+}
+.download-firefox:hover {
+  background-position: 0 -102px;
+}
 .share .download {
   display: block;
   float: right;
@@ -282,7 +301,7 @@ body.birch-bg .collage #header #intro-line {
   background-repeat: no-repeat;
   background-position: 0 0px;
 }
-.share .download:hover {
+.share g:hover {
     background-position: 0 -102px;
 }
 
