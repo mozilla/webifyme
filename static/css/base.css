@@ -272,13 +272,14 @@ body.birch-bg .collage #header #intro-line {
 .download-firefox {
 	display: block;
 	width: 158px;
-	height: 76px;
+	height: 70px;
 	float: right;
 	margin-right: 45px;
 	background-image: url('../img/download_firefox_sprite.png');
 	background-repeat: no-repeat;
   background-position: 0 0;
-	padding: 14px 0 10px 88px;
+	padding: 17px 0 10px 88px;
+	letter-spacing: 0.5px;
 	text-decoration: none;
 	color: #ffffff;
 	font-family: "league-gothic-1","league-gothic-2",sans-serif;
