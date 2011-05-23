@@ -9,7 +9,7 @@ class Migration(SchemaMigration):
     def forwards(self, orm):
         
         # Removing unique constraint on 'QuizQuestion', fields ['slug']
-        db.delete_unique('things_quizquestion', ['slug'])
+        #db.delete_unique('things_quizquestion', ['slug'])
 
         # Deleting field 'QuizAnswer.weight'
         db.delete_column('things_quizanswer', 'weight')

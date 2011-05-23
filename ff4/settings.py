@@ -98,7 +98,8 @@ def JINJA_CONFIG():
 TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.request',
     'django.core.context_processors.i18n',
-)
+    'django.contrib.auth.context_processors.auth',
+)    
 
 SERIALIZATION_MODULES = {
     'yml': "django.core.serializers.pyyaml"
@@ -112,9 +113,9 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'djcelery',
     # Uncomment the next line to enable the admin:
-    #'django.contrib.admin',
+    'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
-    # 'django.contrib.admindocs',
+    'django.contrib.admindocs',
     'ff4.things',
     'south',
 )
