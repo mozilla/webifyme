@@ -29,15 +29,15 @@ if settings.DEBUG:
 
 urlpatterns += patterns('things.views',
     (r'^$','home'),
-    (r'^gallery/$','gallery'),
-    (r'^gallery/chap/(?P<chapter>\d+)/$','gallery_nav'),
-    (r'^gallery/chap/(?P<chapter>\d+)/(?P<page>\d+)/$','gallery'),
-    (r'^quiz/$','quiz'),
-    (r'^collage/$','collage'),
-    (r'^collage/(?P<slug>\w+)/$','collage'),
-    (r'^collage/(?P<slug>\w+)/snapshot/$','collage_snapshot'),
-    (r'^features/$','features'),
-    (r'^download_reminder/$' 'download_reminder'),                    
+    (r'^gallery/?$','gallery'),
+    (r'^gallery/chap/(?P<chapter>\d+)/?$','gallery_nav'),
+    (r'^gallery/chap/(?P<chapter>\d+)/(?P<page>\d+)/?$','gallery'),
+    (r'^quiz/?$','quiz'),
+    (r'^collage/?$','collage'),
+    (r'^collage/(?P<slug>\w+)/?$','collage'),
+    (r'^collage/(?P<slug>\w+)/snapshot/?$','collage_snapshot'),
+    (r'^features/?$','features'),
+    (r'^download_reminder/?$' 'download_reminder'),                    
 )
 
 #if 'rosetta' in settings.INSTALLED_APPS:
