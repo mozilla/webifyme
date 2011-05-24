@@ -5,7 +5,7 @@ import os
 PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 PROJECT_DIR = os.path.realpath(os.path.dirname(__file__))
 
-DATABASES = { }
+DATABASES = {}
 DATABASE_ROUTERS = ('multidb.MasterSlaveRouter',)
 
 # Local time zone for this installation. Choices can be found here:
@@ -40,12 +40,11 @@ RTL_LANGUAGES = ('ar', 'he',)  # ('fa', 'fa-IR')
 # Fallbacks for locales that are not recognized by Babel. Bug 596981.
 BABEL_FALLBACK = {'fy-nl': 'nl'}
 
-DBGETTEXT_PATH = PROJECT_PATH+'/locale'
-
+DBGETTEXT_PATH = PROJECT_PATH + '/locale'
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
-MEDIA_ROOT = PROJECT_PATH+'/../static/'
+MEDIA_ROOT = PROJECT_PATH + '/../static/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash if there is a path component (optional in other cases).
@@ -80,12 +79,13 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'ff4.urls'
 
 TEMPLATE_DIRS = (
-    PROJECT_PATH+'/templates_orig',
+    PROJECT_PATH + '/templates_orig',
 )
 
 JINJA_TEMPLATE_DIRS = (
-    PROJECT_PATH+'/templates',
+    PROJECT_PATH + '/templates',
 )
+
 
 def JINJA_CONFIG():
     import jinja2
@@ -99,7 +99,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.request',
     'django.core.context_processors.i18n',
     'django.contrib.auth.context_processors.auth',
-)    
+)
 
 SERIALIZATION_MODULES = {
     'yml': "django.core.serializers.pyyaml"
@@ -121,13 +121,10 @@ INSTALLED_APPS = (
 )
 
 FIXTURE_DIRS = (
-    PROJECT_PATH+'/fixtures/',
+    PROJECT_PATH + '/fixtures/',
 )
 
 SOUTH_TESTS_MIGRATE = False
-
-FIREFOX_DOWNLOAD_URL = "http://www.mozilla.com/en-US/firefox/" #False # set this on download day to change 'Get Download Day' reminder links to 'Download Firefox' links
-
+FIREFOX_DOWNLOAD_URL = "http://www.mozilla.com/en-US/firefox/"
 SNAPSHOT_BASE_URL = '/static/collages/thumbs_gallery/'
-
 LOG_FILENAME = "%s/render_collage.log" % PROJECT_PATH
