@@ -1288,6 +1288,7 @@ font-family: "skolar-1","skolar-2";
   font-size: 30px;
   text-transform: uppercase;
   color: #4a4949;
+	position: relative;
 }
 
 .collage .url span,
@@ -1311,15 +1312,24 @@ font-family: "skolar-1","skolar-2";
 }
 .collage .url #copy-wrapper {
   z-index: 2;
+	position: absolute;
+	right: 40px;
+	top: 10px;
+	height: 31px;
+	cursor: pointer;
+	outline: none;
+}
+.collage .url #copy-wrapper * {
+	outline: none;
+	cursor: pointer;
 }
 .collage .url div#copy-btn {
   color: #007dd9;
   cursor: pointer;
-  float: left;
-  height: 31px;
-  width: 46px;
+  position: absolute;
+	right: 0;
+	top: 0;
   line-height: 35px;
-  margin-top: -8px;
   text-decoration: none;
   padding-right: 16px; 
   background-image: url('../img/grey_arrow_right.png');
