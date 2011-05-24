@@ -49,6 +49,7 @@
 					</div>
 					<div id="form-body" class="form" style="display:none;">
 						<form method="POST" action="/quiz/">
+							<input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
 							<h2>{{ _('Personalize your collage...') }}</h2>
 							<div class="input text">
 								<label for="name-field">{{ _('Title') }}:</label>
