@@ -6,6 +6,10 @@
 	<br class="clr" />
 	
 	<div id="gallery_wrapper">
+		<ul id="gallery-filter">
+			<li><a href="/gallery/"><span>{{ _('All') }}</span></a></li>
+			<li><a href="/gallery/"><span>{{ _('Favorites') }}</span></a></li>
+		</div>
 	<div id="gallery_container">
 		{% include "things/_gallery_page.html" %}
 	</div>
