@@ -1719,3 +1719,8 @@ line-height: 2.0em;
 .clearfix { 
 	zoom: 1; 
 }
+
+.thumb{
+    width: 216px;
+    height: 162px;
+}

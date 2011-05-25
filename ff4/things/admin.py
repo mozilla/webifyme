@@ -14,10 +14,12 @@ unfeature.short_description = "Make selected collages unfeatured"
 
 class CollageAdmin(admin.ModelAdmin):
     fields = ['filename','username','featured','in_gallery','background_img']
-    list_display = ('filename','username','featured','in_gallery','background_img')
+    list_display = ('thumbnail_image','username','featured','in_gallery','background_img')
     actions = [make_featured,unfeature]
 
 
 
 admin.site.register(Collage,CollageAdmin)
+
+
 
