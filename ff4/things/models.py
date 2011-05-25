@@ -77,3 +77,12 @@ class Collage(models.Model):
           return settings.SNAPSHOT_BASE_URL + self.filename[:2] + '/' + self.filename
         return None
 
+    def thumbnail_image_path(self):
+        return self.snapshot_url()
+
+    #dunno if I should have a template for this. Might be overkill?
+    def thumbnail_image(self):
+        return '<img src="%s" class="thumb">' % self.thumbnail_image_path()
+
+    thumbnail_image.allow_tags = True
+
