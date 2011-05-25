@@ -1,6 +1,5 @@
 from things.models import QuizQuestion, QuizAnswer, Image, QuizAnswerByImage, Collage
 from django.contrib import admin
-import pdb;
 
 def make_featured(modeladmil, request, queryset):
     queryset.update(featured=1)
