@@ -61,6 +61,8 @@ class Collage(models.Model):
     filename = models.CharField(max_length=75)
     bitly_url = models.CharField(max_length=75, null=True, blank=True)
 
+    username.verbose_name = "Title"
+    
     def save(self):
         if self.slug == "":
             self.slug = slugify( hashlib.md5(self.username + datetime.now().strftime("%Y%m%d%H%m%s") ).hexdigest()[:12]  )
