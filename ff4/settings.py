@@ -126,5 +126,13 @@ FIXTURE_DIRS = (
 
 SOUTH_TESTS_MIGRATE = False
 FIREFOX_DOWNLOAD_URL = "http://www.mozilla.com/en-US/firefox/"
-SNAPSHOT_BASE_URL = '/static/collages/thumbs_gallery/'
+
+SNAPSHOT_BASE = 'collages/snapshots/'
+THUMB_BASE = 'collages/thumbs_gallery/'
+FEATURED_THUMB_BASE = 'collages/thumbs_featured/'
+
+SNAPSHOT_BASE_URL = '/static/' + SNAPSHOT_BASE
+THUMB_BASE_URL = '/static/' + THUMB_BASE
+FEATURED_THUMB_BASE_URL = '/static/' + FEATURED_THUMB_BASE
+
 LOG_FILENAME = "%s/render_collage.log" % PROJECT_PATH

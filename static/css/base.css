@@ -114,16 +114,16 @@ h3 {
 .zinc-bg #header #intro-line {
 	background-image: url('../img/mozff_white.png');
 }
-.cedar-bg .nav a,
-.cement-bg .nav a,
-.deck-bg .nav a,
-.grass-bg .nav a,
-.maple-bg .nav a,
-.oak-bg .nav a,
-.steel-bg .nav a,
-.walnut-bg .nav a,
-.teak-bg .nav a,
-.zinc-bg .nav a,
+.cedar-bg #header .nav a,
+.cement-bg #header .nav a,
+.deck-bg #header .nav a,
+.grass-bg #header .nav a,
+.maple-bg #header .nav a,
+.oak-bg #header .nav a,
+.steel-bg #header .nav a,
+.walnut-bg #header .nav a,
+.teak-bg #header .nav a,
+.zinc-bg #header .nav a,
 .cedar-bg #header #intro-line span,
 .cement-bg #header #intro-line span,
 .deck-bg #header #intro-line span,
@@ -583,13 +583,57 @@ body.birch-bg .collage #header #intro-line {
 .gallery-page #footer .links {
   margin-top: 85px;
 }
-
-#gallery_wrapper { 
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
+.cl-container,
+.cl-current,
+.cl-list {
+	width: 200px;
 }
-
+.cl-container {
+	background: #ffffff;
+	margin: 10px 0;
+	position: relative;
+}
+.cl-current {
+	font-family: "league-gothic-1","league-gothic-2",sans-serif;
+	color: #53a6e3;
+	padding: 10px 10px 6px 10px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	position: relative;
+	z-index: 100;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 0.5px;
+	background: url('../img/grey_arrow_down.png') 194px 50% no-repeat #ffffff;
+}
+.cl-list {
+	position: absolute;
+	top: 36px;
+	left: 0px;
+	background: #ffffff;
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	z-index: 50;
+}
+.cl-list a {
+	display: block;
+	font-family: "league-gothic-1", "league-gothic-2", sans-serif;
+	color: #53a6e3;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 0.5px;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 2px 4px;
+}
+.cl-list a:hover {
+	background: #ffec18;
+}
 .gallery { 
   overflow: hidden; 
 }
@@ -1674,4 +1718,9 @@ line-height: 2.0em;
 /* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
 .clearfix { 
 	zoom: 1; 
+}
+
+.thumb{
+    width: 216px;
+    height: 162px;
 }

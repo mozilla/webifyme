@@ -17,7 +17,9 @@
 					<ul class="gallery">
             {% for feature in featured_collages %}
               <li>
-							<a href="/collage/{{ feature.slug }}/"><img src="/static/collages/thumbs_gallery/{{ feature.slug[:2] }}/{{ feature.slug }}.jpg" /></a>
+							<a href="/collage/{{ feature.slug }}/">
+								<img src="{{ feature.featured_thumb_url() }}" alt="{{ featured.username }}" />
+							</a>
 							<h4><a href="/collage/{{ feature.slug }}/">{{ feature.username }}</a></h4>
   						</li>
             {% endfor %}

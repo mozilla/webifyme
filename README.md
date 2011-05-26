@@ -79,3 +79,12 @@ Start your dev server:
 
 [Jim][Jim] is used for managing the JavaScript in Mozilla Mark Up. More information is available [here][Jim].
 [Jim]: https://github.com/quirkey/jim
+
+## Setting the Image Sizes
+
+The image sizes are now set correctly in the fixtures, but if you need to reset their sizes for some reason, there's a custom command that will do it for you. 
+
+*This must be run from the ff4 directory.*
+
+     ./manage.py set_image_sizes
+     

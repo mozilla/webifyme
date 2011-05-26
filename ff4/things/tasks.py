@@ -59,16 +59,24 @@ def process_collage(slug):
             canvas.paste(fpo_obj, box, fpo_obj)
 
     col.filename = slug + '.jpg'
-    try:
-        directory = STATIC_PATH + 'collages/thumbs_gallery/' + slug[:2]
-        if not os.path.exists(directory):
-            os.mkdir(directory)
-
-        canvasGalleryThumb = canvas.resize((190, 143), Image.ANTIALIAS)
-        canvasGalleryThumb.save(directory + '/' + col.filename)
-        canvasFeaturedThumb = canvas.resize((190, 143), Image.ANTIALIAS)
-        canvasFeaturedThumb.save(directory + '/' + col.filename)
-        canvas.save(directory + '/' + col.filename)
+    try:       
+        snapshot_dir = STATIC_PATH + settings.SNAPSHOT_BASE + slug[:2]
+        thumb_dir = STATIC_PATH + settings.THUMB_BASE + slug[:2]
+        featured_dir = STATIC_PATH + settings.FEATURED_THUMB_BASE + slug[:2]
+        if not os.path.exists(snapshot_dir):
+            os.mkdir(snapshot_dir)
+        if not os.path.exists(thumb_dir):
+            os.mkdir(thumb_dir)
+        if not os.path.exists(featured_dir):
+            os.mkdir(featured_dir)
+        # Regular thumbs are 192 x 144 and are used in the gallery 
+        canvasGalleryThumb = canvas.resize((192, 144), Image.ANTIALIAS)
+        canvasGalleryThumb.save(thumb_dir + '/' + col.filename)
+        # Featured thumbs are 216 x 162 and are used on the homepage
+        canvasFeaturedThumb = canvas.resize((216, 162), Image.ANTIALIAS)
+        canvasFeaturedThumb.save(featured_dir + '/' + col.filename)
+        # full size images are 875 x 600 and are used for the download snapshot links
+        canvas.save(snapshot_dir + '/' + col.filename)
     except:
         logging.error("Problem saving the final image: slug=" + slug, sys.exc_info()[0])
         raise

@@ -1,60 +1,60 @@
-- fields: { }
+- fields: { slug: "1" }
   model: things.QuizQuestion
   pk: 1
-- fields: { }
+- fields: { slug: "2" }
   model: things.QuizQuestion
   pk: 2
-- fields: { }
+- fields: { slug: "3" }
   model: things.QuizQuestion
   pk: 3
-- fields: { }
+- fields: { slug: "4" }
   model: things.QuizQuestion
   pk: 4
-- fields: { }
+- fields: { slug: "5" }
   model: things.QuizQuestion
   pk: 5
-- fields: { }
+- fields: { slug: "6" }
   model: things.QuizQuestion
   pk: 6
-- fields: { }
+- fields: { slug: "7" }
   model: things.QuizQuestion
   pk: 7
-- fields: { }
+- fields: { slug: "8" }
   model: things.QuizQuestion
   pk: 8
-- fields: { }
+- fields: { slug: "9" }
   model: things.QuizQuestion
   pk: 9
-- fields: { }
+- fields: { slug: "10" }
   model: things.QuizQuestion
   pk: 10
-- fields: { }
+- fields: { slug: "11" }
   model: things.QuizQuestion
   pk: 11
-- fields: { }
+- fields: { slug: "12" }
   model: things.QuizQuestion
   pk: 12
-- fields: { }
+- fields: { slug: "13" }
   model: things.QuizQuestion
   pk: 13
-- fields: { }
+- fields: { slug: "14" }
   model: things.QuizQuestion
   pk: 14
-- fields: { }
+- fields: { slug: "15" }
   model: things.QuizQuestion
   pk: 15
-- fields: { }
+- fields: { slug: "16" }
   model: things.QuizQuestion
   pk: 16
-- fields: { }
+- fields: { slug: "17" }
   model: things.QuizQuestion
   pk: 17
-- fields: { }
+- fields: { slug: "18" }
   model: things.QuizQuestion
   pk: 18
-- fields: { }
+- fields: { slug: "19" }
   model: things.QuizQuestion
   pk: 19
-- fields: { }
+- fields: { slug: "20" }
   model: things.QuizQuestion
   pk: 20

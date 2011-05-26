@@ -1,7 +1,6 @@
 import random
 import json
 import string
-
 from django.core import serializers
 from django.core.paginator import Paginator
 from django.http import Http404, HttpResponse, HttpResponseRedirect
@@ -39,13 +38,13 @@ def home(request):
     context = {'featured_collages': featured_collages}
     return render_response(request, 'things/home.html', context)
 
-
-def gallery(request, page=1, chapter=1):
+def gallery(request, page=1, chapter=1, featured=False):
     chapter = int(chapter)
     pages_per_chapter = 8
     collages_per_page = 8
 
-    collages = Collage.objects.all().order_by('-id').filter(in_gallery=True)
+    featured = True if featured else False
+    collages = Collage.objects.all().order_by('-id').filter(in_gallery=True, featured=featured)
 
     total = len(collages)
     start_range = ((chapter - 1) * pages_per_chapter * collages_per_page)
@@ -71,15 +70,16 @@ def gallery(request, page=1, chapter=1):
     else:
         return render_response(request, 'things/gallery.html', context)
 
+def gallery_nav(request, page=1, chapter=1, featured=False):
 
-def gallery_nav(request, page=1, chapter=1):
-
+    print("GALLERY NAV")
     chapter = int(chapter)
 
     pages_per_chapter = 8
     collages_per_page = 8
 
-    collages = Collage.objects.all().order_by('-id').filter(in_gallery=True)
+    featured = True if featured else False
+    collages = Collage.objects.all().order_by('-id').filter(in_gallery=True, featured=featured)
 
     total = len(collages)
     start_range = ((chapter - 1) * pages_per_chapter * collages_per_page)
@@ -91,7 +91,7 @@ def gallery_nav(request, page=1, chapter=1):
         more = False
 
     try:
-        featured_collages = collages.filter(in_gallery=True)[start_range:end_range]
+        featured_collages = collages.filter[start_range:end_range]
     except Collage.DoesNotExist:
         raise Http404
 

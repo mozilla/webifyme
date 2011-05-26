@@ -1,8 +1,10 @@
 <ul class="gallery">
 	{% for feature in featured_collages.object_list %}
 		<li class="{{ loop.cycle('first', 'second', 'third', 'last') }}">
-			<a href="/collage/{{ feature.slug }}/"><img src="/static/collages/thumbs_gallery/{{ feature.slug[:2] }}/{{ feature.slug }}.jpg" /></a>
-			<h4><a href="/collage/{{ feature.slug }}/">{{ feature.username }}</a></h4>
+        <a href="/collage/{{ feature.slug }}/">
+            <img src="{{ feature.thumbnail_url() }}" alt="{{ feature.username }}"/>
+        </a>
+		<h4><a href="/collage/{{ feature.slug }}/">{{ feature.username }}</a></h4>
 		</li>
 	{% endfor %}
 </ul>

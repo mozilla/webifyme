@@ -49,6 +49,12 @@
 				break;
 			// The gallery page
 			case 'gallery':
+				$( '#gallery-filter' )
+					.collapsibleList( )
+					.find( 'a' )
+					.bind( 'collapsibleList.select', function( e ) {
+						// code for handling gallery filter changes goes here
+					} );
 				break;
 		}
 		
