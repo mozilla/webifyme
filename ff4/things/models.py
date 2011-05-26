@@ -5,6 +5,8 @@ import hashlib
 from datetime import datetime
 from django.conf import settings
 from things.questions_answers import *
+import copy
+import random
 
 class QuizQuestion(models.Model):
     slug = models.SlugField(blank=True) # default max length (50)
@@ -65,12 +67,32 @@ class Collage(models.Model):
     
     def save(self):
         if self.slug == "":
-            self.slug = slugify( hashlib.md5(self.username + datetime.now().strftime("%Y%m%d%H%m%s") ).hexdigest()[:12]  )
+            self.slug = self.generate_slug()
         super( Collage, self ).save()
 
+    def generate_slug(self):
+        return slugify( hashlib.md5(self.username + str(random.randint(0,100000)) + datetime.now().strftime("%Y%m%d%H%m%s") ).hexdigest()[:12] )
 
     def __unicode__(self):
         return self.filename
+
+    def clone(self):
+        """Return an identical copy of the instance with a new ID."""
+        if not self.pk:
+            raise ValueError('Instance must be saved before it can be cloned.')
+        duplicate = copy.copy(self)
+        # Setting pk to None tricks Django into thinking this is a new object.
+        duplicate.pk = None
+        duplicate.id = None
+        duplicate.slug = self.generate_slug()
+        duplicate.save()
+        # ... but the trick loses all ManyToMany relations.
+        for field in self._meta.many_to_many:
+            source = getattr(self, field.attname)
+            destination = getattr(duplicate, field.attname)
+            for item in source.all():
+                destination.add(item)
+        return duplicate
 
     def snapshot_url(self):
         if self.filename:
