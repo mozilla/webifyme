@@ -98,7 +98,17 @@ class Collage(models.Model):
         if self.filename:
           return settings.SNAPSHOT_BASE_URL + self.filename[:2] + '/' + self.filename
         return None
-
+        
+    def thumbnail_url(self):
+        if self.filename:
+          return settings.THUMB_BASE_URL + self.filename[:2] + '/' + self.filename
+        return None
+        
+    def featured_thumbnail_url(self):
+        if self.filename:
+          return settings.FEATURED_THUMB_BASE_URL + self.filename[:2] + '/' + self.filename
+        return None
+              
     def thumbnail_image_path(self):
         return self.snapshot_url()
 
