@@ -541,6 +541,8 @@ things.SnapshotChecker = function() {
 
 things.currentBgClass = null;
 things.setBackground = function(bgClass) {
+	// always remove the none-bg first, because it's in the markup
+	$( 'body' ).removeClass( 'none-bg' );
   if(things.currentBgClass) {
     $('body').removeClass(things.currentBgClass);
   }
