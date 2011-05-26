@@ -4,10 +4,11 @@ from south.db import db
 from south.v2 import SchemaMigration
 from django.db import models
 
+
 class Migration(SchemaMigration):
-    
+
     def forwards(self, orm):
-        
+
         # Adding field 'Collage.bitly_url'
         db.add_column('things_collage', 'bitly_url', self.gf('django.db.models.fields.CharField')(max_length=75, null=True, blank=True), keep_default=False)
 
@@ -19,10 +20,9 @@ class Migration(SchemaMigration):
 
         # Changing field 'Collage.packed'
         db.alter_column('things_collage', 'packed', self.gf('django.db.models.fields.BooleanField')(blank=True))
-    
-    
+
     def backwards(self, orm):
-        
+
         # Deleting field 'Collage.bitly_url'
         db.delete_column('things_collage', 'bitly_url')
 
@@ -34,8 +34,7 @@ class Migration(SchemaMigration):
 
         # Changing field 'Collage.packed'
         db.alter_column('things_collage', 'packed', self.gf('django.db.models.fields.BooleanField')())
-    
-    
+
     models = {
         'things.collage': {
             'Meta': {'object_name': 'Collage'},
@@ -81,5 +80,5 @@ class Migration(SchemaMigration):
             'slug': ('django.db.models.fields.SlugField', [], {'db_index': 'True', 'max_length': '50', 'blank': 'True'})
         }
     }
-    
+
     complete_apps = ['things']

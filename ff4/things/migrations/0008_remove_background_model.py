@@ -4,16 +4,16 @@ from south.db import db
 from south.v2 import SchemaMigration
 from django.db import models
 
+
 class Migration(SchemaMigration):
 
     def forwards(self, orm):
-        
+
         # Deleting model 'Background'
         db.delete_table('things_background')
 
-
     def backwards(self, orm):
-        
+
         # Adding model 'Background'
         db.create_table('things_background', (
             ('class_name', self.gf('django.db.models.fields.CharField')(max_length=100)),
@@ -21,7 +21,6 @@ class Migration(SchemaMigration):
             ('thumbnail', self.gf('django.db.models.fields.CharField')(max_length=100)),
         ))
         db.send_create_signal('things', ['Background'])
-
 
     models = {
         'things.collage': {

@@ -4,10 +4,11 @@ from south.db import db
 from south.v2 import SchemaMigration
 from django.db import models
 
+
 class Migration(SchemaMigration):
-    
+
     def forwards(self, orm):
-        
+
         # Deleting field 'QuizAnswerByImage.tooltip'
         db.delete_column('things_quizanswerbyimage', 'tooltip')
 
@@ -16,10 +17,9 @@ class Migration(SchemaMigration):
 
         # Deleting field 'QuizQuestion.question'
         db.delete_column('things_quizquestion', 'question')
-    
-    
+
     def backwards(self, orm):
-        
+
         # Adding field 'QuizAnswerByImage.tooltip'
         db.add_column('things_quizanswerbyimage', 'tooltip', self.gf('django.db.models.fields.CharField')(max_length=255, null=True, blank=True), keep_default=False)
 
@@ -28,8 +28,7 @@ class Migration(SchemaMigration):
 
         # Adding field 'QuizQuestion.question'
         db.add_column('things_quizquestion', 'question', self.gf('django.db.models.fields.CharField')(default=None, max_length=200), keep_default=False)
-    
-    
+
     models = {
         'things.collage': {
             'Meta': {'object_name': 'Collage'},
@@ -72,5 +71,5 @@ class Migration(SchemaMigration):
             'slug': ('django.db.models.fields.SlugField', [], {'db_index': 'True', 'max_length': '50', 'blank': 'True'})
         }
     }
-    
+
     complete_apps = ['things']

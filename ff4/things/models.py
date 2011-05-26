@@ -6,26 +6,29 @@ from datetime import datetime
 from django.conf import settings
 from things.questions_answers import *
 
+
 class QuizQuestion(models.Model):
-    slug = models.SlugField(blank=True) # default max length (50)
+    slug = models.SlugField(blank=True)  # default max length (50)
 
     def save(self):
-        self.slug = slugify( hashlib.md5( QUESTIONS( )[self.pk] + datetime.now().strftime("%Y%m%d%H%m%s") ).hexdigest()[:12] )
-        super( QuizQuestion, self ).save()
+        self.slug = slugify(hashlib.md5(QUESTIONS()[self.pk] + datetime.now().strftime("%Y%m%d%H%m%s")).hexdigest()[:12])
+        super(QuizQuestion, self).save()
 
     def __unicode__(self):
-        return unicode(QUESTIONS( )[self.pk])
+        return unicode(QUESTIONS()[self.pk])
+
 
 class QuizAnswer(models.Model):
     slug = models.SlugField(unique=True)
     quiz_question = models.ForeignKey(QuizQuestion)
 
     def save(self):
-        self.slug = slugify( ANSWERS( )[self.pk] )
-        super( QuizAnswer, self ).save()
+        self.slug = slugify(ANSWERS()[self.pk])
+        super(QuizAnswer, self).save()
 
     def __unicode__(self):
-        return unicode(ANSWERS( )[self.pk])
+        return unicode(ANSWERS()[self.pk])
+
 
 class Image(models.Model):
     slug = models.SlugField(unique=True)
@@ -39,8 +42,8 @@ class Image(models.Model):
         return int(self.width * self.height)
 
     def save(self):
-        self.slug = slugify( self.file_name )
-        super( Image, self ).save()
+        self.slug = slugify(self.file_name)
+        super(Image, self).save()
 
     def __unicode__(self):
         return self.file_name
@@ -50,10 +53,11 @@ class QuizAnswerByImage(models.Model):
     image = models.ForeignKey(Image)
     answer = models.ForeignKey(QuizAnswer)
 
+
 class Collage(models.Model):
     slug = models.SlugField(unique=True)
     packed = models.BooleanField(default=False)
-    images_coords = models.TextField(null=True, blank=True) # json object for computed collage
+    images_coords = models.TextField(null=True, blank=True)  # json object for computed collage
     background_img = models.CharField(max_length=50, default='wood.jpg')
     username = models.CharField(max_length=50)
     featured = models.BooleanField()
@@ -63,15 +67,13 @@ class Collage(models.Model):
 
     def save(self):
         if self.slug == "":
-            self.slug = slugify( hashlib.md5(self.username + datetime.now().strftime("%Y%m%d%H%m%s") ).hexdigest()[:12]  )
-        super( Collage, self ).save()
-
+            self.slug = slugify(hashlib.md5(self.username + datetime.now().strftime("%Y%m%d%H%m%s")).hexdigest()[:12])
+        super(Collage, self).save()
 
     def __unicode__(self):
         return self.filename
 
     def snapshot_url(self):
         if self.filename:
-          return settings.SNAPSHOT_BASE_URL + self.filename[:2] + '/' + self.filename
+            return settings.SNAPSHOT_BASE_URL + self.filename[:2] + '/' + self.filename
         return None
-

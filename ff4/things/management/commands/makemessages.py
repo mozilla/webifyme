@@ -13,6 +13,7 @@ from django.utils.text import get_text_list
 pythonize_re = re.compile(r'(?:^|\n)\s*//')
 plural_forms_re = re.compile(r'^(?P<value>"Plural-Forms.+?\\n")\s*$', re.MULTILINE | re.DOTALL)
 
+
 def handle_extensions(extensions=('html',)):
     """
     organizes multiple extensions that are separated with commas or passed by
@@ -28,7 +29,7 @@ def handle_extensions(extensions=('html',)):
     """
     ext_list = []
     for ext in extensions:
-        ext_list.extend(ext.replace(' ','').split(','))
+        ext_list.extend(ext.replace(' ', '').split(','))
     for i, ext in enumerate(ext_list):
         if not ext.startswith('.'):
             ext_list[i] = '.%s' % ext_list[i]
@@ -38,12 +39,14 @@ def handle_extensions(extensions=('html',)):
     # trick xgettext to parse them as Python files)
     return set([x for x in ext_list if x != '.py'])
 
+
 def _popen(cmd):
     """
     Friendly wrapper around Popen for Windows
     """
     p = Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE, close_fds=os.name != 'nt', universal_newlines=True)
     return p.communicate()
+
 
 def walk(root, topdown=True, onerror=None, followlinks=False):
     """
@@ -58,6 +61,7 @@ def walk(root, topdown=True, onerror=None, followlinks=False):
                     for link_dirpath, link_dirnames, link_filenames in walk(p):
                         yield (link_dirpath, link_dirnames, link_filenames)
 
+
 def is_ignored(path, ignore_patterns):
     """
     Helper function to check if the given path should be ignored or not.
@@ -66,6 +70,7 @@ def is_ignored(path, ignore_patterns):
         if fnmatch.fnmatchcase(path, pattern):
             return True
     return False
+
 
 def find_files(root, ignore_patterns, verbosity, symlinks=False):
     """
@@ -82,6 +87,7 @@ def find_files(root, ignore_patterns, verbosity, symlinks=False):
                 all_files.extend([(dirpath, f)])
     all_files.sort()
     return all_files
+
 
 def copy_plural_forms(msgs, locale, domain, verbosity):
     """
@@ -125,7 +131,7 @@ def make_messages(locale=None, domain='django', verbosity='1', all=False,
     if settings.configured:
         settings.USE_I18N = True
     else:
-        settings.configure(USE_I18N = True)
+        settings.configure(USE_I18N=True)
 
     """
     from ff4.utils import templatize
@@ -197,8 +203,8 @@ def make_messages(locale=None, domain='django', verbosity='1', all=False,
                 msgs, errors = _popen(cmd)
                 if errors:
                     raise CommandError("errors happened while running xgettext on %s\n%s" % (file, errors))
-                old = '#: '+os.path.join(dirpath, thefile)[2:]
-                new = '#: '+os.path.join(dirpath, file)[2:]
+                old = '#: ' + os.path.join(dirpath, thefile)[2:]
+                new = '#: ' + os.path.join(dirpath, file)[2:]
                 msgs = msgs.replace(old, new)
                 if os.path.exists(potfile):
                     # Strip the header
@@ -235,8 +241,8 @@ def make_messages(locale=None, domain='django', verbosity='1', all=False,
                     raise CommandError("errors happened while running xgettext on %s\n%s" % (file, errors))
 
                 if thefile != file:
-                    old = '#: '+os.path.join(dirpath, thefile)[2:]
-                    new = '#: '+os.path.join(dirpath, file)[2:]
+                    old = '#: ' + os.path.join(dirpath, thefile)[2:]
+                    new = '#: ' + os.path.join(dirpath, file)[2:]
                     msgs = msgs.replace(old, new)
                 if os.path.exists(potfile):
                     # Strip the header

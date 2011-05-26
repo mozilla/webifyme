@@ -2,6 +2,7 @@
 import re
 from django.utils.translation import ugettext as _
 
+
 def get_community_object(referral_domain):
     community_objects = {
         'digg': {
@@ -61,9 +62,8 @@ def get_community_object(referral_domain):
             x = re.search(domain, referral_domain)
             if x:
                 return community_objects[domain]
-                break;
+                break
         return False
-
 
 
 def get_browser_object(user_agent_string):
@@ -110,13 +110,11 @@ def get_browser_object(user_agent_string):
         result = re.search(regex, user_agent_string)
         if result:
             browser_code = browser
-            break;
+            break
 
     if browser_code in browser_objects:
         return browser_objects[browser_code]
     return False
-
-
 
 
 def get_easter_egg(email_address):

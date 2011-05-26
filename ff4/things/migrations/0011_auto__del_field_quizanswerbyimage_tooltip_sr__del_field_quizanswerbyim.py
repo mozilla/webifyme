@@ -4,6 +4,7 @@ from south.db import db
 from south.v2 import SchemaMigration
 from django.db import models
 
+
 class Migration(SchemaMigration):
 
     def forwards(self, orm):
@@ -585,7 +586,7 @@ class Migration(SchemaMigration):
 
         # Renaming field 'QuizQuestion.question_en' to 'QuizQuestion.question'
         db.rename_column('things_quizquestion', 'question_en', 'question')
-        
+
         # Deleting field 'QuizQuestion.question_nn'
         db.delete_column('things_quizquestion', 'question_nn')
 
@@ -775,9 +776,8 @@ class Migration(SchemaMigration):
         # Adding field 'QuizQuestion.question'
         #db.add_column('things_quizquestion', 'question', self.gf('django.db.models.fields.CharField')(default='', max_length=200), keep_default=False)
 
-
     def backwards(self, orm):
-        
+
         # Adding field 'QuizAnswerByImage.tooltip_sr'
         db.add_column('things_quizanswerbyimage', 'tooltip_sr', self.gf('django.db.models.fields.CharField')(max_length=255, null=True, blank=True), keep_default=False)
 
@@ -1143,7 +1143,7 @@ class Migration(SchemaMigration):
         # Adding field 'QuizAnswer.answer_pl'
         db.add_column('things_quizanswer', 'answer_pl', self.gf('django.db.models.fields.CharField')(max_length=200, null=True, blank=True), keep_default=False)
 
-        # renaming... 
+        # renaming...
         db.rename_column('things_quizanswer', 'answer', 'answer_en')
         # Adding field 'QuizAnswer.answer_en'
         #db.add_column('things_quizanswer', 'answer_en', self.gf('django.db.models.fields.CharField')(max_length=200, null=True, blank=True), keep_default=False)
@@ -1541,7 +1541,6 @@ class Migration(SchemaMigration):
 
         # Deleting field 'QuizQuestion.question'
         #db.delete_column('things_quizquestion', 'question')
-
 
     models = {
         'things.collage': {
