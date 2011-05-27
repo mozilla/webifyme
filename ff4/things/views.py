@@ -63,7 +63,7 @@ def gallery(request, page=1, chapter=1, featured=False):
     pages = Paginator(featured_collages, 8)
     current_page = pages.page(page)
 
-    context = {'featured_collages': current_page, 'page_object': pages, 'chapter': chapter, 'pages_per_chapter': pages_per_chapter, 'more': more}
+    context = {'featured_collages': current_page, 'page_object': pages, 'chapter': chapter, 'pages_per_chapter': pages_per_chapter, 'more': more, 'featured': featured}
 
     if request.is_ajax():
         return render_response(request, 'things/_gallery_page.html', context)
@@ -91,7 +91,7 @@ def gallery_nav(request, page=1, chapter=1, featured=False):
         more = False
 
     try:
-        featured_collages = collages.filter[start_range:end_range]
+        featured_collages = collages[start_range:end_range]
     except Collage.DoesNotExist:
         raise Http404
 

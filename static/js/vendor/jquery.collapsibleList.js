@@ -29,7 +29,7 @@
 				// take the list, wrap it in a div, add a h3 for displaying the current title
 				context.$container = context.$list.wrap( '<div></div>' ).parent();
 				context.$current = $( context.headerHTML )
-					.text( context.$list.children( ':first' ).text() );
+					.text( context.$list.children( '.active' ).text() );
 				context.$container
 					.addClass( context.parentClass )
 					.prepend( context.$current );
@@ -47,7 +47,7 @@
 						e.preventDefault();
 						var $link = $( this );
 						// consider the value to have changed if the new text is not equal to the current text
-						var changed = ( $link.text() != context.$current.text() );
+						var changed = ( $link.text() !== context.$current.text() );
 						if( changed ) {
 							// update the current selection
 							context.$current.text( $link.text() );

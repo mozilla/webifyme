@@ -58,8 +58,10 @@
 			},
 			'shareURL': function ( context ){
 				var params = [];
-				for( param in context.share_params ) {
-					params.push( param + '=' + encodeURIComponent( context.share_params[param] ) );
+				for( var param in context.share_params ) {
+					if ( context.share_params.hasOwnProperty( param ) ) {
+						params.push( param + '=' + encodeURIComponent( context.share_params[param] ) );
+					}
 				}
 				return context.share_url + '?' + params.join( "&" );
 			},

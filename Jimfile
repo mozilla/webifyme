@@ -4,10 +4,10 @@
   "bundles": {
 		"webifyme_common": [
 			["jquery", "1.4.4.min"],
+			"ZeroClipboard",
 			"jquery.socialShare",
 			"jquery.getText",
 			"jquery.collapsibleList",
-			"ZeroClipboard",
 			"quiz",
 			"collage",
 			"gallery",

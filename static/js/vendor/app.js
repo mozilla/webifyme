@@ -49,12 +49,8 @@
 				break;
 			// The gallery page
 			case 'gallery':
-				$( '#gallery-filter' )
-					.collapsibleList( )
-					.find( 'a' )
-					.bind( 'collapsibleList.select', function( e ) {
-						// code for handling gallery filter changes goes here
-					} );
+				// initialize the gallery
+				$.webifyme.gallery.fn.init();
 				break;
 		}
 		
@@ -91,4 +87,4 @@
 		return this;
 	};
 	
-} )( jQuery );
+}( jQuery ) );
