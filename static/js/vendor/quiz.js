@@ -117,7 +117,7 @@ things.Quiz = function() {
       $('<li></li>').append(createAnswer(questions[qIdx]['answers'][i], i)).appendTo(questionEl.find('.answers'));
     }
 		
-		if( qIdx == 0 ) {
+		if( qIdx === 0 ) {
 			// if this is the first question, show the note
 			$( '.question-note' ).show();
 		} else {
@@ -153,7 +153,7 @@ things.Quiz = function() {
 	function prepForm() {
 		var formData = quizForm.read();
     if(formData) {
-      for(k in formData) { answers[k] = formData[k]; }
+      for( var k in formData ) { answers[k] = formData[k]; }
     } else {
       //didn't validate
       showForm();
@@ -172,7 +172,7 @@ things.Quiz = function() {
   function submitAnswers() {
     var formData = quizForm.read();
     if(formData) {
-      for(k in formData) { answers[k] = formData[k]; }
+      for(var k in formData) { answers[k] = formData[k]; }
     } else {
       //didn't validate
       showForm();
