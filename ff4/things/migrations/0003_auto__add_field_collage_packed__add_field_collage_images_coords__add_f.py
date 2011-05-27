@@ -4,10 +4,11 @@ from south.db import db
 from south.v2 import SchemaMigration
 from django.db import models
 
+
 class Migration(SchemaMigration):
 
     def forwards(self, orm):
-        
+
         # Adding field 'Collage.packed'
         db.add_column('things_collage', 'packed', self.gf('django.db.models.fields.BooleanField')(default=False), keep_default=False)
 
@@ -41,9 +42,8 @@ class Migration(SchemaMigration):
         # Adding index on 'QuizQuestion', fields ['slug']
         db.create_index('things_quizquestion', ['slug'])
 
-
     def backwards(self, orm):
-        
+
         # Removing index on 'QuizQuestion', fields ['slug']
         db.delete_index('things_quizquestion', ['slug'])
 
@@ -76,7 +76,6 @@ class Migration(SchemaMigration):
 
         # Changing field 'QuizQuestion.slug'
         db.alter_column('things_quizquestion', 'slug', self.gf('django.db.models.fields.CharField')(max_length=30, unique=True))
-
 
     models = {
         'things.collage': {

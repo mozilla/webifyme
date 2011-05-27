@@ -4,10 +4,11 @@ from south.db import db
 from south.v2 import SchemaMigration
 from django.db import models
 
+
 class Migration(SchemaMigration):
 
     def forwards(self, orm):
-        
+
         # Deleting field 'Image.area_medium'
         db.delete_column('things_image', 'area_medium')
 
@@ -23,9 +24,8 @@ class Migration(SchemaMigration):
         # Adding field 'Image.height'
         db.add_column('things_image', 'height', self.gf('django.db.models.fields.IntegerField')(), keep_default=False)
 
-
     def backwards(self, orm):
-        
+
         # Adding field 'Image.area_medium'
         db.add_column('things_image', 'area_medium', self.gf('django.db.models.fields.IntegerField')(default=''), keep_default=False)
 
@@ -40,7 +40,6 @@ class Migration(SchemaMigration):
 
         # Deleting field 'Image.height'
         db.delete_column('things_image', 'height')
-
 
     models = {
         'things.collage': {

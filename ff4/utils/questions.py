@@ -1,7 +1,7 @@
 from django.core import serializers
 import json
 from things.models import QuizQuestion, QuizAnswer
-# helper functions for returning questions and answers
+
 
 # get the question and answers in json formatin JSON format
 def get_question_JSON(qid):
@@ -10,10 +10,11 @@ def get_question_JSON(qid):
     qa = list(a) + list(q)
     data = serializers.serialize('json', qa)
     return data
-    
+
+
 def serialize_image_list(images):
-    imageObj = { }
+    imageObj = {}
     c = 0
     for image in images:
-        imageObj[c] = { 'img': image.file_name, 'width': 0, 'height': 0, 'name': image.slug, 'description': 'blah blah blah' }
+        imageObj[c] = {'img': image.file_name, 'width': 0, 'height': 0, 'name': image.slug, 'description': 'blah blah blah'}
     return imageObj

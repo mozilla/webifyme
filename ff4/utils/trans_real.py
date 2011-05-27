@@ -31,6 +31,7 @@ accept_language_re = re.compile(r'''
         (?:\s*,\s*|$)                            # Multiple accepts per header.
         ''', re.VERBOSE)
 
+
 def to_locale(language, to_lower=False):
     """
     Turns a language name (en-us) into a locale name (en_US). If 'to_lower' is
@@ -39,22 +40,24 @@ def to_locale(language, to_lower=False):
     p = language.find('-')
     if p >= 0:
         if to_lower:
-            return language[:p].lower()+'_'+language[p+1:].lower()
+            return language[:p].lower() + '_' + language[p + 1:].lower()
         else:
             # Get correct locale for sr-latn
-            if len(language[p+1:]) > 2:
-                return language[:p].lower()+'_'+language[p+1].upper()+language[p+2:].lower()
-            return language[:p].lower()+'_'+language[p+1:].upper()
+            if len(language[p + 1:]) > 2:
+                return language[:p].lower() + '_' + language[p + 1].upper() + language[p + 2:].lower()
+            return language[:p].lower() + '_' + language[p + 1:].upper()
     else:
         return language.lower()
+
 
 def to_language(locale):
     """Turns a locale name (en_US) into a language name (en-us)."""
     p = locale.find('_')
     if p >= 0:
-        return locale[:p].lower()+'-'+locale[p+1:].lower()
+        return locale[:p].lower() + '-' + locale[p + 1:].lower()
     else:
         return locale.lower()
+
 
 class DjangoTranslation(gettext_module.GNUTranslations):
     """
@@ -86,6 +89,7 @@ class DjangoTranslation(gettext_module.GNUTranslations):
 
     def __repr__(self):
         return "<DjangoTranslation lang:%s>" % self.__language
+
 
 def translation(language):
     """
@@ -178,6 +182,7 @@ def translation(language):
 
     return current_translation
 
+
 def activate(language):
     """
     Fetches the translation object for a given tuple of application name and
@@ -192,6 +197,7 @@ def activate(language):
         )
     _active[currentThread()] = translation(language)
 
+
 def deactivate():
     """
     Deinstalls the currently active translation object so that further _ calls
@@ -201,6 +207,7 @@ def deactivate():
     if currentThread() in _active:
         del _active[currentThread()]
 
+
 def deactivate_all():
     """
     Makes the active translation object a NullTranslations() instance. This is
@@ -208,6 +215,7 @@ def deactivate_all():
     for some reason.
     """
     _active[currentThread()] = gettext_module.NullTranslations()
+
 
 def get_language():
     """Returns the currently selected language."""
@@ -221,17 +229,19 @@ def get_language():
     from django.conf import settings
     return settings.LANGUAGE_CODE
 
+
 def get_language_bidi():
     """
     Returns selected language's BiDi layout.
-    
+
     * False = left-to-right layout
     * True = right-to-left layout
     """
     from django.conf import settings
-    
+
     base_lang = get_language().split('-')[0]
     return base_lang in settings.LANGUAGES_BIDI
+
 
 def catalog():
     """
@@ -247,6 +257,7 @@ def catalog():
         from django.conf import settings
         _default = translation(settings.LANGUAGE_CODE)
     return _default
+
 
 def do_translate(message, translation_function):
     """
@@ -269,11 +280,14 @@ def do_translate(message, translation_function):
         return mark_safe(result)
     return result
 
+
 def gettext(message):
     return do_translate(message, 'gettext')
 
+
 def ugettext(message):
     return do_translate(message, 'ugettext')
+
 
 def gettext_noop(message):
     """
@@ -283,6 +297,7 @@ def gettext_noop(message):
     later.
     """
     return message
+
 
 def do_ntranslate(singular, plural, number, translation_function):
     global _default, _active
@@ -295,6 +310,7 @@ def do_ntranslate(singular, plural, number, translation_function):
         _default = translation(settings.LANGUAGE_CODE)
     return getattr(_default, translation_function)(singular, plural, number)
 
+
 def ngettext(singular, plural, number):
     """
     Returns a UTF-8 bytestring of the translation of either the singular or
@@ -302,12 +318,14 @@ def ngettext(singular, plural, number):
     """
     return do_ntranslate(singular, plural, number, 'ngettext')
 
+
 def ungettext(singular, plural, number):
     """
     Returns a unicode strings of the translation of either the singular or
     plural, based on the number.
     """
     return do_ntranslate(singular, plural, number, 'ungettext')
+
 
 def check_for_language(lang_code):
     """
@@ -322,6 +340,7 @@ def check_for_language(lang_code):
         return True
     else:
         return False
+
 
 def get_language_from_request(request):
     """
@@ -343,7 +362,7 @@ def get_language_from_request(request):
     lang_code = request.COOKIES.get(settings.LANGUAGE_COOKIE_NAME)
 
     if lang_code and lang_code not in supported:
-        lang_code = lang_code.split('-')[0] # e.g. if fr-ca is not supported fallback to fr
+        lang_code = lang_code.split('-')[0]  # e.g. if fr-ca is not supported fallback to fr
 
     if lang_code and lang_code in supported and check_for_language(lang_code):
         return lang_code
@@ -384,6 +403,8 @@ def get_language_from_request(request):
     return settings.LANGUAGE_CODE
 
 dot_re = re.compile(r'\S')
+
+
 def blankout(src, char):
     """
     Changes every non-whitespace character to the given char.
@@ -404,6 +425,7 @@ block_re = re.compile(
     block_re.pattern + '|' + r"""^\s*trans(?:\s+|$)""")
 endblock_re = re.compile(
     endblock_re.pattern + '|' + r"""^\s*endtrans$""")
+
 
 def templatize(src):
     """
@@ -460,8 +482,10 @@ def templatize(src):
                 cmatches = constant_re.findall(t.contents)
                 if imatch:
                     g = imatch.group(1)
-                    if g[0] == '"': g = g.strip('"')
-                    elif g[0] == "'": g = g.strip("'")
+                    if g[0] == '"':
+                        g = g.strip('"')
+                    elif g[0] == "'":
+                        g = g.strip("'")
                     out.write(' gettext(%r) ' % g)
                 elif bmatch:
                     for fmatch in constant_re.findall(t.contents):
@@ -482,12 +506,13 @@ def templatize(src):
                     out.write(' _(%s) ' % cmatch.group(1))
                 for p in parts[1:]:
                     if p.find(':_(') >= 0:
-                        out.write(' %s ' % p.split(':',1)[1])
+                        out.write(' %s ' % p.split(':', 1)[1])
                     else:
                         out.write(blankout(p, 'F'))
             else:
                 out.write(blankout(t.contents, 'X'))
     return out.getvalue()
+
 
 def parse_accept_lang_header(lang_string):
     """
@@ -501,7 +526,7 @@ def parse_accept_lang_header(lang_string):
     if pieces[-1]:
         return []
     for i in range(0, len(pieces) - 1, 3):
-        first, lang, priority = pieces[i : i + 3]
+        first, lang, priority = pieces[i: i + 3]
         if first:
             return []
         priority = priority and float(priority) or 1.0

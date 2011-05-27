@@ -4,25 +4,24 @@ from south.db import db
 from south.v2 import SchemaMigration
 from django.db import models
 
+
 class Migration(SchemaMigration):
 
     def forwards(self, orm):
-        
+
         # Removing unique constraint on 'QuizQuestion', fields ['slug']
         #db.delete_unique('things_quizquestion', ['slug'])
 
         # Deleting field 'QuizAnswer.weight'
         db.delete_column('things_quizanswer', 'weight')
 
-
     def backwards(self, orm):
-        
+
         # Adding field 'QuizAnswer.weight'
         db.add_column('things_quizanswer', 'weight', self.gf('django.db.models.fields.IntegerField')(default=''), keep_default=False)
 
         # Adding unique constraint on 'QuizQuestion', fields ['slug']
         db.create_unique('things_quizquestion', ['slug'])
-
 
     models = {
         'things.collage': {

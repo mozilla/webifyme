@@ -4,25 +4,24 @@ from south.db import db
 from south.v2 import SchemaMigration
 from django.db import models
 
+
 class Migration(SchemaMigration):
 
     def forwards(self, orm):
-        
+
         # Adding field 'Collage.in_gallery'
         db.add_column('things_collage', 'in_gallery', self.gf('django.db.models.fields.BooleanField')(default=False), keep_default=False)
 
         # Changing field 'Collage.featured'
         db.alter_column('things_collage', 'featured', self.gf('django.db.models.fields.BooleanField')())
 
-
     def backwards(self, orm):
-        
+
         # Deleting field 'Collage.in_gallery'
         db.delete_column('things_collage', 'in_gallery')
 
         # Changing field 'Collage.featured'
         db.alter_column('things_collage', 'featured', self.gf('django.db.models.fields.IntegerField')())
-
 
     models = {
         'things.collage': {

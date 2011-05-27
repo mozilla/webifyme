@@ -4,10 +4,11 @@ from south.db import db
 from south.v2 import SchemaMigration
 from django.db import models
 
+
 class Migration(SchemaMigration):
 
     def forwards(self, orm):
-        
+
         # Adding field 'Image.name_el'
         db.add_column('things_image', 'name_el', self.gf('django.db.models.fields.CharField')(max_length=100, null=True, blank=True), keep_default=False)
 
@@ -194,9 +195,8 @@ class Migration(SchemaMigration):
         # Adding field 'Image.name_sr-latn'
         db.add_column('things_image', 'name_sr-latn', self.gf('django.db.models.fields.CharField')(max_length=100, null=True, blank=True), keep_default=False)
 
-
     def backwards(self, orm):
-        
+
         # Deleting field 'Image.name_el'
         db.delete_column('things_image', 'name_el')
 
@@ -382,7 +382,6 @@ class Migration(SchemaMigration):
 
         # Deleting field 'Image.name_sr-latn'
         db.delete_column('things_image', 'name_sr-latn')
-
 
     models = {
         'things.collage': {

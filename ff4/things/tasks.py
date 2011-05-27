@@ -1,13 +1,16 @@
 from celery.task import task
 
-import sys, os
-sys.path.append(os.path.join(os.path.realpath(os.path.dirname(__file__)),'..','..','..'))
+import sys
+import os
+
+sys.path.append(os.path.join(os.path.realpath(os.path.dirname(__file__)), '..', '..', '..'))
 
 from django.core.management import setup_environ
 from ff4 import settings
 setup_environ(settings)
 
-import json, logging
+import json
+import logging
 from django.conf import settings
 from PIL import Image, ImageOps
 from ff4.things.models import Collage
@@ -23,6 +26,7 @@ CANVAS_HEIGHT = 600
 BOX_SIZE = 25
 STATIC_PATH = settings.MEDIA_ROOT
 
+
 def process_collage(slug):
 
     col = Collage.objects.get(slug=slug)
@@ -37,7 +41,7 @@ def process_collage(slug):
     try:
         canvas = Image.open(STATIC_PATH + 'backgrounds/scaled/' + bg_img)
     except IOError:
-        canvas = Image.open(STATIC_PATH + 'backgrounds/scaled/none.png') # use the default background if the regular background can't be opened
+        canvas = Image.open(STATIC_PATH + 'backgrounds/scaled/none.png')  # use the default background if the regular background can't be opened
 
     box = (0, 0, CANVAS_WIDTH, CANVAS_HEIGHT)
     canvas = canvas.crop(box)
@@ -51,7 +55,7 @@ def process_collage(slug):
             except IOError:
                 logging.error("Problem opening " + 'objects/' + images_coords['scale'] + '/' + i['img'] + ". Skipping.")
                 continue
-            box = ( BOX_SIZE*i['x'], BOX_SIZE*i['y'], BOX_SIZE*i['x'] + fpo_obj.size[0], BOX_SIZE*i['y'] + fpo_obj.size[1])
+            box = (BOX_SIZE * i['x'], BOX_SIZE * i['y'], BOX_SIZE * i['x'] + fpo_obj.size[0], BOX_SIZE * i['y'] + fpo_obj.size[1])
             canvas.paste(fpo_obj, box, fpo_obj)
 
     col.filename = slug + '.jpg'
@@ -84,6 +88,6 @@ def process_collage(slug):
 def run(slug):
     process_collage(slug)
 
+
 def run_debug(slug):
     process_collage(slug)
-

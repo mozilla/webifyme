@@ -6,23 +6,25 @@ from django.conf import settings
 from django.utils import translation
 import jinja2
 
+
 class Template(jinja2.Template):
     def render(self, context):
         # flatten the Django Context into a single dictionary.
         context_dict = {}
         for d in context.dicts:
             context_dict.update(d)
-        
+
         if settings.TEMPLATE_DEBUG:
             from django.test import signals
             self.origin = Origin(self.filename)
             signals.template_rendered.send(sender=self, template=self, context=context)
-        
+
         return super(Template, self).render(context_dict)
+
 
 class Loader(BaseLoader):
     is_usable = True
-    
+
     env = jinja2.Environment(
             loader=jinja2.FileSystemLoader(settings.JINJA_TEMPLATE_DIRS),
             extensions=['jinja2.ext.i18n'],
@@ -31,8 +33,6 @@ class Loader(BaseLoader):
     env.globals['STATIC_URL'] = settings.MEDIA_URL
     env.globals['FIREFOX_DOWNLOAD_URL'] = settings.FIREFOX_DOWNLOAD_URL
     env.install_gettext_translations(translation)
-    
-    
 
     def load_template(self, template_name, template_dirs=None):
         try:
