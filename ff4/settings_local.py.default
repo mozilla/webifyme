@@ -52,3 +52,6 @@ BITLY_USERNAME = 'brez'
 BITLY_APIKEY = 'R_03da40cc854dabea72a864a70414a9d7'
 
 #LOG_FILENAME = '/tmp/render_collage.log'
+
+RESPONSYS = ''
+RESPONSYS_API_URL = 'https://awesomeness.mozilla.org/pub/rf'

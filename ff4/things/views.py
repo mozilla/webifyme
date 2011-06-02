@@ -20,6 +20,7 @@ from ff4.things.backgrounds import BACKGROUNDS
 from ff4.things.forms import QuizForm, DownloadForm
 from things.questions_answers import *
 from ff4.things import tasks
+from ff4.things.responsys import *
 
 
 COLLAGE_SLUG_SESSION_KEY = 'owns_collage'
@@ -248,7 +249,7 @@ def download_reminder(request):
             return HttpResponse(_("Error saving your email address"))
 
         if form.cleaned_data['email']:
-            pass  # TODO: pass the nice clean email
+            subscribe('WEBIFYME', form.cleaned_data['email'])
 
     return HttpResponse("success")
 
@@ -259,8 +260,8 @@ def quiz(request):
         if not form.is_valid():
             return HttpResponse(_("Error saving the collage."))
 
-        if form.cleaned_data['download_reminder']:
-            pass  # TODO: pass form.cleaned_data['email'] along to firefox's email system
+        if form.cleaned_data['email']:
+            subscribe('WEBIFYME', form.cleaned_data['email'])
 
         queryList = []                          # create a list for our answers to query images
 
