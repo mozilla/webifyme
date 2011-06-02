@@ -1,6 +1,9 @@
 # Imaging
 PIL==1.1.7
 
+# Curl
+pycurl==7.19.0
+
 # Templating
 Jinja2==2.5.5
 

@@ -26,6 +26,10 @@ You will also need RabbitMQ which is the backend for the message queue system:
 
     sudo [port|apt-get|yum] install rabbitmq-server
 
+As well as Curl which used to POST to Responsys
+
+    sudo [port|apt-get|yum] install curl +ssl
+
 Start RabbitMQ:
 
     sudo rabbitmq-server
@@ -41,7 +45,11 @@ Start and activate the virtualenv:
     virtualenv --distribute --no-site-packages ./ffenv
     source ./ffenv/bin/activate
 
-Prepare you development environment:
+*** Important note to Mac OSX Snow Leopard users: you need to pass the following flag to the compiler
+
+    env ARCHFLAGS="-arch x86_64" pip install pycurl
+
+Prepare your development environment:
 
     pip install -r ff4/requirements/compiled.txt
     pip install -r ff4/requirements/dev.txt
