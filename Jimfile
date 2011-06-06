@@ -5,6 +5,7 @@
 		"webifyme_common": [
 			["jquery", "1.4.4.min"],
 			"ZeroClipboard",
+			"webtrends",
 			"jquery.socialShare",
 			"jquery.getText",
 			"jquery.collapsibleList",

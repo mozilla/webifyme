@@ -127,7 +127,7 @@ FIXTURE_DIRS = (
 )
 
 SOUTH_TESTS_MIGRATE = False
-FIREFOX_DOWNLOAD_URL = "http://www.mozilla.com/en-US/firefox/"
+FIREFOX_DOWNLOAD_URL = "http://www.mozilla.com/en-US/firefox/?WT.mc_ID=webifyme"
 
 SNAPSHOT_BASE = 'collages/snapshots/'
 THUMB_BASE = 'collages/thumbs_gallery/'

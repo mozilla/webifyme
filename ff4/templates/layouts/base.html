@@ -67,7 +67,25 @@
 		</div>
 		<script type="text/javascript" src="{{ STATIC_URL }}js/webifyme_common.min.js"></script>
 		<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-		
+		<script type="text/javascript">
+		//<![CDATA[
+		var _tag=new WebTrends();
+		_tag.dcsGetId();
+		//]]>
+		</script>
+		<script type="text/javascript">
+		//<![CDATA[
+		_tag.dcsCustom=function(){
+		// Add custom parameters here.
+		//_tag.DCSext.param_name=param_value;
+		}
+		_tag.dcsCollect();
+		//]]>
+		</script>
+		<noscript>
+		<div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://statse.webtrendslive.com/dcslhbe0dvz5bdfe0wrlru4ci_4r5h/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.3.0&amp;WT.dcssip=www.webifyme.org"/></div>
+		</noscript>
+		<!-- END OF SmartSource Data Collector TAG -->
 		{% block scripts %}{%  endblock %}
 	</body>
 </html>
