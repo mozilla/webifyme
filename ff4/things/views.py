@@ -9,6 +9,7 @@ from django.utils import translation
 from django.utils.translation import ugettext_lazy as _lazy
 from django.utils.translation import ugettext as _
 from django.utils.translation import ngettext
+from django.views.decorators.cache import cache_page
 from django.conf import settings
 from django.contrib.sites.models import Site
 from ff4.utils.render import render_response
@@ -25,7 +26,7 @@ from ff4.things.responsys import *
 
 COLLAGE_SLUG_SESSION_KEY = 'owns_collage'
 
-
+@cache_page(60 * 30)
 def home(request):
     collages = Collage.objects.all()
     try:
@@ -39,6 +40,7 @@ def home(request):
     context = {'featured_collages': featured_collages}
     return render_response(request, 'things/home.html', context)
 
+@cache_page(30)
 def gallery(request, page=1, chapter=1, featured=False):
     chapter = int(chapter)
     pages_per_chapter = 8
@@ -71,9 +73,9 @@ def gallery(request, page=1, chapter=1, featured=False):
     else:
         return render_response(request, 'things/gallery.html', context)
 
+@cache_page(30)
 def gallery_nav(request, page=1, chapter=1, featured=False):
 
-    print("GALLERY NAV")
     chapter = int(chapter)
 
     pages_per_chapter = 8
@@ -193,7 +195,7 @@ def collage(request, slug='0'):
 
     return render_response(request, 'things/collage.html', context)
 
-
+@cache_page(60 * 30)
 def collage_snapshot(request, slug):
     try:
         collage = Collage.objects.get(slug=slug)  # grab the collage record
@@ -225,7 +227,6 @@ def quiz_json():
             data['answers'].append({'answer': lang_specific_answer, 'id': answer.id})
         questions.append(data)
     return json.dumps(questions)
-
 
 def images_json():
     images = []
@@ -328,6 +329,6 @@ def quiz(request):
             return HttpResponse(_("Error saving the collage"))
     return render_response(request, 'things/question.html', ({'quiz_json': quiz_json(), 'images_json': images_json()}))
 
-
+@cache_page(60 * 30)
 def features(request):
     return render_response(request, 'things/features.html')
