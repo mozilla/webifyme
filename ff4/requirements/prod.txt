@@ -11,5 +11,7 @@
 # Migrations
 -e git://github.com/simplegeo/django-south.git@1d78362d773135dc6688#egg=south
 
+# L10n
+Babel>=0.9.4
 # Tower
 -e git://github.com/clouserw/tower.git@79b2e9d0c9f2c1a6ee8a#egg=tower
