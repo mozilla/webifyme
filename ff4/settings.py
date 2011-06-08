@@ -2,6 +2,8 @@ import os
 
 # Django settings for ff4 project.
 
+ROOT = os.path.dirname(os.path.abspath(__file__))
+
 PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 PROJECT_DIR = os.path.realpath(os.path.dirname(__file__))
 
@@ -43,6 +45,35 @@ RTL_LANGUAGES = ('ar', 'he',)  # ('fa', 'fa-IR')
 BABEL_FALLBACK = {'fy-nl': 'nl'}
 
 DBGETTEXT_PATH = PROJECT_PATH + '/locale'
+
+# Tells the extract script what files to look for l10n in and what function
+# handles the extraction. The Tower library expects this.
+DOMAIN_METHODS = {
+    # We usually use "messages" as text domain. "django" is required by Django L10n.
+    'django': [
+        # Normally, apps would be in apps/ and templates in templates/.
+        # Not so here.
+        ('webifyme/**.py',
+            'tower.management.commands.extract.extract_tower_python'),
+        ('templates/**.html',
+            'lib.shoehorn_l10n.tower_blocktrans.extract_django_template'),
+        ('templates_orig/**.html',
+            'lib.shoehorn_l10n.tower_blocktrans.extract_django_template'),
+    ],
+}
+TOWER_KEYWORDS = {
+    #'_lazy': None,
+}
+# The POT headers take care of the encoding.
+TOWER_ADD_HEADERS = True
+
+# Fake Jinja2 config for tower. Don't ask. (If you must, bug 647352).
+def JINJA_CONFIG():
+    return {'extensions': []}
+
+# tower-ize django's blocktrans
+import lib.shoehorn_l10n.templatetag
+lib.shoehorn_l10n.templatetag.monkeypatch()
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
@@ -91,8 +122,8 @@ JINJA_TEMPLATE_DIRS = (
 
 def JINJA_CONFIG():
     import jinja2
-    config = {'extensions': ['jinja2.ext.loopcontrols',
-                             'jinja2.ext.with_', 'caching.ext.cache'],
+    config = {'extensions': ['tower.template.i18n', 'jinja2.ext.loopcontrols',
+                             'jinja2.ext.with_'],
               'finalize': lambda x: x if x is not None else ''}
     return config
 
@@ -120,6 +151,7 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'ff4.things',
     'south',
+    'tower',
 )
 
 FIXTURE_DIRS = (
