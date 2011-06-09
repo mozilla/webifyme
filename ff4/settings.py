@@ -53,7 +53,7 @@ DOMAIN_METHODS = {
     'django': [
         # Normally, apps would be in apps/ and templates in templates/.
         # Not so here.
-        ('webifyme/**.py',
+        ('things/**.py',
             'tower.management.commands.extract.extract_tower_python'),
         ('templates/**.html',
             'lib.shoehorn_l10n.tower_blocktrans.extract_django_template'),
