@@ -576,8 +576,15 @@ function dcsDebug(){
 
 Function.prototype.wtbind = function(obj){
 	var method=this;
-	var temp=function(){
-		return method.apply(obj,arguments);
-	};
+    var temp;
+    //
+    //Ugh.
+   // if(method.apply){
+       // 662857 was actually likely due to the socialShare plugin not jiving with the webTrends 
+       // 
+        temp=function(){
+            return method.apply(obj,arguments);
+        };
+   // }
 	return temp;
 }

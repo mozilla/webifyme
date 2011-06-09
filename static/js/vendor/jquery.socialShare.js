@@ -27,7 +27,8 @@
  *		- related: a related account. Can also format it with a title like 'adammiller: People who dislike social media buttons'
  * 
 */
-( function( $ ) {
+//removing this from the closure 
+//( function( $ ) {
 	
 	$.socialShare = {
 		cfg: {
@@ -81,5 +82,5 @@
 			$.socialShare.fn.init( this, options );
 		} );
 	};
-	
-} )( jQuery );
+//removing this from a closure, fixes 662857 
+//} )( jQuery );
