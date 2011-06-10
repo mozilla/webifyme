@@ -27,7 +27,6 @@
  *		- related: a related account. Can also format it with a title like 'adammiller: People who dislike social media buttons'
  * 
 */
-//replacing the closure 
 ( function( $ ) {
 	
 	$.socialShare = {
@@ -83,7 +82,5 @@
 			$.socialShare.fn.init( this, options );
 		} );
 	};
-    //putting the parens inside the enclosure also fixes 662857 , i feel this is an interpreter level bug
-    //
-    //theres gonna be a blog post on this one
+	
 }( jQuery ));
