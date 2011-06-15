@@ -1,4 +1,5 @@
 import os
+from django.utils.functional import lazy
 
 # Django settings for ff4 project.
 
@@ -6,6 +7,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 
 PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 PROJECT_DIR = os.path.realpath(os.path.dirname(__file__))
+path = lambda *a: os.path.join(ROOT, *a)
 
 DATABASES = {}
 DATABASE_ROUTERS = ('multidb.MasterSlaveRouter',)
@@ -46,6 +48,9 @@ BABEL_FALLBACK = {'fy-nl': 'nl'}
 
 DBGETTEXT_PATH = PROJECT_PATH + '/locale'
 
+# default to accept-language header, per localeurl's settings
+LOCALEURL_USE_ACCEPT_LANGUAGE = True
+
 # Tells the extract script what files to look for l10n in and what function
 # handles the extraction. The Tower library expects this.
 DOMAIN_METHODS = {
@@ -75,6 +80,68 @@ def JINJA_CONFIG():
 import lib.shoehorn_l10n.templatetag
 lib.shoehorn_l10n.templatetag.monkeypatch()
 
+# Accepted locales on dev and prod.  Change these lists to control which
+# locales are turned on on dev and prod.  Then, assign one of them to
+# KNOWN_LANGUAGES below (or in settings_local).
+KNOWN_LANGUAGES_DEV = (
+    'en-US',
+    'ar',
+    'ca',
+    'de',
+    'el',
+    'es',
+    'fr',
+    'fy-NL',
+    'gl',
+    'id',
+    'ja',
+    'ko',
+    'nl',
+    'pl',
+    'pt-BR',
+    'sl',
+    'sq',
+    'zh-TW',
+)
+
+KNOWN_LANGUAGES_PROD = (
+    'en-US',
+    'ar',
+    'ca',
+    'de',
+    'el',
+    'es',
+    'fr',
+    'fy-NL',
+    'ja',
+    'nl',
+    'pl',
+    'pt-BR',
+    'sq',
+    'zh-TW',
+)
+
+# Accepted locales.  One of: KNOWN_LANGUAGES_DEV, KNOWN_LANGUAGES_PRODF
+KNOWN_LANGUAGES = KNOWN_LANGUAGES_PROD
+
+# List of RTL locales known to this project. Subset of LANGUAGES.
+RTL_LANGUAGES = ('ar',)  # ('ar', 'fa', 'fa-IR', 'he')
+
+LANGUAGE_URL_MAP = dict([(i.lower(), i) for i in KNOWN_LANGUAGES])
+
+# Override Django's built-in with our native names
+class LazyLangs(dict):
+    def __new__(self):
+        from django.conf import settings
+        from product_details import product_details
+        return dict([(lang.lower(), product_details.languages[lang]['native'])
+                     for lang in settings.KNOWN_LANGUAGES])
+
+LANGUAGES = lazy(LazyLangs, dict)()
+
+# Paths that don't require a locale prefix.
+SUPPORTED_NONLOCALES = ('static', 'admin')
+
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
 MEDIA_ROOT = PROJECT_PATH + '/../static/'
@@ -101,6 +168,7 @@ TEMPLATE_LOADERS = (
 )
 
 MIDDLEWARE_CLASSES = (
+    'commons.middleware.LocaleURLMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -151,6 +219,7 @@ INSTALLED_APPS = (
     'ff4.things',
     'south',
     'tower',
+    'product_details',
 )
 
 FIXTURE_DIRS = (

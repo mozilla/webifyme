@@ -13,5 +13,8 @@
 
 # L10n
 Babel>=0.9.4
+-e git://github.com/fwenzel/django-mozilla-product-details#egg=django-mozilla-product-details
+
 # Tower
 -e git://github.com/clouserw/tower.git@79b2e9d0c9f2c1a6ee8a#egg=tower
+-e git://github.com/jbalogh/jingo.git#egg=jingo
