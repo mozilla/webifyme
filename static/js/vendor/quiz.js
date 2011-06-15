@@ -159,6 +159,11 @@ things.Quiz = function() {
       showForm();
       return false;
     }
+
+		// set the webtrends quiz state to complete
+		try{ 
+			dcsMultiTrack( 'DCS.dcsuri','/quiz.js','WT.ti', 'Quiz%20Javascript', 'WT.z_quiz_state', 'complete' );
+		} catch( e ) { }
 		// add all the answers to the form
 		var $form = $( '#form-body form' );
     for( var qid in answers ) {
@@ -170,6 +175,7 @@ things.Quiz = function() {
 	}
 	
   function submitAnswers() {
+		
     var formData = quizForm.read();
     if(formData) {
       for(var k in formData) { answers[k] = formData[k]; }
@@ -178,7 +184,6 @@ things.Quiz = function() {
       showForm();
       return;
     }
-    console.log(answers);
 		// add all the answers to the form
 		var $form = $( '#form-body form' );
     for( var qid in answers ) {
@@ -276,6 +281,9 @@ things.Quiz = function() {
 			$( '#form-body form' ).submit();
 		} )
   }
+	try{ 
+		dcsMultiTrack( 'DCS.dcsuri','/quiz.js','WT.ti', 'Quiz%20Javascript', 'WT.z_quiz_state', 'start' );
+	} catch( e ) { }
   init();
   
   return that;
