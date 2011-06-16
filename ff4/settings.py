@@ -202,6 +202,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.request',
     'django.core.context_processors.i18n',
     'django.contrib.auth.context_processors.auth',
+    'commons.context_processors.i18n',
 )
 
 SERIALIZATION_MODULES = {
