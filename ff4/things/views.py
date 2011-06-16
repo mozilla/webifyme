@@ -114,8 +114,8 @@ def collage(request, slug='0'):
     except Collage.DoesNotExist:    # if there isn't one
         raise Http404               # throw a 404 for now, this'll be a rare problem
 
-    current_site = Site.objects.get_current()
-    site_url = current_site.domain
+    current_site = settings.CURRENT_SITE
+    site_url = current_site
     current_url = site_url + '/collage/' + slug + '/'
 
     is_owner = False

@@ -61,3 +61,4 @@ BITLY_APIKEY = 'R_03da40cc854dabea72a864a70414a9d7'
 
 RESPONSYS = ''
 RESPONSYS_API_URL = 'https://awesomeness.mozilla.org/pub/rf'
+CURRENT_SITE = 'example.com'
