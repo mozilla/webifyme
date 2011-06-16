@@ -139,6 +139,9 @@ class LazyLangs(dict):
 
 LANGUAGES = lazy(LazyLangs, dict)()
 
+# Where to store product details etc.
+PROD_DETAILS_DIR = path('lib/product_details_json')
+
 # Paths that don't require a locale prefix.
 SUPPORTED_NONLOCALES = ('static', 'admin')
 
