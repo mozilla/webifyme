@@ -116,7 +116,7 @@ def collage(request, slug='0'):
 
     current_site = settings.CURRENT_SITE
     site_url = current_site
-    current_url = site_url + '/collage/' + slug + '/'
+    current_url = site_url + settings.COLLAGES_URL + '/' + slug + '/'
 
     is_owner = False
     if COLLAGE_SLUG_SESSION_KEY in request.session and request.session[COLLAGE_SLUG_SESSION_KEY] == collage.slug:

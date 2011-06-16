@@ -245,3 +245,4 @@ LOG_FILENAME = "%s/render_collage.log" % PROJECT_PATH
 RESPONSYS = ''
 RESPONSYS_API_URL = ''
 CURRENT_SITE = ''
+COLLAGES_URL = ''
