@@ -8,7 +8,7 @@
 	<div id="gallery_wrapper">
 		<ul id="gallery-filter">
 			<li {% if featured == False %} class="active"{% endif %}><a href="/gallery/chap/1/1/"><span>{{ _('All') }}</span></a></li>
-			<li {% if featured == True %} class="active"{% endif %}><a href="/gallery/chap/1/1/featured"><span>{{ _('Favorites') }}</span></a></li>
+			<li {% if featured == True %} class="active"{% endif %}><a href="/gallery/chap/1/1/featured"><span>{{ _('Featured') }}</span></a></li>
 		</div>
 	<div id="gallery_container">
 		{% include "things/_gallery_page.html" %}
