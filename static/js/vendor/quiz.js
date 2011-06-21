@@ -105,7 +105,11 @@ things.Quiz = function() {
   function moveProgressBar() {
     var progressWidth = Math.floor(qIdx/questionCount * 100);
     $('#question-container .progress').animate({'width':progressWidth+'%'}, ANIMATE_TIME);
-    $('#question-container .progress .label span').text( $._( 'msg-more-to-go', questionCount - qIdx ) );
+    if(qIdx < 15) {
+      $('#question-container .progress .label span').text( $._( 'msg-more-to-go', questionCount - qIdx ) );
+    } else if(qIdx == 15) {
+      $('#question-container .progress .label span').fadeOut();
+    }
   }
   
   function populateQuestion() {
