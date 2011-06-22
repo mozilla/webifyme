@@ -26,10 +26,12 @@
 	</head>
 	
 	<body class="{% block page_class %}{% endblock %} none-bg" id="{% block page_id %}webifyme{% endblock %}">
-		<div id="eyebrow"></div>
         <noscript>
-          <b>{{ _('Webify Me') }}</b> {{ _('uses modern HTML5 features that work best with JavaScript turned on. (<a href="http://support.mozilla.com/kb/JavaScript">How do I do that?</a>)') }}
+          <div id="noscript-message">
+            <b>{{ _('Webify Me') }}</b> {{ _('works best with JavaScript turned on! <a href="http://support.mozilla.com/kb/JavaScript"> How do I do that?</a>') }}
+          </div>
         </noscript>
+		<div id="eyebrow"></div>
 		<div id="doc">
 			{% block header %}
 				<div id="header">

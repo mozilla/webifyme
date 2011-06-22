@@ -38,6 +38,19 @@ h3 {
   font-size: 30px;
 }
 
+#noscript-message {
+  background-color: #fefec7;
+  font-family: Helvetica;
+  font-size: 18px;
+  padding: 12px;
+  text-align: center
+}
+
+#noscript-message a {
+  text-decoration: none;
+  color: #5d8ec8;
+}
+
 #eyebrow {
   width: 100%;
   border-top: 3px solid #666666;
