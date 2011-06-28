@@ -35,7 +35,7 @@
 						// set the featuredOnly flag based on the presence of 'featured' in the url
 						$.webifyme.gallery.cfg.featuredOnly = !! $( this ).attr( 'href' ).match( /featured/ );
 						// reload the navigation and page contents
-						$.webifyme.gallery.fn.loadNavigation( '/gallery/chap/1/' );
+						$.webifyme.gallery.fn.loadNavigation( $( this ).attr( 'href') );
 					} );
 			},
 			'setupLinks': function() {
@@ -62,14 +62,6 @@
 				} );
 			},
 			'loadPage': function( href ) {
-				/* The Old
-					$('#gallery_container').fadeOut(ANIMATE_TIME, function() {
-							$('#gallery_container').load(href, attachLinkFunctions);
-					});
-
-				*/
-				// if we're only browsing featured content, append the featured flag to the url
-				if( $.webifyme.gallery.cfg.featuredOnly ) href = href + 'featured';
 				// fade out the current content 
 				$( '#gallery_container' ).fadeOut( $.webifyme.gallery.cfg.animateTime, function() {
 					// and load in our new content, then run the link setup function again
@@ -80,19 +72,16 @@
 				} );
 			},
 			'loadNavigation': function( href ) {
-				/* The Old
-				$('.pagination').load($(this).attr('href'), attachLinkFunctions);
-				$('#gallery_container').fadeOut(ANIMATE_TIME, function() {
-						$('#gallery_container').load(href, attachLinkFunctions);
-				});
-				*/
 				// reference to the original href for passing to the loadPage function
 				var oHref = href;
-				if( $.webifyme.gallery.cfg.featuredOnly ) href = href + 'featured';
 				// reload the navigation
 				$( '.pagination' ).load( href, $.webifyme.gallery.fn.setupLinks );
 				// reload the page
-				$.webifyme.gallery.fn.loadPage( oHref + '1/' );
+				if($.webifyme.gallery.cfg.featuredOnly) {
+					$.webifyme.gallery.fn.loadPage( oHref.slice(0, oHref.length - 8)+ '1/featured' );
+				} else {
+					$.webifyme.gallery.fn.loadPage( oHref + '1/' );
+				}
 			}
 		}
 	};
