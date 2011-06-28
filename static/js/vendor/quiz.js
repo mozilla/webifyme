@@ -46,6 +46,9 @@ things.Quiz = function() {
       }
       skipCounter++; //TODO: what if the user goes back and answers it
     }
+    if(skipCounter > 9) {
+      skipBtn.fadeOut(ANIMATE_TIME);
+    }
     changeQuestion(qIdx + 1);
     
     return false;
@@ -105,10 +108,15 @@ things.Quiz = function() {
   function moveProgressBar() {
     var progressWidth = Math.floor(qIdx/questionCount * 100);
     $('#question-container .progress').animate({'width':progressWidth+'%'}, ANIMATE_TIME);
-    if(qIdx < 15) {
+    if(skipCounter < 10) {
+      if(qIdx < 15) {
+        $('#question-container .progress .label span').text( $._( 'msg-more-to-go', questionCount - qIdx ) );
+      } else if(qIdx == 15) {
+        $('#question-container .progress .label span').fadeOut();
+      }
+    }
+    else {
       $('#question-container .progress .label span').text( $._( 'msg-more-to-go', questionCount - qIdx ) );
-    } else if(qIdx == 15) {
-      $('#question-container .progress .label span').fadeOut();
     }
   }
   
@@ -138,7 +146,7 @@ things.Quiz = function() {
     skipBtn.text( $._( 'msg-skip' ) );
     questionEl.fadeIn(ANIMATE_TIME);
     moveProgressBar();
-    if(qIdx == 10) {
+    if(qIdx == 10 && skipCounter < 10) {
         skipRestBtn.fadeIn(ANIMATE_TIME);
     }
   }
