@@ -323,7 +323,11 @@ things.QuizForm = function(el) {
   
   function validate() {
     var name_re = /^[A-Za-z0-9_\'\-!\. ]{1,15}$/
+    var spaces_re = /^\s+$/
     if( ! name_re.test(data['username'])) {
+      addError('name', $._( 'msg-name-required-error' ) );
+    }
+    if( spaces_re.test(data['username'])) {
       addError('name', $._( 'msg-name-required-error' ) );
     }
     
