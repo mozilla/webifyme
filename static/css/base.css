@@ -569,7 +569,7 @@ body.birch-bg .collage #header #intro-line {
 
 .mini-gallery h3 {
   font-family: "klavika-web-1","klavika-web-2";
-  margin: 0 0 15px 10px;
+  margin: 0 0 0 10px;
 }
 
 .mini-gallery a.more {
@@ -670,7 +670,7 @@ ul.gallery li h4 {
   background-image: url('../img/polaroid_lg.png');
   width: 214px;
   height: 195px;
-  margin-bottom: 0;
+  margin: 15px 0 0;
   padding: 11px 11px 12px 11px;
 }
 
