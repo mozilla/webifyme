@@ -149,6 +149,12 @@ things.Quiz = function() {
     if(qIdx == 10 && skipCounter < 10) {
         skipRestBtn.fadeIn(ANIMATE_TIME);
     }
+    if(qIdx == 1) {
+      backBtn.fadeIn(ANIMATE_TIME);
+    }
+    if(qIdx == 0) {
+      backBtn.fadeOut(ANIMATE_TIME);
+    }
   }
   
   function showForm() {
