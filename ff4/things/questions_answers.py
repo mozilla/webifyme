@@ -573,7 +573,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Think fast: you run into an old co-worker who says "Hey, let's get together soon".  You reply:
 # L10n: Answer: Right, I'll have my assistant schedule something. How's your Autumn looking?
 # L10n: Image: Fossil - 1755_site_0058.png
-90: _(u'Text coming...'),
+90: _(u'Behold The Fossil, lucky charm from ages long past! It symbolizes the truth of the past, and the search for knowledge in history (unless you clear your history).'),
 # L10n: Question: Think fast: you run into an old co-worker who says "Hey, let's get together soon".  You reply:
 # L10n: Answer: Hey, we're together right now! Isn't that great?
 # L10n: Image: Pet Toy - 1755_site_0099.png
@@ -821,7 +821,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Drive to the next town - oh sweet Wi-Fi, I've found you!
 # L10n: Image: ??? - ???
-152: _(u'Text coming...'),
+152: _(u'Infallible memory is mine! I can always find that one cool site, for I augment my brain with the bar of awesomeness. It remembers exactly what I did, even when I don’t'),
 # L10n: Question: It's midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?
 # L10n: Answer: Do the Handyman Special - fix the hard drive using doorbell wire, a lighter for soldering, some electrical tape, and tweezers from the hotel makeup kit.
 # L10n: Image: ??? - ???
@@ -917,7 +917,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Waiting until your lunch break, then updating your status.
 # L10n: Image: ??? - ???
-176: _(u'Text coming...'),
+176: _(u'The ninja star is not on the final image list - is it included in the collage images? Maybe we should remove?'),
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Checking it at home in the evening - it can wait.
 # L10n: Image: ??? - ???
@@ -973,7 +973,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
 # L10n: Answer: Delving into the vast array of knowledge, news, facts and figures, and even fictions that comprise the Internet's news structure.
 # L10n: Image: ??? - ???
-190: _(u'Text coming...'),
+190: _(u'Infallible memory is mine! I can always find that one cool site, for I augment my brain with the bar of awesomeness. It remembers exactly what I did, even when I don’t.'),
 # L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
 # L10n: Answer: Making dates, planning parties, keeping in touch with buddies and finding far-flung friends from the past.
 # L10n: Image: ??? - ???
