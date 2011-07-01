@@ -48,9 +48,6 @@ BABEL_FALLBACK = {'fy-nl': 'nl'}
 
 DBGETTEXT_PATH = PROJECT_PATH + '/locale'
 
-# default to accept-language header, per localeurl's settings
-LOCALEURL_USE_ACCEPT_LANGUAGE = True
-
 # Tells the extract script what files to look for l10n in and what function
 # handles the extraction. The Tower library expects this.
 DOMAIN_METHODS = {
@@ -177,7 +174,6 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.locale.LocaleMiddleware',
 )
 
 ROOT_URLCONF = 'ff4.urls'
