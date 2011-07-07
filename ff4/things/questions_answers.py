@@ -257,7 +257,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: It's Friday, 4 pm, and you're planning your weekend on the Internet. Do you spend your afternoon:
 # L10n: Answer: Catching up with your friends' status updates and tweets.
 # L10n: Image: Silly Band - 1755_site_0105.png
-11: _(u'You have a bright outlook, flexible attitude, and a kooky sense of aesthetics. You\'re probably the type of person that appreciates the use of the word \"kooky\".'),
+11: _(u'You have a bright outlook, flexible attitude, and a kooky sense of aesthetics. You\'re probably the type of person that appreciates the use of the word \"kooky.\"'),
 # L10n: Question: It's Friday, 4 pm, and you're planning your weekend on the Internet. Do you spend your afternoon:
 # L10n: Answer: Catching up with your friends' status updates and tweets.
 # L10n: Image: Name Tag - 1755_site_0167.png
@@ -817,7 +817,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Drive to the next town - oh sweet Wi-Fi, I've found you!
 # L10n: Image: ??? - ???
-151: _(u'You have a bright outlook, flexible attitude, and a kooky sense of aesthetics. You\'re probably the type of person that appreciates the use of the word \"kooky\".'),
+151: _(u'You have a bright outlook, flexible attitude, and a kooky sense of aesthetics. You\'re probably the type of person that appreciates the use of the word \"kooky.\"'),
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Drive to the next town - oh sweet Wi-Fi, I've found you!
 # L10n: Image: ??? - ???
@@ -1057,7 +1057,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Online, you can be the life of the party or a virtual wallflower. How social is your network?
 # L10n: Answer: With as many friends as I've got, keeping in touch is easier online than in real life.
 # L10n: Image: ??? - ???
-211: _(u'You have a bright outlook, flexible attitude, and a kooky sense of aesthetics. You\'re probably the type of person that appreciates the use of the word \"kooky\".'),
+211: _(u'You have a bright outlook, flexible attitude, and a kooky sense of aesthetics. You\'re probably the type of person that appreciates the use of the word \"kooky.\"'),
 # L10n: Question: Online, you can be the life of the party or a virtual wallflower. How social is your network?
 # L10n: Answer: With as many friends as I've got, keeping in touch is easier online than in real life.
 # L10n: Image: ??? - ???
