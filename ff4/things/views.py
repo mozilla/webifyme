@@ -12,6 +12,7 @@ from django.utils.translation import ngettext
 from django.views.decorators.cache import cache_page
 from django.conf import settings
 from django.contrib.sites.models import Site
+from django.utils.http import urlencode
 from ff4.utils.render import render_response
 from ff4.utils import bitly
 from ff4.utils.bonus_objects import *
@@ -116,7 +117,7 @@ def collage(request, slug='0'):
 
     current_site = settings.CURRENT_SITE
     site_url = current_site
-    current_url = site_url + settings.COLLAGES_URL + '/' + slug + '/'
+    current_url = urlencode({ 'href': site_url + settings.COLLAGES_URL + '/' + slug + '/' })
 
     is_owner = False
     if COLLAGE_SLUG_SESSION_KEY in request.session and request.session[COLLAGE_SLUG_SESSION_KEY] == collage.slug:
