@@ -637,7 +637,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:
 # L10n: Answer: Turn it over to the police.
 # L10n: Image: MP3 Player - 1755_site_0088.png
-106: _(u'Aha, The Magician! You posses unusual powers, and can conjure up the truth from any situation. Also, you can turn the world on with your smile.'),
+106: _(u'Aha, The Magician! You possess unusual powers, and can conjure up the truth from any situation. Also, you can turn the world on with your smile.'),
 # L10n: Question: You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:
 # L10n: Answer: Turn it over to the police.
 # L10n: Image: Pencil - 1755_site_0096.png
@@ -989,7 +989,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
 # L10n: Answer: Making dates, planning parties, keeping in touch with buddies and finding far-flung friends from the past.
 # L10n: Image: ??? - ???
-194: _(u'The cast-off talisman of a party shaman! You posses the strength and tenacity to turn the beat around, and you\'ve seen more sunrises from the wrong side of awake than any mere mortal.'),
+194: _(u'The cast-off talisman of a party shaman! You possess the strength and tenacity to turn the beat around, and you\'ve seen more sunrises from the wrong side of awake than any mere mortal.'),
 # L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
 # L10n: Answer: Making dates, planning parties, keeping in touch with buddies and finding far-flung friends from the past.
 # L10n: Image: ??? - ???
@@ -1145,7 +1145,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You and the Internet are dating. How would you describe the relationship?
 # L10n: Answer: Casual Encounter. We meet up here and there for a good time or a laugh, but no sleepovers - I'm an independent person.
 # L10n: Image: ??? - ???
-233: _(u'The cast-off talisman of a party shaman! You posses the strength and tenacity to turn the beat around, and you\'ve seen more sunrises from the wrong side of awake than any mere mortal.'),
+233: _(u'The cast-off talisman of a party shaman! You possess the strength and tenacity to turn the beat around, and you\'ve seen more sunrises from the wrong side of awake than any mere mortal.'),
 # L10n: Question: You and the Internet are dating. How would you describe the relationship?
 # L10n: Answer: Casual Encounter. We meet up here and there for a good time or a laugh, but no sleepovers - I'm an independent person.
 # L10n: Image: ??? - ???
