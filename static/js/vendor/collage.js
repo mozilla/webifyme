@@ -16,9 +16,10 @@ things.randomColor = function() {
 	return 'rgb('+Math.floor(Math.random()*255)+','+Math.floor(Math.random()*255)+','+Math.floor(Math.random()*255)+')';
 };
 
-things.CollageObj = function(attrs, packed, scale) {
+things.CollageObj = function(attrs, packed, default_scale) {
 	var that = {};
 	var tipEl = null;
+    var scale = default_scale;
 	that.el = null;
 	that.id = null;
 	that.name = null;
@@ -36,7 +37,8 @@ things.CollageObj = function(attrs, packed, scale) {
 			'left':that.contextObj.x * things.blockSize,
 			'width': that.scaledWidth,
 			'height': that.scaledHeight,
-			'background-image':'url(' + things.objImgPath + scale + '/' + attrs.img + ')'
+			'background-image':'url(' + things.objImgPath + scale + '/' + attrs.img + ')',
+			'background-repeat':'no-repeat'
 		} );
 	};
 	
@@ -74,8 +76,8 @@ things.CollageObj = function(attrs, packed, scale) {
 	};
 	
 	that.setScale = function(new_scale) {
-		var scale = new_scale;
-		var scaleFactor = things.SCALES[scale].factor;
+		var scaleFactor = things.SCALES[new_scale].factor;
+		scale = new_scale;
 		that.scaledWidth = Math.floor(that.width * scaleFactor);
 		that.scaledHeight = Math.floor(that.height * scaleFactor);
 		that.contextObj.setSize(that.scaledWidth, that.scaledHeight);
