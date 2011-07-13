@@ -8,9 +8,9 @@
 <meta property="og:type" content="article" />
 <meta property="og:image" content="http://{{ site_url }}/static/collages/thumbs_gallery/{{ collage.slug[:2] }}/{{ collage.slug }}.jpg" />
 {% if is_owner %}
-	<meta property="og:desc" content="{{ _('Everyone\'s Internet is a little bit different. I just created my own Webify Me collage at %(bitlyurl)s. Make your own and find out how your Internet looks!') % {'bitlyurl': 'merp'} }}" />
+  <meta property="og:desc" content="{{ _('Everyone\'s Internet is a little bit different. I just created my own Webify Me collage at %(bitlyurl)s. Make your own and find out how your Internet looks!') % {'bitlyurl': 'merp'} }}" />
 {% else %}
-	<meta property="og:desc" content="{{ _('Everyone\'s Internet is a little bit different. What does your internet look like? Create your own Webify Me collage') }}" />
+  <meta property="og:desc" content="{{ _('Everyone\'s Internet is a little bit different. What does your internet look like? Create your own Webify Me collage') }}" />
 {% endif %}
 {% endblock %}
 
@@ -24,55 +24,54 @@
 
 
 {% block scripts %}
-	<div class="js-templates">
-		<div id="js-background-selector">
-			<div class="background-selector">{{ _('Pick a background') }}
-				<a class="up" href="#">{{ _('Up') }}</a>
-				<div class="slide-wrapper">
-					<ul></ul>
-				</div>
-				<a class="down" href="#">{{ _('Down') }}</a>
-			</div>
-		</div>
-		<div id="js-background-change-button">
-			<a class="change-background" href="#">{{ _('Change the Background?') }}</a>
-		</div>
-	</div>
-	<script type="text/javascript">
-	// TODO -- this could be much better
-	things.isCollageOwner = {% if is_owner %}true{% else %}false{% endif %};
-	things.collageData = {{ collage.images_coords or '{}' }};
-	things.snapshotUrl = '{{ collage.snapshot_url() or '' }}';
-	things.backgroundData = {{ backgrounds or '[]' }};
-	</script>
+  <div class="js-templates">
+    <div id="js-background-selector">
+      <div class="background-selector">{{ _('Pick a background') }}
+        <a class="up" href="#">{{ _('Up') }}</a>
+        <div class="slide-wrapper">
+          <ul></ul>
+        </div>
+        <a class="down" href="#">{{ _('Down') }}</a>
+      </div>
+    </div>
+    <div id="js-background-change-button">
+      <a class="change-background" href="#">{{ _('Change the Background?') }}</a>
+    </div>
+  </div>
+  <script type="text/javascript">
+  // TODO -- this could be much better
+  things.isCollageOwner = {% if is_owner %}true{% else %}false{% endif %};
+  things.collageData = {{ collage.images_coords or '{}' }};
+  things.snapshotUrl = '{{ collage.snapshot_url() or '' }}';
+  things.backgroundData = {{ backgrounds or '[]' }};
+  </script>
 {% endblock %}
 
 {% block page_id %}collage{% endblock %}
 {% block page_class %}collage{% endblock %}
 
 {% block header %}
-	<div id="header">
+  <div id="header">
     <a id="brand" href="http://mozilla.com">Mozilla</a>
-		<div id="intro-line">{{ _('Mozilla Firefox <span>presents</span>') }}</div>
-
-					<br class="clr" />
-		<h1 class="name-title">
+    <div id="intro-line">{{ _('Mozilla Firefox <span>presents</span>') }}</div>
+    <br class="clr" />
+    <h1 class="name-title">
         {{ collage.username|escape }} &#8212; <span>{{ _('My Web') }}</span>
     </h1>
     <ul class="nav">
-				<li id="quiz"><a href="/"><span>{{ _('Take The Quiz') }}</span></a></li>
-				<li id="gallery"><a href="/gallery/"><span>{{ _('See The Gallery') }}</span></a></li>
-   			<li id="learn"><a href="/features/"><span>{{ _('Learn About Firefox') }}</span></a></li>
-		</ul>
-	</div>
+      <li id="quiz"><a href="/{{ LANG }}/"><span>{{ _('Take The Quiz') }}</span></a></li>
+      <li id="gallery"><a href="/{{ LANG }}/gallery/"><span>{{ _('See The Gallery') }}</span></a></li>
+      <li id="learn"><a href="/{{ LANG }}/features/"><span>{{ _('Learn About Firefox') }}</span></a></li>
+    </ul>
+  </div>
 {% endblock %}
 
 {% block content %}
-	<div id="collage-canvas"></div>
+  <div id="collage-canvas"></div>
 
-	{% if is_owner %}
-		{% include "things/_collage_tools.html" %}
-	{% else %}
-		{% include "things/_collage_public_tools.html" %}
-	{% endif %}
+  {% if is_owner %}
+    {% include "things/_collage_tools.html" %}
+  {% else %}
+    {% include "things/_collage_public_tools.html" %}
+  {% endif %}
 {% endblock %}
