@@ -38,7 +38,7 @@ def home(request):
         except Collage.DoesNotExist:
             raise Http404
 
-    context = {'featured_collages': featured_collages}
+    context = {'featured_collages': featured_collages, 'current_url': urlencode({ 'href': settings.CURRENT_SITE })}
     return render_response(request, 'things/home.html', context)
 
 @cache_page(30)
@@ -67,7 +67,7 @@ def gallery(request, page=1, chapter=1, featured=False):
     pages = Paginator(featured_collages, 8)
     current_page = pages.page(page)
 
-    context = {'featured_collages': current_page, 'page_object': pages, 'chapter': chapter, 'pages_per_chapter': pages_per_chapter, 'more': more, 'featured': featured}
+    context = {'featured_collages': current_page, 'page_object': pages, 'chapter': chapter, 'pages_per_chapter': pages_per_chapter, 'more': more, 'featured': featured, 'current_url': urlencode({ 'href': settings.CURRENT_SITE })}
 
     if request.is_ajax():
         return render_response(request, 'things/_gallery_page.html', context)
@@ -103,7 +103,7 @@ def gallery_nav(request, page=1, chapter=1, featured=False):
 
     current_page = pages.page(page)
 
-    context = {'featured_collages': current_page, 'page_object': pages, 'chapter': chapter, 'pages_per_chapter': pages_per_chapter, 'more': more}
+    context = {'featured_collages': current_page, 'page_object': pages, 'chapter': chapter, 'pages_per_chapter': pages_per_chapter, 'more': more, 'current_url': urlencode({ 'href': settings.CURRENT_SITE })}
 
     return render_response(request, 'things/_gallery_navigation.html', context)
 
@@ -328,7 +328,7 @@ def quiz(request):
             return HttpResponseRedirect('/collage/' + collage.slug + '/')
         except:
             return HttpResponse(_("Error saving the collage"))
-    return render_response(request, 'things/question.html', ({'quiz_json': quiz_json(), 'images_json': images_json()}))
+    return render_response(request, 'things/question.html', ({'quiz_json': quiz_json(), 'images_json': images_json(), 'current_url': urlencode({ 'href': settings.CURRENT_SITE })}))
 
 @cache_page(60 * 30)
 def features(request):
