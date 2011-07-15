@@ -21,6 +21,7 @@ from ff4.things.models import QuizQuestion, QuizAnswer, Collage, QuizAnswerByIma
 from ff4.things.backgrounds import BACKGROUNDS
 from ff4.things.forms import QuizForm, DownloadForm
 from things.questions_answers import *
+from things.images import *
 from ff4.things import tasks
 from ff4.things.responsys import *
 
@@ -232,12 +233,12 @@ def quiz_json():
 def images_json():
     images = []
     for image in Image.objects.order_by('?').all()[:5]:
-        lang_specific_name = image.name
+        lang_specific_name = _(force_unicode(IMAGES[image.file_name]))
         data = {
             'file_name': image.file_name,
             'width': image.width,
             'height': image.height,
-            'name': image.name
+            'name': _(force_unicode(IMAGES[image.file_name]))
         }
         images.append(data)
     return json.dumps(images)
@@ -285,7 +286,7 @@ def quiz(request):
         image_map = {}  # store images in a map, keyed on their id, to avoid duplicates
         for answer_id, images in answer_groups.items():
             image = images[random.randint(0, len(images) - 1)]  # pick a random image from the group
-            image_map[image.image.id] = {'id': image.image.id, 'img': image.image.file_name, 'width': image.image.width, 'height': image.image.height, 'name': image.image.name, 'description': _(force_unicode(ANSWERS_BY_IMAGE[image.pk]))}
+            image_map[image.image.id] = {'id': image.image.id, 'img': image.image.file_name, 'width': image.image.width, 'height': image.image.height, 'name': _(force_unicode(IMAGES[image.image.file_name])), 'description': _(force_unicode(ANSWERS_BY_IMAGE[image.pk]))}
 
         # get country specific object
         country_code = translation.get_language()[:2]
