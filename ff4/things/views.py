@@ -124,6 +124,7 @@ def collage(request, slug='0'):
     if COLLAGE_SLUG_SESSION_KEY in request.session and request.session[COLLAGE_SLUG_SESSION_KEY] == collage.slug:
         is_owner = True
 
+    import pdb; pdb.set_trace()
     if request.is_ajax():
         changed = False  # keep track of any changes that might have happened
         # if we're getting an ajax request, then we're receiving our lovely collage data
@@ -233,12 +234,12 @@ def quiz_json():
 def images_json():
     images = []
     for image in Image.objects.order_by('?').all()[:5]:
-        lang_specific_name = _(force_unicode(IMAGES[image.file_name]))
+        lang_specific_name = force_unicode(IMAGES[image.file_name])
         data = {
             'file_name': image.file_name,
             'width': image.width,
             'height': image.height,
-            'name': _(force_unicode(IMAGES[image.file_name]))
+            'name': force_unicode(IMAGES[image.file_name])
         }
         images.append(data)
     return json.dumps(images)
@@ -286,7 +287,7 @@ def quiz(request):
         image_map = {}  # store images in a map, keyed on their id, to avoid duplicates
         for answer_id, images in answer_groups.items():
             image = images[random.randint(0, len(images) - 1)]  # pick a random image from the group
-            image_map[image.image.id] = {'id': image.image.id, 'img': image.image.file_name, 'width': image.image.width, 'height': image.image.height, 'name': _(force_unicode(IMAGES[image.image.file_name])), 'description': _(force_unicode(ANSWERS_BY_IMAGE[image.pk]))}
+            image_map[image.image.id] = {'id': image.image.id, 'img': image.image.file_name, 'width': image.image.width, 'height': image.image.height, 'name': force_unicode(IMAGES[image.image.file_name]), 'description': force_unicode(ANSWERS_BY_IMAGE[image.pk])}
 
         # get country specific object
         country_code = translation.get_language()[:2]
