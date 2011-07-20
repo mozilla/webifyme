@@ -124,7 +124,6 @@ def collage(request, slug='0'):
     if COLLAGE_SLUG_SESSION_KEY in request.session and request.session[COLLAGE_SLUG_SESSION_KEY] == collage.slug:
         is_owner = True
 
-    import pdb; pdb.set_trace()
     if request.is_ajax():
         changed = False  # keep track of any changes that might have happened
         # if we're getting an ajax request, then we're receiving our lovely collage data
