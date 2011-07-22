@@ -10,3 +10,5 @@ ff4/static/assets/js/markApp.js
 ff4/src
 ff4/build
 static/collages/*
+*.prof
+locale

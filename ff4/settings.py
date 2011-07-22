@@ -205,6 +205,8 @@ SERIALIZATION_MODULES = {
     'yml': "django.core.serializers.pyyaml"
 }
 
+PROFILE_LOG_BASE = ''
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',

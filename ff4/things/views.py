@@ -24,6 +24,7 @@ from things.questions_answers import *
 from things.images import *
 from ff4.things import tasks
 from ff4.things.responsys import *
+from ff4.utils.profile import *
 
 
 COLLAGE_SLUG_SESSION_KEY = 'owns_collage'
@@ -256,7 +257,7 @@ def download_reminder(request):
 
     return HttpResponse("success")
 
-
+@profile("quiz.prof")
 def quiz(request):
     if request.method == 'POST':                # if we're posting, then our quiz is completed
         form = QuizForm(request.POST)   # clean the data submitted via the form at the end of the quiz

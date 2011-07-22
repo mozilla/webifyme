@@ -31,6 +31,8 @@ ADMINS = (
     # ('Your Name', 'your_email@domain.com'),
 )
 
+PROFILE_LOG_BASE = '/Users/jbresnik/Projects/mozilla/webifyme/profiles'
+
 CACHES = {
     'default': {
         'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
