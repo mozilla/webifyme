@@ -39,7 +39,6 @@
     </div>
   </div>
   <script type="text/javascript">
-  // TODO -- this could be much better
   things.isCollageOwner = {% if is_owner %}true{% else %}false{% endif %};
   things.collageData = {{ collage.images_coords or '{}' }};
   things.snapshotUrl = '{{ collage.snapshot_url() or '' }}';
