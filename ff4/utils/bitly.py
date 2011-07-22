@@ -23,7 +23,7 @@ try:
 except ImportError:
     import json as simplejson
 
-BITLY_BASE_URL = "http://api.bit.ly/"
+BITLY_BASE_URL = "https://api-ssl.bitly.com/"
 BITLY_API_VERSION = "2.0.1"
 
 VERBS_PARAM = {
