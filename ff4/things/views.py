@@ -54,9 +54,8 @@ def gallery(request, page=1, chapter=1, featured=False):
     else:
         more = False
 
-    try:
-        featured_collages = collages[start_range:end_range]
-    except Collage.DoesNotExist:
+    featured_collages = collages[start_range:end_range]
+    if not featured_collages:
         raise Http404
 
     pages = Paginator(featured_collages, 8)
@@ -89,9 +88,8 @@ def gallery_nav(request, page=1, chapter=1, featured=False):
     else:
         more = False
 
-    try:
-        featured_collages = collages[start_range:end_range]
-    except Collage.DoesNotExist:
+    featured_collages = collages[start_range:end_range]
+    if not featured_collages:
         raise Http404
 
     pages = Paginator(featured_collages, 8)
