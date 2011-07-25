@@ -30,15 +30,9 @@ COLLAGE_SLUG_SESSION_KEY = 'owns_collage'
 
 @cache_page(60 * 30)
 def home(request):
-    collages = Collage.objects.all()
-    try:
-        featured_collages = collages.filter(featured=True, in_gallery=True)[:3]
-    except Collage.DoesNotExist:
-        try:
-            featured_collages = collages.filter(in_gallery=True)[:3]
-        except Collage.DoesNotExist:
-            raise Http404
-
+    featured_collages = Collage.objects.filter(featured=True, in_gallery=True)[:3]
+    if not featured_collages:
+        featured_collages = Collage.objects.filter(in_gallery=True)[:3]
     context = {'featured_collages': featured_collages, 'current_url': urlencode({ 'href': settings.CURRENT_SITE })}
     return render_response(request, 'things/home.html', context)
 
