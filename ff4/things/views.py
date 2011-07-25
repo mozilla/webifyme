@@ -51,7 +51,7 @@ def gallery(request, page=1, chapter=1, featured=False):
     featured = True if featured else False
     collages = Collage.objects.all().order_by('-id').filter(in_gallery=True, featured=featured)
 
-    total = Collage.objects.count()
+    total = collages.count()
     start_range = ((chapter - 1) * pages_per_chapter * collages_per_page)
     end_range = start_range + (pages_per_chapter * collages_per_page)
 
