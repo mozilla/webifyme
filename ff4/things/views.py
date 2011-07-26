@@ -109,6 +109,14 @@ def collage(request, slug='0'):
     except Collage.DoesNotExist:    # if there isn't one
         raise Http404               # throw a 404 for now, this'll be a rare problem
 
+    # Need to expand the image coordinates data to include descriptions
+    coords_json = json.loads(collage.images_coords)
+    for coord in coords_json["objects"]:
+        if not coord['img']:
+            continue
+        coord['name'] = force_unicode(IMAGES[coord['img']])
+        coord['description'] = force_unicode(ANSWERS_BY_IMAGE[coord['id']])
+
     current_site = settings.CURRENT_SITE
     site_url = current_site
     current_url = urlencode({ 'href': site_url + settings.COLLAGES_URL + '/' + slug + '/' })
@@ -166,6 +174,15 @@ def collage(request, slug='0'):
 
         return HttpResponse(slug)
 
+    # generate bitly url
+    if not collage.bitly_url:
+        api = bitly.Api(settings.BITLY_USERNAME, settings.BITLY_APIKEY)
+        bitly_url = api.shorten(url_for_bitly)
+        collage.bitly_url = bitly_url
+        collage.save()
+
+    collage.images_coords = json.dumps(coords_json)
+
     context = {'collage': collage, 'is_owner': False}
     if is_owner:
         context['backgrounds'] = json.dumps(BACKGROUNDS)
@@ -174,20 +191,7 @@ def collage(request, slug='0'):
     context['current_url'] = current_url
     context['current_site'] = current_site
     context['site_url'] = site_url
-    # generate bitly url
-    if is_owner:
-
-        try:
-            api = bitly.Api(settings.BITLY_USERNAME, settings.BITLY_APIKEY)
-            bitly_url = api.shorten(url_for_bitly)
-            context['bitly_url'] = bitly_url
-            collage.bitly_url = bitly_url
-            collage.save()
-        except:
-            pass
-    else:
-        bitly_url = collage.bitly_url
-        context['bitly_url'] = bitly_url
+    context['bitly_url'] = collage.bitly_url
 
     return render_response(request, 'things/collage.html', context)
 
@@ -252,7 +256,7 @@ def download_reminder(request):
 
 
 def quiz(request):
-    if request.method == 'POST':                # if we're posting, then our quiz is completed
+    if request.method == 'POST':        # if we're posting, then our quiz is completed
         form = QuizForm(request.POST)   # clean the data submitted via the form at the end of the quiz
         if not form.is_valid():
             return HttpResponse(_("Error saving the collage."))
@@ -280,7 +284,7 @@ def quiz(request):
         image_map = {}  # store images in a map, keyed on their id, to avoid duplicates
         for answer_id, images in answer_groups.items():
             image = images[random.randint(0, len(images) - 1)]  # pick a random image from the group
-            image_map[image.image.id] = {'id': image.image.id, 'img': image.image.file_name, 'width': image.image.width, 'height': image.image.height, 'name': force_unicode(IMAGES[image.image.file_name]), 'description': force_unicode(ANSWERS_BY_IMAGE[image.pk])}
+            image_map[image.image.id] = {'id': image.image.id, 'img': image.image.file_name, 'width': image.image.width, 'height': image.image.height}
 
         # get country specific object
         country_code = translation.get_language()[:2]
@@ -288,28 +292,28 @@ def quiz(request):
         if country_object:
             country_image = Image.objects.get(file_name=country_object['file_name'])
             if country_image:
-                image_map[country_image.id] = {'id': country_image.id, 'img': country_image.file_name, 'width': country_image.width, 'height': country_image.height, 'name': country_object['name'], 'description': _(force_unicode(country_object['tooltip']))}
+                image_map[country_image.id] = {'id': country_image.id, 'img': country_image.file_name, 'width': country_image.width, 'height': country_image.height}
 
         # get browser specific object
         browser_object = get_browser_object(request.META['HTTP_USER_AGENT'])
         if browser_object:
             browser_image = Image.objects.get(file_name=browser_object['file_name'])
             if browser_image:
-                image_map[browser_image.id] = {'id': browser_image.id, 'img': browser_image.file_name, 'width': browser_image.width, 'height': browser_image.height, 'name': browser_object['name'], 'description': _(force_unicode(browser_object['tooltip']))}
+                image_map[browser_image.id] = {'id': browser_image.id, 'img': browser_image.file_name, 'width': browser_image.width, 'height': browser_image.height}
 
         # get community object
         community_object = get_community_object(request.session.get('HTTP_REFERER'))
         if community_object:
             community_image = Image.objects.get(file_name=community_object['file_name'])
             if community_image:
-                image_map[community_image.id] = {'id': community_image.id, 'img': community_image.file_name, 'width': community_image.width, 'height': community_image.height, 'name': community_object['name'], 'description': _(force_unicode(community_object['tooltip']))}
+                image_map[community_image.id] = {'id': community_image.id, 'img': community_image.file_name, 'width': community_image.width, 'height': community_image.height}
 
         # get email easter egg object
         easter_egg_object = get_easter_egg(form.cleaned_data.get('email', 'anonymous'))
         if easter_egg_object:
             easter_egg_image = Image.objects.get(file_name=easter_egg_object['file_name'])
             if easter_egg_image:
-                image_map[easter_egg_image.id] = {'id': easter_egg_image.id, 'img': easter_egg_image.file_name, 'width': easter_egg_image.width, 'height': easter_egg_image.height, 'name': easter_egg_object['name'], 'description': _(force_unicode(easter_egg_object['tooltip']))}
+                image_map[easter_egg_image.id] = {'id': easter_egg_image.id, 'img': easter_egg_image.file_name, 'width': easter_egg_image.width, 'height': easter_egg_image.height}
 
         random_bg_class = BACKGROUNDS[random.randint(0, len(BACKGROUNDS) - 1)]['class_name']
         jsonObj = {'packed': False, 'background': random_bg_class, 'objects': image_map.values()}  # pack it up
