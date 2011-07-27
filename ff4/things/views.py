@@ -1,6 +1,7 @@
-import random
 import json
+import random
 import string
+
 from django.core import serializers
 from django.core.paginator import Paginator
 from django.http import Http404, HttpResponse, HttpResponseRedirect
@@ -13,6 +14,7 @@ from django.views.decorators.cache import cache_page
 from django.conf import settings
 from django.contrib.sites.models import Site
 from django.utils.http import urlencode
+
 from commons.urlresolvers import reverse
 from ff4.utils.render import render_response
 from ff4.utils import bitly
@@ -176,10 +178,14 @@ def collage(request, slug='0'):
 
     # generate bitly url
     if not collage.bitly_url:
-        api = bitly.Api(settings.BITLY_USERNAME, settings.BITLY_APIKEY)
-        bitly_url = api.shorten(url_for_bitly)
-        collage.bitly_url = bitly_url
-        collage.save()
+        try:
+            api = bitly.Api(settings.BITLY_USERNAME, settings.BITLY_APIKEY)
+            bitly_url = api.shorten(url_for_bitly)
+        except bitly.BitlyError:
+            pass
+        else:
+            collage.bitly_url = bitly_url
+            collage.save()
 
     collage.images_coords = json.dumps(coords_json)
 
