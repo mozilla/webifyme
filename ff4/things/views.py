@@ -1,6 +1,7 @@
 import random
 import json
 import string
+import pycurl
 from django.core import serializers
 from django.core.paginator import Paginator
 from django.http import Http404, HttpResponse, HttpResponseRedirect
@@ -176,6 +177,20 @@ def collage(request, slug='0'):
 
     # generate bitly url
     if not collage.bitly_url:
+
+        if not bitly.BITLY_BASE_URL.lower().startswith('https://'):
+            raise Exception('Bitly API URL must start with HTTPS.')
+
+        curl = pycurl.Curl()
+        # Ensure SSL cert validates before sending user data over the wire
+        curl.setopt(pycurl.SSL_VERIFYPEER, 1)
+        curl.setopt(pycurl.SSL_VERIFYHOST, 2)
+        curl.setopt(pycurl.URL, bitly.BITLY_BASE_URL)
+        try:
+            curl.perform()
+        except Exception, ce:
+            raise Exception('Bitly SSL certifice validation failed: %s' % ce)
+
         api = bitly.Api(settings.BITLY_USERNAME, settings.BITLY_APIKEY)
         bitly_url = api.shorten(url_for_bitly)
         collage.bitly_url = bitly_url
