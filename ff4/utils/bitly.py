@@ -176,7 +176,6 @@ class Api(object):
         """
         # bitly errors are relatively unlikely, so it is faster
         # to check first, rather than try and catch the exception
-        print data
         if data.get('errorMessage'):
             raise BitlyError, data['errorMessage']
         if not data.get('results'):
