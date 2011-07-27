@@ -14,4 +14,6 @@ MySQL-python==1.2.3
 lxml==2.3
 
 # YAML
-PyYAML==3.09
+#PyYAML==3.09
+# pyyaml.org has been down for a while. Using a mirror:
+http://people.mozilla.org/~fwenzel/files/PyYAML/PyYAML-3.09.tar.gz
