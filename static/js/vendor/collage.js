@@ -44,7 +44,7 @@ things.CollageObj = function(attrs, packed, default_scale) {
 	
 	that.tipEl = function() {
 		if( ! tipEl ) {
-			tipEl = $( '<div class="close sticky">' +
+			tipEl = $( '<div class="sticky">' +
 				'<a class="close" href="#">X</a>' +
 				'<div class="inner">' + 
 					'<h3>' + that.name + '</h3>' + 
