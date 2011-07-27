@@ -175,15 +175,15 @@ def collage(request, slug='0'):
                 tasks.run.delay(slug=(str(slug)))  # queue up the job for render_collage to pick up
 
         return HttpResponse(slug)
-		
+
     # generate bitly url
     if not collage.bitly_url:
-		if not bitly.BITLY_BASE_URL.lower().startswith('https://'):
-		    raise Exception('Bitly API URL must start with HTTPS.')
-		curl = pycurl.Curl()
-		curl.setopt(pycurl.SSL_VERIFYPEER, 1)
-		curl.setopt(pycurl.SSL_VERIFYHOST, 2)
-		curl.setopt(pycurl.URL, bitly.BITLY_BASE_URL)
+        if not bitly.BITLY_BASE_URL.lower().startswith('https://'):
+            raise Exception('Bitly API URL must start with HTTPS.')
+        curl = pycurl.Curl()
+        curl.setopt(pycurl.SSL_VERIFYPEER, 1)
+        curl.setopt(pycurl.SSL_VERIFYHOST, 2)
+        curl.setopt(pycurl.URL, bitly.BITLY_BASE_URL)
         try:
             curl.perform()
             api = bitly.Api(settings.BITLY_USERNAME, settings.BITLY_APIKEY)
