@@ -44,7 +44,7 @@ things.CollageObj = function(attrs, packed, default_scale) {
 	
 	that.tipEl = function() {
 		if( ! tipEl ) {
-			tipEl = $( '<div class="sticky">' +
+			tipEl = $( '<div class="close sticky">' +
 				'<a class="close" href="#">X</a>' +
 				'<div class="inner">' + 
 					'<h3>' + that.name + '</h3>' + 
@@ -157,7 +157,7 @@ things.Collage = function( anEl, collage ) {
 				hideTip();
 			}
 			var tipEl = obj.tipEl();
-			tipEl.find('.close').click(function(){
+			tipEl.click(function(){
 				hideTip();
 				return false;
 			});
