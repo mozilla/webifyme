@@ -1,19 +1,22 @@
 import json
 import random
 import string
+
 import pycurl
+
+from django.conf import settings
+from django.contrib.sites.models import Site
 from django.core import serializers
+from django.core.mail import mail_admins
 from django.core.paginator import Paginator
 from django.http import Http404, HttpResponse, HttpResponseRedirect
 from django.utils.encoding import force_unicode
 from django.utils import translation
-from django.utils.translation import ugettext_lazy as _lazy
+from django.utils.http import urlencode
 from django.utils.translation import ugettext as _
+from django.utils.translation import ugettext_lazy as _lazy
 from django.utils.translation import ngettext
 from django.views.decorators.cache import cache_page
-from django.conf import settings
-from django.contrib.sites.models import Site
-from django.utils.http import urlencode
 
 from commons.urlresolvers import reverse
 from ff4.utils.render import render_response
@@ -188,8 +191,9 @@ def collage(request, slug='0'):
             curl.perform()
             api = bitly.Api(settings.BITLY_USERNAME, settings.BITLY_APIKEY)
             bitly_url = api.shorten(url_for_bitly)
-        except bitly.BitlyError:
-            pass
+        except bitly.BitlyError, e:
+            # Notify admins
+            mail_admins('Bit.ly error', str(e), fail_silently=True)
         else:
             collage.bitly_url = bitly_url
             collage.save()
