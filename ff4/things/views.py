@@ -1,5 +1,5 @@
-import random
 import json
+import random
 import string
 import pycurl
 from django.core import serializers
@@ -14,6 +14,7 @@ from django.views.decorators.cache import cache_page
 from django.conf import settings
 from django.contrib.sites.models import Site
 from django.utils.http import urlencode
+
 from commons.urlresolvers import reverse
 from ff4.utils.render import render_response
 from ff4.utils import bitly
@@ -174,27 +175,24 @@ def collage(request, slug='0'):
                 tasks.run.delay(slug=(str(slug)))  # queue up the job for render_collage to pick up
 
         return HttpResponse(slug)
-
+		
     # generate bitly url
     if not collage.bitly_url:
-
-        if not bitly.BITLY_BASE_URL.lower().startswith('https://'):
-            raise Exception('Bitly API URL must start with HTTPS.')
-
-        curl = pycurl.Curl()
-        # Ensure SSL cert validates before sending user data over the wire
-        curl.setopt(pycurl.SSL_VERIFYPEER, 1)
-        curl.setopt(pycurl.SSL_VERIFYHOST, 2)
-        curl.setopt(pycurl.URL, bitly.BITLY_BASE_URL)
+		if not bitly.BITLY_BASE_URL.lower().startswith('https://'):
+		    raise Exception('Bitly API URL must start with HTTPS.')
+		curl = pycurl.Curl()
+		curl.setopt(pycurl.SSL_VERIFYPEER, 1)
+		curl.setopt(pycurl.SSL_VERIFYHOST, 2)
+		curl.setopt(pycurl.URL, bitly.BITLY_BASE_URL)
         try:
             curl.perform()
-        except Exception, ce:
-            raise Exception('Bitly SSL certifice validation failed: %s' % ce)
-
-        api = bitly.Api(settings.BITLY_USERNAME, settings.BITLY_APIKEY)
-        bitly_url = api.shorten(url_for_bitly)
-        collage.bitly_url = bitly_url
-        collage.save()
+            api = bitly.Api(settings.BITLY_USERNAME, settings.BITLY_APIKEY)
+            bitly_url = api.shorten(url_for_bitly)
+        except bitly.BitlyError:
+            pass
+        else:
+            collage.bitly_url = bitly_url
+            collage.save()
 
     collage.images_coords = json.dumps(coords_json)
 

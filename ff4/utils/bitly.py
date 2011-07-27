@@ -176,8 +176,10 @@ class Api(object):
         """
         # bitly errors are relatively unlikely, so it is faster
         # to check first, rather than try and catch the exception
-        if 'ERROR' in data or data['statusCode'] == 'ERROR':
+        if data.get('errorMessage'):
             raise BitlyError, data['errorMessage']
+        if not data.get('results'):
+            raise BitlyError, 'Unexpected bit.ly reply: %s' % str(data)
         for key in data['results']:
             if type(data['results']) is dict and type(data['results'][key]) is dict:
                 if 'statusCode' in data['results'][key] and data['results'][key]['statusCode'] == 'ERROR':
