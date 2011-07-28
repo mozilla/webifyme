@@ -140,7 +140,7 @@ LANGUAGES = lazy(LazyLangs, dict)()
 PROD_DETAILS_DIR = path('lib/product_details_json')
 
 # Paths that don't require a locale prefix.
-SUPPORTED_NONLOCALES = ('static', 'admin')
+SUPPORTED_NONLOCALES = ('static', 'admin', 'robots.txt')
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
