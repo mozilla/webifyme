@@ -38,4 +38,5 @@ urlpatterns += patterns('things.views',
     (r'^collage/(?P<slug>\w+)/snapshot/$', 'collage_snapshot'),
     (r'^features/$', 'features'),
     (r'^download_reminder/$', 'download_reminder'),
+    (r'^robots.txt$', 'robots'),
 )

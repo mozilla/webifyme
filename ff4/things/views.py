@@ -349,3 +349,12 @@ def quiz(request):
 @cache_page(60 * 30)
 def features(request):
     return render_response(request, 'things/features.html')
+
+
+def robots(request):
+    """Generate a robots.txt"""
+    if not settings.ENGAGE_ROBOTS:
+        template = "User-agent: *\nDisallow: /"
+    else:
+        template = "User-agent: *\nAllow: /"
+    return HttpResponse(template, mimetype="text/plain")
