@@ -229,13 +229,16 @@ FIXTURE_DIRS = (
 SOUTH_TESTS_MIGRATE = False
 FIREFOX_DOWNLOAD_URL = "http://www.mozilla.com/en-US/firefox/?WT.mc_ID=webifyme"
 
-SNAPSHOT_BASE = 'collages/snapshots/'
-THUMB_BASE = 'collages/thumbs_gallery/'
-FEATURED_THUMB_BASE = 'collages/thumbs_featured/'
+# Directories to create snapshots, thumbnails, etc. in.
+SHARED_IMG_DIR = os.path.join(MEDIA_ROOT, 'collages')
+SNAPSHOT_BASE = os.path.join(SHARED_IMG_DIR, 'snapshots/')
+THUMB_BASE = os.path.join(SHARED_IMG_DIR, 'thumbs_gallery/')
+FEATURED_THUMB_BASE = os.path.join(SHARED_IMG_DIR, 'thumbs_featured/')
 
-SNAPSHOT_BASE_URL = '/static/' + SNAPSHOT_BASE
-THUMB_BASE_URL = '/static/' + THUMB_BASE
-FEATURED_THUMB_BASE_URL = '/static/' + FEATURED_THUMB_BASE
+SHARED_IMG_URL = ''.join((MEDIA_URL, 'collages/'))
+SNAPSHOT_BASE_URL = SHARED_IMG_URL + 'snapshots/'
+THUMB_BASE_URL = SHARED_IMG_URL + 'thumbs_gallery/'
+FEATURED_THUMB_BASE_URL = SHARED_IMG_URL + 'thumbs_featured/'
 
 LOG_FILENAME = "%s/render_collage.log" % PROJECT_PATH
 RESPONSYS = ''
