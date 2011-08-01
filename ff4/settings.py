@@ -37,15 +37,6 @@ USE_I18N = True
 # calendars according to the current locale
 USE_L10N = True
 
-# Accepted locales
-INPUT_LANGUAGES = ('ar', 'bg', 'ca', 'cs', 'da', 'de', 'el', 'en-US', 'es',
-                   'fr', 'fy-NL', 'gl', 'he', 'hu', 'id', 'it', 'ko', 'nb-NO',
-                   'nl', 'pl', 'pt-PT', 'ro', 'ru', 'sk', 'sq', 'uk', 'vi',
-                   'zh-CN', 'zh-TW')
-RTL_LANGUAGES = ('ar', 'he',)  # ('fa', 'fa-IR')
-# Fallbacks for locales that are not recognized by Babel. Bug 596981.
-BABEL_FALLBACK = {'fy-nl': 'nl'}
-
 DBGETTEXT_PATH = PROJECT_PATH + '/locale'
 
 # Tells the extract script what files to look for l10n in and what function
@@ -82,40 +73,16 @@ lib.shoehorn_l10n.templatetag.monkeypatch()
 # KNOWN_LANGUAGES below (or in settings_local).
 KNOWN_LANGUAGES_DEV = (
     'en-US',
-    'ar',
-    'ca',
     'de',
-    'el',
     'es',
     'fr',
-    'fy-NL',
-    'gl',
-    'id',
-    'ja',
-    'ko',
-    'nl',
-    'pl',
-    'pt-BR',
-    'sl',
-    'sq',
-    'zh-TW',
 )
 
 KNOWN_LANGUAGES_PROD = (
     'en-US',
-    'ar',
-    'ca',
     'de',
-    'el',
     'es',
     'fr',
-    'fy-NL',
-    'ja',
-    'nl',
-    'pl',
-    'pt-BR',
-    'sq',
-    'zh-TW',
 )
 
 # Accepted locales.  One of: KNOWN_LANGUAGES_DEV, KNOWN_LANGUAGES_PRODF
