@@ -18,7 +18,7 @@ class QuizForm(forms.Form):
         return self.cleaned_data['username']
 
     def clean_download_reminder(self):
-        if self.cleaned_data['download_reminder'] and not self.cleaned_data['email']:
+        if self.cleaned_data['download_reminder'] and 'email' not in self.cleaned_data:
             raise forms.ValidationError(_('Download reminder requires email.'))
 
 
