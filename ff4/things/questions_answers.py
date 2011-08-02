@@ -6,90 +6,90 @@ from tower import ugettext_lazy as _
 CANONICAL_QUESTIONS = {
 
 1: {
-        'question': _(u'It\'s Friday, 4 pm, and you\'re planning your weekend on the Internet. Do you spend your afternoon:'),
+        'question': _(u'It\'s late Friday afternoon, and you\'re still online. How do you finish the week?'),
         'answers': {
-            1: _(u'Watching movie trailers and TV show previews.'),
-            2: _(u'Checking out avalanche warnings for your backcountry ski trip.'),
-            3: _(u'Catching up with your friends\' status updates and tweets.'),
-            4: _(u'Emailing yourself work files so you can get more done by Monday.')
+            1: _(u'Watch TV and movie trailers.'),
+            2: _(u'Check avalanche warnings for your weekend backcountry ski trip.'),
+            3: _(u'Catch up with friends\' status updates and tweets.'),
+            4: _(u'Email yourself work so you can get more done by Monday.')
         }
     },
 2: {
-        'question': _(u'Party time, and you get to dress up. Your fashion mantra is...'),
+        'question': _(u'Time to dress for the party! Your fashion mantra is:'),
         'answers': {
-            5: _(u'I value tidiness and wield a mean steam iron.'),
-            6: _(u'I dress to impress, party or not.'),
+            5: _(u'I wield a mean steam iron.'),
+            6: _(u'I always dress to impress.'),
             7: _(u'It was on sale!'),
             8: _(u'These socks match, right?')
         }
     },
 3: {
-        'question': _(u'Your considerate dentist has a massive selection of reading material, and you\'ve got 30 minutes before your appointment. Do you read about: '),
+        'question': _(u'You\'re waiting for your dentist appointment. You pick up a magazine and read about:'),
         'answers': {
-            9: _(u'Pigmy giraffes of the Kalahari.'),
+            9: _(u'Pygmy giraffes of the Kalahari.'),
             10: _(u'Hollywood\'s hottest couples reveal favorite colors.'),
-            11: _(u'2010\'s best 10,000rpm hard drives'),
-            12: _(u'None of the above - I prefer to stare blankly ahead. Straight ahead.')
+            11: _(u'2010\'s best 10,000rpm hard drives.'),
+            12: _(u'None of the above &mdash; I prefer to stare blankly.')
         }
     },
 4: {
-        'question': _(u'There\'s a big political upheaval going on in your country. You leap into action and:'),
+        'question': _(u'Uh oh, there\'s a new political scandal in the news. You leap into action and:'),
         'answers': {
-            13: _(u'Take to Twitter and get the word out, avatar change and all.'),
-            14: _(u'Take action! Get off the Internet and into the voting booth.'),
+            13: _(u'Get the word out on Twitter.'),
+            14: _(u'Rally for change offline.'),
             15: _(u'Email your friends a form petition to sign.'),
             16: _(u'Sit right back down. Activism is exhausting.')
         }
     },
 5: {
-        'question': _(u'You run into a lost tourist, who asks you how to get to the airport - she only has an hour to make her flight. You respond by:'),
+        'question': _(u'You run into a lost and frantic tourist looking for the airport. You:'),
         'answers': {
             17: _(u'Shrugging your shoulders, feigning ignorance.'),
-            18: _(u'Looking up the shortest route on your smartphone, and getting her a cab.'),
-            19: _(u'Directing her to the nearest bus stop.'),
-            20: _(u'Getting your car, picking up her luggage and speeding to the airport.')
+            18: _(u'Find the shortest route on your smartphone and get her a cab.'),
+            19: _(u'Direct her to the nearest bus stop.'),
+            20: _(u'Get your car, pick up her luggage and speed to the airport.')
         }
     },
 6: {
-        'question': _(u'Guess what? Your office is flooded, so you get the day off work. A perfect day for: '),
+        'question': _(u'Your office is flooded, so you get the day off. A perfect day for:'),
         'answers': {
-            21: _(u'Organizing a pick-up kickball game.'),
+            21: _(u'A pick-up kickball game.'),
             22: _(u'Sofa, slippers and sitcom reruns.'),
-            23: _(u'Finishing doctoral thesis, re-shingling roof, grooming both dogs, helping neighbor pave driveway, whittling some sticks,  learning C++, balancing gramophone turntable. '),
-            24: _(u'Planting perennial shade trees at the senior center.')
+            23: _(u'Finishing doctoral thesis, re-shingling roof, grooming both dogs, helping neighbor pave driveway, cleaning out the fridge...'),
+            24: _(u'Planting shade trees at the senior center.')
         }
     },
 7: {
-        'question': _(u'It\'s your third date and your paramour is coming over for dinner. You\'ll:'),
+        'question': _(u'Third date and your paramour is coming over for dinner. You:'),
         'answers': {
-            25: _(u'Whip up some Coquilles Saint Jacques avec Pernod, with Gratin Dauphinois on the side.'),
-            26: _(u'Rehydrate a bowl of fancy ramen (not the cheap cup!). '),
-            27: _(u'Email their parents so you can cook their favorite childhood food.'),
+            25: _(u'Whip up some Coquilles Saint Jacques avec Pernod.'),
+            26: _(u'Rehydrate a bowl of fancy ramen (not the cheap kind!).'),
+            27: _(u'Email their parents and cook their favorite childhood food.'),
             28: _(u'Peruse the local farmer\'s market for organic veggies.')
         }
     },
 8: {
-        'question': _(u'Think fast: you run into an old co-worker who says \"Hey, let\'s get together soon\".  You reply: '),
+        'question': _(u'You run into an old coworker who wants to get together soon. You reply:'),
         'answers': {
-            29: _(u'We\'re going camping; you should totally come with us, we have an extra sleeping bag. Yay!'),
-            30: _(u'Let\'s grab a cup of coffee, right now.'),
-            31: _(u'Right, I\'ll have my assistant schedule something. How\'s your Autumn looking?'),
-            32: _(u'Hey, we\'re together right now! Isn\'t that great?')
+            29: _(u'We\'re going camping! And we have an extra sleeping bag. Yay!'),
+            30: _(u'Let\'s grab coffee. Right now!'),
+            31: _(u'I\'ll have my assistant set something up.'),
+            32: _(u'We\'re together right now! (Isn\'t that enough?)')
         }
     },
 9: {
-        'question': _(u'You\'re taking an online personality quiz. It asks you to take an honest look at yourself and fill in what you see. You write \"I am...\" :'),
+        'question': _(u'You\'re taking an online personality quiz. You write \"I am...\":'),
         'answers': {
-            33: _(u'A dynamic, successful go-getter everybody loves!'),
-            34: _(u'A regular person, just like everyone else.'),
-            35: _(u'Uncertain - let me ask a few people and I\'ll get back to you.'),
-            36: _(u'Me.')
+            33: _(u'a dynamic, successful go-getter everybody loves!'),
+            34: _(u'just like everyone else.'),
+            35: _(u'uncertain. Let me ask a few people and get back to you.'),
+            36: _(u'me.')
         }
     },
 10: {
-        'question': _(u'You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:'),
+        'question': _(u'You find a wallet stuffed with cash, but no ID. You:'),
         'answers': {
-            37: _(u'Search Craigslist to see if there\'s a reward offered.'),
+            37: _(u'Search Craigslist for a reward.'),
             38: _(u'Turn it over to the police.'),
             39: _(u'Live large and party! It\'s your money now.'),
             40: _(u'Donate it to your favorite charity.')
@@ -98,92 +98,92 @@ CANONICAL_QUESTIONS = {
 11: {
         'question': _(u'You\'re taking a vacation alone. Your destination:'),
         'answers': {
-            41: _(u'Beach resort - I just want to relax and de-stress.'),
-            42: _(u'A group tour - I don\'t want to worry about the details.'),
+            41: _(u'Beach resort &mdash; I just want to relax and de-stress.'),
+            42: _(u'A group tour &mdash; I don\'t want to worry about the details.'),
             43: _(u'Wherever the dart lands on the map.'),
-            44: _(u'Every country where there\'s a hostel - I\'m backpacking all year.')
+            44: _(u'Every country with a hostel &mdash; my backpack is my home.')
         }
     },
 12: {
-        'question': _(u'A car towing a giant trailer signals that they need to merge in ahead of you. Do you:'),
+        'question': _(u'A car towing a giant trailer signals to merge in ahead of you. You:'),
         'answers': {
             45: _(u'Speed up so you won\'t get stuck behind them.'),
-            46: _(u'Move over to the next lane; let someone else face this dilemma.'),
-            47: _(u'Slow down and wave them in. You can spare the 10 seconds.'),
-            48: _(u'Slowly pass them, wondering how they fit all those turnips in there.')
+            46: _(u'Move over and let someone else deal with it.'),
+            47: _(u'Slow down and wave them in.'),
+            48: _(u'Slowly pass and wonder how they fit all those turnips in there.')
         }
     },
 13: {
-        'question': _(u'Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:'),
+        'question': _(u'Blackout! You can\'t watch TV, so you light some candles and:'),
         'answers': {
-            49: _(u'Frantically look for batteries so you can at least listen to the radio.'),
-            50: _(u'Invite the neighbors over, light a fire, roast some marshmallows and sing camping songs all night.'),
+            49: _(u'Dig up some batteries and listen to the radio.'),
+            50: _(u'Invite the neighbors, light a fire and sing camping songs all night.'),
             51: _(u'Find a friend and play games that don\'t require electricity. Like chess.'),
-            52: _(u'Drive to the next town - oh sweet Wi-Fi, I\'ve found you!')
+            52: _(u'Drive to the next town &mdash; oh sweet Wi-Fi, I\'ve found you!')
         }
     },
 14: {
-        'question': _(u'It\'s midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?'),
+        'question': _(u'You have a big presentation at 8 am and your hard drive just died. You:'),
         'answers': {
-            53: _(u'Do the Handyman Special - fix the hard drive using doorbell wire, a lighter for soldering, some electrical tape, and tweezers from the hotel makeup kit.'),
-            54: _(u'Call the home office and whine to the IT guys.'),
-            55: _(u'Find an Internet cafe, use their computer to recreate the presentation.'),
-            56: _(u'Old school baby, markers and poster board. And red socks.')
+            53: _(u'Do the handyman special &mdash; fix it with whatever you find lying around.'),
+            54: _(u'Call the office and beg to IT.'),
+            55: _(u'Find an Internet cafe, use their computer to recreate it.'),
+            56: _(u'Old school, baby! Markers and poster board.')
         }
     },
 15: {
-        'question': _(u'Your company has a new policy - no social networking at work. You handle the situation by:'),
+        'question': _(u'Your company has banned social networking at work. You:'),
         'answers': {
-            57: _(u'Sneak off to the restroom and tweet every 30 minutes. Colleagues think you have bladder issues.'),
-            58: _(u'Waiting until your lunch break, then updating your status.'),
-            59: _(u'Checking it at home in the evening - it can wait.'),
-            60: _(u'Whip out a pen and paper - it\'s time to go back to letter writing. ')
+            57: _(u'Sneak to the restroom and tweet every 30 minutes from your phone.'),
+            58: _(u'Wait until your lunch break, then update your status.'),
+            59: _(u'Check it at home in the evening &mdash; it can wait.'),
+            60: _(u'Whip out a pen and paper &mdash; time to go back to letter writing.')
         }
     },
 16: {
-        'question': _(u'The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:'),
+        'question': _(u'The Web is what you make of it. You make it yours by:'),
         'answers': {
-            61: _(u'Simultaneously moving and shaking, as I make momentous financial decisions.'),
-            62: _(u'Delving into the vast array of knowledge, news, facts and figures, and even fictions that comprise the Internet\'s news structure.'),
-            63: _(u'Making dates, planning parties, keeping in touch with buddies and finding far-flung friends from the past. '),
-            64: _(u'Doing it all for the children - a whole world of resources out there that enrich my kids\' lives'),
-            65: _(u'Making art, both analog and digital, and sharing it with the world.')
+            61: _(u'Managing my financial portfolio &mdash; I\'m a mover and a shaker!'),
+            62: _(u'Tracking the news &mdash; ALL of it.'),
+            63: _(u'Keeping in touch with friends both old and new.'),
+            64: _(u'Doing good deeds &mdash; so many ways to help people.'),
+            65: _(u'Making art and sharing it with the world.')
         }
     },
 17: {
-        'question': _(u'Online, you can be the life of the party or a virtual wallflower. How social is your network?'),
+        'question': _(u'How social is your network?'),
         'answers': {
-            66: _(u'I\'ll log in to look up old high school friends or play some games, but I\'d rather pick up the phone for a chat.'),
-            67: _(u'With as many friends as I\'ve got, keeping in touch is easier online than in real life.'),
-            68: _(u'I\'m mayor of my own life - it would grind to a halt without the constant updates, tweets and check-ins.'),
-            69: _(u'Social what now? I\'ve never even signed on to MyBook or FacePlace or whatever.')
+            66: _(u'All things considered, I\'d rather chat on the phone.'),
+            67: _(u'With so many friends, it\'s easier to keep in touch online than in real life.'),
+            68: _(u'I can\'t live without the constant updates, tweets and check-ins.'),
+            69: _(u'I\'ve never even signed on to MyBook or FacePlace.')
         }
     },
 18: {
-        'question': _(u'It\'s a perfect Spring day - birds are chirping, sun is shining, and you are:'),
+        'question': _(u'It\'s a perfect Spring day: birds are chirping, the sun is shining and you\'re:'),
         'answers': {
-            70: _(u'Out in the park! I might check my bank account on my phone, but the Internet is the last thing on my mind.'),
-            71: _(u'At a ballgame! Talking sports with my friends, both at the game and online.'),
-            72: _(u'At home, posting the weather on Facebook while checking movie times for later, reading reviews, watching trailers... when does the sun go down again? Let me check on the Internet!'),
-            73: _(u'You mean birds are tweeting, right? I follow @birds. And no, I can\'t go out right now - I\'m reading a hilarious flamewar thread on Slashdot.')
+            70: _(u'Out in the park! The Web is the last thing on my mind.'),
+            71: _(u'At a ballgame! Talking sports, both online and off.'),
+            72: _(u'At home, posting the weather on Facebook.'),
+            73: _(u'You mean birds are tweeting, right? I follow @birds.')
         }
     },
 19: {
-        'question': _(u'You and the Internet are dating. How would you describe the relationship?'),
+        'question': _(u'You and the Internet are dating. Describe the relationship.'),
         'answers': {
-            74: _(u'Casual Encounter. We meet up here and there for a good time or a laugh, but no sleepovers - I\'m an independent person.'),
-            75: _(u'Going steady. I can take a day or two on my own, but usually we\'re together, shopping or goofing around.'),
-            76: _(u'Long-term Relationship. The Internet is my soul-mate, the only one who really gets me, who doesn\'t laugh at my cats-on-their-backs photo obsession.'),
-            77: _(u'It\'s an addiction - I\'m taking classes to ease my co-dependency. Online classes.')
+            74: _(u'Hanging out. We meet up here and there, but nothing serious.'),
+            75: _(u'Going steady. I can take a day or two apart, but usually we\'re together.'),
+            76: _(u'Long-term Relationship. The Web is my soul-mate. No one else gets me.'),
+            77: _(u'An addiction. I\'m taking classes to ease my co-dependency. Online.')
         }
     },
 20: {
-        'question': _(u'We all like to connect to this great big thing we call the Internet. Where do you do it, and how?'),
+        'question': _(u'We all love this great big thing called the Web. How do you connect?'),
         'answers': {
-            78: _(u'Tethered to my desk, at work and at home.'),
-            79: _(u'I enjoy a balanced Internet diet - some desktop, some mobile.'),
-            80: _(u'I\'m an active sort, so mostly mobile, with a sprinkling of desktop when I need a rest.'),
-            81: _(u'Every device I have connects to the Internet all the time. Including my toaster.')
+            78: _(u'Tethered to my desk, at work or at home.'),
+            79: _(u'I enjoy a balanced Internet diet &mdash; some desktop, some mobile.'),
+            80: _(u'I\'m active, so mostly mobile, with a sprinkling of desktop.'),
+            81: _(u'Every device I have connects all the time. Including my toaster.')
         }
     }
 }
@@ -217,7 +217,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: It's Friday, 4 pm, and you're planning your weekend on the Internet. Do you spend your afternoon:
 # L10n: Answer: Watching movie trailers and TV show previews.
 # L10n: Image: Fortune - 1755_site_0057.png
-1: _(u'One symbol stands above all others as the authority - wise, unquestionable, and universally fair. Want the truth? Look to The Cookie - The Cookie tells all.'),
+1: _(u'One symbol stands above all others as the authority &mdash; wise, unquestionable, and universally fair. Want the truth? Look to The Cookie &mdash; The Cookie tells all.'),
 # L10n: Question: It's Friday, 4 pm, and you're planning your weekend on the Internet. Do you spend your afternoon:
 # L10n: Answer: Watching movie trailers and TV show previews.
 # L10n: Image: Omamori - 1755_site_0092.png
@@ -233,7 +233,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: It's Friday, 4 pm, and you're planning your weekend on the Internet. Do you spend your afternoon:
 # L10n: Answer: Checking out avalanche warnings for your backcountry ski trip.
 # L10n: Image: Gyroscope - 1755_site_0065.png
-5: _(u'Mystery, science, adventure - these aspects of your character are embodied in your symbol - The Gyroscope. You have the unique ability to remain calm and steady as the world spins around you. Maybe you even know how to pirouette.'),
+5: _(u'Mystery, science, adventure &mdash; these aspects of your character are embodied in your symbol &mdash; The Gyroscope. You have the unique ability to remain calm and steady as the world spins around you. Maybe you even know how to pirouette.'),
 # L10n: Question: It's Friday, 4 pm, and you're planning your weekend on the Internet. Do you spend your afternoon:
 # L10n: Answer: Checking out avalanche warnings for your backcountry ski trip.
 # L10n: Image: Compass - 1755_site_0049.png
@@ -241,15 +241,15 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: It's Friday, 4 pm, and you're planning your weekend on the Internet. Do you spend your afternoon:
 # L10n: Answer: Checking out avalanche warnings for your backcountry ski trip.
 # L10n: Image: Flashlight - 1755_site_0055.png
-7: _(u'You shine brightly, illuminating the Internet ahead with a glow of knowledge and spirit of exploration. That\'s why you have drawn the Flashlight - symbol of the intrepid.'),
+7: _(u'You shine brightly, illuminating the Internet ahead with a glow of knowledge and spirit of exploration. That\'s why you have drawn the Flashlight &mdash; symbol of the intrepid.'),
 # L10n: Question: It's Friday, 4 pm, and you're planning your weekend on the Internet. Do you spend your afternoon:
 # L10n: Answer: Checking out avalanche warnings for your backcountry ski trip.
 # L10n: Image: Carabiner - 1755_site_0034.png
-8: _(u'You have drawn the Mark of the Connection; Active, strong and reliable - that\'s you. People count on you to keep grounded at all times, even up in the air.'),
+8: _(u'You have drawn the Mark of the Connection; Active, strong and reliable &mdash; that\'s you. People count on you to keep grounded at all times, even up in the air.'),
 # L10n: Question: It's Friday, 4 pm, and you're planning your weekend on the Internet. Do you spend your afternoon:
 # L10n: Answer: Catching up with your friends' status updates and tweets.
 # L10n: Image: Friendship Pin - 1755_site_0060.png
-9: _(u'The Friendship Pin - an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker).'),
+9: _(u'The Friendship Pin &mdash; an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker).'),
 # L10n: Question: It's Friday, 4 pm, and you're planning your weekend on the Internet. Do you spend your afternoon:
 # L10n: Answer: Catching up with your friends' status updates and tweets.
 # L10n: Image: Friendship Bracelet - 1755_site_0059.png
@@ -265,7 +265,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: It's Friday, 4 pm, and you're planning your weekend on the Internet. Do you spend your afternoon:
 # L10n: Answer: Emailing yourself work files so you can get more done by Monday.
 # L10n: Image: Business Card - 1755_site_0019.png
-13: _(u'The mark of the professional - you\'ve defined yourself in the business world, and earned a fancy title for your efforts.'),
+13: _(u'The mark of the professional &mdash; you\'ve defined yourself in the business world, and earned a fancy title for your efforts.'),
 # L10n: Question: It's Friday, 4 pm, and you're planning your weekend on the Internet. Do you spend your afternoon:
 # L10n: Answer: Emailing yourself work files so you can get more done by Monday.
 # L10n: Image: Building Block - 1755_site_0073.png
@@ -273,15 +273,15 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Party time, and you get to dress up. Your fashion mantra is...
 # L10n: Answer: I value tidiness and wield a mean steam iron.
 # L10n: Image: Perfume - 1755_site_0098.png
-15: _(u'Appearances are not limited to the visible sphere - you are well aware of that, for you are The Aesthete. Beauty in every sense is your lofty goal, and no detail of that is too small to escape your scrutiny.'),
+15: _(u'Appearances are not limited to the visible sphere &mdash; you are well aware of that, for you are The Aesthete. Beauty in every sense is your lofty goal, and no detail of that is too small to escape your scrutiny.'),
 # L10n: Question: Party time, and you get to dress up. Your fashion mantra is...
 # L10n: Answer: I value tidiness and wield a mean steam iron.
 # L10n: Image: Locket - 1755_site_0076.png
-16: _(u'The Locket - a secret treasured keepsake - is your symbol. Worn over the heart, it shows you value your relationships, and keep them close.'),
+16: _(u'The Locket &mdash; a secret treasured keepsake &mdash; is your symbol. Worn over the heart, it shows you value your relationships, and keep them close.'),
 # L10n: Question: Party time, and you get to dress up. Your fashion mantra is...
 # L10n: Answer: I value tidiness and wield a mean steam iron.
 # L10n: Image: Watch - 1755_site_0134.png
-17: _(u'It\'s just a matter of time - to you that\'s not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine.'),
+17: _(u'It\'s just a matter of time &mdash; to you that\'s not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine.'),
 # L10n: Question: Party time, and you get to dress up. Your fashion mantra is...
 # L10n: Answer: I value tidiness and wield a mean steam iron.
 # L10n: Image: Buttons - 1755_site_0020.png
@@ -293,11 +293,11 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Party time, and you get to dress up. Your fashion mantra is...
 # L10n: Answer: I dress to impress, party or not.
 # L10n: Image: Watch - 1755_site_0135.png
-20: _(u'It\'s just a matter of time - to you that\'s not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine.'),
+20: _(u'It\'s just a matter of time &mdash; to you that\'s not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine.'),
 # L10n: Question: Party time, and you get to dress up. Your fashion mantra is...
 # L10n: Answer: I dress to impress, party or not.
 # L10n: Image: Makeup - 1755_site_0082.png
-21: _(u'\'Beauty is not in the face; beauty is a light in the heart\' said the poet Kahlil Gibran. But he never had to deal with high definition video. You are The Illusionist - master of your own appearance, poet of the eyeliner pen.'),
+21: _(u'\'Beauty is not in the face; beauty is a light in the heart\' said the poet Kahlil Gibran. But he never had to deal with high definition video. You are The Illusionist &mdash; master of your own appearance, poet of the eyeliner pen.'),
 # L10n: Question: Party time, and you get to dress up. Your fashion mantra is...
 # L10n: Answer: It was on sale!
 # L10n: Image: Pop Magazine - 1755_site_0079.png
@@ -325,7 +325,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Your considerate dentist has a massive selection of reading material, and you've got 30 minutes before your appointment. Do you read about:
 # L10n: Answer: Pigmy giraffes of the Kalahari.
 # L10n: Image: Finger Puppet - 1755_site_0192.png
-28: _(u'The pachyderm - symbol of endless memory. Of course, this is a finger puppet, so it\'s really a symbol of a symbol. But that\'s semantics. Sorta cute, huh? '),
+28: _(u'The pachyderm &mdash; symbol of endless memory. Of course, this is a finger puppet, so it\'s really a symbol of a symbol. But that\'s semantics. Sorta cute, huh? '),
 # L10n: Question: Your considerate dentist has a massive selection of reading material, and you've got 30 minutes before your appointment. Do you read about:
 # L10n: Answer: Hollywood's hottest couples reveal favorite colors.
 # L10n: Image: Date Book - 1755_site_0021.png
@@ -337,7 +337,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Your considerate dentist has a massive selection of reading material, and you've got 30 minutes before your appointment. Do you read about:
 # L10n: Answer: 2010's best 10,000rpm hard drives
 # L10n: Image: Tech Magazine - 1755_site_0080.png
-31: _(u'You are the Gear Head - mark of those who know their limited-slip differential from their throttle body. You get all revved up at the sound of a big V8, and the smell of burning rubber brings a wistful tear to your eye.'),
+31: _(u'You are the Gear Head &mdash; mark of those who know their limited-slip differential from their throttle body. You get all revved up at the sound of a big V8, and the smell of burning rubber brings a wistful tear to your eye.'),
 # L10n: Question: Your considerate dentist has a massive selection of reading material, and you've got 30 minutes before your appointment. Do you read about:
 # L10n: Answer: 2010's best 10,000rpm hard drives
 # L10n: Image: Notebook - 1755_site_0111.png
@@ -345,7 +345,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Your considerate dentist has a massive selection of reading material, and you've got 30 minutes before your appointment. Do you read about:
 # L10n: Answer: 2010's best 10,000rpm hard drives
 # L10n: Image: XXX Package - 1755_site_0017.png
-33: _(u'You\'re in good company - beloved by visionaries before you, the little notebook says you know how to express yourself and keep it buttoned up at the same time. You know the best experiences deserve a record.'),
+33: _(u'You\'re in good company &mdash; beloved by visionaries before you, the little notebook says you know how to express yourself and keep it buttoned up at the same time. You know the best experiences deserve a record.'),
 # L10n: Question: Your considerate dentist has a massive selection of reading material, and you've got 30 minutes before your appointment. Do you read about:
 # L10n: Answer: None of the above - I prefer to stare blankly ahead. Straight ahead.
 # L10n: Image: Comic - 1755_site_0048.png
@@ -358,50 +358,50 @@ ANSWERS_BY_IMAGE = {
 # L10n: Answer: None of the above - I prefer to stare blankly ahead. Straight ahead.
 # L10n: Image: Android Smartphone - 1755_site_0113.png
 36: _(u'The symbol of unpretentious creativity and art. You are almost certainly imbued with a child-like curiosity and an unfettered imagination, enjoy self expression and bright colors. You are child-like, or may actually be a child.'),
-# L10n: Question: There's a big political upheaval going on in your country. You leap into action and:
+# L10n: Question: Uh oh, there's a new political scandal in the news. You leap into action and:
 # L10n: Answer: Take to Twitter and get the word out, avatar change and all.
 # L10n: Image: Puppet - 1755_site_0114.png
 37: _(u'For you, the Internet cannot be contained to a desk or a cafe. You carry it with you, not a place you go, but a tool you use. This is your Swiss Army Knife™.'),
-# L10n: Question: There's a big political upheaval going on in your country. You leap into action and:
+# L10n: Question: Uh oh, there's a new political scandal in the news. You leap into action and:
 # L10n: Answer: Take to Twitter and get the word out, avatar change and all.
 # L10n: Image: Vote Button* -
 38: _(u'Everything\'s better with a monkey in it. Monkeys are fun, smart, and optimistic. You got this crafty monkey because it reflects your own delightful optimism and playfulness. Or maybe you like bananas?'),
-# L10n: Question: There's a big political upheaval going on in your country. You leap into action and:
+# L10n: Question: Uh oh, there's a new political scandal in the news. You leap into action and:
 # L10n: Answer: Take action! Get off the Internet and into the voting booth.
 # L10n: Image: Harmonica - 1755_site_0066.png
 39: _(u'Take part, or take your seat. Political activism rewards those who participate and do something. You use the Internet as both to listen and to shout - and the world is better for it.'),
-# L10n: Question: There's a big political upheaval going on in your country. You leap into action and:
+# L10n: Question: Uh oh, there's a new political scandal in the news. You leap into action and:
 # L10n: Answer: Take action! Get off the Internet and into the voting booth.
 # L10n: Image: Lighter - 1755_site_0074.png
 40: _(u'You\'ve earned the harmonica, a silver badge of self-expression. You take life\'s lemons and turn them into melodious, slightly buzzy lemonade.'),
-# L10n: Question: There's a big political upheaval going on in your country. You leap into action and:
+# L10n: Question: Uh oh, there's a new political scandal in the news. You leap into action and:
 # L10n: Answer: Take action! Get off the Internet and into the voting booth.
 # L10n: Image: Stamps - 1755_site_0116.png
-41: _(u'The Lighter - a pocket-sized torch of freedom. It presages your preparedness for whatever crosses your path, be it a camper with a bunch of moist twigs, or some guy with a cigar.'),
-# L10n: Question: There's a big political upheaval going on in your country. You leap into action and:
+41: _(u'The Lighter &mdash; a pocket-sized torch of freedom. It presages your preparedness for whatever crosses your path, be it a camper with a bunch of moist twigs, or some guy with a cigar.'),
+# L10n: Question: Uh oh, there's a new political scandal in the news. You leap into action and:
 # L10n: Answer: Email your friends a form petition to sign.
 # L10n: Image: Stamps - 1755_site_0198.png
 42: _(u'The written word is a powerful tool, whether it\'s typed in a blog or scrawled on a wall. You understand this power and you wield it with authority.'),
-# L10n: Question: There's a big political upheaval going on in your country. You leap into action and:
+# L10n: Question: Uh oh, there's a new political scandal in the news. You leap into action and:
 # L10n: Answer: Email your friends a form petition to sign.
 # L10n: Image: Noisemaker - 1755_site_0091.png
-43: _(u'The stamp - ubiquitous symbol of communication, of correspondence, which you\'ve earned. If you have these, you most likely checked your email halfway through reading this.'),
-# L10n: Question: There's a big political upheaval going on in your country. You leap into action and:
+43: _(u'The stamp &mdash; ubiquitous symbol of communication, of correspondence, which you\'ve earned. If you have these, you most likely checked your email halfway through reading this.'),
+# L10n: Question: Uh oh, there's a new political scandal in the news. You leap into action and:
 # L10n: Answer: Email your friends a form petition to sign.
 # L10n: Image: Skull - 1755_site_0110.png
-44: _(u'The stamp - ubiquitous symbol of communication, of correspondence, which you\'ve earned. If you have these, you most likely checked your email halfway through reading this.'),
-# L10n: Question: There's a big political upheaval going on in your country. You leap into action and:
+44: _(u'The stamp &mdash; ubiquitous symbol of communication, of correspondence, which you\'ve earned. If you have these, you most likely checked your email halfway through reading this.'),
+# L10n: Question: Uh oh, there's a new political scandal in the news. You leap into action and:
 # L10n: Answer: Sit right back down. Activism is exhausting.
 # L10n: Image: Action Figure - 1755_site_0112.png
-45: _(u'PARTY! You got The Noisemaker! You make life a constant party that rocks the house and wakes up the neighbors - then invites them over. Everybody\'s having fun when you\'re around.'),
-# L10n: Question: There's a big political upheaval going on in your country. You leap into action and:
+45: _(u'PARTY! You got The Noisemaker! You make life a constant party that rocks the house and wakes up the neighbors &mdash; then invites them over. Everybody\'s having fun when you\'re around.'),
+# L10n: Question: Uh oh, there's a new political scandal in the news. You leap into action and:
 # L10n: Answer: Sit right back down. Activism is exhausting.
 # L10n: Image: Kazoo - 1755_site_0186.png
 46: _(u'Dust in the wind, man. Dust in the wind.'),
-# L10n: Question: There's a big political upheaval going on in your country. You leap into action and:
+# L10n: Question: Uh oh, there's a new political scandal in the news. You leap into action and:
 # L10n: Answer: Sit right back down. Activism is exhausting.
 # L10n: Image: Hair Product - 1755_site_0185.png
-47: _(u'\"Seriousness is the only refuge of the shallow.\" - Oscar Wilde                                                                                                                                         '),
+47: _(u'\"Seriousness is the only refuge of the shallow.\" &mdash; Oscar Wilde                                                                                                                                    '),
 # L10n: Question: You run into a lost tourist, who asks you how to get to the airport - she only has an hour to make her flight. You respond by:
 # L10n: Answer: Shrugging your shoulders, feigning ignorance.
 # L10n: Image: Transit Pass - 1755_site_0018.png
@@ -437,11 +437,11 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You run into a lost tourist, who asks you how to get to the airport - she only has an hour to make her flight. You respond by:
 # L10n: Answer: Directing her to the nearest bus stop.
 # L10n: Image: Multitool - 1755_site_0087.png
-56: _(u'The adhesive bandage - mark of The Healer. You seek the perfection of the human form, or at least one less headache.'),
+56: _(u'The adhesive bandage &mdash; mark of The Healer. You seek the perfection of the human form, or at least one less headache.'),
 # L10n: Question: You run into a lost tourist, who asks you how to get to the airport - she only has an hour to make her flight. You respond by:
 # L10n: Answer: Getting your car, picking up her luggage and speeding to the airport.
 # L10n: Image: Tab Stickers - 1755_site_0166.png
-57: _(u'You hold The Keys - and indeed, they are your symbol. Master of your domain, you come and go as you please, wherever you please. You have every password memorized, know every PIN by heart.'),
+57: _(u'You hold The Keys &mdash; and indeed, they are your symbol. Master of your domain, you come and go as you please, wherever you please. You have every password memorized, know every PIN by heart.'),
 # L10n: Question: You run into a lost tourist, who asks you how to get to the airport - she only has an hour to make her flight. You respond by:
 # L10n: Answer: Getting your car, picking up her luggage and speeding to the airport.
 # L10n: Image: USB Drive - 1755_site_0121.png
@@ -449,7 +449,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You run into a lost tourist, who asks you how to get to the airport - she only has an hour to make her flight. You respond by:
 # L10n: Answer: Getting your car, picking up her luggage and speeding to the airport.
 # L10n: Image: Origami - 1755_site_0093.png
-59: _(u'You have drawn the Mark of the Connection; Active, strong and reliable - that\'s you. People count on you to keep grounded at all times, even up in the air.'),
+59: _(u'You have drawn the Mark of the Connection; Active, strong and reliable &mdash; that\'s you. People count on you to keep grounded at all times, even up in the air.'),
 # L10n: Question: Guess what? Your office is flooded, so you get the day off work. A perfect day for:
 # L10n: Answer: Organizing a pick-up kickball game.
 # L10n: Image: Gum - 1755_site_0064.png
@@ -457,19 +457,19 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Guess what? Your office is flooded, so you get the day off work. A perfect day for:
 # L10n: Answer: Organizing a pick-up kickball game.
 # L10n: Image: Spork - 1755_site_0115.png
-61: _(u'Ah, the Flask - the party is wherever you are, Social Butterfly. You bring it, and you bring it in style. But you also know when to stop. Keep it classy, my sleek silver friend!'),
+61: _(u'Ah, the Flask &mdash; the party is wherever you are, Social Butterfly. You bring it, and you bring it in style. But you also know when to stop. Keep it classy, my sleek silver friend!'),
 # L10n: Question: Guess what? Your office is flooded, so you get the day off work. A perfect day for:
 # L10n: Answer: Organizing a pick-up kickball game.
 # L10n: Image: Cereal - 1755_site_0043.png
-62: _(u'Party time? Excellent! You are the breeze that blows through a summer evening with friends new and old. The Cocktail Swordsman - or woman - knows how to parry with these weapons of social mirth.'),
+62: _(u'Party time? Excellent! You are the breeze that blows through a summer evening with friends new and old. The Cocktail Swordsman &mdash; or woman &mdash; knows how to parry with these weapons of social mirth.'),
 # L10n: Question: Guess what? Your office is flooded, so you get the day off work. A perfect day for:
 # L10n: Answer: Sofa, slippers and sitcom reruns.
 # L10n: Image: Mints - 1755_site_0085.png
-63: _(u'Candy - manna of the gods, because gods don\'t get cavities. That\'s your symbol, for you are the Sweet One. You cannot resist quick, indulgent temptation, for you know the joy it brings.'),
+63: _(u'Candy &mdash; manna of the gods, because gods don\'t get cavities. That\'s your symbol, for you are the Sweet One. You cannot resist quick, indulgent temptation, for you know the joy it brings.'),
 # L10n: Question: Guess what? Your office is flooded, so you get the day off work. A perfect day for:
 # L10n: Answer: Finishing doctoral thesis, re-shingling roof, grooming both dogs, helping neighbor pave driveway, whittling some sticks,  learning C++, balancing gramophone turntable.
 # L10n: Image: Memory Card - 1755_site_0084.png
-64: _(u'You have drawn the Mark of the Connection; Active, strong and reliable - that\'s you. People count on you to keep grounded at all times, even up in the air.'),
+64: _(u'You have drawn the Mark of the Connection; Active, strong and reliable &mdash; that\'s you. People count on you to keep grounded at all times, even up in the air.'),
 # L10n: Question: Guess what? Your office is flooded, so you get the day off work. A perfect day for:
 # L10n: Answer: Finishing doctoral thesis, re-shingling roof, grooming both dogs, helping neighbor pave driveway, whittling some sticks,  learning C++, balancing gramophone turntable.
 # L10n: Image: Instant Photo - 1755_site_0101.png
@@ -485,7 +485,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Guess what? Your office is flooded, so you get the day off work. A perfect day for:
 # L10n: Answer: Finishing doctoral thesis, re-shingling roof, grooming both dogs, helping neighbor pave driveway, whittling some sticks,  learning C++, balancing gramophone turntable.
 # L10n: Image: Lock - 1755_site_0047.png
-68: _(u'Go ahead and open up all the tabs you want- there\'s never a last call for browsing.'),
+68: _(u'Go ahead and open up all the tabs you want &mdash; there\'s never a last call for browsing.'),
 # L10n: Question: Guess what? Your office is flooded, so you get the day off work. A perfect day for:
 # L10n: Answer: Planting perennial shade trees at the senior center.
 # L10n: Image: Pepper Spray - 1755_site_0077.png
@@ -497,19 +497,19 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: It's your third date and your paramour is coming over for dinner. You'll:
 # L10n: Answer: Whip up some Coquilles Saint Jacques avec Pernod, with Gratin Dauphinois on the side.
 # L10n: Image: Condiment - 1755_site_0069.png
-71: _(u'Ah, the Flask - the party is wherever you are, Social Butterfly. You bring it, and you bring it in style. But you also know when to stop. Keep it classy, my sleek silver friend!'),
+71: _(u'Ah, the Flask &mdash; the party is wherever you are, Social Butterfly. You bring it, and you bring it in style. But you also know when to stop. Keep it classy, my sleek silver friend!'),
 # L10n: Question: It's your third date and your paramour is coming over for dinner. You'll:
 # L10n: Answer: Whip up some Coquilles Saint Jacques avec Pernod, with Gratin Dauphinois on the side.
 # L10n: Image: Antique Coin - 1755_site_0179.png
-72: _(u'This is a symbol of a symbol, which makes it extra relevant to you. You look at this folded paper and see a crane - you know the power of imagination.'),
+72: _(u'This is a symbol of a symbol, which makes it extra relevant to you. You look at this folded paper and see a crane &mdash; you know the power of imagination.'),
 # L10n: Question: It's your third date and your paramour is coming over for dinner. You'll:
 # L10n: Answer: Whip up some Coquilles Saint Jacques avec Pernod, with Gratin Dauphinois on the side.
 # L10n: Image: Eye Drops - 1755_site_0053.png
-73: _(u'Appearances are not limited to the visible sphere - you are well aware of that, for you are The Aesthete. Beauty in every sense is your lofty goal, and no detail of that is too small to escape your scrutiny.'),
+73: _(u'Appearances are not limited to the visible sphere &mdash; you are well aware of that, for you are The Aesthete. Beauty in every sense is your lofty goal, and no detail of that is too small to escape your scrutiny.'),
 # L10n: Question: It's your third date and your paramour is coming over for dinner. You'll:
 # L10n: Answer: Rehydrate a bowl of fancy ramen (not the cheap cup!).
 # L10n: Image: Pin Cushion - 1755_site_0100.png
-74: _(u'Candy - manna of the gods, because gods don\'t get cavities. That\'s your symbol, for you are the Sweet One. You cannot resist quick, indulgent temptation, for you know the joy it brings.'),
+74: _(u'Candy &mdash; manna of the gods, because gods don\'t get cavities. That\'s your symbol, for you are the Sweet One. You cannot resist quick, indulgent temptation, for you know the joy it brings.'),
 # L10n: Question: It's your third date and your paramour is coming over for dinner. You'll:
 # L10n: Answer: Rehydrate a bowl of fancy ramen (not the cheap cup!).
 # L10n: Image: Wrench - 1755_site_0165.png
@@ -521,15 +521,15 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: It's your third date and your paramour is coming over for dinner. You'll:
 # L10n: Answer: Rehydrate a bowl of fancy ramen (not the cheap cup!).
 # L10n: Image: Bookmark - 1755_site_0164.png
-77: _(u'You bear the Mark of Cereal. Sustenance in its simplest, most basic form. Compact, practical, tidy and filling - read into it all you like.'),
+77: _(u'You bear the Mark of Cereal. Sustenance in its simplest, most basic form. Compact, practical, tidy and filling &mdash; read into it all you like.'),
 # L10n: Question: It's your third date and your paramour is coming over for dinner. You'll:
 # L10n: Answer: Rehydrate a bowl of fancy ramen (not the cheap cup!).
 # L10n: Image: Tarot card - 1755_site_0119.png
-78: _(u'Sweet, cool and fresh. That describes both you and your favorite indulgences - just a little trifle to brighten your day, as you invigorate the world around you.'),
+78: _(u'Sweet, cool and fresh. That describes both you and your favorite indulgences &mdash; just a little trifle to brighten your day, as you invigorate the world around you.'),
 # L10n: Question: It's your third date and your paramour is coming over for dinner. You'll:
 # L10n: Answer: Email their parents so you can cook their favorite childhood food.
 # L10n: Image: Buddha Statue - 1755_site_0193.png
-79: _(u'Behold, The Memory - life is your field of study. You hunger for new thinking, knowledge and information. You know how get it, and how to hold on to it.'),
+79: _(u'Behold, The Memory &mdash; life is your field of study. You hunger for new thinking, knowledge and information. You know how get it, and how to hold on to it.'),
 # L10n: Question: It's your third date and your paramour is coming over for dinner. You'll:
 # L10n: Answer: Email their parents so you can cook their favorite childhood food.
 # L10n: Image: Letters - 1755_site_0194.png
@@ -553,15 +553,15 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Think fast: you run into an old co-worker who says "Hey, let's get together soon".  You reply:
 # L10n: Answer: Let's grab a cup of coffee, right now.
 # L10n: Image: Photo Strip - 1755_site_0054.png
-85: _(u'The Friendship Pin - an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker).'),
+85: _(u'The Friendship Pin &mdash; an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker).'),
 # L10n: Question: Think fast: you run into an old co-worker who says "Hey, let's get together soon".  You reply:
 # L10n: Answer: Let's grab a cup of coffee, right now.
 # L10n: Image: Sketchbook - 1755_site_0109.png
-86: _(u'The mark of the professional - you\'ve defined yourself in the business world, and earned a fancy title for your efforts.'),
+86: _(u'The mark of the professional &mdash; you\'ve defined yourself in the business world, and earned a fancy title for your efforts.'),
 # L10n: Question: Think fast: you run into an old co-worker who says "Hey, let's get together soon".  You reply:
 # L10n: Answer: Right, I'll have my assistant schedule something. How's your Autumn looking?
 # L10n: Image: Wonton Spoon - 1755_site_0137.png
-87: _(u'Who are you? A mystery, an enigma, a chameleon that no one really knows. You know what you need to keep private, and what to show the outside world. Your identity is yours alone - wear them proudly, anonymous.'),
+87: _(u'Who are you? A mystery, an enigma, a chameleon that no one really knows. You know what you need to keep private, and what to show the outside world. Your identity is yours alone &mdash; wear them proudly, anonymous.'),
 # L10n: Question: Think fast: you run into an old co-worker who says "Hey, let's get together soon".  You reply:
 # L10n: Answer: Right, I'll have my assistant schedule something. How's your Autumn looking?
 # L10n: Image: Kid’s Toy - 1755_site_0103.png
@@ -569,7 +569,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Think fast: you run into an old co-worker who says "Hey, let's get together soon".  You reply:
 # L10n: Answer: Right, I'll have my assistant schedule something. How's your Autumn looking?
 # L10n: Image: To-Do List - 1755_site_0138.png
-89: _(u'You can hope to ward off evil with a rabbit\'s foot, or you can be more proactive. You\'re the pragmatist - you own your destiny, control your security and know the value of self-defense.'),
+89: _(u'You can hope to ward off evil with a rabbit\'s foot, or you can be more proactive. You\'re the pragmatist &mdash; you own your destiny, control your security and know the value of self-defense.'),
 # L10n: Question: Think fast: you run into an old co-worker who says "Hey, let's get together soon".  You reply:
 # L10n: Answer: Right, I'll have my assistant schedule something. How's your Autumn looking?
 # L10n: Image: Fossil - 1755_site_0058.png
@@ -577,7 +577,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Think fast: you run into an old co-worker who says "Hey, let's get together soon".  You reply:
 # L10n: Answer: Hey, we're together right now! Isn't that great?
 # L10n: Image: Pet Toy - 1755_site_0099.png
-91: _(u'You\'re a social vector - verily, you are goal-oriented, outgoing and bold. At last, you\'ve collected that number, and you\'re gonna use it.'),
+91: _(u'You\'re a social vector &mdash; verily, you are goal-oriented, outgoing and bold. At last, you\'ve collected that number, and you\'re gonna use it.'),
 # L10n: Question: Think fast: you run into an old co-worker who says "Hey, let's get together soon".  You reply:
 # L10n: Answer: Hey, we're together right now! Isn't that great?
 # L10n: Image: Game Piece - 1755_site_0044.png
@@ -589,11 +589,11 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You're taking an online personality quiz. It asks you to take an honest look at yourself and fill in what you see. You write "I am..." :
 # L10n: Answer: A dynamic, successful go-getter everybody loves!
 # L10n: Image: PuzzleCube - 1755_site_0182.png
-94: _(u'The Friendship Pin - an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker).'),
+94: _(u'The Friendship Pin &mdash; an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker).'),
 # L10n: Question: You're taking an online personality quiz. It asks you to take an honest look at yourself and fill in what you see. You write "I am..." :
 # L10n: Answer: A regular person, just like everyone else.
 # L10n: Image: Domino - 1755_site_0051.png
-95: _(u'Your symbol is Ketchup - everybody loves it, gotta have some, it makes everything better. Just like you!'),
+95: _(u'Your symbol is Ketchup &mdash; everybody loves it, gotta have some, it makes everything better. Just like you!'),
 # L10n: Question: You're taking an online personality quiz. It asks you to take an honest look at yourself and fill in what you see. You write "I am..." :
 # L10n: Answer: A regular person, just like everyone else.
 # L10n: Image: Letter Game Tiles - 1755_site_0106.png
@@ -601,11 +601,11 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You're taking an online personality quiz. It asks you to take an honest look at yourself and fill in what you see. You write "I am..." :
 # L10n: Answer: Uncertain - let me ask a few people and I'll get back to you.
 # L10n: Image: Dice - 1755_site_0095.png
-97: _(u'\"Beauty is not in the face; beauty is a light in the heart\" said the poet Kahlil Gibran. But he never had to deal with high definition video. You are The Illusionist - master of your own appearance, poet of the eyeliner pen.'),
+97: _(u'\"Beauty is not in the face; beauty is a light in the heart\" said the poet Kahlil Gibran. But he never had to deal with high definition video. You are The Illusionist &mdash; master of your own appearance, poet of the eyeliner pen.'),
 # L10n: Question: You're taking an online personality quiz. It asks you to take an honest look at yourself and fill in what you see. You write "I am..." :
 # L10n: Answer: Uncertain - let me ask a few people and I'll get back to you.
 # L10n: Image: Tickets - 1755_site_0122.png
-98: _(u'Who are you? A mystery, an enigma, a chameleon that no one really knows. You know what you need to keep private, and what to show the outside world. Your identity is yours alone - wear them proudly, anonymous.'),
+98: _(u'Who are you? A mystery, an enigma, a chameleon that no one really knows. You know what you need to keep private, and what to show the outside world. Your identity is yours alone &mdash; wear them proudly, anonymous.'),
 # L10n: Question: You're taking an online personality quiz. It asks you to take an honest look at yourself and fill in what you see. You write "I am..." :
 # L10n: Answer: Me.
 # L10n: Image: Dart - 1755_site_0160.png
@@ -613,11 +613,11 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You're taking an online personality quiz. It asks you to take an honest look at yourself and fill in what you see. You write "I am..." :
 # L10n: Answer: Me.
 # L10n: Image: Lip Balm - 1755_site_0075.png
-100: _(u'Craft your own world and it\'s exactly as you wish it to be. That is your secret - the secret of The Tailor. You make real that which most can only imagine, and edit the world to suit your taste.'),
+100: _(u'Craft your own world and it\'s exactly as you wish it to be. That is your secret &mdash; the secret of The Tailor. You make real that which most can only imagine, and edit the world to suit your taste.'),
 # L10n: Question: You're taking an online personality quiz. It asks you to take an honest look at yourself and fill in what you see. You write "I am..." :
 # L10n: Answer: Me.
 # L10n: Image: Tissues - 1755_site_0123.png
-101: _(u'Wield the tools to make it yours, for you are unique - and your browser can reflect that.'),
+101: _(u'Wield the tools to make it yours, for you are unique &mdash; and your browser can reflect that.'),
 # L10n: Question: You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:
 # L10n: Answer: Search Craigslist to see if there's a reward offered.
 # L10n: Image: Pocket Knife - 1755_site_0071.png
@@ -625,7 +625,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:
 # L10n: Answer: Search Craigslist to see if there's a reward offered.
 # L10n: Image: Paintbox - 1755_site_0003.png
-103: _(u'One symbol stands above all others as the authority - wise, unquestionable, and universally fair. Want the truth? Look to The Cookie - The Cookie tells all.'),
+103: _(u'One symbol stands above all others as the authority &mdash; wise, unquestionable, and universally fair. Want the truth? Look to The Cookie &mdash; The Cookie tells all.'),
 # L10n: Question: You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:
 # L10n: Answer: Search Craigslist to see if there's a reward offered.
 # L10n: Image: Disguise Mask - 1755_site_0158.png
@@ -633,7 +633,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:
 # L10n: Answer: Search Craigslist to see if there's a reward offered.
 # L10n: Image: Ninja Star - 1755_site_0162.png
-105: _(u'As easy as clapping on a light, it\'s what you\'ve been waiting for- the one-click bookmark. Don\'t you have enough to do without having to suffer the indignity of multiple clicks? '),
+105: _(u'As easy as clapping on a light, it\'s what you\'ve been waiting for &mdash; the one-click bookmark. Don\'t you have enough to do without having to suffer the indignity of multiple clicks? '),
 # L10n: Question: You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:
 # L10n: Answer: Turn it over to the police.
 # L10n: Image: MP3 Player - 1755_site_0088.png
@@ -645,7 +645,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:
 # L10n: Answer: Live large and party! It's your money now.
 # L10n: Image: Skeleton Key - 1755_site_0159.png
-108: _(u'The Fortune Teller, The Cootie Catcher - an ancient, noble device of truth-seekers. Let fortunes be told forthrightly, with simple honesty guided by blind chance.'),
+108: _(u'The Fortune Teller, The Cootie Catcher &mdash; an ancient, noble device of truth-seekers. Let fortunes be told forthrightly, with simple honesty guided by blind chance.'),
 # L10n: Question: You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:
 # L10n: Answer: Live large and party! It's your money now.
 # L10n: Image: Party Bracelet - 1755_site_0002.png
@@ -653,7 +653,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:
 # L10n: Answer: Live large and party! It's your money now.
 # L10n: Image: Ginko Leaf - 1755_site_0163.png
-110: _(u'Party time? Excellent! You are the breeze that blows through a summer evening with friends new and old. The Cocktail Swordsman - or woman - knows how to parry with these weapons of social mirth.'),
+110: _(u'Party time? Excellent! You are the breeze that blows through a summer evening with friends new and old. The Cocktail Swordsman &mdash; or woman &mdash; knows how to parry with these weapons of social mirth.'),
 # L10n: Question: You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:
 # L10n: Answer: Donate it to your favorite charity.
 # L10n: Image: Fun Putty - 1755_site_0108.png
@@ -661,7 +661,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You find a wallet stuffed with lots of cash, but no ID. After thinking about it you decide to:
 # L10n: Answer: Donate it to your favorite charity.
 # L10n: Image: Wine Cork - 1755_site_0136.png
-112: _(u'You reach into your past and explore the history that made you what you are. The letters, photos and mementos of the past are a mirror - they reflect the hopes and dreams that became today.'),
+112: _(u'You reach into your past and explore the history that made you what you are. The letters, photos and mementos of the past are a mirror &mdash; they reflect the hopes and dreams that became today.'),
 # L10n: Question: You're taking a vacation alone. Your destination:
 # L10n: Answer: Beach resort - I just want to relax and de-stress.
 # L10n: Image: Mixtape - 1755_site_0086.png
@@ -677,7 +677,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You're taking a vacation alone. Your destination:
 # L10n: Answer: A group tour - I don't want to worry about the details.
 # L10n: Image: Toy Top - 1755_site_0016.png
-116: _(u'The cell phone - also called a mobile, for good reason. It represents you, Traveler - free and untethered, yet in touch wherever you may roam.'),
+116: _(u'The cell phone &mdash; also called a mobile, for good reason. It represents you, Traveler &mdash; free and untethered, yet in touch wherever you may roam.'),
 # L10n: Question: You're taking a vacation alone. Your destination:
 # L10n: Answer: A group tour - I don't want to worry about the details.
 # L10n: Image: Binder Clip - 1755_site_0190.png
@@ -685,15 +685,15 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You're taking a vacation alone. Your destination:
 # L10n: Answer: A group tour - I don't want to worry about the details.
 # L10n: Image: Mystic Crystals - 1755_site_0188.png
-118: _(u'The stamp - ubiquitous symbol of communication, of correspondence, which you\'ve earned. If you have these, you most likely checked your email halfway through reading this.'),
+118: _(u'The stamp &mdash; ubiquitous symbol of communication, of correspondence, which you\'ve earned. If you have these, you most likely checked your email halfway through reading this.'),
 # L10n: Question: You're taking a vacation alone. Your destination:
 # L10n: Answer: A group tour - I don't want to worry about the details.
 # L10n: Image: ??? - ???
-119: _(u'The stamp - ubiquitous symbol of communication, of correspondence, which you\'ve earned. If you have these, you most likely checked your email halfway through reading this.'),
+119: _(u'The stamp &mdash; ubiquitous symbol of communication, of correspondence, which you\'ve earned. If you have these, you most likely checked your email halfway through reading this.'),
 # L10n: Question: You're taking a vacation alone. Your destination:
 # L10n: Answer: Wherever the dart lands on the map.
 # L10n: Image: ??? - ???
-120: _(u'You hold The Keys - and indeed, they are your symbol. Master of your domain, you come and go as you please, wherever you please. You have every password memorized, know every PIN by heart.'),
+120: _(u'You hold The Keys &mdash; and indeed, they are your symbol. Master of your domain, you come and go as you please, wherever you please. You have every password memorized, know every PIN by heart.'),
 # L10n: Question: You're taking a vacation alone. Your destination:
 # L10n: Answer: Wherever the dart lands on the map.
 # L10n: Image: ??? - ???
@@ -705,7 +705,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You're taking a vacation alone. Your destination:
 # L10n: Answer: Every country where there's a hostel - I'm backpacking all year.
 # L10n: Image: ??? - ???
-123: _(u'The cell phone - also called a mobile, for good reason. It represents you, Traveler - free and untethered, yet in touch wherever you may roam.'),
+123: _(u'The cell phone &mdash; also called a mobile, for good reason. It represents you, Traveler &mdash; free and untethered, yet in touch wherever you may roam.'),
 # L10n: Question: You're taking a vacation alone. Your destination:
 # L10n: Answer: Every country where there's a hostel - I'm backpacking all year.
 # L10n: Image: ??? - ???
@@ -717,11 +717,11 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You're taking a vacation alone. Your destination:
 # L10n: Answer: Every country where there's a hostel - I'm backpacking all year.
 # L10n: Image: ??? - ???
-126: _(u'You shine brightly, illuminating the Internet ahead with a glow of knowledge and spirit of exploration. That\'s why you have drawn the Flashlight - symbol of the intrepid.'),
+126: _(u'You shine brightly, illuminating the Internet ahead with a glow of knowledge and spirit of exploration. That\'s why you have drawn the Flashlight &mdash; symbol of the intrepid.'),
 # L10n: Question: A car towing a giant trailer signals that they need to merge in ahead of you. Do you:
 # L10n: Answer: Speed up so you won't get stuck behind them.
 # L10n: Image: ??? - ???
-127: _(u'PARTY! You got The Noisemaker! You make life a constant party that rocks the house and wakes up the neighbors - then invites them over. Everybody\'s having fun when you\'re around.'),
+127: _(u'PARTY! You got The Noisemaker! You make life a constant party that rocks the house and wakes up the neighbors &mdash; then invites them over. Everybody\'s having fun when you\'re around.'),
 # L10n: Question: A car towing a giant trailer signals that they need to merge in ahead of you. Do you:
 # L10n: Answer: Speed up so you won't get stuck behind them.
 # L10n: Image: ??? - ???
@@ -737,15 +737,15 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: A car towing a giant trailer signals that they need to merge in ahead of you. Do you:
 # L10n: Answer: Move over to the next lane; let someone else face this dilemma.
 # L10n: Image: ??? - ???
-131: _(u'The adhesive bandage - mark of The Healer. You seek the perfection of the human form, or at least one less headache.'),
+131: _(u'The adhesive bandage &mdash; mark of The Healer. You seek the perfection of the human form, or at least one less headache.'),
 # L10n: Question: A car towing a giant trailer signals that they need to merge in ahead of you. Do you:
 # L10n: Answer: Move over to the next lane; let someone else face this dilemma.
 # L10n: Image: ??? - ???
-132: _(u'What\'s next? you\'re never at a loss to answer that, because you\'ve planned what\'s next. Your organizational skills serve you well, and people count on you to get it done - right and on time.'),
+132: _(u'What\'s next? you\'re never at a loss to answer that, because you\'ve planned what\'s next. Your organizational skills serve you well, and people count on you to get it done &mdash; right and on time.'),
 # L10n: Question: A car towing a giant trailer signals that they need to merge in ahead of you. Do you:
 # L10n: Answer: Slow down and wave them in. You can spare the 10 seconds.
 # L10n: Image: ??? - ???
-133: _(u'Behold, The Memory - life is your field of study. You hunger for new thinking, knowledge and information. You know how get it, and how to hold on to it.'),
+133: _(u'Behold, The Memory &mdash; life is your field of study. You hunger for new thinking, knowledge and information. You know how get it, and how to hold on to it.'),
 # L10n: Question: A car towing a giant trailer signals that they need to merge in ahead of you. Do you:
 # L10n: Answer: Slow down and wave them in. You can spare the 10 seconds.
 # L10n: Image: ??? - ???
@@ -753,7 +753,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: A car towing a giant trailer signals that they need to merge in ahead of you. Do you:
 # L10n: Answer: Slow down and wave them in. You can spare the 10 seconds.
 # L10n: Image: ??? - ???
-135: _(u'You know what\'s next; you have it all written down in your date book -the symbol of The Organizer. You\'re the one we turn to when we are in doubt, for you hold the answers.'),
+135: _(u'You know what\'s next; you have it all written down in your date book &mdash; the symbol of The Organizer. You\'re the one we turn to when we are in doubt, for you hold the answers.'),
 # L10n: Question: A car towing a giant trailer signals that they need to merge in ahead of you. Do you:
 # L10n: Answer: Slowly pass them, wondering how they fit all those turnips in there.
 # L10n: Image: ??? - ???
@@ -765,7 +765,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Frantically look for batteries so you can at least listen to the radio.
 # L10n: Image: ??? - ???
-138: _(u'\"Seriousness is the only refuge of the shallow.\" - Oscar Wilde                                                                                                                                         '),
+138: _(u'\"Seriousness is the only refuge of the shallow.\" &mdash; Oscar Wilde                                                                                                                                         '),
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Frantically look for batteries so you can at least listen to the radio.
 # L10n: Image: ??? - ???
@@ -773,7 +773,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Frantically look for batteries so you can at least listen to the radio.
 # L10n: Image: ??? - ???
-140: _(u'PARTY! You got The Noisemaker! You make life a constant party that rocks the house and wakes up the neighbors - then invites them over. Everybody\'s having fun when you\'re around.'),
+140: _(u'PARTY! You got The Noisemaker! You make life a constant party that rocks the house and wakes up the neighbors &mdash; then invites them over. Everybody\'s having fun when you\'re around.'),
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Frantically look for batteries so you can at least listen to the radio.
 # L10n: Image: ??? - ???
@@ -789,7 +789,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Invite the neighbors over, light a fire, roast some marshmallows and sing camping songs all night.
 # L10n: Image: ??? - ???
-144: _(u'You are bright, optimistic, and careful when making a move - the very embodiment of Strategy. The world before you is as a game board, and you glide gracefully within it, taking and bringing joy.'),
+144: _(u'You are bright, optimistic, and careful when making a move &mdash; the very embodiment of Strategy. The world before you is as a game board, and you glide gracefully within it, taking and bringing joy.'),
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Invite the neighbors over, light a fire, roast some marshmallows and sing camping songs all night.
 # L10n: Image: ??? - ???
@@ -801,7 +801,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Find a friend and play games that don't require electricity. Like chess.
 # L10n: Image: ??? - ???
-147: _(u'Fun and games - they\'re just shy of everything to you. For that mirthful spirit, you are presented the mark of The Domino - symbolizing optimism, playfulness, and slamming things on tables.'),
+147: _(u'Fun and games &mdash; they\'re just shy of everything to you. For that mirthful spirit, you are presented the mark of The Domino &mdash; symbolizing optimism, playfulness, and slamming things on tables.'),
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Find a friend and play games that don't require electricity. Like chess.
 # L10n: Image: ??? - ???
@@ -809,7 +809,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Drive to the next town - oh sweet Wi-Fi, I've found you!
 # L10n: Image: ??? - ???
-149: _(u'Ah, fickle chance. Who knows what a roll of the dice will bring. You live for the unknown - you look fortune straight in the eye and play the numbers she gives you.'),
+149: _(u'Ah, fickle chance. Who knows what a roll of the dice will bring. You live for the unknown &mdash; you look fortune straight in the eye and play the numbers she gives you.'),
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Drive to the next town - oh sweet Wi-Fi, I've found you!
 # L10n: Image: ??? - ???
@@ -821,11 +821,11 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Blackout! You were watching TV, but now you have to find something else to do. You light up some candles, then:
 # L10n: Answer: Drive to the next town - oh sweet Wi-Fi, I've found you!
 # L10n: Image: ??? - ???
-152: _(u'Infallible memory is mine! I can always find that one cool site, for I augment my brain with the bar of awesomeness. It remembers exactly what I did, even when I don’t'),
+152: _(u'Infallible memory is mine! I can always find that one cool site, for I augment my brain with the bar of awesomeness. It remembers exactly what I did, even when I don\'t'),
 # L10n: Question: It's midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?
 # L10n: Answer: Do the Handyman Special - fix the hard drive using doorbell wire, a lighter for soldering, some electrical tape, and tweezers from the hotel makeup kit.
 # L10n: Image: ??? - ???
-153: _(u'You\'re in good company - beloved by visionaries before you, the little notebook says you know how to express yourself and keep it buttoned up at the same time. You know the best experiences deserve a record.'),
+153: _(u'You\'re in good company &mdash; beloved by visionaries before you, the little notebook says you know how to express yourself and keep it buttoned up at the same time. You know the best experiences deserve a record.'),
 # L10n: Question: It's midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?
 # L10n: Answer: Do the Handyman Special - fix the hard drive using doorbell wire, a lighter for soldering, some electrical tape, and tweezers from the hotel makeup kit.
 # L10n: Image: ??? - ???
@@ -841,7 +841,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: It's midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?
 # L10n: Answer: Call the home office and whine to the IT guys.
 # L10n: Image: ??? - ???
-157: _(u'The Lighter - a pocket-sized torch of freedom. It presages your preparedness for whatever crosses your path, be it a camper with a bunch of moist twigs, or some guy with a cigar.'),
+157: _(u'The Lighter &mdash; a pocket-sized torch of freedom. It presages your preparedness for whatever crosses your path, be it a camper with a bunch of moist twigs, or some guy with a cigar.'),
 # L10n: Question: It's midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?
 # L10n: Answer: Call the home office and whine to the IT guys.
 # L10n: Image: ??? - ???
@@ -853,7 +853,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: It's midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?
 # L10n: Answer: Call the home office and whine to the IT guys.
 # L10n: Image: ??? - ???
-160: _(u'The adhesive bandage - mark of The Healer. You seek the perfection of the human form, or at least one less headache.'),
+160: _(u'The adhesive bandage &mdash; mark of The Healer. You seek the perfection of the human form, or at least one less headache.'),
 # L10n: Question: It's midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?
 # L10n: Answer: Call the home office and whine to the IT guys.
 # L10n: Image: ??? - ???
@@ -861,11 +861,11 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: It's midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?
 # L10n: Answer: Find an Internet cafe, use their computer to recreate the presentation.
 # L10n: Image: ??? - ???
-162: _(u'Who are you? A mystery, an enigma, a chameleon that no one really knows. You know what you need to keep private, and what to show the outside world. Your identity is yours alone - wear them proudly, anonymous.'),
+162: _(u'Who are you? A mystery, an enigma, a chameleon that no one really knows. You know what you need to keep private, and what to show the outside world. Your identity is yours alone &mdash; wear them proudly, anonymous.'),
 # L10n: Question: It's midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?
 # L10n: Answer: Find an Internet cafe, use their computer to recreate the presentation.
 # L10n: Image: ??? - ???
-163: _(u'The Pocket Knife - small, versatile, and just a little bit dangerous. It is your symbol because you are resourceful, and sharp, and you know how to fold yourself.'),
+163: _(u'The Pocket Knife &mdash; small, versatile, and just a little bit dangerous. It is your symbol because you are resourceful, and sharp, and you know how to fold yourself.'),
 # L10n: Question: It's midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?
 # L10n: Answer: Find an Internet cafe, use their computer to recreate the presentation.
 # L10n: Image: ??? - ???
@@ -873,7 +873,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: It's midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?
 # L10n: Answer: Find an Internet cafe, use their computer to recreate the presentation.
 # L10n: Image: ??? - ???
-165: _(u'You can hope to ward off evil with a rabbit\'s foot, or you can be more proactive. You\'re the pragmatist - you own your destiny, control your security and know the value of self-defense.'),
+165: _(u'You can hope to ward off evil with a rabbit\'s foot, or you can be more proactive. You\'re the pragmatist &mdash; you own your destiny, control your security and know the value of self-defense.'),
 # L10n: Question: It's midnight. Your hard drive just died. You have an important presentation at 8 am. What now, hot shot?
 # L10n: Answer: Find an Internet cafe, use their computer to recreate the presentation.
 # L10n: Image: ??? - ???
@@ -893,7 +893,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Sneak off to the restroom and tweet every 30 minutes. Colleagues think you have bladder issues.
 # L10n: Image: ??? - ???
-170: _(u'Ah, the Flask - the party is wherever you are, Social Butterfly. You bring it, and you bring it in style. But you also know when to stop. Keep it classy, my sleek silver friend!'),
+170: _(u'Ah, the Flask &mdash; the party is wherever you are, Social Butterfly. You bring it, and you bring it in style. But you also know when to stop. Keep it classy, my sleek silver friend!'),
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Sneak off to the restroom and tweet every 30 minutes. Colleagues think you have bladder issues.
 # L10n: Image: ??? - ???
@@ -901,7 +901,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Sneak off to the restroom and tweet every 30 minutes. Colleagues think you have bladder issues.
 # L10n: Image: ??? - ???
-172: _(u'You can hope to ward off evil with a rabbit\'s foot, or you can be more proactive. You\'re the pragmatist - you own your destiny, control your security and know the value of self-defense.'),
+172: _(u'You can hope to ward off evil with a rabbit\'s foot, or you can be more proactive. You\'re the pragmatist &mdash; you own your destiny, control your security and know the value of self-defense.'),
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Sneak off to the restroom and tweet every 30 minutes. Colleagues think you have bladder issues.
 # L10n: Image: ??? - ???
@@ -909,27 +909,27 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Waiting until your lunch break, then updating your status.
 # L10n: Image: ??? - ???
-174: _(u'Who has the right combination? You do, for you are the Lock Master - in control and buttoned down, you value security but know when to open up and let loose.'),
+174: _(u'Who has the right combination? You do, for you are the Lock Master &mdash; in control and buttoned down, you value security but know when to open up and let loose.'),
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Waiting until your lunch break, then updating your status.
 # L10n: Image: ??? - ???
-175: _(u'Who are you? A mystery, an enigma, a chameleon that no one really knows. You know what you need to keep private, and what to show the outside world. Your identity is yours alone - wear them proudly, anonymous.'),
+175: _(u'Who are you? A mystery, an enigma, a chameleon that no one really knows. You know what you need to keep private, and what to show the outside world. Your identity is yours alone &mdash; wear them proudly, anonymous.'),
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Waiting until your lunch break, then updating your status.
 # L10n: Image: ??? - ???
-176: _(u'The ninja star is not on the final image list - is it included in the collage images? Maybe we should remove?'),
+176: _(u'The ninja star is not on the final image list &mdash; is it included in the collage images? Maybe we should remove?'),
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Checking it at home in the evening - it can wait.
 # L10n: Image: ??? - ???
-177: _(u'You\'re nothing if not a completist, and you like to take it with you. Compact, concise and in control, you are master of your musical domain. Mp3, WMA, FLAC - Rock accordingly.'),
+177: _(u'You\'re nothing if not a completist, and you like to take it with you. Compact, concise and in control, you are master of your musical domain. Mp3, WMA, FLAC &mdash; Rock accordingly.'),
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Checking it at home in the evening - it can wait.
 # L10n: Image: ??? - ???
-178: _(u'You have drawn the Mark of the Connection; Active, strong and reliable - that\'s you. People count on you to keep grounded at all times, even up in the air.'),
+178: _(u'You have drawn the Mark of the Connection; Active, strong and reliable &mdash; that\'s you. People count on you to keep grounded at all times, even up in the air.'),
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Whip out a pen and paper - it's time to go back to letter writing.
 # L10n: Image: ??? - ???
-179: _(u'You have drawn the Mark of the Connection; Active, strong and reliable - that\'s you. People count on you to keep grounded at all times, even up in the air.'),
+179: _(u'You have drawn the Mark of the Connection; Active, strong and reliable &mdash; that\'s you. People count on you to keep grounded at all times, even up in the air.'),
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Whip out a pen and paper - it's time to go back to letter writing.
 # L10n: Image: ??? - ???
@@ -937,107 +937,107 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Your company has a new policy - no social networking at work. You handle the situation by:
 # L10n: Answer: Whip out a pen and paper - it's time to go back to letter writing.
 # L10n: Image: ??? - ???
-181: _(u'You reach into your past and explore the history that made you what you are. The letters, photos and mementos of the past are a mirror - they reflect the hopes and dreams that became today.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+181: _(u'You reach into your past and explore the history that made you what you are. The letters, photos and mementos of the past are a mirror &mdash; they reflect the hopes and dreams that became today.'),
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Simultaneously moving and shaking, as I make momentous financial decisions.
 # L10n: Image: ??? - ???
 182: _(u'The mark of Money represents ability, utility and power. It\'s what people really mean when they say \"resources\" '),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Simultaneously moving and shaking, as I make momentous financial decisions.
 # L10n: Image: ??? - ???
-183: _(u'The mark of the professional - you\'ve defined yourself in the business world, and earned a fancy title for your efforts.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+183: _(u'The mark of the professional &mdash; you\'ve defined yourself in the business world, and earned a fancy title for your efforts.'),
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Simultaneously moving and shaking, as I make momentous financial decisions.
 # L10n: Image: ??? - ???
 184: _(u'You define your own treasures, and know their value lies deep in your heart. Either that or you look it up online.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Simultaneously moving and shaking, as I make momentous financial decisions.
 # L10n: Image: ??? - ???
 185: _(u'Oh Master of the Keys, only you have the password to the deepest dungeons of my online existence. Let\'s keep it that way.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Delving into the vast array of knowledge, news, facts and figures, and even fictions that comprise the Internet's news structure.
 # L10n: Image: ??? - ???
 186: _(u'Ah, the quest for knowledge, the search for truth! To you life is a never-ending lesson, and you learn more and more each day. Or maybe you just do the crossword.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Delving into the vast array of knowledge, news, facts and figures, and even fictions that comprise the Internet's news structure.
 # L10n: Image: ??? - ???
 187: _(u'You are The Reader. Your forte is seeking knowledge and delving into ideas, be they academic, scientific, or teenage vampire love stories.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Delving into the vast array of knowledge, news, facts and figures, and even fictions that comprise the Internet's news structure.
 # L10n: Image: ??? - ???
 188: _(u'Endowed with imaginative powers lesser folks can\'t even comprehend. You tower above your peers. Chances are you have X-ray vision, super strength and an impressive collection of leggings'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Delving into the vast array of knowledge, news, facts and figures, and even fictions that comprise the Internet's news structure.
 # L10n: Image: ??? - ???
-189: _(u'As easy as clapping on a light, it\'s what you\'ve been waiting for- the one-click bookmark. Don\'t you have enough to do without having to suffer the indignity of multiple clicks? '),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+189: _(u'As easy as clapping on a light, it\'s what you\'ve been waiting for &mdash; the one-click bookmark. Don\'t you have enough to do without having to suffer the indignity of multiple clicks? '),
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Delving into the vast array of knowledge, news, facts and figures, and even fictions that comprise the Internet's news structure.
 # L10n: Image: ??? - ???
-190: _(u'Infallible memory is mine! I can always find that one cool site, for I augment my brain with the bar of awesomeness. It remembers exactly what I did, even when I don’t.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+190: _(u'Infallible memory is mine! I can always find that one cool site, for I augment my brain with the bar of awesomeness. It remembers exactly what I did, even when I don\'t.'),
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Making dates, planning parties, keeping in touch with buddies and finding far-flung friends from the past.
 # L10n: Image: ??? - ???
-191: _(u'You know what\'s next; you have it all written down in your date book -the symbol of The Organizer. You\'re the one we turn to when we are in doubt, for you hold the answers.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+191: _(u'You know what\'s next; you have it all written down in your date book &mdash; the symbol of The Organizer. You\'re the one we turn to when we are in doubt, for you hold the answers.'),
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Making dates, planning parties, keeping in touch with buddies and finding far-flung friends from the past.
 # L10n: Image: ??? - ???
-192: _(u'PARTY! You got The Noisemaker! You make life a constant party that rocks the house and wakes up the neighbors - then invites them over. Everybody\'s having fun when you\'re around.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+192: _(u'PARTY! You got The Noisemaker! You make life a constant party that rocks the house and wakes up the neighbors &mdash; then invites them over. Everybody\'s having fun when you\'re around.'),
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Making dates, planning parties, keeping in touch with buddies and finding far-flung friends from the past.
 # L10n: Image: ??? - ???
-193: _(u'The cell phone - also called a mobile, for good reason. It represents you, Traveler - free and untethered, yet in touch wherever you may roam.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+193: _(u'The cell phone &mdash; also called a mobile, for good reason. It represents you, Traveler &mdash; free and untethered, yet in touch wherever you may roam.'),
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Making dates, planning parties, keeping in touch with buddies and finding far-flung friends from the past.
 # L10n: Image: ??? - ???
 194: _(u'The cast-off talisman of a party shaman! You possess the strength and tenacity to turn the beat around, and you\'ve seen more sunrises from the wrong side of awake than any mere mortal.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Making dates, planning parties, keeping in touch with buddies and finding far-flung friends from the past.
 # L10n: Image: ??? - ???
 195: _(u'All is not lost! You can get back to where you once belonged, just by invoking the magical powers of Session Restore.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Doing it all for the children - a whole world of resources out there that enrich my kids' lives
 # L10n: Image: ??? - ???
 196: _(u'From wee tot or a genuine grown-up, building blocks captivate our imagination. To you a simple block is the first step towards works of beauty and grace. Also, you like toys.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Doing it all for the children - a whole world of resources out there that enrich my kids' lives
 # L10n: Image: ??? - ???
 197: _(u'Are these the ones that eat eucalyptus, or bamboo? Well, they\'re cute either way.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Doing it all for the children - a whole world of resources out there that enrich my kids' lives
 # L10n: Image: ??? - ???
 198: _(u'You believe the children are our future, and you want to raise them right. So you give them something to chew on , and something to think about.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Doing it all for the children - a whole world of resources out there that enrich my kids' lives
 # L10n: Image: ??? - ???
 199: _(u'The digital realm is your raw material, and you shape it into the wondrous things your mind\'s eye sees. (That\'s just about the most pretentious description of putty we could come up with.)'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Doing it all for the children - a whole world of resources out there that enrich my kids' lives
 # L10n: Image: ??? - ???
-200: _(u'Go ahead and open up all the tabs you want- there\'s never a last call for browsing.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+200: _(u'Go ahead and open up all the tabs you want &mdash; there\'s never a last call for browsing.'),
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Making art, both analog and digital, and sharing it with the world.
 # L10n: Image: ??? - ???
 201: _(u'The tool of the Artist; the world as your canvas. You see things not as they are, but as they could be, if you had a brush and a small cup of water.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Making art, both analog and digital, and sharing it with the world.
 # L10n: Image: ??? - ???
 202: _(u'The symbol of unpretentious creativity and art. You are almost certainly imbued with a child-like curiosity and an unfettered imagination, enjoy self expression and bright colors. You are child-like, or may actually be a child.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Making art, both analog and digital, and sharing it with the world.
 # L10n: Image: ??? - ???
 203: _(u'Entire worlds can be captured within a little sketchbook, worlds both real and imagined. You use many different tools to communicate your vision, Traveler.'),
-# L10n: Question: The Internet is what you make of it - from serious business to rapping grannies.  You make it yours by:
+# L10n: Question: The Web is what you make of it. You make it yours by:
 # L10n: Answer: Making art, both analog and digital, and sharing it with the world.
 # L10n: Image: ??? - ???
 204: _(u'Who are you, really? that\'s something you can decide, and decide again, and again. Create a persona for each world you live in. Just don\'t get confused, or they\'ll make a movie about you.'),
 # L10n: Question: Online, you can be the life of the party or a virtual wallflower. How social is your network?
 # L10n: Answer: I'll log in to look up old high school friends or play some games, but I'd rather pick up the phone for a chat.
 # L10n: Image: ??? - ???
-205: _(u'The cell phone - also called a mobile, for good reason. It represents you, Traveler - free and untethered, yet in touch wherever you may roam.'),
+205: _(u'The cell phone &mdash; also called a mobile, for good reason. It represents you, Traveler &mdash; free and untethered, yet in touch wherever you may roam.'),
 # L10n: Question: Online, you can be the life of the party or a virtual wallflower. How social is your network?
 # L10n: Answer: I'll log in to look up old high school friends or play some games, but I'd rather pick up the phone for a chat.
 # L10n: Image: ??? - ???
-206: _(u'Fun and games - they\'re just shy of everything to you. For that mirthful spirit, you are presented the mark of The Domino - symbolizing optimism, playfulness, and slamming things on tables.'),
+206: _(u'Fun and games &mdash; they\'re just shy of everything to you. For that mirthful spirit, you are presented the mark of The Domino &mdash; symbolizing optimism, playfulness, and slamming things on tables.'),
 # L10n: Question: Online, you can be the life of the party or a virtual wallflower. How social is your network?
 # L10n: Answer: I'll log in to look up old high school friends or play some games, but I'd rather pick up the phone for a chat.
 # L10n: Image: ??? - ???
@@ -1053,7 +1053,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Online, you can be the life of the party or a virtual wallflower. How social is your network?
 # L10n: Answer: With as many friends as I've got, keeping in touch is easier online than in real life.
 # L10n: Image: ??? - ???
-210: _(u'The Friendship Pin - an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker).'),
+210: _(u'The Friendship Pin &mdash; an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker).'),
 # L10n: Question: Online, you can be the life of the party or a virtual wallflower. How social is your network?
 # L10n: Answer: With as many friends as I've got, keeping in touch is easier online than in real life.
 # L10n: Image: ??? - ???
@@ -1069,15 +1069,15 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: Online, you can be the life of the party or a virtual wallflower. How social is your network?
 # L10n: Answer: I'm mayor of my own life - it would grind to a halt without the constant updates, tweets and check-ins.
 # L10n: Image: ??? - ???
-214: _(u'Mystery, science, adventure - these aspects of your character are embodied in your symbol - The Gyroscope. You have the unique ability to remain calm and steady as the world spins around you. Maybe you even know how to pirouette.'),
+214: _(u'Mystery, science, adventure &mdash; these aspects of your character are embodied in your symbol &mdash; The Gyroscope. You have the unique ability to remain calm and steady as the world spins around you. Maybe you even know how to pirouette.'),
 # L10n: Question: Online, you can be the life of the party or a virtual wallflower. How social is your network?
 # L10n: Answer: I'm mayor of my own life - it would grind to a halt without the constant updates, tweets and check-ins.
 # L10n: Image: ??? - ???
-215: _(u'It\'s just a matter of time - to you that\'s not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine.'),
+215: _(u'It\'s just a matter of time &mdash; to you that\'s not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine.'),
 # L10n: Question: Online, you can be the life of the party or a virtual wallflower. How social is your network?
 # L10n: Answer: I'm mayor of my own life - it would grind to a halt without the constant updates, tweets and check-ins.
 # L10n: Image: ??? - ???
-216: _(u'It\'s just a matter of time - to you that\'s not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine.'),
+216: _(u'It\'s just a matter of time &mdash; to you that\'s not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine.'),
 # L10n: Question: Online, you can be the life of the party or a virtual wallflower. How social is your network?
 # L10n: Answer: I'm mayor of my own life - it would grind to a halt without the constant updates, tweets and check-ins.
 # L10n: Image: ??? - ???
@@ -1101,11 +1101,11 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: It's a perfect Spring day - birds are chirping, sun is shining, and you are:
 # L10n: Answer: Out in the park! I might check my bank account on my phone, but the Internet is the last thing on my mind.
 # L10n: Image: ??? - ???
-222: _(u'You have drawn the Mark of the Connection; Active, strong and reliable - that\'s you. People count on you to keep grounded at all times, even up in the air.'),
+222: _(u'You have drawn the Mark of the Connection; Active, strong and reliable &mdash; that\'s you. People count on you to keep grounded at all times, even up in the air.'),
 # L10n: Question: It's a perfect Spring day - birds are chirping, sun is shining, and you are:
 # L10n: Answer: Out in the park! I might check my bank account on my phone, but the Internet is the last thing on my mind.
 # L10n: Image: ??? - ???
-223: _(u'Energy, nutrition, health - those are the things you value. It\'s good that you also like chocolate, otherwise you\'d be too boring to be anointed with the EnergyBar - a sophisticated melange of sporting intentions wrapped in a candy-like execution.'),
+223: _(u'Energy, nutrition, health &mdash; those are the things you value. It\'s good that you also like chocolate, otherwise you\'d be too boring to be anointed with the EnergyBar &mdash; a sophisticated melange of sporting intentions wrapped in a candy-like execution.'),
 # L10n: Question: It's a perfect Spring day - birds are chirping, sun is shining, and you are:
 # L10n: Answer: At a ballgame! Talking sports with my friends, both at the game and online.
 # L10n: Image: ??? - ???
@@ -1117,7 +1117,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: It's a perfect Spring day - birds are chirping, sun is shining, and you are:
 # L10n: Answer: At home, posting the weather on Facebook while checking movie times for later, reading reviews, watching trailers... when does the sun go down again? Let me check on the Internet!
 # L10n: Image: ??? - ???
-226: _(u'You shine brightly, illuminating the Internet ahead with a glow of knowledge and spirit of exploration. That\'s why you have drawn the Flashlight - symbol of the intrepid.'),
+226: _(u'You shine brightly, illuminating the Internet ahead with a glow of knowledge and spirit of exploration. That\'s why you have drawn the Flashlight &mdash; symbol of the intrepid.'),
 # L10n: Question: It's a perfect Spring day - birds are chirping, sun is shining, and you are:
 # L10n: Answer: At home, posting the weather on Facebook while checking movie times for later, reading reviews, watching trailers... when does the sun go down again? Let me check on the Internet!
 # L10n: Image: ??? - ???
@@ -1141,7 +1141,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You and the Internet are dating. How would you describe the relationship?
 # L10n: Answer: Casual Encounter. We meet up here and there for a good time or a laugh, but no sleepovers - I'm an independent person.
 # L10n: Image: ??? - ???
-232: _(u'You\'re a social vector - verily, you are goal-oriented, outgoing and bold. At last, you\'ve collected that number, and you\'re gonna use it.'),
+232: _(u'You\'re a social vector &mdash; verily, you are goal-oriented, outgoing and bold. At last, you\'ve collected that number, and you\'re gonna use it.'),
 # L10n: Question: You and the Internet are dating. How would you describe the relationship?
 # L10n: Answer: Casual Encounter. We meet up here and there for a good time or a laugh, but no sleepovers - I'm an independent person.
 # L10n: Image: ??? - ???
@@ -1149,7 +1149,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You and the Internet are dating. How would you describe the relationship?
 # L10n: Answer: Casual Encounter. We meet up here and there for a good time or a laugh, but no sleepovers - I'm an independent person.
 # L10n: Image: ??? - ???
-234: _(u'The Friendship Pin - an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker).'),
+234: _(u'The Friendship Pin &mdash; an unbreakable bond between you and your BFF. It shows you are loyal, willing to wear your love on your sleeve (or sneaker).'),
 # L10n: Question: You and the Internet are dating. How would you describe the relationship?
 # L10n: Answer: Going steady. I can take a day or two on my own, but usually we're together, shopping or goofing around.
 # L10n: Image: ??? - ???
@@ -1157,15 +1157,15 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: You and the Internet are dating. How would you describe the relationship?
 # L10n: Answer: Long-term Relationship. The Internet is my soul-mate, the only one who really gets me, who doesn't laugh at my cats-on-their-backs photo obsession.
 # L10n: Image: ??? - ???
-236: _(u'A connector! Binding together your tasks, your to-dos, your dreams and your desires. Connectors are useful things - hang on to it.'),
+236: _(u'A connector! Binding together your tasks, your to-dos, your dreams and your desires. Connectors are useful things &mdash; hang on to it.'),
 # L10n: Question: You and the Internet are dating. How would you describe the relationship?
 # L10n: Answer: Long-term Relationship. The Internet is my soul-mate, the only one who really gets me, who doesn't laugh at my cats-on-their-backs photo obsession.
 # L10n: Image: ??? - ???
-237: _(u'You have drawn the Mark of the Connection; Active, strong and reliable - that\'s you. People count on you to keep grounded at all times, even up in the air.'),
+237: _(u'You have drawn the Mark of the Connection; Active, strong and reliable &mdash; that\'s you. People count on you to keep grounded at all times, even up in the air.'),
 # L10n: Question: You and the Internet are dating. How would you describe the relationship?
 # L10n: Answer: It's an addiction - I'm taking classes to ease my co-dependency. Online classes.
 # L10n: Image: ??? - ???
-238: _(u'Behold, The Memory - life is your field of study. You hunger for new thinking, knowledge and information. You know how get it, and how to hold on to it.'),
+238: _(u'Behold, The Memory &mdash; life is your field of study. You hunger for new thinking, knowledge and information. You know how get it, and how to hold on to it.'),
 # L10n: Question: We all like to connect to this great big thing we call the Internet. Where do you do it, and how?
 # L10n: Answer: Tethered to my desk, at work and at home.
 # L10n: Image: ??? - ???
@@ -1177,7 +1177,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: We all like to connect to this great big thing we call the Internet. Where do you do it, and how?
 # L10n: Answer: Tethered to my desk, at work and at home.
 # L10n: Image: ??? - ???
-241: _(u'The cell phone - also called a mobile, for good reason. It represents you, Traveler - free and untethered, yet in touch wherever you may roam.'),
+241: _(u'The cell phone &mdash; also called a mobile, for good reason. It represents you, Traveler &mdash; free and untethered, yet in touch wherever you may roam.'),
 # L10n: Question: We all like to connect to this great big thing we call the Internet. Where do you do it, and how?
 # L10n: Answer: I enjoy a balanced Internet diet - some desktop, some mobile.
 # L10n: Image: ??? - ???
@@ -1197,7 +1197,7 @@ ANSWERS_BY_IMAGE = {
 # L10n: Question: We all like to connect to this great big thing we call the Internet. Where do you do it, and how?
 # L10n: Answer: I'm an active sort, so mostly mobile, with a sprinkling of desktop when I need a rest.
 # L10n: Image: ??? - ???
-246: _(u'You have drawn the Mark of the Connection; Active, strong and reliable - that\'s you. People count on you to keep grounded at all times, even up in the air.'),
+246: _(u'You have drawn the Mark of the Connection; Active, strong and reliable &mdash; that\'s you. People count on you to keep grounded at all times, even up in the air.'),
 # L10n: Question: We all like to connect to this great big thing we call the Internet. Where do you do it, and how?
 # L10n: Answer: I'm an active sort, so mostly mobile, with a sprinkling of desktop when I need a rest.
 # L10n: Image: ??? - ???
