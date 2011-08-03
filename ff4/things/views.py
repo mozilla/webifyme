@@ -120,7 +120,8 @@ def collage(request, slug='0'):
         if not coord['img']:
             continue
         coord['name'] = force_unicode(IMAGES[coord['img']])
-        coord['description'] = force_unicode(ANSWERS_BY_IMAGE[coord['id']])
+        if coord['img'] in ANSWERS_BY_IMAGE:
+	        coord['description'] = force_unicode(ANSWERS_BY_IMAGE[coord['img']])
 
     current_site = settings.CURRENT_SITE
     site_url = current_site
