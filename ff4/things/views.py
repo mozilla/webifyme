@@ -114,6 +114,9 @@ def collage(request, slug='0'):
     except Collage.DoesNotExist:    # if there isn't one
         raise Http404               # throw a 404 for now, this'll be a rare problem
 
+    if not collage.images_coords:
+        raise Http404
+
     # Need to expand the image coordinates data to include descriptions
     coords_json = json.loads(collage.images_coords)
     for coord in coords_json["objects"]:
@@ -121,7 +124,7 @@ def collage(request, slug='0'):
             continue
         coord['name'] = force_unicode(IMAGES[coord['img']])
         if coord['img'] in ANSWERS_BY_IMAGE:
-	        coord['description'] = force_unicode(ANSWERS_BY_IMAGE[coord['img']])
+            coord['description'] = force_unicode(ANSWERS_BY_IMAGE[coord['img']])
 
     current_site = settings.CURRENT_SITE
     site_url = current_site
