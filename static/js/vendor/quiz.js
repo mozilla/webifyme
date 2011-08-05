@@ -17,6 +17,7 @@ things.Quiz = function() {
   var qIdx = 0;
   var showingForm = false;
   var skipCounter = 0;
+  var answeredCount = 0;
   var animating = false;
   var imagePath = '/static/objects/medium/';
   var progressImages = [];
@@ -32,6 +33,7 @@ things.Quiz = function() {
     answers[questions[qIdx]['id']] = answer['id'];
     changeQuestion(qIdx + 1);
     revealImage(qIdx);
+    answeredCount++;
     
     return false;
   }
@@ -146,7 +148,7 @@ things.Quiz = function() {
     skipBtn.text( $._( 'msg-skip' ) );
     questionEl.fadeIn(ANIMATE_TIME);
     moveProgressBar();
-    if(qIdx == 10 && skipCounter < 10) {
+    if(answeredCount > 9) {
         skipRestBtn.fadeIn(ANIMATE_TIME);
     }
     if(qIdx == 1) {
