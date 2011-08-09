@@ -214,7 +214,7 @@ def ANSWERS():
 
 ANSWERS_BY_IMAGE = { # not able to list questions here because there are instances of the same answer for multiple questions
 
-'1755_site_0002.png': _(u'The cast-off talisman of a party shaman! You posses the strength and tenacity to turn the beat around, and you\'ve seen more sunrises from the wrong side of awake than any mere mortal.'),
+'1755_site_0002.png': _(u'The cast-off talisman of a party shaman! You possess the strength and tenacity to turn the beat around, and you\'ve seen more sunrises from the wrong side of awake than any mere mortal.'),
 '1755_site_0003.png': _(u'A symbol of risk and reward! You\'re no stranger to chance, to taking a walk on the 20-sided dark side. In the game of life, you\'re +10 Geekiness.'),
 '1755_site_0004.png': _(u'The adhesive bandage – mark of The Healer. You seek the perfection of the human form, or at least one less headache.'),
 '1755_site_0005.png': _(u'The mark of perseverance and tireless effort. You just keep going and going; nothing tires you out and you seem to never run out of juice.'),
@@ -314,7 +314,7 @@ ANSWERS_BY_IMAGE = { # not able to list questions here because there are instanc
 '1755_site_0161.png': _(u'Eat my dust! I\'m bumping up my browsing into hyperdrive and leaving lesser browsers  behind..'),
 '1755_site_0162.png': _(u'Text coming...'),
 '1755_site_0163.png': _(u'All is not lost! You can get back to where you once belonged, just by invoking the magical powers of Session Restore. '),
-'1755_site_0164.png': _(u'As easy as clapping on a light, it\'s what you\'ve been waiting for- the one-click bookmark. Don\'t you have enough to do without having to suffer the indignity of multiple clicks? '),
+'1755_site_0164.png': _(u'As easy as clapping on a light, it\'s what you\'ve been waiting for – the one-click bookmark. Don\'t you have enough to do without having to suffer the indignity of multiple clicks? '),
 '1755_site_0165.png': _(u'Wield the tools to make it yours, for you are unique – and your browser can reflect that.'),
 '1755_site_0166.png': _(u'Go ahead and open up all the tabs you want – there\'s never a last call for browsing.'),
 '1755_site_0167.png': _(u'Who are you, really? that\'s something you can decide, and decide again, and again. Create a persona for each world you live in. Just don\'t get confused,  or they\'ll make a movie about you.'),
