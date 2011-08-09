@@ -37,6 +37,9 @@ USE_I18N = True
 # calendars according to the current locale
 USE_L10N = True
 
+# Gettext text domain
+TEXT_DOMAIN = 'django'
+
 DBGETTEXT_PATH = PROJECT_PATH + '/locale'
 
 # Tells the extract script what files to look for l10n in and what function
@@ -47,6 +50,8 @@ DOMAIN_METHODS = {
         # Normally, apps would be in apps/ and templates in templates/.
         # Not so here.
         ('things/**.py',
+            'tower.management.commands.extract.extract_tower_python'),
+        ('utils/**.py',
             'tower.management.commands.extract.extract_tower_python'),
         ('templates/**.html',
             'lib.shoehorn_l10n.tower_blocktrans.extract_django_template'),
