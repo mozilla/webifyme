@@ -89,7 +89,7 @@ def get_browser_object(user_agent_string):
         },
         'safari': {
             'name': 'Toy Compass',
-            'tooltip': _(u'Hi Safari user! We’re glad you came by to check out what’s new in Firefox - give the snappier browser a shot, you’ll like life in the fast lane. Until then, please accept this compass, you Internet Magellan.'),
+            'tooltip': _(u'Hi Safari user! We’re glad you came by to check out what’s new in Firefox &mdash; give the snappier browser a shot, you’ll like life in the fast lane. Until then, please accept this compass, you Internet Magellan.'),
             'file_name': '1755_site_0170.png'
         },
         'chrome': {
@@ -172,7 +172,7 @@ def get_country_object(country_code):
         },
         'br': {
             'name': 'Figa',
-            'tooltip': _(u'A powerful gift that brings good fortune - that’s exactly what we hope to bring to you.'),
+            'tooltip': _(u'A powerful gift that brings good fortune &mdash; that’s exactly what we hope to bring to you.'),
             'file_name': '1755_site_0140.png'
         },
         'de': {
@@ -182,7 +182,7 @@ def get_country_object(country_code):
         },
         'es': {
             'name': 'The Bull',
-            'tooltip': _(u'There’s a reason they say “strong like ox” - it’s the symbol of pure, unrelenting power.'),
+            'tooltip': _(u'There’s a reason they say “strong like ox” &mdash; it’s the symbol of pure, unrelenting power.'),
             'file_name': '1755_site_0142.png'
         },
         'fr': {
@@ -202,7 +202,7 @@ def get_country_object(country_code):
         },
         'it': {
             'name': 'Corno Gobbo',
-            'tooltip': _(u'A powerful lucky charm that covers all the angles - rub his hump for good luck!'),
+            'tooltip': _(u'A powerful lucky charm that covers all the angles &mdash; rub his hump for good luck!'),
             'file_name': '1755_site_0146.png'
         },
         'cn': {
