@@ -182,7 +182,7 @@ h3 {
 #header .nav {
   list-style-type: none;
   width:           716px;
-  margin:          10px auto;
+  margin:          10px auto 10px 150px;
 }
 
 #header .nav li {
