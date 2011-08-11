@@ -235,11 +235,9 @@ def quiz_json():
     questions = []
     for question in QuizQuestion.objects.select_related('quizanswer_set').all():
         lang_specific_question = _(force_unicode(QUESTIONS()[question.pk]))
-        quest_left = 1,
         data = {
             'id': question.id,
             # L10n: {0} is the number of questions remaining in the quiz
-            'progress': ngettext('{0} more to go', '{0} more to go', quest_left),
             'question': lang_specific_question,
             'answers': []
         }
