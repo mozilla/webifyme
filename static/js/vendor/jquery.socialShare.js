@@ -33,7 +33,7 @@
 		cfg: {
 			'$link': null,
 			'share_url': 'http://twitter.com/share',
-			'share_title': 'Share on Twitter',
+			'share_title': 'Share',
 			'share_params': {},
 			'popupWidth': 550,
 			'popupHeight': 450
