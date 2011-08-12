@@ -317,7 +317,7 @@ ANSWERS_BY_IMAGE = { # not able to list questions here because there are instanc
 '1755_site_0164.png': _(u'As easy as clapping on a light, it\'s what you\'ve been waiting for &mdash; the one-click bookmark. Don\'t you have enough to do without having to suffer the indignity of multiple clicks? '),
 '1755_site_0165.png': _(u'Wield the tools to make it yours, for you are unique &mdash; and your browser can reflect that.'),
 '1755_site_0166.png': _(u'Go ahead and open up all the tabs you want &mdash; there\'s never a last call for browsing.'),
-'1755_site_0167.png': _(u'Who are you, really? that\'s something you can decide, and decide again, and again. Create a persona for each world you live in. Just don\'t get confused,  or they\'ll make a movie about you.'),
+'1755_site_0167.png': _(u'Who are you, really? That\'s something you can decide, and decide again, and again. Create a persona for each world you live in. Just don\'t get confused,  or they\'ll make a movie about you.'),
 '1755_site_0179.png': _(u'You define your own treasures, and know their value lies deep in your heart. Either that or you look it up online.'),
 '1755_site_0180.png': _(u'Your body is a temple, and you\'re its master. You wield all the tools you need to keep it going, and aren\'t afraid of a little research. '),
 '1755_site_0182.png': _(u'Sometimes the greatest in puzzles in life are solved in a few simple twists. We think you should turn your main finger topwise.'),

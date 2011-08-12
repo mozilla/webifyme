@@ -12,7 +12,7 @@ def get_community_object(referral_domain):
         },
         'reddit': {
             'name': 'Reddit Button',
-            'tooltip': _(u'Change is happening, and you  can be part of it right now .'),
+            'tooltip': _(u'Change is happening, and you can be part of it right now.'),
             'file_name': '1755_site_0150.png'
         },
         'stumbleupon': {
@@ -136,7 +136,7 @@ def get_easter_egg(email_address):
         },
         'microsoft.com': {
             'name': 'Paper Clippy',
-            'tooltip': _(u'It’s looks like you’re taking an Internet Quiz. Do you need help with that?'),
+            'tooltip': _(u'It looks like you’re taking an Internet Quiz. Do you need help with that?'),
             'file_name': '1755_site_0175.png'
         },
         'apple.com': {
