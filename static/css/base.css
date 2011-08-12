@@ -1090,7 +1090,7 @@ font-family: "klavika-web-1","klavika-web-2";
 .form  .text label {
   float: left;
   z-index: 1;
-  width: 75px;
+  width: 240px;
   padding-top: 5px;
   position: relative;
 }
