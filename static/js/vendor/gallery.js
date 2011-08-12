@@ -74,8 +74,10 @@
 			'loadNavigation': function( href ) {
 				// reference to the original href for passing to the loadPage function
 				var oHref = href;
-				// reload the navigation
-				$( '.pagination' ).load( href, $.webifyme.gallery.fn.setupLinks );
+				// reload the navigation - but only if its not featured
+                if(!$.webifyme.gallery.cfg.featuredOnly){
+                    $( '.pagination' ).load( href, $.webifyme.gallery.fn.setupLinks );
+                }
 				// reload the page
 				if($.webifyme.gallery.cfg.featuredOnly) {
 					$.webifyme.gallery.fn.loadPage( oHref.slice(0, oHref.length - 8)+ '1/featured' );
