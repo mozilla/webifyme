@@ -197,7 +197,7 @@ def get_country_object(country_code):
         },
         'ru': {
             'name': 'Matryoshka Doll',
-            'tooltip': _(u'A fitting symbol for both Russia and the Internet,the Matryoshka is beloved by young and old alike and tourists are pretty hot for it too.'),
+            'tooltip': _(u'A fitting symbol for both Russia and the Internet, the Matryoshka is beloved by young and old alike and tourists are pretty hot for it too.'),
             'file_name': '1755_site_0145.png'
         },
         'it': {

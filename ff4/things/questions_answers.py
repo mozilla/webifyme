@@ -378,7 +378,7 @@ ANSWERS_BY_IMAGE = { # not able to list questions here because there are instanc
 '1755_site_0039.png': _(u'The mark of Money represents ability, utility and power. It\'s what people really  mean when they say \'resources\''),
 '1755_site_0129.png': _(u'Take part, or take your seat. Political activism rewards those who participate and do something. You use the Internet as both to listen and to shout &mdash; and the world is better for it.'),
 '1755_site_0149.png': _(u'Now this is trending. Can you Digg it? I knew you could.'),
-'1755_site_0150.png': _(u'Change is happening, and you  can be part of it right now.'),
+'1755_site_0150.png': _(u'Change is happening, and you can be part of it right now.'),
 '1755_site_0151.png': _(u'Oh hey, look at that. This internet really is a vast, all-encompassing thing where anything is possible, isn\'t it?'),
 '1755_site_0152.png': _(u'You \'Like\' us, you really, really \'Like\' us! (Hey, we like you, too.) Thank you for being a friend.'),
 '1755_site_0153.png': _(u'140 characters isn\'t enough to say how glad we are to count you among our followers. We think of you more as a \'walk-besider.\''),
@@ -397,7 +397,7 @@ ANSWERS_BY_IMAGE = { # not able to list questions here because there are instanc
 '1755_site_0197.png': _(u'Hey Mozilla user, welcome home! We appreciate your dedication to keeping the web open for all.'),
 '1755_site_0173.png': _(u'Heeey Barbarian. It’s gonna be awesome&trade;!'),
 '1755_site_0174.png': _(u'We think “don’t be evil” is about the best advice we’ve ever heard.'),
-'1755_site_0175.png': _(u'It’s looks like you’re taking an Internet Quiz. Do you need help with that?'),
+'1755_site_0175.png': _(u'It looks like you’re taking an Internet Quiz. Do you need help with that?'),
 '1755_site_0176.png': _(u'May this Apple never tarnish. Nice of you to come visit.'),
 '1755_site_0177.png': _(u'This is like a nerd Rorschach test. You KNOW what’s in the box.')
 
