@@ -51,7 +51,7 @@ DOMAIN_METHODS = {
         # Not so here.
         ('things/**.py',
             'tower.management.commands.extract.extract_tower_python'),
-        ('utils/**.py',
+        ('utils/bonus_objects.py',
             'tower.management.commands.extract.extract_tower_python'),
         ('templates/**.html',
             'lib.shoehorn_l10n.tower_blocktrans.extract_django_template'),
