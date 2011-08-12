@@ -89,7 +89,6 @@ KNOWN_LANGUAGES_PROD = (
     'de',
     'es',
     'fr',
-    'pl',
 )
 
 # Accepted locales.  One of: KNOWN_LANGUAGES_DEV, KNOWN_LANGUAGES_PRODF
