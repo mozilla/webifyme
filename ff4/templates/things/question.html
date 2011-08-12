@@ -18,7 +18,7 @@
 	</ol>
 	<span id="msg-name-required-error">{{ _('Title required, may only use up to 50 alphanumeric characters.') }}</span>
 	<span id="msg-email-required-error">{{ _('Valid email required.') }}</span>
-	<span id="msg-privacy-policy-required-error">{{ _( 'I agree to Mozilla\'s use of my email address as described in the <a href="{0}">Privacy Policy</a>' ).format('http://www.mozilla.com/privacy-policy') }}</span>
+	<span id="msg-privacy-policy-required-error">{{ _( 'I agree to Mozilla\'s use of my email address as described in the <a target="_blank" href="{0}">Privacy Policy</a>' ).format('http://www.mozilla.com/privacy-policy') }}</span>
 	<span id="msg-question">{{ _('Question') }}</span>
 	<span id="msg-skip">{{ _('Skip') }}</span>
 	<ol id="msg-more-to-go">{# L10n: 0 is the number of questions remaining #}
@@ -72,7 +72,7 @@
 							</div>
 							<div class="input">
 								<input type="checkbox" name="download_reminder" id="download-reminder-field" />{# L10n: {0} is the url to the privacy policy #}
-								<label for="download-reminder-field">{{ _('I agree to Mozilla\'s use of my email address as described in the <a href="{0}">Privacy Policy</a>').format('http://www.mozilla.com/privacy-policy') }}</label>
+								<label for="download-reminder-field">{{ _('I agree to Mozilla\'s use of my email address as described in the <a target="_blank" href="{0}">Privacy Policy</a>').format('http://www.mozilla.com/privacy-policy') }}</label>
 								<br class="clr" />
 							</div>
 							<div class="input">
