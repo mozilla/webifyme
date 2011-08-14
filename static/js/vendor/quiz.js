@@ -109,7 +109,10 @@ things.Quiz = function() {
   
   function moveProgressBar() {
     var progressWidth = Math.floor(qIdx/questionCount * 100);
-    $('#question-container .progress').animate({'width':progressWidth+'%'}, ANIMATE_TIME);
+    try{
+        $('#question-container .progress').animate({'width':progressWidth+'%'}, ANIMATE_TIME);
+    }
+    catch(e) { return } 
     if(skipCounter < 10) {
       if(qIdx < 15) {
         $('#question-container .progress .label span').text( $._( 'msg-more-to-go', questionCount - qIdx ) );
