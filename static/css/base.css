@@ -1328,9 +1328,10 @@ font-family: "klavika-web-1","klavika-web-2";
 }
 
 .collage #collage-canvas .sticky p {
-    font-family: "skolar-1","skolar-2";
-    line-height: 1.2em;
-    font-size: 17px;
+    font-family:    "skolar-1","skolar-2";
+    line-height:    1.2em;
+    font-size:      17px;
+    margin-bottom:  20px;
 }
 
 .collage .url {
