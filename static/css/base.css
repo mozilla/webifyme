@@ -1110,7 +1110,7 @@ font-family: "klavika-web-1","klavika-web-2";
    background-repeat: no-repeat;
    display: block;
    left: 10%;
-   margin-top: -5px;
+   margin-top: 0px;
    padding-top: 1px;
    position: relative;
    width: 400px;
@@ -1321,16 +1321,16 @@ font-family: "klavika-web-1","klavika-web-2";
 
 .collage #collage-canvas .sticky h3 {
   font-family: "klavika-web-1","klavika-web-2";
-  line-height: 40px;
-  font-size: 35px;
+  line-height: 30px;
+  font-size: 30px;
   padding-bottom: 20px;
   text-align: center;
 }
 
 .collage #collage-canvas .sticky p {
-font-family: "skolar-1","skolar-2";
-	line-height: 1.4em;
-  font-size: 17px;
+    font-family: "skolar-1","skolar-2";
+    line-height: 1.2em;
+    font-size: 17px;
 }
 
 .collage .url {
