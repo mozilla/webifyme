@@ -298,7 +298,7 @@ ANSWERS_BY_IMAGE = { # not able to list questions here because there are instanc
 '1755_site_0116.png': _(u'The stamp &mdash; ubiquitous symbol of communication, of correspondence, which you\'ve earned. If you have these, you most likely checked your email halfway through reading this.'),
 '1755_site_0117.png': _(u'Your future is bright.'),
 '1755_site_0118.png': _(u'An apt (if cliché) symbol for your ability to simultaneously check your email, post on someone\'s Wall, watch a movie trailer and Tweet about it. You\'re like a human one of these!'),
-'1755_site_0119.png': _(u'Aha, The Magician! You posses unusual powers, and can conjure up the truth from any situation. Also, you can turn the world on with your smile.  '),
+'1755_site_0119.png': _(u'Aha, The Magician! You possess unusual powers, and can conjure up the truth from any situation. Also, you can turn the world on with your smile.  '),
 '1755_site_0120.png': _(u'Let\'s go! You\'re not one to sit around; you like the active, positive and healthful, in body mind and spirit. And you have the sweaty wrists to prove it.'),
 '1755_site_0121.png': _(u'Technology lives to serve, and you like your information portable, pocketable and sharable. That\'s how data becomes action, and gadgets become essential.'),
 '1755_site_0122.png': _(u'Rock show, film or sports match, you are there, live and in person. The thrill of being part of an event, not just observing it, is what you\'re after. You get tickets the second they go on sale and you have the stubs to prove it.'),
