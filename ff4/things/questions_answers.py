@@ -60,7 +60,7 @@ CANONICAL_QUESTIONS = {
         }
     },
 7: {
-        'question': _(u'Third date and your paramour is coming over for dinner. You:'),
+        'question': _(u'Third date and you\'re cooking dinner: You:'),
         'answers': {
             25: _(u'Whip up some Coquilles Saint Jacques avec Pernod.'),
             26: _(u'Rehydrate a bowl of fancy ramen (not the cheap kind!).'),
