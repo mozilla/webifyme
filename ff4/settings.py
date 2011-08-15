@@ -54,7 +54,7 @@ DOMAIN_METHODS = {
         ('utils/bonus_objects.py',
             'tower.management.commands.extract.extract_tower_python'),
         ('templates/**.html',
-            'lib.shoehorn_l10n.tower_blocktrans.extract_django_template'),
+            'tower.management.commands.extract.extract_tower_template'),
         ('templates_orig/**.html',
             'lib.shoehorn_l10n.tower_blocktrans.extract_django_template'),
     ],
