@@ -11,6 +11,8 @@
 				break;
 			// The collage view page
 			case 'collage':
+				// zero clipboard config
+				ZeroClipboard.setMoviePath( '/static/js/vendor/zeroclipboard/ZeroClipboard10.swf' );
 				var collage = things.Collage( $( '#collage-canvas' ), things.collageData );
 				things.snapshotChecker = null;
 				collage.draw();
@@ -21,8 +23,6 @@
 					things.BackgroundSelector( things.backgroundData );
 					things.snapshotChecker = things.SnapshotChecker();
 				}
-				// zero clipboard config
-				ZeroClipboard.setMoviePath( '/static/js/vendor/zeroclipboard/ZeroClipboard10.swf' );
 				var clip = new ZeroClipboard.Client();
 				clip.setText( $('.short-url' ).attr( 'href' ) );
 				clip.setHandCursor( true );

@@ -6,7 +6,7 @@
 <meta property="og:url" content="{{ bitlyurl }}" />
 <meta property="og:site_name" content="{{ _('Webify Me') }}" />
 <meta property="og:type" content="article" />
-<meta property="og:image" content="http://{{ site_url }}/static/collages/thumbs_gallery/{{ collage.slug[:2] }}/{{ collage.slug }}.jpg" />
+<meta property="og:image" content="{{ site_url }}/static/collages/thumbs_gallery/{{ collage.slug[:2] }}/{{ collage.slug }}.jpg" />
 {% if is_owner %}
   <meta property="og:desc" content="{{ _('Everyone\'s Internet is a little bit different. I just created my own Webify Me collage at %(bitlyurl)s. Make your own and find out how your Internet looks!') % {'bitlyurl': 'merp'} }}" />
 {% else %}
