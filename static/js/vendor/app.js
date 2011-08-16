@@ -1,6 +1,6 @@
 ( function( $ ) {
 	$( document ).ready( function() {
-		
+		jQuery.fn.exists = function(){return jQuery(this).length>0;}
 		// Page Specific Initialization Code 
 		// give your page an id, then throw the init code in here rather than in the markup
 		var $body = $( 'body' );
@@ -11,8 +11,6 @@
 				break;
 			// The collage view page
 			case 'collage':
-				// zero clipboard config
-				ZeroClipboard.setMoviePath( '/static/js/vendor/zeroclipboard/ZeroClipboard10.swf' );
 				var collage = things.Collage( $( '#collage-canvas' ), things.collageData );
 				things.snapshotChecker = null;
 				collage.draw();
@@ -23,29 +21,36 @@
 					things.BackgroundSelector( things.backgroundData );
 					things.snapshotChecker = things.SnapshotChecker();
 				}
-				var clip = new ZeroClipboard.Client();
-				clip.setText( $('.short-url' ).attr( 'href' ) );
-				clip.setHandCursor( true );
-				clip.setCSSEffects( true );
-				clip.addEventListener( 'mouseOver', function( client ) {
-					$( '#copy-btn' ).css( 'background-image','url(/static/img/blue_arrow_right.png)' );
-					$( '#copy-btn' ).css( 'background-position','100% 7px' );
-				} );
-				clip.addEventListener( 'mouseOut', function( client ) {
-					$( '#copy-btn' ).css( 'background-image','url(/static/img/grey_arrow_right.png)' );
-					$( '#copy-btn' ).css( 'background-position','100% 5px' );
-				} );
-				clip.glue( 'copy-btn', 'copy-wrapper' );
-				
-				// social buttons 
-				$( '.your-share .twitter' )
-					.socialShare( {
-						'share_params': $( '.your-share .twitter' ).data()
+				// zero clipboard config
+ 				if($( '#copy-btn' ).exists()) {
+					ZeroClipboard.setMoviePath( '/static/js/vendor/zeroclipboard/ZeroClipboard10.swf' );
+					var clip = new ZeroClipboard.Client();
+					clip.setText( $('.short-url' ).attr( 'href' ) );
+					clip.setHandCursor( true );
+					clip.setCSSEffects( true );
+					clip.addEventListener( 'mouseOver', function( client ) {
+						$( '#copy-btn' ).css( 'background-image','url(/static/img/blue_arrow_right.png)' );
+						$( '#copy-btn' ).css( 'background-position','100% 7px' );
 					} );
-				$( '.your-share .facebook' )
-					.socialShare( {
-						'share_params':{ 't': $( '.your-share .facebook' ).data().t, 'u': $( '.your-share .facebook' ).data().u } 
+					clip.addEventListener( 'mouseOut', function( client ) {
+						$( '#copy-btn' ).css( 'background-image','url(/static/img/grey_arrow_right.png)' );
+						$( '#copy-btn' ).css( 'background-position','100% 5px' );
 					} );
+					clip.glue( 'copy-btn', 'copy-wrapper' );
+ 				}
+				// social buttons
+				if($( '.your-share .twitter' ).exists()) {
+					$( '.your-share .twitter' )
+						.socialShare( {
+							'share_params': $( '.your-share .twitter' ).data()
+						} );
+				}
+				if($( '.your-share .facebook' ).exists()) {
+					$( '.your-share .facebook' )
+						.socialShare( {
+							'share_params':{ 't': $( '.your-share .facebook' ).data().t, 'u': $( '.your-share .facebook' ).data().u } 
+						} );
+				}
 				break;
 			// The gallery page
 			case 'gallery':
