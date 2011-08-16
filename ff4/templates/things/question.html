@@ -18,7 +18,7 @@
 	</ol>
 	<span id="msg-name-required-error">{{ _('Title required, may only use up to 50 alphanumeric characters.') }}</span>
 	<span id="msg-email-required-error">{{ _('Valid email required.') }}</span>
-	<span id="msg-privacy-policy-required-error">{{ _( 'I agree to Mozilla\'s use of my email address as described in the <a target="_blank" href="{0}">Privacy Policy</a>' ).format('http://www.mozilla.com/privacy-policy') }}</span>
+	<span id="msg-privacy-policy-required-error">{{ _( 'An email address is not required to continue. To receive our newsletter, please agree to the <a target="_blank" href="{0}">Mozilla Privacy Policy</a> by checking the box.' ).format('http://www.mozilla.com/privacy-policy') }}</span>
 	<span id="msg-question">{{ _('Question') }}</span>
 	<span id="msg-skip">{{ _('Skip') }}</span>
 	<ol id="msg-more-to-go">{# L10n: 0 is the number of questions remaining #}
@@ -61,7 +61,7 @@
 								<label for="gallery-include-field">{{ _('Include my collage in the gallery') }}</label>
 								<br class="clr" />
 							</div>
-							<h2>{{ _('Keep in touch') }}</h2>
+							<h2>{{ _('Keep in touch <small>(optional)</small>') }}</h2>
 							<div class="text">
 								<span>{{ _('Sign-up for our monthly newsletter featuring special Mozilla news, Firefox tips & tricks and more!') }}</span>
 							</div>
