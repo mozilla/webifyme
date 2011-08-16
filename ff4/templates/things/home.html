@@ -20,7 +20,7 @@
 							<a href="/collage/{{ feature.slug }}/">
 								<img src="{{ feature.featured_thumbnail_url() }}" alt="{{ feature.username }}" />
 							</a>
-							<h4><a href="/collage/{{ feature.slug }}/">{{ feature.username }}</a></h4>
+							<h4><a href="/collage/{{ feature.slug }}/">{{ feature.username[:15] + (feature.username[15:] and '...') }}</a></h4>
   						</li>
             {% endfor %}
 					</ul>
