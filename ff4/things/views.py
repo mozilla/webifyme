@@ -39,7 +39,7 @@ def home(request):
     featured_collages = Collage.objects.filter(featured=True, in_gallery=True)[:3]
     if not featured_collages:
         featured_collages = Collage.objects.filter(in_gallery=True)[:3]
-    context = {'featured_collages': featured_collages, 'current_url': urlencode({ 'href': settings.CURRENT_SITE })}
+    context = {'featured_collages': featured_collages, 'current_url': urlencode({ 'href': settings.CURRENT_SITE }), 'site_url': settings.CURRENT_SITE}
     return render_response(request, 'things/home.html', context)
 
 @cache_page(30)
