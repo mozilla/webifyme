@@ -44,7 +44,7 @@ CANONICAL_QUESTIONS = {
 5: {
         'question': _(u'You run into a lost and frantic tourist looking for the airport. You:'),
         'answers': {
-            17: _(u'Shrugging your shoulders, feigning ignorance.'),
+            17: _(u'Shrug your shoulders, feigning ignorance.'),
             18: _(u'Find the shortest route on your smartphone and get her a cab.'),
             19: _(u'Direct her to the nearest bus stop.'),
             20: _(u'Get your car, pick up her luggage and speed to the airport.')
@@ -269,7 +269,7 @@ ANSWERS_BY_IMAGE = { # not able to list questions here because there are instanc
 '1755_site_0084.png': _(u'Behold, The Memory &mdash; life is your field of study. You hunger for new thinking, knowledge and information. You know how get it, and how to hold on to it. '),
 '1755_site_0085.png': _(u'Sweet cool and fresh. That describes both you and your favorite indulgences &mdash; just a little trifle to brighten your day, as you invigorate the world around you.'),
 '1755_site_0086.png': _(u'If music be the food of love, a good mixtape represents a buffet of delectable morsels. Your love of different styles, and your ability to remix them to your personal soundtrack, earns you this totem'),
-'1755_site_0087.png': _(u'You\'re the Multi-tasker, attacking multiple projects and sites simultaneously. you come prepared and always have the right tool for the job. '),
+'1755_site_0087.png': _(u'You\'re the Multi-tasker, attacking multiple projects and sites simultaneously. You come prepared and always have the right tool for the job. '),
 '1755_site_0088.png': _(u'You\'re nothing if not a completist, and you like to take it with you. Compact, concise and in control, you are master of your musical domain. Mp3, WMA, FLAC &mdash; Rock accordingly.'),
 '1755_site_0090.png': _(u'Ah, the quest for knowledge, the search for truth! To you life is a never-ending lesson, and you learn more and more each day. Or maybe you just do the crossword.'),
 '1755_site_0091.png': _(u'PARTY! You got The Noisemaker! You make life a constant party that rocks the house and wakes up the neighbors &mdash; then invites them over. Everybody\'s having fun when you\'re around.'),
@@ -306,7 +306,7 @@ ANSWERS_BY_IMAGE = { # not able to list questions here because there are instanc
 '1755_site_0134.png': _(u'It\'s just a matter of time &mdash; to you that\'s not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine.'),
 '1755_site_0135.png': _(u'It\'s just a matter of time &mdash; to you that\'s not a dismissive phrase, because you know how important it is to stick to a schedule. Precise and reliable, you appreciate the reassuring tick of a well-run machine.'),
 '1755_site_0136.png': _(u'While some think a party means red plastic cups, you know that it can be an exquisite social event, a time to enjoy and strengthen friendships. What we\'re trying to say here is that you\'re a class act, even when you let loose.'),
-'1755_site_0137.png': _(u'The world in all it\'s glorious flavors, aromas and textures, is your buffet. You delve into cuisines from neat and far, a traveler of the palette, a tourist with a deep-seated hunger. Feast, and all nations feast with you.'),
+'1755_site_0137.png': _(u'The world in all its glorious flavors, aromas and textures, is your buffet. You delve into cuisines from neat and far, a traveler of the palette, a tourist with a deep-seated hunger. Feast, and all nations feast with you.'),
 '1755_site_0138.png': _(u'What\'s next? you\'re never at a loss to answer that, because you\'ve planned what\'s next.  Your organizational skills serve you well, and people count on you to get it done &mdash; right and on time.'),
 '1755_site_0158.png': _(u'Internet Ninja! You leave no trace of your travels, online or off.'),
 '1755_site_0159.png': _(u'Oh Master of the Keys, only you have the password to the deepest dungeons of my online existence.  Let\'s keep it that way.'),
