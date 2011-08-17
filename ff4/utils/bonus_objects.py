@@ -71,9 +71,9 @@ def get_browser_object(user_agent_string):
     search_strings = [
         ('Firefox/4.0b', 'firefox-beta'),
         ('Firefox/3', 'firefox'),
+        ('Chrome', 'chrome'),
         ('Safari', 'safari'),
-        ('MSIE', 'ie'),
-        ('Chrome', 'chrome')
+        ('MSIE', 'ie')
     ]
 
     browser_objects = {
