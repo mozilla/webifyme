@@ -10,7 +10,7 @@ PROJECT_DIR = os.path.realpath(os.path.dirname(__file__))
 path = lambda *a: os.path.join(ROOT, *a)
 
 DATABASES = {}
-DATABASE_ROUTERS = ('multidb.MasterSlaveRouter',)
+DATABASE_ROUTERS = ('multidb.PinningMasterSlaveRouter',)
 
 CACHES = {}
 
