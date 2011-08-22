@@ -269,7 +269,7 @@ def download_reminder(request):
             return HttpResponse(_("Error saving your email address"))
 
         if form.cleaned_data['email']:
-            subscribe('MOZILLA_AND_YOU', form.cleaned_data['email'])
+            subscribe('MOZILLA_AND_YOU', form.cleaned_data['email'], 'html', request.META.get('HTTP_ACCEPT_LANGUAGE'))
 
     return HttpResponse("success")
 
@@ -281,7 +281,7 @@ def quiz(request):
             return HttpResponse(_("Error saving the collage."))
 
         if form.cleaned_data['email']:
-            subscribe('MOZILLA_AND_YOU', form.cleaned_data['email'])
+            subscribe('MOZILLA_AND_YOU', form.cleaned_data['email'], 'html', request.META.get('HTTP_ACCEPT_LANGUAGE'))
 
         queryList = []                          # create a list for our answers to query images
 
