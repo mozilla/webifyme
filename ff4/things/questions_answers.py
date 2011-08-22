@@ -283,7 +283,7 @@ ANSWERS_BY_IMAGE = { # not able to list questions here because there are instanc
 '1755_site_0100.png': _(u'Craft your own world and it\'s exactly as you wish it to be. That is your secret &mdash; the secret of The Tailor. You make real that which most can only imagine, and edit the world to suit your taste.'),
 '1755_site_0101.png': _(u'The instant memory, quickly frozen and indelibly saved. Yours is the nostalgic type, pouring over cherished images and captured moments. '),
 '1755_site_0102.png': _(u'Whether it\'s a cherished memento of a magical time or corny souvenir of a tacky holiday, you understand the value of your memories. '),
-'1755_site_0103.png': _(u'You believe the children are our future, and you want to raise them right. So you give them something to chew on , and something to think about.'),
+'1755_site_0103.png': _(u'You believe the children are our future, and you want to raise them right. So you give them something to chew on, and something to think about.'),
 '1755_site_0105.png': _(u'You have a bright outlook, flexible attitude, and a kooky sense of aesthetics. You\'re probably the type of person that appreciates the use of the word \'kooky\'.'),
 '1755_site_0106.png': _(u'You like your fun and games on a cerebral level. Stretching your mind and beating your friends is as enjoyable to you as zoning out in front of the TV is to the hoi polloi. '),
 '1755_site_0107.png': _(u'You like to set a course for adventure, your mind on a new experience. Your treasured memories are your reward. Therefore you richly deserve The Nautilus!'),
