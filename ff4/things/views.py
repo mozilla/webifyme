@@ -281,7 +281,6 @@ def quiz(request):
             return HttpResponse(_("Error saving the collage."))
 
         if form.cleaned_data['email']:
-            import pdb; pdb.set_trace()
             subscribe('MOZILLA_AND_YOU', form.cleaned_data['email'], 'html', settings.CURRENT_SITE + '/' + translation.get_language() + '/quiz')
 
         queryList = []                          # create a list for our answers to query images
