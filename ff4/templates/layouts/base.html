@@ -34,6 +34,7 @@
 	</head>
 	
 	<body class="{% block page_class %}{% endblock %} none-bg" id="{% block page_id %}webifyme{% endblock %}">
+        <span style="display: none" id="cur-locale">{{ LANG }}</span>
         <noscript>
           <div id="noscript-message">
             <b>{{ _('Webify Me') }}</b> {{ _('works best with JavaScript turned on! <a href="http://support.mozilla.com/kb/JavaScript"> How do I do that?</a>') }}

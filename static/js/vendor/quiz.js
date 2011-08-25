@@ -185,7 +185,7 @@ things.Quiz = function() {
 
 		// set the webtrends quiz state to complete
 		try{ 
-			dcsMultiTrack( 'DCS.dcsuri','/quiz.js','WT.ti', 'Quiz%20Javascript', 'WT.z_quiz_state', 'complete' );
+			dcsMultiTrack( 'DCS.dcsuri','/quiz.js','WT.ti', 'Quiz%20Javascript', 'WT.z_quiz_state', 'complete', 'WT.ul', $('#cur-locale').text() );
 		} catch( e ) { }
 		// add all the answers to the form
 		var $form = $( '#form-body form' );
