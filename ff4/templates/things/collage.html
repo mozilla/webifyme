@@ -67,15 +67,17 @@
 
 {% block content %}
 
-  <div class="share your-share">
-    <a target="_blank" class="facebook" href="http://www.facebook.com/share.php" data-u="{{ bitly_url }}" data-t="{{ _('What does your Web look like? See my Webify Me collage and create your own') }}" >
-      <span>{{ _('Post to Facebook') }}</span>
-    </a>
-    <a target="_blank" class="twitter" href="http://twitter.com/share"  data-via="firefox" data-url="{{ bitly_url }}" data-text="{{ _('What does your Web look like? See my Webify Me collage and create your own') }}">
-      <span>{{ _('Share on Twitter') }}</span>
-    </a>
-    <br class="clr" />
-  </div>
+  {% if is_owner %}
+    <div class="share your-share">
+      <a target="_blank" class="facebook" href="http://www.facebook.com/share.php" data-u="{{ bitly_url }}" data-t="{{ _('What does your Web look like? See my Webify Me collage and create your own') }}" >
+        <span>{{ _('Post to Facebook') }}</span>
+      </a>
+      <a target="_blank" class="twitter" href="http://twitter.com/share"  data-via="firefox" data-url="{{ bitly_url }}" data-text="{{ _('What does your Web look like? See my Webify Me collage and create your own') }}">
+        <span>{{ _('Share on Twitter') }}</span>
+      </a>
+      <br class="clr" />
+    </div>
+  {% endif %}
 
   <div id="collage-canvas"></div>
 
