@@ -42,13 +42,15 @@
 				if($( '.your-share .twitter' ).exists()) {
 					$( '.your-share .twitter' )
 						.socialShare( {
-							'share_params': $( '.your-share .twitter' ).data()
+							'share_params': $( '.your-share .twitter' ).data(),
+							'wb_type': 'Twitter'
 						} );
 				}
 				if($( '.your-share .facebook' ).exists()) {
 					$( '.your-share .facebook' )
 						.socialShare( {
-							'share_params':{ 't': $( '.your-share .facebook' ).data().t, 'u': $( '.your-share .facebook' ).data().u } 
+							'share_params':{ 't': $( '.your-share .facebook' ).data().t, 'u': $( '.your-share .facebook' ).data().u },
+							'wb_type': 'Facebook' 
 						} );
 				}
 				break;

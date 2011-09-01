@@ -51,6 +51,7 @@
 				
 				context.$link.bind( 'click', function( e ) {
 					e.preventDefault();
+					dcsMultiTrack('DCS.dcssip','webifyme.org', 'DCS.dcsuri', '/', 'WT.ti', 'Link: ' + context.wb_type, 'WT.dl', 99);
 					$.socialShare.fn.share( context );
 				} );
 				
