@@ -314,8 +314,8 @@ def quiz(request):
                 image_map[country_image.id] = {'id': country_image.id, 'img': country_image.file_name, 'width': country_image.width, 'height': country_image.height}
 
         # get browser specific object
-        browser_object = get_browser_object(request.META['HTTP_USER_AGENT'])
-        if browser_object:
+        if 'HTTP_USER_AGENT' in request.META:
+            browser_object = get_browser_object(request.META['HTTP_USER_AGENT'])
             browser_image = Image.objects.get(file_name=browser_object['file_name'])
             if browser_image:
                 image_map[browser_image.id] = {'id': browser_image.id, 'img': browser_image.file_name, 'width': browser_image.width, 'height': browser_image.height}
