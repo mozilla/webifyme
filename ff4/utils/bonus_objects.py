@@ -69,8 +69,8 @@ def get_community_object(referral_domain):
 def get_browser_object(user_agent_string):
 
     search_strings = [
-        ('Firefox/4.0b', 'firefox-beta'),
-        ('Firefox/3', 'firefox'),
+        ('Firefox/.*b', 'firefox-beta'),
+        ('Firefox', 'firefox'),
         ('Chrome', 'chrome'),
         ('Safari', 'safari'),
         ('MSIE', 'ie')
@@ -84,7 +84,7 @@ def get_browser_object(user_agent_string):
         },
         'firefox': {
             'name': 'Toy Robot',
-            'tooltip': _(u'Hello intrepid Firefox 3 user! You’ve been with us for a long time, and we’re excited to share the new Firefox with you. Until then, accept this trusty robot as a symbol of our appreciation.'),
+            'tooltip': _(u'Hello intrepid Firefox user! You’ve been with us for a long time, and we’re excited to share the new Firefox with you. Until then, accept this trusty robot as a symbol of our appreciation.'),
             'file_name': '1755_site_0169.png'
         },
         'safari': {
@@ -103,7 +103,7 @@ def get_browser_object(user_agent_string):
             'file_name': '1755_site_0172.png'
         }
     }
-
+    import pdb; pdb.set_trace()
     browser_code = False
 
     for regex, browser in search_strings:

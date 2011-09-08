@@ -316,9 +316,10 @@ def quiz(request):
         # get browser specific object
         if 'HTTP_USER_AGENT' in request.META:
             browser_object = get_browser_object(request.META['HTTP_USER_AGENT'])
-            browser_image = Image.objects.get(file_name=browser_object['file_name'])
-            if browser_image:
-                image_map[browser_image.id] = {'id': browser_image.id, 'img': browser_image.file_name, 'width': browser_image.width, 'height': browser_image.height}
+            if browser_object:
+                browser_image = Image.objects.get(file_name=browser_object['file_name'])
+                if browser_image:
+                    image_map[browser_image.id] = {'id': browser_image.id, 'img': browser_image.file_name, 'width': browser_image.width, 'height': browser_image.height}
 
         # get community object
         community_object = get_community_object(request.session.get('HTTP_REFERER'))
