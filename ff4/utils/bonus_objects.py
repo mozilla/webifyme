@@ -103,7 +103,7 @@ def get_browser_object(user_agent_string):
             'file_name': '1755_site_0172.png'
         }
     }
-    import pdb; pdb.set_trace()
+
     browser_code = False
 
     for regex, browser in search_strings:
